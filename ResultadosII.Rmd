@@ -4,7 +4,7 @@
 
 El clado calothrix contiene 6 especies  y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de **GCGATCGC** a **TGGCGCCA** (Figure \@ref(fig:FIG12)).
 ```{r FIG12, echo=FALSE, fig.cap="**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\\_7716.", out.width="100%", fig.align='center'}
-knitr::include_graphics("Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png")
+knitr::include_graphics("Clados/Calothrix_B/figures/Calothrix_B_Octanuc_FrecObs_sel32_filogenia_HIG.png")
 ```
 
 ### Conjunto de sitios HIP1 usando la especie 336-3 como referencia

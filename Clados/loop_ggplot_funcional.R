@@ -10,7 +10,7 @@ library(TDbook)
 
 # CARGAMOS DATOS
 #-------------------------------------
-setwd('/home/lalibelulalo/R_2/FIGURES_complete_chr/')
+setwd('/home/lalibelulalo/PIPELINES_2023/R_2/FIGURES_complete_chr/')
 tabla = read.table(file="refseq_no_atypical_complete_chr_269_filtrado_Octanuc.txt", header=TRUE, sep="\t")
 #***
 tabla <- tabla%>%
@@ -19,8 +19,9 @@ tabla <- tabla%>%
            spp=='Calothrix_sp_PCC_6303_PCC_6303'|
            spp=='Calothrix_sp_PCC_7716_PCC_7716'|
            spp=='Calothrix_sp_NIES-4071_NIES-4071'|
-           spp=='Calothrix_sp_NIES-4105_NIES-4105')
-write.table(tabla,file='Count_table_calothrix_clade_filtered.txt',sep="\t",row.names = FALSE,col.names = TRUE,quote = FALSE)
+           spp=='Calothrix_sp_NIES-4105_NIES-4105'|
+           spp== 'Calothrix_parasitica_NIES-267_NIES-267')
+write.table(tabla,file='Count_table_calothrix_B_clade_filtered.txt',sep="\t",row.names = FALSE,col.names = TRUE,quote = FALSE)
 #***
 tabla = read.table(file="refseq_no_atypical_complete_chr_269_filtrado_Octanuc.txt", header=TRUE, sep="\t")
 tabla <- tabla%>%
@@ -93,7 +94,7 @@ write.table(tabla,file='Count_table_thermosynechococcus_clade_filtered.txt',sep=
 
 #-------------------------------------
 
-setwd('/home/lalibelulalo/R_2/FIGURES_pico/')
+setwd('/home/lalibelulalo/PIPELINES_2023/R_2/FIGURES_pico/')
 tabla = read.table(file="Markov_count_pico_2022_gbff_2022-10-28_10hrs29mins_Octanuc_M3_.txt", header=TRUE, sep="\t")
 tabla <- tabla%>%
   filter(spp=='Parasynechococcus_marenigrum_WH_8102'|
@@ -107,16 +108,17 @@ tabla <- tabla%>%
 write.table(tabla,file='Count_table_A18-40_clade_filtered.txt',sep="\t",row.names = FALSE,col.names = TRUE,quote = FALSE)
 
 ##  EDITO EL NOMBRE DE LAS ESPECIES
-setwd('/home/lalibelulalo/R_2/FIGURES_complete_chr/')
+setwd('/home/lalibelulalo/PIPELINES_2023/R_2/FIGURES_complete_chr/')
 
-tabla = read.table(file="Count_table_calothrix_clade_filtered.txt", header=TRUE, sep="\t")
+tabla = read.table(file="Count_table_calothrix_B_clade_filtered.txt", header=TRUE, sep="\t")
 tabla[tabla=='Calothrix_sp_336-3_336-3'] <- '336-3'
 tabla[tabla=='Calothrix_sp_NIES-3974_NIES-3974'] <- 'NIES-3974'
 tabla[tabla=='Calothrix_sp_PCC_6303_PCC_6303'] <- 'PCC_6303'
 tabla[tabla=='Calothrix_sp_PCC_7716_PCC_7716'] <- 'PCC_7716'
 tabla[tabla=='Calothrix_sp_NIES-4071_NIES-4071'] <- 'NIES-4071'
 tabla[tabla=='Calothrix_sp_NIES-4105_NIES-4105'] <- 'NIES-4105'
-tree <- read.tree("/home/lalibelulalo/PIPELINES_2023/ASR_GENOMES/Callothrix_clade/SpeciesTree_rooted.txt")
+tabla[tabla=='Calothrix_parasitica_NIES-267_NIES-267'] <- 'NIES-267'
+tree <- read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt")
 #***
 tabla = read.table(file="Count_table_A18-40_clade_filtered.txt", header=TRUE, sep="\t")
 tree <- read.tree("A18-40_clade_tree_rooted.txt")
@@ -188,12 +190,12 @@ tree <- read.tree("A18-40_clade_tree_rooted.txt")
 
 #tabla = read.table(file="Count_table_calothrix_clade_filtered.txt", header=TRUE, sep="\t")
 #tree <- read.tree("/home/lalibelulalo/PIPELINES_2023/ASR_GENOMES/Callothrix_clade/SpeciesTree_rooted.txt")
-pwidths <- c(4.55,2.50,1.30,0.80)*0.17
+pwidths <- c(4.55,2.50,1.30,0.80)*0.9
 angles <- c(70,70,70,70)
-TextSize <- c(1.527,2.20,2.85,2.88)*3.0
+TextSize <- c(1.527,2.20,2.85,2.88)*3.5
 HeatOffset <- c(0.320,0.230,0.190,0.180)*1.1#0.600,0.397,0.310,0.278
-BarOffset <- c(0.15,0.13,0.13,0.13)*1.75#
-BarPlotPwidths<- c(0.35,0.35,0.35,0.35)*1.5#0.360,0.335,0.285,0.250
+BarOffset <- c(0.15,0.13,0.13,0.13)*0.9#
+BarPlotPwidths<- c(0.35,0.35,0.35,0.35)*2.1#0.360,0.335,0.285,0.250
 PLOT_OFFSET = 1.7
 title.Alt = 0.12 # 0.01
 sppLab = 4*1.4 #2
@@ -203,7 +205,7 @@ significatives=1
 # tabla[14] => FrecObs
 # tabla[15] => O/E
 CountType = 14
-set = "cyanobacterium"
+set = "Calothrix_B"
 kmerI = 8
 GuideW = 1.0
 GuideH = 1.0

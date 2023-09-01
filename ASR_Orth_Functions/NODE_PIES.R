@@ -40,7 +40,7 @@ p <- ggtree::ggtree(tidytree::as.treedata(tree3), ggplot2::aes(color=group),bran
   ggplot2::expand_limits(x = 5.5)
 
 TreePlot <- p
-TreePlot <- NULL
+#TreePlot <- NULL
 {
 TreeTipsA <- Tree[["tip.label"]]
 TreeTipsB <-  as.data.frame(tidytree::as_tibble(Tree))[,c(2,4)]
