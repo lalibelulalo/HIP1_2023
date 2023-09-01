@@ -1,0 +1,8 @@
+>ID:WP_096658063.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|helix-turn-helix dom..|228|NZ_AP018227(8952435):6146430-6146657:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096658062.1(-1),ID:WP_096658064.1(1)|neighbour_genes:hypothetical protein,chorismate synthase| | aligned:1-75 (75)
+MKVKKVLEIEVPGLGSRIQQAREADSRSLAEICRQVGMTTMNWYRIEAEENKALPIETLRRIEEVLGVNFGIRLD
+>ID:WP_096695011.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|helix-turn-helix dom..|231|NZ_AP018257(365907):346739-346969:-1 ^^ Calothrix sp. NIES-4071 plasmid plasmid2 DNA, complete genome.|neighbours:ID:WP_096695010.1(1),ID:WP_096695012.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-76 (76)
+MIVRKVTDIKVPGLGEKIKEARLTDRRSLAQICRQIPMSPVNWYKIESEETKALPIETLRRIEEVLNIDLGVRMEA
+>ID:WP_096695011.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|helix-turn-helix dom..|231|NZ_AP018292(365907):131347-131577:-1 ^^ Calothrix sp. NIES-4105 plasmid plasmid2 DNA, complete genome.|neighbours:ID:WP_096695010.1(1),ID:WP_096695012.1(1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-76 (76)
+MIVRKVTDIKVPGLGEKIKEARLTDRRSLAQICRQIPMSPVNWYKIESEETKALPIETLRRIEEVLNIDLGVRMEA
+>ID:WP_224179688.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|helix-turn-helix dom..|231|NZ_AP025018(11423121):9810947-9811177:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224176091.1(-1),ID:WP_224176092.1(-1)|neighbour_genes:hypothetical protein,hypothetical protein| | aligned:1-73 (76)
+MKVTKTVSIEAPGLGAKIKAAREADPRSLKAICEIAGMSQMNWYRIEDEKQTLPVETLRKIEEVLGVDFGISFAGR

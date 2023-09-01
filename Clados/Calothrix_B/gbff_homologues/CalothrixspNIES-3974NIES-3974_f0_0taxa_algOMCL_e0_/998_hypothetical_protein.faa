@@ -1,0 +1,4 @@
+>ID:WP_096654027.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|273|NZ_AP018227(8952435):1387799-1388071:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096654025.1(1),ID:WP_096654029.1(-1)|neighbour_genes:sucrase ferredoxin,hypothetical protein| | aligned:11-85 (90)
+MINIIDNSSSNSNLRYPDLATAIKDVCQQWCQKNGYSEPFYRNGELWAFPPNGVIPVKIKDVMDFQDSKLIWIGRVSLFILPDGSVAKGK
+>ID:WP_224174158.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|246|NZ_AP025018(11423121):6255289-6255534:1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224174157.1(-1),ID:WP_224174159.1(-1)|neighbour_genes:chlorophyll a/b-bind..,hypothetical protein| | aligned:3-78 (81)
+MLNDTNSYPDLATAMRGVCENWCNVHGFTEPFCRNGEWWAFPPKGVMPVKIKDVMEKNNEAQCVYIGRVSFLLLPDGSFFT

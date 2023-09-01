@@ -1,0 +1,4 @@
+>ID:WP_096661681.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|HNH endonuclease|297|NZ_AP018231(64695):5813-6109:-1 ^^ Calothrix parasitica NIES-267 plasmid plasmid4 DNA, complete genome.|neighbours:ID:WP_096661680.1(-1),ID:WP_096661682.1(1)|neighbour_genes:Uma2 family endonucl..,tyrosine-type recomb..| | aligned:1-98 (98)
+MTLTYHPYPDNWTDIATSIKSEAGWRCQKCGLQCIRPGEDTSKLTRSQRMAYTLQVHHWDRNPTNNRRDNLIALCSGCHLEYHRGGKSNVSPGQLSLW
+>ID:WP_082127474.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|HNH endonuclease|297|NZ_CP011383(107561):911-1207:-1 ^^ Calothrix sp. 336/3 plasmid unnamed1.|neighbours:ID:WP_035159817.1(-1),ID:WP_035159820.1(1)|neighbour_genes:hypothetical protein,class I SAM-dependen..| | aligned:1-98 (98)
+MTFTHSLYPENWSEIALSVKQEAGWCCQRCGLKCIAPGEDTSKLSFSQRRVYTLQVHHWDRNPANNHRENLIALCSGCHLHYHQGGKSNVSPGQLSLW

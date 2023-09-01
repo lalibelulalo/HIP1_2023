@@ -1,0 +1,2 @@
+FILE	PAL	START	END
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	TGGCGCCA	858	865

@@ -1,0 +1,4 @@
+>ID:WP_096660116.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|309|NZ_AP018227(8952435):8068175-8068483:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096660115.1(-1),ID:WP_096660117.1(-1)|neighbour_genes:calcium-binding prot..,hypothetical protein| | aligned:1-102 (102)
+MIINDINYLEATNEEVFGGLHVNKDVNIDVDFDLDFGANVDIDVDKDIDADLNSSVTISGNFASALFDVTAIGNNSFAESDVAVTVTGGLSEISGLMTAAVK
+>ID:WP_096660117.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|309|NZ_AP018227(8952435):8068606-8068914:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096660116.1(-1),ID:WP_096660118.1(-1)|neighbour_genes:hypothetical protein,peptidylprolyl isome..| | aligned:1-102 (102)
+MIINDINYLEATNEEVFGGLHINKDVNIDVDFDLDFDADVDIDVNKDIDADLNSSVTISGNFASALFDVTAIGNNSFAESDVAVTVTGGLSEISGLMTAAVK

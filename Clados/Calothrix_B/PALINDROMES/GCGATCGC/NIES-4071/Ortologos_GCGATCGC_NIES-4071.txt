@@ -1,0 +1,12 @@
+12472_trifunctional_serine..
+12545_ABC_transporter_tran..
+12754_CHAT_domain-containi..
+13054_MFS_transporter
+13489_ferredoxin-thioredox..
+13921_response_regulator
+14248_hisD
+14398_MBL_fold_metallo-hyd..
+14979_bifunctional_pantoat..
+15676_peptidase_domain-con..
+16546_hypothetical_protein
+16922_response_regulator_t..

@@ -1,0 +1,8 @@
+FILE	Spp	START	END	ReadingFrame	OrthLength	PAL	AA
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-267	858	865	3	1416	CAT GGA GCT TCG	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	336-3	858	865	3	1416	TCT GGT GCA AGT	SGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-3974	858	865	3	1416	CAG AGT GCA AGT	QSAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4071	858	865	3	1416	GAA CGT GCG TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4105	858	865	3	1416	GAA CGT GCG TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_6303	858	865	3	1416	ACT GGC GCC AGT	TGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_7716	858	865	3	1416	GAG CGG GCA TCT	ERAS

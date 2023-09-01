@@ -1,0 +1,8 @@
+for f in $(cat Spps.txt); do sh ASR_PipeLine.sh $f GCGATCGC /home/lalibelulalo/TESIS/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B 7;done
+
+for f in $(cat Spps.txt); do sh ASR_PipeLine.sh $f TGGCGCCA /home/lalibelulalo/TESIS/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B 7;done
+
+for f in $(cat Spps.txt); do echo $f;done
+
+Filtrando Parálogos                                 ✓	Runtime: $runtime s.
+No hay Ortólogos. Fin del codigo.                                           

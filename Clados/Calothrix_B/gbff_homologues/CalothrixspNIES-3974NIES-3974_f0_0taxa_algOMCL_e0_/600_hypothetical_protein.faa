@@ -1,0 +1,4 @@
+>ID:WP_096661000.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|186|NZ_AP018227(8952435):800498-800683:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096653287.1(1),ID:WP_096653289.1(-1)|neighbour_genes:nuclear transport fa..,bifunctional pyr ope..| | aligned:1-48 (61)
+MISYQLPITNYQLPITNYQLPITNYQLPITNYPLPITNYQLHINLQLIRLHLSRQFLVNRL
+>ID:WP_096661286.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|189|NZ_AP018227(8952435):7174845-7175033:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096658948.1(1),ID:WP_096658950.1(-1)|neighbour_genes:tandem-95 repeat pro..,TRAP transporter sub..| | aligned:1-48 (62)
+MPNSQLPIPNYQLPITNYQLPITNSQFPIPNYQLPITNYQLPIPYSLVTKLAKLNSLTRFQL

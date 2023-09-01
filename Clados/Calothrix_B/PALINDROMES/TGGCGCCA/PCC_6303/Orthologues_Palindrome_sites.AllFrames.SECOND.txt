@@ -1,0 +1,14 @@
+FILE	Spp	START	END	ReadingFrame	OrthLength	PAL	AA
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	336-3	858	865	3	1416	TCT GGT GCA AGT	SGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-267	858	865	3	1416	CAT GGA GCT TCG	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-3974	858	865	3	1416	CAG AGT GCA AGT	QSAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_6303	858	865	3	1416	ACT GGC GCC AGT	TGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_7716	858	865	3	1416	GAG CGG GCA TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4105	858	865	3	1416	GAA CGT GCG TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4071	858	865	3	1416	GAA CGT GCG TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	858	865	3	1416	CAT GGT GCA AGT	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	858	865	3	1416	CAT GGT GCA AGT	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	858	865	3	1416	CAT GGT GCA AGT	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	858	865	3	1416	CAT GGT GCA AGT	HGAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	12	858	865	3	1416	GAG CGT GCA TCT	ERAS
+14565_pentapeptide_repeat-...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	13	858	865	3	1416	GAA CGT GCG TCT	ERAS

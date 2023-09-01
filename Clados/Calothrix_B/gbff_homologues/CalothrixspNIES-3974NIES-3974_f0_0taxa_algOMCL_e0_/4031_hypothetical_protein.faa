@@ -1,0 +1,8 @@
+>ID:WP_096657628.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|183|NZ_AP018227(8952435):5557828-5558010:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096657627.1(1),ID:WP_096657629.1(-1)|neighbour_genes:alpha/beta hydrolase,tsaD| | aligned:9-58 (60)
+MVIGNWANNYSYSLLITHYSLLITHYSLLITHYSLLITHYSLLITHYSLLSIQNPKLNNS
+>ID:WP_096661221.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|183|NZ_AP018227(8952435):5809876-5810058:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096657810.1(1),ID:WP_096657811.1(1)|neighbour_genes:GNAT family N-acetyl..,NAD-binding protein| | aligned:1-60 (60)
+MTHYSLPITYYPLLITHYLLPITYYPLLITHYLLPITYYPLLITHYSLLITHYSLPLTFF
+>ID:WP_096661252.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|alpha/beta hydrolase|177|NZ_AP018227(8952435):6535343-6535519:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096658324.1(1),ID:WP_096658325.1(1)|neighbour_genes:DUF389 domain-contai..,16S rRNA (uracil(149..| | aligned:1-58 (58)
+MTYYSLLITYYSLLLITHYSLLITHYSLLITNYSLLITPYSLLITHYSLLTTHYSLLN
+>ID:WP_096661288.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|234|NZ_AP018227(8952435):7177927-7178160:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096661287.1(1),ID:WP_096658956.1(1)|neighbour_genes:DNA-3-methyladenine ..,cupin domain-contain..| | aligned:4-68 (77)
+MSFYYSLLITHYLLLITHYSLLITHYSLLITYYSLLITHYSLLITHYLLLITHYSLLITHYSLPITYYQLPIQIIMP

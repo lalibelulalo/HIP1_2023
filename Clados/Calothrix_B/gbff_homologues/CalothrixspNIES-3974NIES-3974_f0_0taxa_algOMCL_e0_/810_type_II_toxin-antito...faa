@@ -1,0 +1,8 @@
+>ID:WP_096653684.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|type II toxin-antito..|210|NZ_AP018227(8952435):1088133-1088342:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096653682.1(1),ID:WP_096653686.1(-1)|neighbour_genes:pentapeptide repeat-..,type II toxin-antito..| | aligned:1-69 (69)
+MRYAIVIEKAANNYSAYVPDLPGCVATGGTIKEVNQQIKEAIDFHLQGLREEGLSIPEPTTLCEYVEAS
+>ID:WP_035152469.1 |[Calothrix sp. 336/3]|336/3|Calothrix_sp_336-3_336-3.gbff|type II toxin-antito..|210|NZ_CP011382(6283267):2308278-2308487:1 ^^ Calothrix sp. 336/3 chromosome, complete genome.|neighbours:ID:WP_144416101.1(1),ID:WP_035152471.1(-1)|neighbour_genes:hypothetical protein,type II toxin-antito..| | aligned:1-69 (69)
+MRYAIVIEKAANNYSAYVPDLPGCVATGMTVREVSQQIKEAIEFHIEGLREEGLIVPEPTTLCEYVEAS
+>ID:WP_096691307.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|type II toxin-antito..|195|NZ_AP018255(11064963):8322865-8323059:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096691306.1(1),ID:WP_096694419.1(-1)|neighbour_genes:type II toxin-antito..,inorganic phosphate ..| | aligned:1-64 (64)
+MRYTVIIEKAEGNYSAYVPDLPGCVATGETIEEVKLQIQEAIEFHIEAMLENGLPIPQPTGSCH
+>ID:WP_096691307.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|type II toxin-antito..|195|NZ_AP018290(11062175):8320562-8320756:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096691306.1(1),ID:WP_096694419.1(-1)|neighbour_genes:type II toxin-antito..,inorganic phosphate ..| | aligned:1-64 (64)
+MRYTVIIEKAEGNYSAYVPDLPGCVATGETIEEVKLQIQEAIEFHIEAMLENGLPIPQPTGSCH

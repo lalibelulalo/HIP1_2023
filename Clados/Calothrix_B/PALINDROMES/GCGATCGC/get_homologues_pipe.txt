@@ -1,0 +1,23 @@
+get_homologues.pl -d gbff -t 0 -M -n PPN
+
+compare_clusters.pl -o pangenoma -m -d gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_
+
+awk -F "," '{if($15==1 && $16==1 && $17==1 && $18==1 && $19==1 && $20==1 && $21==1) {print $1}}' pangenoma/pangenome_matrix_t0.tr.csv | sed 's/.faa/.fna/g' >orthologues.list
+
+python3 CountPalsInOrthologues.py gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ pals.list orthologues.list 3
+
+Counts <- read.table("../Markov_count_TGGCGCCA_2023-5-7_18hrs43mins_Octanuc_.txt", sep = "\t", header = TRUE)
+
+Spp <- Counts$spp
+Spp <- unique(Spp)
+
+i=0
+for (n in 1:length(Spp)){ 
+  for (m in 1:length(Counts$spp)) {
+    if (Spp[n] == Counts[m,2]){
+      i=i+Counts[m,5]
+    }
+  }
+  print(paste0(Spp[n]," ",i))
+  i=0
+}

@@ -1,0 +1,4 @@
+>ID:WP_096658773.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|258|NZ_AP018227(8952435):7072207-7072464:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096658771.1(1),ID:WP_096658775.1(-1)|neighbour_genes:heavy metal transloc..,hypothetical protein| | aligned:5-77 (85)
+MFNKKNIIASLAGIGFLIAIAPPKAMAQMPVEMSISKEKNLEFRRIEQPLGLKAAVTLGGIGLIGLELWWFLFSKSKVVQTDRNE
+>ID:WP_223974174.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|246|NZ_AP025018(11423121):3146464-3146709:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_224178235.1(-1),ID:WP_223976090.1(-1)|neighbour_genes:transposase,heavy metal transloc..| | aligned:4-77 (81)
+MLIRKVIIGIAASGLLFGGASNRTVAQMPHQTHTSETSQTSEFQRIEQPLWVKGVVTASGLGLIGLEIWWFLLSKSKSKNV

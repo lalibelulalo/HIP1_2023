@@ -1,0 +1,3 @@
+PCC_7716/Only_ORTHOLOGUES/13489_ferredoxin-thioredox..
+PCC_7716/Only_ORTHOLOGUES/14248_hisD
+PCC_7716/Only_ORTHOLOGUES/14979_bifunctional_pantoat..

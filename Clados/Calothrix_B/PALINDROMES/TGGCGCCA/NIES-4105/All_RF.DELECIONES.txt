@@ -1,0 +1,7 @@
+"ortólogo"	"sitio"	"deleciones"	"species"
+"13319_penicillin-binding_p...codon.alg.fasta.phy"	"224:231"	"2"	"336-3,NIES-3974"
+"15679_S8_family_serine_pep...codon.alg.fasta.phy"	"1224:1231"	"2"	"336-3,NIES-267"
+"13480_ParM-StbA_family_pro...codon.alg.fasta.phy"	"143:150"	"2"	"336-3,NIES-3974"
+"12415_ribH.codon.alg.fasta.phy"	"554:561"	"1"	"336-3"
+"14967_hypothetical_protein.codon.alg.fasta.phy"	"129:136"	"1"	"PCC_6303"
+"12539_AAA_family_ATPase.codon.alg.fasta.phy"	"1501:1508"	"1"	"NIES-3974"

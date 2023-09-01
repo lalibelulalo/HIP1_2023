@@ -1,0 +1,27 @@
+FILE	Spp	START	END	ReadingFrame	OrthLength	PAL	AA
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	336-3	924	931	3	2469	ATT GGC GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-267	924	931	3	2469	ATC GGT TCT ACA	IGST
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-3974	924	931	3	2469	ATT GGT GCA ACC	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_6303	924	931	3	2469	GTT GGT GCA ACT	VGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_7716	924	931	3	2469	ATT GGC GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4105	924	931	3	2469	ATT GGC GCC ACT	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4071	924	931	3	2469	ATT GGC GCC ACT	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	924	931	3	2469	ATT GGT GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	924	931	3	2469	ATT GGT GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	924	931	3	2469	ATT GGT GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	924	931	3	2469	ATT GGT GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	12	924	931	3	2469	ATT GGC GCC ACA	IGAT
+16240_serine-threonine-pro...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	13	924	931	3	2469	ATT GGC GCC ACT	IGAT
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	336-3	180	187	3	726	ATT GGC GCC AAC	IGAN
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-267	180	187	3	726	ATT GTT GCC GAA	IVAE
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-3974	180	187	3	726	GTC ATT GCT AGT	VIAS
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_6303	180	187	3	726	ATT TTT GCT CAG	IFAQ
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	PCC_7716	180	187	3	726	GTG TTC GCT AGT	VFAS
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4105	180	187	3	726	GTG TTT GCT AGT	VFAS
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	NIES-4071	180	187	3	726	GTG TTT GCT AGT	VFAS
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	8	180	187	3	726	ATT GTT GCT AAT	IVAN
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	9	180	187	3	726	ATT GTT GCC AAT	IVAN
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	10	180	187	3	726	ATT TTT GCT AAT	IFAN
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	11	180	187	3	726	ATT TTT GCT AAT	IFAN
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	12	180	187	3	726	GTG TTT GCT AGT	VFAS
+15608_DUF2993_domain-conta...codon.alg.fasta.phy.RECONSTRUCTION.fasta.phy	13	180	187	3	726	GTG TTT GCT AGT	VFAS

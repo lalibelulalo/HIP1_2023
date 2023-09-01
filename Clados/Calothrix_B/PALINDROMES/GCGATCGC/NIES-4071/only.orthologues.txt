@@ -1,0 +1,5 @@
+NIES-4071/Only_ORTHOLOGUES/13489_ferredoxin-thioredox..
+NIES-4071/Only_ORTHOLOGUES/14248_hisD
+NIES-4071/Only_ORTHOLOGUES/14979_bifunctional_pantoat..
+NIES-4071/Only_ORTHOLOGUES/16546_hypothetical_protein
+NIES-4071/Only_ORTHOLOGUES/16922_response_regulator_t..

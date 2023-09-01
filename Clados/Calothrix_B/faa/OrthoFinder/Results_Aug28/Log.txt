@@ -1,0 +1,17 @@
+2023-08-28 13:08:38 : Started OrthoFinder version 2.5.4
+Command Line: orthofinder -f faa/
+
+WorkingDirectory_Base: /home/lalibelulalo/TESIS/Clados/Calothrix_B/faa/OrthoFinder/Results_Aug28/WorkingDirectory/
+
+Species used: 
+0: 336-3.faa
+1: NIES-267.faa
+2: NIES-3974.faa
+3: NIES-4071.faa
+4: NIES-4105.faa
+5: PCC_6303.faa
+6: PCC_7716.faa
+
+FN_Orthogroups: /home/lalibelulalo/TESIS/Clados/Calothrix_B/faa/OrthoFinder/Results_Aug28/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: /home/lalibelulalo/TESIS/Clados/Calothrix_B/faa/OrthoFinder/Results_Aug28/WorkingDirectory/
+2023-08-28 13:23:50 : OrthoFinder run completed

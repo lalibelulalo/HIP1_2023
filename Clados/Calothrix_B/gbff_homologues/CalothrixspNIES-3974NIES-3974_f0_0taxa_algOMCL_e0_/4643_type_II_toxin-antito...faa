@@ -1,0 +1,6 @@
+>ID:WP_096658203.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|type II toxin-antito..|183|NZ_AP018227(8952435):6359150-6359332:1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096658202.1(1),ID:WP_096658204.1(1)|neighbour_genes:type II toxin-antito..,hypothetical protein| | aligned:1-57 (60)
+MKSLKDYKIVIRLDDNNTFVAHIPAIPGCYAWGETDYEARAELVNVFEMIQEEYAEERGL
+>ID:WP_096690778.1 |[Calothrix sp. NIES-4071]|NIES-4071|Calothrix_sp_NIES-4071_NIES-4071.gbff|type II toxin-antito..|222|NZ_AP018255(11064963):7658621-7658842:1 ^^ Calothrix sp. NIES-4071 DNA, complete genome.|neighbours:ID:WP_096690777.1(-1),ID:WP_096690779.1(1)|neighbour_genes:hypothetical protein,DUF3696 domain-conta..| | aligned:1-73 (73)
+MKSLQDYTIVIRPDDNGTFVAYVPAIPSCHAWGQTIDEARAEIVNVFEMIQEEYAEEGLVMPEDVDLVVANVS
+>ID:WP_096690778.1 |[Calothrix sp. NIES-4105]|NIES-4105|Calothrix_sp_NIES-4105_NIES-4105.gbff|type II toxin-antito..|222|NZ_AP018290(11062175):7656453-7656674:1 ^^ Calothrix sp. NIES-4105 DNA, nearly complete genome.|neighbours:ID:WP_096690777.1(-1),ID:WP_096690779.1(1)|neighbour_genes:hypothetical protein,DUF3696 domain-conta..| | aligned:1-73 (73)
+MKSLQDYTIVIRPDDNGTFVAYVPAIPSCHAWGQTIDEARAEIVNVFEMIQEEYAEEGLVMPEDVDLVVANVS

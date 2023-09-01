@@ -1,0 +1,4 @@
+>ID:WP_096656096.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|180|NZ_AP018227(8952435):3330996-3331175:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096656095.1(-1),ID:WP_096656097.1(-1)|neighbour_genes:DNA polymerase III s..,diflavin flavoprotei..| | aligned:1-54 (59)
+MNPDKNKLKFPFWQYLNQPLFCEKLILNPHTFAYVYRIELLERCWGRECDAKGQSSNGG
+>ID:WP_015199032.1 |[Calothrix sp. PCC 6303]|PCC 6303|Calothrix_sp_PCC_6303_PCC_6303.gbff|hypothetical protein|174|NC_019751(6767834):4124566-4124739:1 ^^ Calothrix sp. PCC 6303, complete sequence.|neighbours:ID:WP_015199031.1(1),ID:WP_015199033.1(-1)|neighbour_genes:hypothetical protein,dicarboxylate/amino ..| | aligned:1-56 (57)
+MSSEKNNIKFPLWQYLNQPLFSGDQPPEFNPRQFALIYRIGLLKRCFERECDAKRQY

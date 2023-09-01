@@ -1,0 +1,2276 @@
+FILE	Spp	START	END	ReadingFrame	OrthLength	PAL	AA
+15282_mfd.codon.alg.fasta.phy	NIES-267	2761	2768	1	3705	GCG ATC GCC	AIA
+15282_mfd.codon.alg.fasta.phy	336-3	2761	2768	1	3705	GCG ATC GCC	AIA
+15282_mfd.codon.alg.fasta.phy	NIES-3974	2761	2768	1	3705	GCG ATC GCC	AIA
+15282_mfd.codon.alg.fasta.phy	NIES-4071	2761	2768	1	3705	GCT ATA GCT	AIA
+15282_mfd.codon.alg.fasta.phy	NIES-4105	2761	2768	1	3705	GCT ATA GCT	AIA
+15282_mfd.codon.alg.fasta.phy	PCC_6303	2761	2768	1	3705	GCG ATC GCG	AIA
+15282_mfd.codon.alg.fasta.phy	PCC_7716	2761	2768	1	3705	GCC ATA GCT	AIA
+15406_raiA.codon.alg.fasta.phy	NIES-267	380	387	2	690	GGC GAT CGC	GDR
+15406_raiA.codon.alg.fasta.phy	336-3	380	387	2	690	GGC GAT CGC	GDR
+15406_raiA.codon.alg.fasta.phy	NIES-3974	380	387	2	690	GGC GAT CGC	GDR
+15406_raiA.codon.alg.fasta.phy	NIES-4071	380	387	2	690	GGT ACA CGC	GTR
+15406_raiA.codon.alg.fasta.phy	NIES-4105	380	387	2	690	GGT ACA CGC	GTR
+15406_raiA.codon.alg.fasta.phy	PCC_6303	380	387	2	690	GGT TCT CGG	GSR
+15406_raiA.codon.alg.fasta.phy	PCC_7716	380	387	2	690	GGT AAT CGT	GNR
+14993_IMS_domain-containin...codon.alg.fasta.phy	NIES-267	80	87	2	2415	AGC GAT CGC	SDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	336-3	80	87	2	2415	AGC GAT CGC	SDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	NIES-3974	80	87	2	2415	AGT GAT CGC	SDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	NIES-4071	80	87	2	2415	AAC GAC CGC	NDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	NIES-4105	80	87	2	2415	AAC GAC CGC	NDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	PCC_6303	80	87	2	2415	GGC GAT CGC	GDR
+14993_IMS_domain-containin...codon.alg.fasta.phy	PCC_7716	80	87	2	2415	AAT GAC CGC	NDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	833	840	2	1311	CGC GAT CGC	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	336-3	833	840	2	1311	CGC GAT CGC	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	833	840	2	1311	CGC GAT CGC	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	833	840	2	1311	CGC GAC CGT	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	833	840	2	1311	CGC GAC CGT	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	833	840	2	1311	CGC GAT CGC	RDR
+15737_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	833	840	2	1311	CGC GAC CGT	RDR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	NIES-267	44	51	2	627	CGC GAT CGC	RDR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	336-3	44	51	2	627	CGT AGT CGT	RSR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	NIES-3974	44	51	2	627	CGC GAT CGC	RDR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	NIES-4071	44	51	2	627	CGT AAT CGT	RNR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	NIES-4105	44	51	2	627	CGT AAT CGT	RNR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	PCC_6303	44	51	2	627	CGT ACC CGC	RTR
+12534_TetR-AcrR_family_tra...codon.alg.fasta.phy	PCC_7716	44	51	2	627	CGT GAT CGT	RDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	NIES-267	80	87	2	1692	GGC GAT CGC	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	336-3	80	87	2	1692	GGC GAT CGC	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	NIES-3974	80	87	2	1692	GGC GAT CGC	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	NIES-4071	80	87	2	1692	GGT GAT AGG	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	NIES-4105	80	87	2	1692	GGT GAT AGG	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	PCC_6303	80	87	2	1692	GGC GAT CGC	GDR
+13787_ATP-binding_cassette...codon.alg.fasta.phy	PCC_7716	80	87	2	1692	GGT GAT AGG	GDR
+16536_mutS.codon.alg.fasta.phy	NIES-267	711	718	3	2682	TTG CGA TCG CAA	LRSQ
+16536_mutS.codon.alg.fasta.phy	336-3	711	718	3	2682	TTG CGA TCG CAG	LRSQ
+16536_mutS.codon.alg.fasta.phy	NIES-3974	711	718	3	2682	CTG CGA TCG CAA	LRSQ
+16536_mutS.codon.alg.fasta.phy	NIES-4071	711	718	3	2682	TTT CGG AGT CAA	FRSQ
+16536_mutS.codon.alg.fasta.phy	NIES-4105	711	718	3	2682	TTT CGG AGT CAA	FRSQ
+16536_mutS.codon.alg.fasta.phy	PCC_6303	711	718	3	2682	ATG CGA TCG CAG	MRSQ
+16536_mutS.codon.alg.fasta.phy	PCC_7716	711	718	3	2682	TTT CGT TCT CAA	FRSQ
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-267	49	56	1	1167	GCG ATC GCC	AIA
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	336-3	49	56	1	1167	GCG ATC GCC	AIA
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-3974	49	56	1	1167	GCG ATC GCC	AIA
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-4071	49	56	1	1167	GCT ATC ACC	AIT
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-4105	49	56	1	1167	GCT ATC ACC	AIT
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	PCC_6303	49	56	1	1167	GCC ATC GCA	AIA
+14457_pyridoxal_phosphate-...codon.alg.fasta.phy	PCC_7716	49	56	1	1167	GCT ATC GCA	AIA
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	NIES-267	310	317	1	1041	GCG ATC GCA	AIA
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	336-3	310	317	1	1041	GCC ATT AGT	AIS
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	NIES-3974	310	317	1	1041	GCG ATC GCG	AIA
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	NIES-4071	310	317	1	1041	GCT ATT GTC	AIV
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	NIES-4105	310	317	1	1041	GCT ATT GTC	AIV
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	PCC_6303	310	317	1	1041	GCG ATC GCA	AIA
+15672_RnfABCDGE_type_elect...codon.alg.fasta.phy	PCC_7716	310	317	1	1041	GCT ATT GCA	AIA
+14170_cobO.codon.alg.fasta.phy	NIES-267	374	381	2	672	CGC GAT CGC	RDR
+14170_cobO.codon.alg.fasta.phy	336-3	374	381	2	672	CGC GAT CGC	RDR
+14170_cobO.codon.alg.fasta.phy	NIES-3974	374	381	2	672	CGC GAT CGC	RDR
+14170_cobO.codon.alg.fasta.phy	NIES-4071	374	381	2	672	CGT GAG CGA	RER
+14170_cobO.codon.alg.fasta.phy	NIES-4105	374	381	2	672	CGT GAG CGA	RER
+14170_cobO.codon.alg.fasta.phy	PCC_6303	374	381	2	672	AGA GAA CGA	RER
+14170_cobO.codon.alg.fasta.phy	PCC_7716	374	381	2	672	CGT GAG CGA	RER
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	NIES-267	310	317	1	870	GCG ATC GCT	AIA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	336-3	310	317	1	870	GCT TTA GCG	ALA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	NIES-3974	310	317	1	870	GCG ATC GCG	AIA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	NIES-4071	310	317	1	870	GCT ATG GCA	AMA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	NIES-4105	310	317	1	870	GCT ATG GCA	AMA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	PCC_6303	310	317	1	870	GGT TTA GCG	GLA
+14297_BtpA-SgcQ_family_pro...codon.alg.fasta.phy	PCC_7716	310	317	1	870	GCT ATG GCA	AMA
+16456_tetratricopeptide_re...codon.alg.fasta.phy	NIES-267	608	615	2	2241	TGC GAT CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	336-3	608	615	2	2241	TGC GAT CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	NIES-3974	608	615	2	2241	TGC GAT CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4071	608	615	2	2241	TGC GAC CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4105	608	615	2	2241	TGC GAC CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	PCC_6303	608	615	2	2241	TGC GAT CGC	CDR
+16456_tetratricopeptide_re...codon.alg.fasta.phy	PCC_7716	608	615	2	2241	TGC GAC CGT	CDR
+13224_site-2_protease_fami...codon.alg.fasta.phy	NIES-267	319	326	1	1206	GCG ATC GCC	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	336-3	319	326	1	1206	GCG ATC GCC	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	NIES-3974	319	326	1	1206	GCG ATC GCT	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	NIES-4071	319	326	1	1206	GCA ATT GCA	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	NIES-4105	319	326	1	1206	GCA ATT GCA	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	PCC_6303	319	326	1	1206	GCG ATC GCA	AIA
+13224_site-2_protease_fami...codon.alg.fasta.phy	PCC_7716	319	326	1	1206	GCC ATA GCA	AIA
+13549_acetate_kinase.codon.alg.fasta.phy	NIES-267	358	365	1	1227	GCG ATC GCA	AIA
+13549_acetate_kinase.codon.alg.fasta.phy	336-3	358	365	1	1227	GTT ATT TCC	VIS
+13549_acetate_kinase.codon.alg.fasta.phy	NIES-3974	358	365	1	1227	GCG ATC GCA	AIA
+13549_acetate_kinase.codon.alg.fasta.phy	NIES-4071	358	365	1	1227	ACA ATT CGA	TIR
+13549_acetate_kinase.codon.alg.fasta.phy	NIES-4105	358	365	1	1227	ACA ATT CGA	TIR
+13549_acetate_kinase.codon.alg.fasta.phy	PCC_6303	358	365	1	1227	GCG ATC GCG	AIA
+13549_acetate_kinase.codon.alg.fasta.phy	PCC_7716	358	365	1	1227	ACT ATT CAA	TIQ
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	NIES-267	1150	1157	1	1581	GCG ATC GCC	AIA
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	336-3	1150	1157	1	1581	CCC ATA TCT	PIS
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	NIES-3974	1150	1157	1	1581	CCT GCC GGG	PAG
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	NIES-4071	1150	1157	1	1581	TCA GCG ACA	SAT
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	NIES-4105	1150	1157	1	1581	TCA GCG ACA	SAT
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	PCC_6303	1150	1157	1	1581	ACA GTT GCT	TVA
+16796_DUF4335_domain-conta...codon.alg.fasta.phy	PCC_7716	1150	1157	1	1581	TTA GCA ACA	LAT
+15870_argH.codon.alg.fasta.phy	NIES-267	701	708	2	1398	AGC GAT CGC	SDR
+15870_argH.codon.alg.fasta.phy	336-3	701	708	2	1398	AGC GAT CGC	SDR
+15870_argH.codon.alg.fasta.phy	NIES-3974	701	708	2	1398	AGC GAT CGC	SDR
+15870_argH.codon.alg.fasta.phy	NIES-4071	701	708	2	1398	AGC GAT AGA	SDR
+15870_argH.codon.alg.fasta.phy	NIES-4105	701	708	2	1398	AGC GAT AGA	SDR
+15870_argH.codon.alg.fasta.phy	PCC_6303	701	708	2	1398	AGC GAT CGA	SDR
+15870_argH.codon.alg.fasta.phy	PCC_7716	701	708	2	1398	AGC GAC AGA	SDR
+15431_nifU.codon.alg.fasta.phy	NIES-267	211	218	1	930	GCG ATC GCA	AIA
+15431_nifU.codon.alg.fasta.phy	336-3	211	218	1	930	GCG ATC GCC	AIA
+15431_nifU.codon.alg.fasta.phy	NIES-3974	211	218	1	930	GCG ATC GCA	AIA
+15431_nifU.codon.alg.fasta.phy	NIES-4071	211	218	1	930	GCA ATT GCT	AIA
+15431_nifU.codon.alg.fasta.phy	NIES-4105	211	218	1	930	GCA ATT GCT	AIA
+15431_nifU.codon.alg.fasta.phy	PCC_6303	211	218	1	930	GCG ATC GCA	AIA
+15431_nifU.codon.alg.fasta.phy	PCC_7716	211	218	1	930	GCG ATA GCT	AIA
+15243_response_regulator.codon.alg.fasta.phy	NIES-267	3246	3253	3	3561	TGG CGA TCG CAA	WRSQ
+15243_response_regulator.codon.alg.fasta.phy	336-3	3246	3253	3	3561	TGG CGA GAA CAA	WREQ
+15243_response_regulator.codon.alg.fasta.phy	NIES-3974	3246	3253	3	3561	TGG CGA GAA CAG	WREQ
+15243_response_regulator.codon.alg.fasta.phy	NIES-4071	3246	3253	3	3561	TGG CGC CAG CAA	WRQQ
+15243_response_regulator.codon.alg.fasta.phy	NIES-4105	3246	3253	3	3561	TGG CGC CAG CAA	WRQQ
+15243_response_regulator.codon.alg.fasta.phy	PCC_6303	3246	3253	3	3561	TGG TGC GAA CAA	WCEQ
+15243_response_regulator.codon.alg.fasta.phy	PCC_7716	3246	3253	3	3561	TGG CGC CAG CAG	WRQQ
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	NIES-267	58	65	1	282	GCG ATC GCG	AIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	336-3	58	65	1	282	GCG ATC GCC	AIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	NIES-3974	58	65	1	282	GCG ATC GCA	AIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	NIES-4071	58	65	1	282	GCG ATT GCT	AIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	NIES-4105	58	65	1	282	GCG ATT GCT	AIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	PCC_6303	58	65	1	282	TCA ATT GCT	SIA
+12718_DUF1049_domain-conta...codon.alg.fasta.phy	PCC_7716	58	65	1	282	GCG ATT GCT	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	NIES-267	307	314	1	459	GCG ATC GCA	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	336-3	307	314	1	459	GCG ATC GCC	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	NIES-3974	307	314	1	459	GCG ATC GCG	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	NIES-4071	307	314	1	459	GCT ATT GCA	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	NIES-4105	307	314	1	459	GCT ATT GCA	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	PCC_6303	307	314	1	459	GCG ATC GCG	AIA
+15193_DUF3531_family_prote...codon.alg.fasta.phy	PCC_7716	307	314	1	459	GCT ATT GCA	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	NIES-267	709	716	1	1161	GCG ATC GCC	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	336-3	709	716	1	1161	GCG ATC GCT	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	NIES-3974	709	716	1	1161	GCG ATC GCA	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	NIES-4071	709	716	1	1161	GCA ATT GCT	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	NIES-4105	709	716	1	1161	GCA ATT GCT	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	PCC_6303	709	716	1	1161	GCG ATC GCT	AIA
+15799_GuaB3_family_IMP_deh...codon.alg.fasta.phy	PCC_7716	709	716	1	1161	GCT ATT GCT	AIA
+14313_rsgA.codon.alg.fasta.phy	NIES-267	349	356	1	1155	GCG ATC GCC	AIA
+14313_rsgA.codon.alg.fasta.phy	336-3	349	356	1	1155	GCG ATC GCC	AIA
+14313_rsgA.codon.alg.fasta.phy	NIES-3974	349	356	1	1155	GCG ATC GCC	AIA
+14313_rsgA.codon.alg.fasta.phy	NIES-4071	349	356	1	1155	GCG ATT GCT	AIA
+14313_rsgA.codon.alg.fasta.phy	NIES-4105	349	356	1	1155	GCG ATT GCT	AIA
+14313_rsgA.codon.alg.fasta.phy	PCC_6303	349	356	1	1155	GCG ATC GCT	AIA
+14313_rsgA.codon.alg.fasta.phy	PCC_7716	349	356	1	1155	GCA ATC GCT	AIA
+13521_TolB_family_protein.codon.alg.fasta.phy	NIES-267	259	266	1	528	GCG ATC GCC	AIA
+13521_TolB_family_protein.codon.alg.fasta.phy	336-3	259	266	1	528	GCG ATC GCC	AIA
+13521_TolB_family_protein.codon.alg.fasta.phy	NIES-3974	259	266	1	528	ACC ATC GCT	TIA
+13521_TolB_family_protein.codon.alg.fasta.phy	NIES-4071	259	266	1	528	ACT ATT ACT	TIT
+13521_TolB_family_protein.codon.alg.fasta.phy	NIES-4105	259	266	1	528	ACT ATT ACT	TIT
+13521_TolB_family_protein.codon.alg.fasta.phy	PCC_6303	259	266	1	528	GCG ATC GCA	AIA
+13521_TolB_family_protein.codon.alg.fasta.phy	PCC_7716	259	266	1	528	ACA ATT ACC	TIT
+14328_inorganic_phosphate_...codon.alg.fasta.phy	NIES-267	349	356	1	1401	GCG ATC GCC	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	336-3	349	356	1	1401	GCG ATC GCG	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	NIES-3974	349	356	1	1401	GCG ATC GCC	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	NIES-4071	349	356	1	1401	GCC ATT GCT	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	NIES-4105	349	356	1	1401	GCC ATT GCT	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	PCC_6303	349	356	1	1401	GCG ATC GCA	AIA
+14328_inorganic_phosphate_...codon.alg.fasta.phy	PCC_7716	349	356	1	1401	GCC ATT GCT	AIA
+14848_pyrH.codon.alg.fasta.phy	NIES-267	310	317	1	729	GCG ATC GCA	AIA
+14848_pyrH.codon.alg.fasta.phy	336-3	310	317	1	729	GCG ATC GCC	AIA
+14848_pyrH.codon.alg.fasta.phy	NIES-3974	310	317	1	729	GCG ATC GCC	AIA
+14848_pyrH.codon.alg.fasta.phy	NIES-4071	310	317	1	729	GCT ATT GCC	AIA
+14848_pyrH.codon.alg.fasta.phy	NIES-4105	310	317	1	729	GCT ATT GCC	AIA
+14848_pyrH.codon.alg.fasta.phy	PCC_6303	310	317	1	729	GCG ATC GCT	AIA
+14848_pyrH.codon.alg.fasta.phy	PCC_7716	310	317	1	729	GCT ATT GCT	AIA
+12559_sir.codon.alg.fasta.phy	NIES-267	1405	1412	1	1968	GCG ATC GCC	AIA
+12559_sir.codon.alg.fasta.phy	336-3	1405	1412	1	1968	GCA ATT ACA	AIT
+12559_sir.codon.alg.fasta.phy	NIES-3974	1405	1412	1	1968	GCA ATC ACC	AIT
+12559_sir.codon.alg.fasta.phy	NIES-4071	1405	1412	1	1968	GCA GTA ACT	AVT
+12559_sir.codon.alg.fasta.phy	NIES-4105	1405	1412	1	1968	GCA GTA ACT	AVT
+12559_sir.codon.alg.fasta.phy	PCC_6303	1405	1412	1	1968	GCA GTT ACT	AVT
+12559_sir.codon.alg.fasta.phy	PCC_7716	1405	1412	1	1968	GCA GTT ACC	AVT
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	NIES-267	680	687	2	1905	TGC GAT CGC	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	336-3	680	687	2	1905	TGC GAT CGC	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	NIES-3974	680	687	2	1905	TGC GAT CGC	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	NIES-4071	680	687	2	1905	TGT GAC CGT	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	NIES-4105	680	687	2	1905	TGT GAC CGT	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	PCC_6303	680	687	2	1905	TGC GAT CGC	CDR
+15828_GGDEF_domain-contain...codon.alg.fasta.phy	PCC_7716	680	687	2	1905	TGT GAC CGT	CDR
+14746_menA.codon.alg.fasta.phy	NIES-267	865	872	1	924	GCG ATC GCA	AIA
+14746_menA.codon.alg.fasta.phy	336-3	865	872	1	924	GCG GTT GCT	AVA
+14746_menA.codon.alg.fasta.phy	NIES-3974	865	872	1	924	GCC ATT GGC	AIG
+14746_menA.codon.alg.fasta.phy	NIES-4071	865	872	1	924	GCA GTC GCC	AVA
+14746_menA.codon.alg.fasta.phy	NIES-4105	865	872	1	924	GCA GTC GCC	AVA
+14746_menA.codon.alg.fasta.phy	PCC_6303	865	872	1	924	GCG GTT GCG	AVA
+14746_menA.codon.alg.fasta.phy	PCC_7716	865	872	1	924	GCA GTC GCT	AVA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	NIES-267	598	605	1	645	GCG ATC GCA	AIA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	336-3	598	605	1	645	GCG ATC GCC	AIA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	NIES-3974	598	605	1	645	GCA ATT ACC	AIT
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	NIES-4071	598	605	1	645	GCG ATG GCA	AMA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	NIES-4105	598	605	1	645	GCG ATG GCA	AMA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	PCC_6303	598	605	1	645	GCG ATC GCA	AIA
+14490_precorrin-8X_methylm...codon.alg.fasta.phy	PCC_7716	598	605	1	645	GCA ATG GCA	AMA
+13918_polysaccharide_biosy...codon.alg.fasta.phy	NIES-267	1674	1681	3	2199	TTG CGA TCG CAA	LRSQ
+13918_polysaccharide_biosy...codon.alg.fasta.phy	336-3	1674	1681	3	2199	TTG CGA TCG CCA	LRSP
+13918_polysaccharide_biosy...codon.alg.fasta.phy	NIES-3974	1674	1681	3	2199	CTG CGA TCG CCC	LRSP
+13918_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4071	1674	1681	3	2199	TTA CGT TCT GCT	LRSA
+13918_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4105	1674	1681	3	2199	TTA CGT TCT GCT	LRSA
+13918_polysaccharide_biosy...codon.alg.fasta.phy	PCC_6303	1674	1681	3	2199	TTG CGA TCG CCT	LRSP
+13918_polysaccharide_biosy...codon.alg.fasta.phy	PCC_7716	1674	1681	3	2199	CTA CGT TCA CCT	LRSP
+13325_hypothetical_protein.codon.alg.fasta.phy	NIES-267	199	206	1	306	GCG ATC GCA	AIA
+13325_hypothetical_protein.codon.alg.fasta.phy	336-3	199	206	1	306	TTT GTG ACA	FVT
+13325_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	199	206	1	306	ACC ACA ACT	TTT
+13325_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	199	206	1	306	GCA ATT GCT	AIA
+13325_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	199	206	1	306	GCA ATT GCT	AIA
+13325_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	199	206	1	306	TCT TCA ACA	SST
+13325_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	199	206	1	306	GCA GTT GCT	AVA
+13485_DUF1574_family_prote...codon.alg.fasta.phy	NIES-267	1944	1951	3	3108	GCG CGA TCG CAA	ARSQ
+13485_DUF1574_family_prote...codon.alg.fasta.phy	336-3	1944	1951	3	3108	GCA CGC AAC CAA	ARNQ
+13485_DUF1574_family_prote...codon.alg.fasta.phy	NIES-3974	1944	1951	3	3108	GCG CGA TCG CCC	ARSP
+13485_DUF1574_family_prote...codon.alg.fasta.phy	NIES-4071	1944	1951	3	3108	GCG CGC ACA CAA	ARTQ
+13485_DUF1574_family_prote...codon.alg.fasta.phy	NIES-4105	1944	1951	3	3108	GCG CGC ACA CAA	ARTQ
+13485_DUF1574_family_prote...codon.alg.fasta.phy	PCC_6303	1944	1951	3	3108	GCG CGA TCG CAA	ARSQ
+13485_DUF1574_family_prote...codon.alg.fasta.phy	PCC_7716	1944	1951	3	3108	GCG CGT ACT CAG	ARTQ
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	NIES-267	782	789	2	1137	GGC GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	336-3	782	789	2	1137	GGC GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	NIES-3974	782	789	2	1137	GGC GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	NIES-4071	782	789	2	1137	GGA GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	NIES-4105	782	789	2	1137	GGA GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	PCC_6303	782	789	2	1137	GGC GAT CGC	GDR
+16986_hybrid_sensor_histid...codon.alg.fasta.phy	PCC_7716	782	789	2	1137	GGT GAC CGC	GDR
+13722_ligA.codon.alg.fasta.phy	NIES-267	1148	1155	2	2112	TGC GAT CGC	CDR
+13722_ligA.codon.alg.fasta.phy	336-3	1148	1155	2	2112	GGC GAT CGC	GDR
+13722_ligA.codon.alg.fasta.phy	NIES-3974	1148	1155	2	2112	AGC GAT CGC	SDR
+13722_ligA.codon.alg.fasta.phy	NIES-4071	1148	1155	2	2112	GGC GAC CGC	GDR
+13722_ligA.codon.alg.fasta.phy	NIES-4105	1148	1155	2	2112	GGC GAC CGC	GDR
+13722_ligA.codon.alg.fasta.phy	PCC_6303	1148	1155	2	2112	AGC GAT CGC	SDR
+13722_ligA.codon.alg.fasta.phy	PCC_7716	1148	1155	2	2112	GGC GAC CGC	GDR
+13227_gloA.codon.alg.fasta.phy	NIES-267	363	370	3	459	GTG CGA TCG CCG	VRSP
+13227_gloA.codon.alg.fasta.phy	336-3	363	370	3	459	GTA GAA GAC CCT	VEDP
+13227_gloA.codon.alg.fasta.phy	NIES-3974	363	370	3	459	GTC GAA GAC CCG	VEDP
+13227_gloA.codon.alg.fasta.phy	NIES-4071	363	370	3	459	GTT GAA GAC CCC	VEDP
+13227_gloA.codon.alg.fasta.phy	NIES-4105	363	370	3	459	GTT GAA GAC CCC	VEDP
+13227_gloA.codon.alg.fasta.phy	PCC_6303	363	370	3	459	GTT GAA GAT CCA	VEDP
+13227_gloA.codon.alg.fasta.phy	PCC_7716	363	370	3	459	ATT GAA GAC CCC	IEDP
+16544_hypothetical_protein.codon.alg.fasta.phy	NIES-267	98	105	2	420	TGC GAT CGC	CDR
+16544_hypothetical_protein.codon.alg.fasta.phy	336-3	98	105	2	420	TGC GAT CGC	CDR
+16544_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	98	105	2	420	TGC GAT CGC	CDR
+16544_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	98	105	2	420	TGC GAG CGT	CER
+16544_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	98	105	2	420	TGC GAG CGT	CER
+16544_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	98	105	2	420	TGC GAT CGC	CDR
+16544_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	98	105	2	420	TGC GAC CGC	CDR
+14284_dxs.codon.alg.fasta.phy	NIES-267	376	383	1	1911	GCG ATC GCA	AIA
+14284_dxs.codon.alg.fasta.phy	336-3	376	383	1	1911	GCA CTA GCA	ALA
+14284_dxs.codon.alg.fasta.phy	NIES-3974	376	383	1	1911	GCG ATC GCT	AIA
+14284_dxs.codon.alg.fasta.phy	NIES-4071	376	383	1	1911	GCG TTA GCG	ALA
+14284_dxs.codon.alg.fasta.phy	NIES-4105	376	383	1	1911	GCG TTA GCG	ALA
+14284_dxs.codon.alg.fasta.phy	PCC_6303	376	383	1	1911	GCA ATG GCA	AMA
+14284_dxs.codon.alg.fasta.phy	PCC_7716	376	383	1	1911	GCG TTA GCG	ALA
+15024_trxB.codon.alg.fasta.phy	NIES-267	1109	1116	2	1383	GGC GAT CGC	GDR
+15024_trxB.codon.alg.fasta.phy	336-3	1109	1116	2	1383	AGC GAT CGC	SDR
+15024_trxB.codon.alg.fasta.phy	NIES-3974	1109	1116	2	1383	AGC GAT CGC	SDR
+15024_trxB.codon.alg.fasta.phy	NIES-4071	1109	1116	2	1383	AGC GAT AGA	SDR
+15024_trxB.codon.alg.fasta.phy	NIES-4105	1109	1116	2	1383	AGC GAT AGA	SDR
+15024_trxB.codon.alg.fasta.phy	PCC_6303	1109	1116	2	1383	AGC GAT CGC	SDR
+15024_trxB.codon.alg.fasta.phy	PCC_7716	1109	1116	2	1383	AGC GAT AGA	SDR
+16321_hypothetical_protein.codon.alg.fasta.phy	NIES-267	799	806	1	918	GCG ATC GCC	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	336-3	799	806	1	918	GCG ATC GCC	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	799	806	1	918	GCG ATC GCT	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	799	806	1	918	GCT ATC GCG	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	799	806	1	918	GCT ATC GCG	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	799	806	1	918	GCG ATC GCA	AIA
+16321_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	799	806	1	918	GCT ATT GCG	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	NIES-267	1576	1583	1	2115	GCG ATC GCA	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	336-3	1576	1583	1	2115	GCG ATC GCC	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	NIES-3974	1576	1583	1	2115	GCG ATC GCT	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	NIES-4071	1576	1583	1	2115	GCC ATA GCT	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	NIES-4105	1576	1583	1	2115	GCC ATA GCT	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	PCC_6303	1576	1583	1	2115	GCG ATC GCA	AIA
+16310_TIGR00300_family_pro...codon.alg.fasta.phy	PCC_7716	1576	1583	1	2115	GCT ATT GCG	AIA
+16746_psbV.codon.alg.fasta.phy	NIES-267	418	425	1	489	GCG ATC GCC	AIA
+16746_psbV.codon.alg.fasta.phy	336-3	418	425	1	489	GCG ATC GCA	AIA
+16746_psbV.codon.alg.fasta.phy	NIES-3974	418	425	1	489	GCG ATC GCT	AIA
+16746_psbV.codon.alg.fasta.phy	NIES-4071	418	425	1	489	GCT ATT GCT	AIA
+16746_psbV.codon.alg.fasta.phy	NIES-4105	418	425	1	489	GCT ATT GCT	AIA
+16746_psbV.codon.alg.fasta.phy	PCC_6303	418	425	1	489	GCG ATC GCT	AIA
+16746_psbV.codon.alg.fasta.phy	PCC_7716	418	425	1	489	GCT ATT GCT	AIA
+14049_FHA_domain-containin...codon.alg.fasta.phy	NIES-267	308	315	2	885	CGC GAT CGC	RDR
+14049_FHA_domain-containin...codon.alg.fasta.phy	336-3	308	315	2	885	CGC GAT CGC	RDR
+14049_FHA_domain-containin...codon.alg.fasta.phy	NIES-3974	308	315	2	885	CGA GAT CCA	RDP
+14049_FHA_domain-containin...codon.alg.fasta.phy	NIES-4071	308	315	2	885	CGT GGT GTG	RGV
+14049_FHA_domain-containin...codon.alg.fasta.phy	NIES-4105	308	315	2	885	CGT GGT GTG	RGV
+14049_FHA_domain-containin...codon.alg.fasta.phy	PCC_6303	308	315	2	885	CGC GAT CGC	RDR
+14049_FHA_domain-containin...codon.alg.fasta.phy	PCC_7716	308	315	2	885	CGA GAT CAA	RDQ
+14421_flavin-dependent_deh...codon.alg.fasta.phy	NIES-267	1424	1431	2	2130	CGC GAT CGC	RDR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	336-3	1424	1431	2	2130	--- GAT CGC	-DR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	NIES-3974	1424	1431	2	2130	CGC GAT CGC	RDR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	NIES-4071	1424	1431	2	2130	AAT TCG CGC	NSR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	NIES-4105	1424	1431	2	2130	AAT TCG CGC	NSR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	PCC_6303	1424	1431	2	2130	CGC GAT CGC	RDR
+14421_flavin-dependent_deh...codon.alg.fasta.phy	PCC_7716	1424	1431	2	2130	AAC TCG CGT	NSR
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	NIES-267	526	533	1	960	GCG ATC GCC	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	336-3	526	533	1	960	GCG ATC GCG	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	NIES-3974	526	533	1	960	GCG ATC GCG	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	NIES-4071	526	533	1	960	GCT ATC GCA	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	NIES-4105	526	533	1	960	GCT ATC GCA	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	PCC_6303	526	533	1	960	GCG ATC GCA	AIA
+14851_NAD-P-H-dependent_gl...codon.alg.fasta.phy	PCC_7716	526	533	1	960	GCT ATT GCA	AIA
+13602_S41_family_peptidase.codon.alg.fasta.phy	NIES-267	446	453	2	1242	CGC GAT CGC	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	336-3	446	453	2	1242	CGC GAT CGC	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	NIES-3974	446	453	2	1242	CGC GAT CGC	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	NIES-4071	446	453	2	1242	CGC GAC CGT	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	NIES-4105	446	453	2	1242	CGC GAC CGT	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	PCC_6303	446	453	2	1242	CGC GAT CGC	RDR
+13602_S41_family_peptidase.codon.alg.fasta.phy	PCC_7716	446	453	2	1242	CGC GAC CGT	RDR
+15585_ATP-binding_protein.codon.alg.fasta.phy	NIES-267	214	221	1	2148	GCG ATC GCC	AIA
+15585_ATP-binding_protein.codon.alg.fasta.phy	336-3	214	221	1	2148	GCG ATC GCA	AIA
+15585_ATP-binding_protein.codon.alg.fasta.phy	NIES-3974	214	221	1	2148	GCT ATC CAT	AIH
+15585_ATP-binding_protein.codon.alg.fasta.phy	NIES-4071	214	221	1	2148	GCG GTT GCG	AVA
+15585_ATP-binding_protein.codon.alg.fasta.phy	NIES-4105	214	221	1	2148	GCG GTT GCG	AVA
+15585_ATP-binding_protein.codon.alg.fasta.phy	PCC_6303	214	221	1	2148	GCG ATC GCA	AIA
+15585_ATP-binding_protein.codon.alg.fasta.phy	PCC_7716	214	221	1	2148	GCG GTT GCA	AVA
+14918_accD.codon.alg.fasta.phy	NIES-267	314	321	2	1059	CGC GAT CGC	RDR
+14918_accD.codon.alg.fasta.phy	336-3	314	321	2	1059	CGG GAT CGT	RDR
+14918_accD.codon.alg.fasta.phy	NIES-3974	314	321	2	1059	CGC GAT CGC	RDR
+14918_accD.codon.alg.fasta.phy	NIES-4071	314	321	2	1059	CGC GAC CGT	RDR
+14918_accD.codon.alg.fasta.phy	NIES-4105	314	321	2	1059	CGC GAC CGT	RDR
+14918_accD.codon.alg.fasta.phy	PCC_6303	314	321	2	1059	CGC GAT CGC	RDR
+14918_accD.codon.alg.fasta.phy	PCC_7716	314	321	2	1059	CGT GAC CGC	RDR
+13477_gor.codon.alg.fasta.phy	NIES-267	91	98	1	1383	GCG ATC GCC	AIA
+13477_gor.codon.alg.fasta.phy	336-3	91	98	1	1383	GCG ATC GCG	AIA
+13477_gor.codon.alg.fasta.phy	NIES-3974	91	98	1	1383	GCG ATC GCT	AIA
+13477_gor.codon.alg.fasta.phy	NIES-4071	91	98	1	1383	GCA ATC GCT	AIA
+13477_gor.codon.alg.fasta.phy	NIES-4105	91	98	1	1383	GCA ATC GCT	AIA
+13477_gor.codon.alg.fasta.phy	PCC_6303	91	98	1	1383	GCG ATC GCA	AIA
+13477_gor.codon.alg.fasta.phy	PCC_7716	91	98	1	1383	GCA ATA GCC	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	NIES-267	1009	1016	1	1410	GCG ATC GCC	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	336-3	1009	1016	1	1410	GCG ATC GCC	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	NIES-3974	1009	1016	1	1410	GCG ATC GCC	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	NIES-4071	1009	1016	1	1410	GCA ATT GCA	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	NIES-4105	1009	1016	1	1410	GCA ATT GCA	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	PCC_6303	1009	1016	1	1410	GCG ATC GCA	AIA
+13168_YvcK_family_protein.codon.alg.fasta.phy	PCC_7716	1009	1016	1	1410	GCA ATT GCA	AIA
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	NIES-267	440	447	2	1374	TGC GAT CGC	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	336-3	440	447	2	1374	TGC GAT CGC	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	NIES-3974	440	447	2	1374	TGC GAT CGC	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	NIES-4071	440	447	2	1374	TGT GAC CGT	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	NIES-4105	440	447	2	1374	TGT GAC CGT	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	PCC_6303	440	447	2	1374	TGC GAT CGC	CDR
+12866_OB-fold_nucleic_acid...codon.alg.fasta.phy	PCC_7716	440	447	2	1374	TGT GAC CGT	CDR
+13954_glycosyl_transferase.codon.alg.fasta.phy	NIES-267	485	492	2	1119	TGC GAT CGC	CDR
+13954_glycosyl_transferase.codon.alg.fasta.phy	336-3	485	492	2	1119	AGC GAT CGC	SDR
+13954_glycosyl_transferase.codon.alg.fasta.phy	NIES-3974	485	492	2	1119	TGC GAT CGC	CDR
+13954_glycosyl_transferase.codon.alg.fasta.phy	NIES-4071	485	492	2	1119	TGT CAA CGC	CQR
+13954_glycosyl_transferase.codon.alg.fasta.phy	NIES-4105	485	492	2	1119	TGT CAA CGC	CQR
+13954_glycosyl_transferase.codon.alg.fasta.phy	PCC_6303	485	492	2	1119	TGC GAT CGC	CDR
+13954_glycosyl_transferase.codon.alg.fasta.phy	PCC_7716	485	492	2	1119	TGC CAG CGC	CQR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	NIES-267	758	765	2	2319	CGC GAT CGC	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	336-3	758	765	2	2319	CGC GAT CGC	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	NIES-3974	758	765	2	2319	CGC GAT CGC	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	NIES-4071	758	765	2	2319	CGC GAC CGA	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	NIES-4105	758	765	2	2319	CGC GAC CGA	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	PCC_6303	758	765	2	2319	CGC GAT CGC	RDR
+15637_Rne-Rng_family_ribon...codon.alg.fasta.phy	PCC_7716	758	765	2	2319	CGC GAC CGA	RDR
+13487_ppc.codon.alg.fasta.phy	NIES-267	2424	2431	3	3132	GTG CGA TCG CGT	VRSR
+13487_ppc.codon.alg.fasta.phy	336-3	2424	2431	3	3132	CAG CGA TCG CGC	QRSR
+13487_ppc.codon.alg.fasta.phy	NIES-3974	2424	2431	3	3132	GTG CGA TCG CGC	VRSR
+13487_ppc.codon.alg.fasta.phy	NIES-4071	2424	2431	3	3132	GCT CGT TCA CGT	ARSR
+13487_ppc.codon.alg.fasta.phy	NIES-4105	2424	2431	3	3132	GCT CGT TCA CGT	ARSR
+13487_ppc.codon.alg.fasta.phy	PCC_6303	2424	2431	3	3132	GCG CGA TCG CGT	ARSR
+13487_ppc.codon.alg.fasta.phy	PCC_7716	2424	2431	3	3132	ACT CGT TCG CGT	TRSR
+12879_bioB.codon.alg.fasta.phy	NIES-267	521	528	2	1020	GGC GAT CGC	GDR
+12879_bioB.codon.alg.fasta.phy	336-3	521	528	2	1020	CAA GAC AGG	QDR
+12879_bioB.codon.alg.fasta.phy	NIES-3974	521	528	2	1020	GAT GAC CGC	DDR
+12879_bioB.codon.alg.fasta.phy	NIES-4071	521	528	2	1020	GAT GAC CGT	DDR
+12879_bioB.codon.alg.fasta.phy	NIES-4105	521	528	2	1020	GAT GAC CGT	DDR
+12879_bioB.codon.alg.fasta.phy	PCC_6303	521	528	2	1020	GAC GAT CGC	DDR
+12879_bioB.codon.alg.fasta.phy	PCC_7716	521	528	2	1020	GAC GAC CGT	DDR
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	NIES-267	346	353	1	876	GCG ATC GCA	AIA
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	336-3	346	353	1	876	GCT ATT ACT	AIT
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	NIES-3974	346	353	1	876	GCG ATT ATT	AII
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	NIES-4071	346	353	1	876	GCT ATT ATC	AII
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	NIES-4105	346	353	1	876	GCT ATT ATC	AII
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	PCC_6303	346	353	1	876	GCA ATT CCT	AIP
+12706_glycerol_acyltransfe...codon.alg.fasta.phy	PCC_7716	346	353	1	876	GCA ATT ATC	AII
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	NIES-267	424	431	1	1404	GCG ATC GCC	AIA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	336-3	424	431	1	1404	ATG ATT GCC	MIA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	NIES-3974	424	431	1	1404	ATG CTC GCA	MLA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	NIES-4071	424	431	1	1404	ACG CTG GCT	TLA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	NIES-4105	424	431	1	1404	ACG CTG GCT	TLA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	PCC_6303	424	431	1	1404	ATG TTG GCA	MLA
+15904_NAD-P--+-_transhydro...codon.alg.fasta.phy	PCC_7716	424	431	1	1404	ACG CTG GCT	TLA
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	NIES-267	681	688	3	915	TTG CGA TCG CAA	LRSQ
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	336-3	681	688	3	915	GGG CGA TCG CAG	GRSQ
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	NIES-3974	681	688	3	915	AAG CGA TCG CAT	KRSH
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	NIES-4071	681	688	3	915	GAG CCA AAG CAA	EPKQ
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	NIES-4105	681	688	3	915	GAG CCA AAG CAA	EPKQ
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	PCC_6303	681	688	3	915	AAC CGC CAA AAA	NRQK
+15068_carotenoid_biosynthe...codon.alg.fasta.phy	PCC_7716	681	688	3	915	GAG CCT AAG CAA	EPKQ
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	NIES-267	205	212	1	1542	GCG ATC GCA	AIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	336-3	205	212	1	1542	ACG ATC GCC	TIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	NIES-3974	205	212	1	1542	GTT ATC GCA	VIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	NIES-4071	205	212	1	1542	GCA ATT GCA	AIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	NIES-4105	205	212	1	1542	GCA ATT GCA	AIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	PCC_6303	205	212	1	1542	GCG ATC GCT	AIA
+15314_BCD_family_MFS_trans...codon.alg.fasta.phy	PCC_7716	205	212	1	1542	GCT ATT GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	NIES-267	196	203	1	1278	GCG ATC GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	336-3	196	203	1	1278	GCG ATC GCT	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	NIES-3974	196	203	1	1278	GCG ATC GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	NIES-4071	196	203	1	1278	GCA ATA GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	NIES-4105	196	203	1	1278	GCA ATA GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	PCC_6303	196	203	1	1278	GCG ATC GCA	AIA
+14452_acetate--CoA_ligase_...codon.alg.fasta.phy	PCC_7716	196	203	1	1278	GCC ATA GCA	AIA
+12379_secA.codon.alg.fasta.phy	NIES-267	2057	2064	2	2793	GGC GAT CGC	GDR
+12379_secA.codon.alg.fasta.phy	336-3	2057	2064	2	2793	GGC GAT CGC	GDR
+12379_secA.codon.alg.fasta.phy	NIES-3974	2057	2064	2	2793	GGC GAT CGC	GDR
+12379_secA.codon.alg.fasta.phy	NIES-4071	2057	2064	2	2793	GGT GAG AGA	GER
+12379_secA.codon.alg.fasta.phy	NIES-4105	2057	2064	2	2793	GGT GAG AGA	GER
+12379_secA.codon.alg.fasta.phy	PCC_6303	2057	2064	2	2793	GGC GAT CGC	GDR
+12379_secA.codon.alg.fasta.phy	PCC_7716	2057	2064	2	2793	GGA GAG AAA	GEK
+16240_serine-threonine-pro...codon.alg.fasta.phy	NIES-267	1030	1037	1	2469	GCG ATC GCA	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	336-3	1030	1037	1	2469	GCG ATC GCC	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	NIES-3974	1030	1037	1	2469	GCG ATC GCA	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	NIES-4071	1030	1037	1	2469	GCA ATT GCA	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	NIES-4105	1030	1037	1	2469	GCA ATT GCA	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	PCC_6303	1030	1037	1	2469	GCG ATC GCG	AIA
+16240_serine-threonine-pro...codon.alg.fasta.phy	PCC_7716	1030	1037	1	2469	GCA CTA GCA	ALA
+15553_YraN_family_protein.codon.alg.fasta.phy	NIES-267	262	269	1	507	GCG ATC GCA	AIA
+15553_YraN_family_protein.codon.alg.fasta.phy	336-3	262	269	1	507	GCG ATC GCC	AIA
+15553_YraN_family_protein.codon.alg.fasta.phy	NIES-3974	262	269	1	507	GCG ATC GCC	AIA
+15553_YraN_family_protein.codon.alg.fasta.phy	NIES-4071	262	269	1	507	GCA GTA GAG	AVE
+15553_YraN_family_protein.codon.alg.fasta.phy	NIES-4105	262	269	1	507	GCA GTA GAG	AVE
+15553_YraN_family_protein.codon.alg.fasta.phy	PCC_6303	262	269	1	507	GCG ATC GCA	AIA
+15553_YraN_family_protein.codon.alg.fasta.phy	PCC_7716	262	269	1	507	GCC GTA GAG	AVE
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	NIES-267	55	62	1	1104	GCG ATC GCG	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	336-3	55	62	1	1104	GCG ATC GCT	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	NIES-3974	55	62	1	1104	GCG ATC GCG	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	NIES-4071	55	62	1	1104	GCA ATT GCT	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	NIES-4105	55	62	1	1104	GCA ATT GCT	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	PCC_6303	55	62	1	1104	GCG ATC GCT	AIA
+14437_ArsA_family_ATPase.codon.alg.fasta.phy	PCC_7716	55	62	1	1104	GCA ATT GCT	AIA
+15965_hypothetical_protein.codon.alg.fasta.phy	NIES-267	122	129	2	381	TGC GAT CGC	CDR
+15965_hypothetical_protein.codon.alg.fasta.phy	336-3	122	129	2	381	TGC GAT CGC	CDR
+15965_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	122	129	2	381	TGC GAT CGC	CDR
+15965_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	122	129	2	381	TGC GAA CGA	CER
+15965_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	122	129	2	381	TGC GAA CGA	CER
+15965_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	122	129	2	381	TGC GAT CGC	CDR
+15965_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	122	129	2	381	TGC GAC CGA	CDR
+12412_lptB.codon.alg.fasta.phy	NIES-267	557	564	2	729	CGC GAT CGC	RDR
+12412_lptB.codon.alg.fasta.phy	336-3	557	564	2	729	CGC GAT CGC	RDR
+12412_lptB.codon.alg.fasta.phy	NIES-3974	557	564	2	729	CGC GAT CGC	RDR
+12412_lptB.codon.alg.fasta.phy	NIES-4071	557	564	2	729	CGT GAC CGC	RDR
+12412_lptB.codon.alg.fasta.phy	NIES-4105	557	564	2	729	CGT GAC CGC	RDR
+12412_lptB.codon.alg.fasta.phy	PCC_6303	557	564	2	729	CGC GAT CGC	RDR
+12412_lptB.codon.alg.fasta.phy	PCC_7716	557	564	2	729	CGC GAC CGT	RDR
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	NIES-267	646	653	1	1425	GCG ATC GCA	AIA
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	336-3	646	653	1	1425	GCC CAA GCT	AQA
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	NIES-3974	646	653	1	1425	GCG GAA ATA	AEI
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	NIES-4071	646	653	1	1425	TTT GAA ACA	FET
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	NIES-4105	646	653	1	1425	TTT GAA ACA	FET
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	PCC_6303	646	653	1	1425	GCC GAA ATT	AEI
+13021_aldehyde_dehydrogena...codon.alg.fasta.phy	PCC_7716	646	653	1	1425	TTT GAA ACA	FET
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	NIES-267	674	681	2	1542	CGC GAT CGC	RDR
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	336-3	674	681	2	1542	CGA GAT CGA	RDR
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	NIES-3974	674	681	2	1542	CGC GAT CGC	RDR
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	NIES-4071	674	681	2	1542	CGT GAC CGT	RDR
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	NIES-4105	674	681	2	1542	CGT GAC CGT	RDR
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	PCC_6303	674	681	2	1542	CGC GAT CAG	RDQ
+13107_DUF3084_domain-conta...codon.alg.fasta.phy	PCC_7716	674	681	2	1542	CGT GAC CGC	RDR
+14608_histone_deacetylase.codon.alg.fasta.phy	NIES-267	144	151	3	948	TGG CGA TCG CCA	WRSP
+14608_histone_deacetylase.codon.alg.fasta.phy	336-3	144	151	3	948	TGG CGA TCG CCG	WRSP
+14608_histone_deacetylase.codon.alg.fasta.phy	NIES-3974	144	151	3	948	TGG TAT TCC CCC	WYSP
+14608_histone_deacetylase.codon.alg.fasta.phy	NIES-4071	144	151	3	948	TGG CGC CTG CCA	WRLP
+14608_histone_deacetylase.codon.alg.fasta.phy	NIES-4105	144	151	3	948	TGG CGC CTG CCA	WRLP
+14608_histone_deacetylase.codon.alg.fasta.phy	PCC_6303	144	151	3	948	TGG AAA TTA CCG	WKLP
+14608_histone_deacetylase.codon.alg.fasta.phy	PCC_7716	144	151	3	948	TGG CGC CTG CCA	WRLP
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	NIES-267	49	56	1	903	GCG ATC GCC	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	336-3	49	56	1	903	GCG ATC GCG	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	NIES-3974	49	56	1	903	GCG ATC GCG	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	NIES-4071	49	56	1	903	GCA ATC GCA	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	NIES-4105	49	56	1	903	GCA ATC GCA	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	PCC_6303	49	56	1	903	GCG ATC GCG	AIA
+15035_phosphatidate_cytidy...codon.alg.fasta.phy	PCC_7716	49	56	1	903	GCA ATC GCA	AIA
+15889_scpB.codon.alg.fasta.phy	NIES-267	89	96	2	561	TGC GAT CGC	CDR
+15889_scpB.codon.alg.fasta.phy	336-3	89	96	2	561	TGC GAT CGC	CDR
+15889_scpB.codon.alg.fasta.phy	NIES-3974	89	96	2	561	TGC GAT CGC	CDR
+15889_scpB.codon.alg.fasta.phy	NIES-4071	89	96	2	561	TGC GAC CGT	CDR
+15889_scpB.codon.alg.fasta.phy	NIES-4105	89	96	2	561	TGC GAC CGT	CDR
+15889_scpB.codon.alg.fasta.phy	PCC_6303	89	96	2	561	TGC GAT CGC	CDR
+15889_scpB.codon.alg.fasta.phy	PCC_7716	89	96	2	561	TGT GAC CGA	CDR
+15218_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	790	797	1	1236	GCG ATC GCC	AIA
+15218_glycosyltransferase_...codon.alg.fasta.phy	336-3	790	797	1	1236	GCG ATC GCC	AIA
+15218_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	790	797	1	1236	GCG ATC GCG	AIA
+15218_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	790	797	1	1236	GCA GTA GGG	AVG
+15218_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	790	797	1	1236	GCA GTA GGG	AVG
+15218_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	790	797	1	1236	GCA ATC GGC	AIG
+15218_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	790	797	1	1236	GCA GTG GGG	AVG
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	NIES-267	26	33	2	627	TGC GAT CGC	CDR
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	336-3	26	33	2	627	TGT GAT TCT	CDS
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	NIES-3974	26	33	2	627	TGC GAT CGC	CDR
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	NIES-4071	26	33	2	627	TGT GAT AGC	CDS
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	NIES-4105	26	33	2	627	TGT GAT AGC	CDS
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	PCC_6303	26	33	2	627	TGC GAT CGC	CDR
+16044_ribonuclease_H-like_...codon.alg.fasta.phy	PCC_7716	26	33	2	627	TGC GAC AGC	CDS
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-267	178	185	1	882	GCG ATC GCA	AIA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	336-3	178	185	1	882	GCA GTT GCT	AVA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-3974	178	185	1	882	GCT GTA GCG	AVA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-4071	178	185	1	882	GCT GTC GCA	AVA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-4105	178	185	1	882	GCT GTC GCA	AVA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	PCC_6303	178	185	1	882	GCT ATT GCC	AIA
+13708_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	PCC_7716	178	185	1	882	GCT GTC GCG	AVA
+15186_rplT.codon.alg.fasta.phy	NIES-267	143	150	2	357	CGC GAT CGC	RDR
+15186_rplT.codon.alg.fasta.phy	336-3	143	150	2	357	CGC GAT CGC	RDR
+15186_rplT.codon.alg.fasta.phy	NIES-3974	143	150	2	357	CGC GAT CGC	RDR
+15186_rplT.codon.alg.fasta.phy	NIES-4071	143	150	2	357	CGT GAC CGC	RDR
+15186_rplT.codon.alg.fasta.phy	NIES-4105	143	150	2	357	CGT GAC CGC	RDR
+15186_rplT.codon.alg.fasta.phy	PCC_6303	143	150	2	357	CGC GAT CGC	RDR
+15186_rplT.codon.alg.fasta.phy	PCC_7716	143	150	2	357	CGT GAC CGC	RDR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	NIES-267	150	157	3	480	TGG CGA TCG CGA	WRSR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	336-3	150	157	3	480	TGG CAG GGA CGA	WQGR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	NIES-3974	150	157	3	480	TGG CGC TCA AGA	WRSR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	NIES-4071	150	157	3	480	TGG CTT TTA AGA	WLLR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	NIES-4105	150	157	3	480	TGG CTT TTA AGA	WLLR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	PCC_6303	150	157	3	480	TGG CAG GGA AGG	WQGR
+13299_DUF4079_domain-conta...codon.alg.fasta.phy	PCC_7716	150	157	3	480	TGG CAA GGG AGA	WQGR
+13905_lpxD.codon.alg.fasta.phy	NIES-267	476	483	2	1074	GGC GAT CGC	GDR
+13905_lpxD.codon.alg.fasta.phy	336-3	476	483	2	1074	GGC GAT CGC	GDR
+13905_lpxD.codon.alg.fasta.phy	NIES-3974	476	483	2	1074	GGT CGG GGG	GRG
+13905_lpxD.codon.alg.fasta.phy	NIES-4071	476	483	2	1074	GGT AAT AAT	GNN
+13905_lpxD.codon.alg.fasta.phy	NIES-4105	476	483	2	1074	GGT AAT AAT	GNN
+13905_lpxD.codon.alg.fasta.phy	PCC_6303	476	483	2	1074	GGT GAC AGT	GDS
+13905_lpxD.codon.alg.fasta.phy	PCC_7716	476	483	2	1074	GGT AAT AAC	GNN
+14972_S8_family_serine_pep...codon.alg.fasta.phy	NIES-267	1397	1404	2	1647	CGC GAT CGC	RDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	336-3	1397	1404	2	1647	CGC GAT CGC	RDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	NIES-3974	1397	1404	2	1647	CGC GAT CGC	RDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	NIES-4071	1397	1404	2	1647	CGC GAC CGA	RDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	NIES-4105	1397	1404	2	1647	CGC GAC CGA	RDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	PCC_6303	1397	1404	2	1647	AGC GAT CGC	SDR
+14972_S8_family_serine_pep...codon.alg.fasta.phy	PCC_7716	1397	1404	2	1647	CGC GAC CGA	RDR
+16110_transketolase.codon.alg.fasta.phy	NIES-267	1061	1068	2	2211	TGC GAT CGC	CDR
+16110_transketolase.codon.alg.fasta.phy	336-3	1061	1068	2	2211	TGC GAT CGC	CDR
+16110_transketolase.codon.alg.fasta.phy	NIES-3974	1061	1068	2	2211	GTA GAG AAA	VEK
+16110_transketolase.codon.alg.fasta.phy	NIES-4071	1061	1068	2	2211	TTA GAA AAA	LEK
+16110_transketolase.codon.alg.fasta.phy	NIES-4105	1061	1068	2	2211	TTA GAA AAA	LEK
+16110_transketolase.codon.alg.fasta.phy	PCC_6303	1061	1068	2	2211	TTG GAA AAA	LEK
+16110_transketolase.codon.alg.fasta.phy	PCC_7716	1061	1068	2	2211	TTA GAA AAA	LEK
+15747_proC.codon.alg.fasta.phy	NIES-267	163	170	1	822	GCG ATC GCC	AIA
+15747_proC.codon.alg.fasta.phy	336-3	163	170	1	822	ACC TGT GAA	TCE
+15747_proC.codon.alg.fasta.phy	NIES-3974	163	170	1	822	ACT ACT GCT	TTA
+15747_proC.codon.alg.fasta.phy	NIES-4071	163	170	1	822	GTT ATT AAG	VIK
+15747_proC.codon.alg.fasta.phy	NIES-4105	163	170	1	822	GTT ATT AAG	VIK
+15747_proC.codon.alg.fasta.phy	PCC_6303	163	170	1	822	GTT ACT GGT	VTG
+15747_proC.codon.alg.fasta.phy	PCC_7716	163	170	1	822	GTG GTT GGG	VVG
+16126_hypF.codon.alg.fasta.phy	NIES-267	2209	2216	1	2508	GCG ATC GCA	AIA
+16126_hypF.codon.alg.fasta.phy	336-3	2209	2216	1	2508	GCC TAT GCC	AYA
+16126_hypF.codon.alg.fasta.phy	NIES-3974	2209	2216	1	2508	GCA GAC ACC	ADT
+16126_hypF.codon.alg.fasta.phy	NIES-4071	2209	2216	1	2508	ATT AAT ATT	INI
+16126_hypF.codon.alg.fasta.phy	NIES-4105	2209	2216	1	2508	ATT AAT ATT	INI
+16126_hypF.codon.alg.fasta.phy	PCC_6303	2209	2216	1	2508	ATT TTG GTG	ILV
+16126_hypF.codon.alg.fasta.phy	PCC_7716	2209	2216	1	2508	ATT AAT ATT	INI
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	NIES-267	688	695	1	1551	GCG ATC GCA	AIA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	336-3	688	695	1	1551	GCG ATC GCC	AIA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	NIES-3974	688	695	1	1551	GCG ATC GCA	AIA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	NIES-4071	688	695	1	1551	GCC ACC GCA	ATA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	NIES-4105	688	695	1	1551	GCC ACC GCA	ATA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	PCC_6303	688	695	1	1551	GCG ATC GCT	AIA
+13924_SagB-ThcOx_family_de...codon.alg.fasta.phy	PCC_7716	688	695	1	1551	GCC ACC GCA	ATA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	NIES-267	619	626	1	837	GCG ATC GCA	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	336-3	619	626	1	837	GCG ATC GCT	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	NIES-3974	619	626	1	837	GCG ATC GCC	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	NIES-4071	619	626	1	837	GCC ATT GCT	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	NIES-4105	619	626	1	837	GCC ATT GCT	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	PCC_6303	619	626	1	837	GCG ATC GCT	AIA
+16212_type_1_glutamine_ami...codon.alg.fasta.phy	PCC_7716	619	626	1	837	GCT ATT GCG	AIA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	NIES-267	910	917	1	1833	GCG ATC GCC	AIA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	336-3	910	917	1	1833	GCG ATC GCG	AIA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	NIES-3974	910	917	1	1833	GCA ATG GCG	AMA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	NIES-4071	910	917	1	1833	GCA ATG GCT	AMA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	NIES-4105	910	917	1	1833	GCA ATG GCT	AMA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	PCC_6303	910	917	1	1833	GCT ATG GCT	AMA
+14727_RluA_family_pseudour...codon.alg.fasta.phy	PCC_7716	910	917	1	1833	GCG ATG GCT	AMA
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	NIES-267	227	234	2	537	GGC GAT CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	336-3	227	234	2	537	GGC GAT CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	NIES-3974	227	234	2	537	GGC GAT CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	NIES-4071	227	234	2	537	GGC GAC CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	NIES-4105	227	234	2	537	GGC GAC CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	PCC_6303	227	234	2	537	GGC GAT CGC	GDR
+16991_cytochrome_b6-f_comp...codon.alg.fasta.phy	PCC_7716	227	234	2	537	GGC GAC CGT	GDR
+14997_gloB.codon.alg.fasta.phy	NIES-267	287	294	2	774	GGC GAT CGC	GDR
+14997_gloB.codon.alg.fasta.phy	336-3	287	294	2	774	GGC GAT CGC	GDR
+14997_gloB.codon.alg.fasta.phy	NIES-3974	287	294	2	774	GGC GAT CGC	GDR
+14997_gloB.codon.alg.fasta.phy	NIES-4071	287	294	2	774	GGA GAC ATT	GDI
+14997_gloB.codon.alg.fasta.phy	NIES-4105	287	294	2	774	GGA GAC ATT	GDI
+14997_gloB.codon.alg.fasta.phy	PCC_6303	287	294	2	774	GGT TCC AAG	GSK
+14997_gloB.codon.alg.fasta.phy	PCC_7716	287	294	2	774	GGA GAC TCT	GDS
+13746_tetratricopeptide_re...codon.alg.fasta.phy	NIES-267	367	374	1	1308	GCG ATC GCA	AIA
+13746_tetratricopeptide_re...codon.alg.fasta.phy	336-3	367	374	1	1308	GCG ATC GCC	AIA
+13746_tetratricopeptide_re...codon.alg.fasta.phy	NIES-3974	367	374	1	1308	GCG ATC GCT	AIA
+13746_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4071	367	374	1	1308	GCC ATT GTT	AIV
+13746_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4105	367	374	1	1308	GCC ATT GTT	AIV
+13746_tetratricopeptide_re...codon.alg.fasta.phy	PCC_6303	367	374	1	1308	GCG ATC GCT	AIA
+13746_tetratricopeptide_re...codon.alg.fasta.phy	PCC_7716	367	374	1	1308	GCC ATT GTC	AIV
+13940_ATP-binding_protein.codon.alg.fasta.phy	NIES-267	929	936	2	1488	TGC GAT CGC	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	336-3	929	936	2	1488	TGC GAT CGG	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	NIES-3974	929	936	2	1488	TGC GAT CGC	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	NIES-4071	929	936	2	1488	TGC GAC CGT	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	NIES-4105	929	936	2	1488	TGC GAC CGT	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	PCC_6303	929	936	2	1488	TGC GAT CGC	CDR
+13940_ATP-binding_protein.codon.alg.fasta.phy	PCC_7716	929	936	2	1488	TGT GAC CGT	CDR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-267	602	609	2	708	CGC GAT CGC	RDR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	336-3	602	609	2	708	CGC GAT CGC	RDR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-3974	602	609	2	708	CGC GAT CGC	RDR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-4071	602	609	2	708	CGC AGT CGT	RSR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-4105	602	609	2	708	CGC AGT CGT	RSR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	PCC_6303	602	609	2	708	CGC GAT CGC	RDR
+16481_HAD_family_hydrolase.codon.alg.fasta.phy	PCC_7716	602	609	2	708	CGC AGT CGC	RSR
+14318_NAD-dependent_succin...codon.alg.fasta.phy	NIES-267	4	11	1	1386	GCG ATC GCC	AIA
+14318_NAD-dependent_succin...codon.alg.fasta.phy	336-3	4	11	1	1386	CCG ATC GCC	PIA
+14318_NAD-dependent_succin...codon.alg.fasta.phy	NIES-3974	4	11	1	1386	GCC ATC AGA	AIR
+14318_NAD-dependent_succin...codon.alg.fasta.phy	NIES-4071	4	11	1	1386	GCA ATT GCC	AIA
+14318_NAD-dependent_succin...codon.alg.fasta.phy	NIES-4105	4	11	1	1386	GCA ATT GCC	AIA
+14318_NAD-dependent_succin...codon.alg.fasta.phy	PCC_6303	4	11	1	1386	GCT ATC GCC	AIA
+14318_NAD-dependent_succin...codon.alg.fasta.phy	PCC_7716	4	11	1	1386	GCA ATA GCC	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	NIES-267	1600	1607	1	2688	GCG ATC GCC	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	336-3	1600	1607	1	2688	GCG ATC GCA	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	NIES-3974	1600	1607	1	2688	GCA ATT AAG	AIK
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	NIES-4071	1600	1607	1	2688	GCT ATT GCT	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	NIES-4105	1600	1607	1	2688	GCT ATT GCT	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	PCC_6303	1600	1607	1	2688	GCG ATC GCT	AIA
+15638_TIGR03960_family_B12...codon.alg.fasta.phy	PCC_7716	1600	1607	1	2688	GCA ATT ACC	AIT
+15014_cation-proton_antipo...codon.alg.fasta.phy	NIES-267	139	146	1	351	GCG ATC GCA	AIA
+15014_cation-proton_antipo...codon.alg.fasta.phy	336-3	139	146	1	351	CTG ATG GCA	LMA
+15014_cation-proton_antipo...codon.alg.fasta.phy	NIES-3974	139	146	1	351	ATG ATT GCC	MIA
+15014_cation-proton_antipo...codon.alg.fasta.phy	NIES-4071	139	146	1	351	CTG ATT GCA	LIA
+15014_cation-proton_antipo...codon.alg.fasta.phy	NIES-4105	139	146	1	351	CTG ATT GCA	LIA
+15014_cation-proton_antipo...codon.alg.fasta.phy	PCC_6303	139	146	1	351	CTG ATT GCT	LIA
+15014_cation-proton_antipo...codon.alg.fasta.phy	PCC_7716	139	146	1	351	CTA ATT GCA	LIA
+13736_alpha-mannosidase.codon.alg.fasta.phy	NIES-267	1317	1324	3	3720	TGG CGA TCG CCA	WRSP
+13736_alpha-mannosidase.codon.alg.fasta.phy	336-3	1317	1324	3	3720	TGG CGA TCG CCT	WRSP
+13736_alpha-mannosidase.codon.alg.fasta.phy	NIES-3974	1317	1324	3	3720	TGG CGA TCG CCA	WRSP
+13736_alpha-mannosidase.codon.alg.fasta.phy	NIES-4071	1317	1324	3	3720	TGG CGT TCT CCT	WRSP
+13736_alpha-mannosidase.codon.alg.fasta.phy	NIES-4105	1317	1324	3	3720	TGG CGT TCT CCT	WRSP
+13736_alpha-mannosidase.codon.alg.fasta.phy	PCC_6303	1317	1324	3	3720	TGG ACT GCT CCC	WTAP
+13736_alpha-mannosidase.codon.alg.fasta.phy	PCC_7716	1317	1324	3	3720	TGG CGT TCT CCT	WRSP
+15624_glutamate_synthase-r...codon.alg.fasta.phy	NIES-267	2935	2942	1	4821	GCG ATC GCC	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	336-3	2935	2942	1	4821	GCG ATC GCC	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	NIES-3974	2935	2942	1	4821	GCG ATC GCC	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	NIES-4071	2935	2942	1	4821	GCT ATA GCG	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	NIES-4105	2935	2942	1	4821	GCT ATA GCG	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	PCC_6303	2935	2942	1	4821	GCT ATT GCC	AIA
+15624_glutamate_synthase-r...codon.alg.fasta.phy	PCC_7716	2935	2942	1	4821	GCT ATT GCG	AIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	NIES-267	448	455	1	945	GCG ATC GCA	AIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	336-3	448	455	1	945	GCG ATC GCC	AIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	NIES-3974	448	455	1	945	GTC GTT GCG	VVA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	NIES-4071	448	455	1	945	GTC ATA GCC	VIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	NIES-4105	448	455	1	945	GTC ATA GCC	VIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	PCC_6303	448	455	1	945	GCT ATC GCC	AIA
+15594_RluA_family_pseudour...codon.alg.fasta.phy	PCC_7716	448	455	1	945	GTT ATT GCC	VIA
+16384_rpiA.codon.alg.fasta.phy	NIES-267	134	141	2	708	GGC GAT CGC	GDR
+16384_rpiA.codon.alg.fasta.phy	336-3	134	141	2	708	GGC GAT CGC	GDR
+16384_rpiA.codon.alg.fasta.phy	NIES-3974	134	141	2	708	GGC GAA AGG	GER
+16384_rpiA.codon.alg.fasta.phy	NIES-4071	134	141	2	708	GGC GAA CGT	GER
+16384_rpiA.codon.alg.fasta.phy	NIES-4105	134	141	2	708	GGC GAA CGT	GER
+16384_rpiA.codon.alg.fasta.phy	PCC_6303	134	141	2	708	GGA GAA CGC	GER
+16384_rpiA.codon.alg.fasta.phy	PCC_7716	134	141	2	708	GGC GAA CGT	GER
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	NIES-267	883	890	1	1317	GCG ATC GCA	AIA
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	336-3	883	890	1	1317	GCG ATC GCT	AIA
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	NIES-3974	883	890	1	1317	GCG CTG GAG	ALE
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	NIES-4071	883	890	1	1317	GCC ATT GCC	AIA
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	NIES-4105	883	890	1	1317	GCC ATT GCC	AIA
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	PCC_6303	883	890	1	1317	GCC ATC TCC	AIS
+15113_aminopeptidase_P_N-t...codon.alg.fasta.phy	PCC_7716	883	890	1	1317	GCT ATA GCT	AIA
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	NIES-267	1097	1104	2	1344	AGC GAT CGC	SDR
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	336-3	1097	1104	2	1344	AGC GAT CGC	SDR
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	NIES-3974	1097	1104	2	1344	AGT GAC CTC	SDL
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	NIES-4071	1097	1104	2	1344	AGC GAT TTA	SDL
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	NIES-4105	1097	1104	2	1344	AGC GAT TTA	SDL
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	PCC_6303	1097	1104	2	1344	AGT GAT TTA	SDL
+16568_metallopeptidase_Tld...codon.alg.fasta.phy	PCC_7716	1097	1104	2	1344	AGT GAC TTA	SDL
+15283_hemolysin_family_pro...codon.alg.fasta.phy	NIES-267	644	651	2	1347	GGC GAT CGC	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	336-3	644	651	2	1347	GGC GAT CGC	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	NIES-3974	644	651	2	1347	GGA GAT AGA	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	NIES-4071	644	651	2	1347	GGA GAC CGT	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	NIES-4105	644	651	2	1347	GGA GAC CGT	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	PCC_6303	644	651	2	1347	GGC GAT CGC	GDR
+15283_hemolysin_family_pro...codon.alg.fasta.phy	PCC_7716	644	651	2	1347	GGA GAC CGT	GDR
+13991_HAMP_domain-containi...codon.alg.fasta.phy	NIES-267	264	271	3	996	TTG CGA TCG CCA	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	336-3	264	271	3	996	CTG CGA TCG CCA	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	NIES-3974	264	271	3	996	CTG CGA TCG CCT	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	NIES-4071	264	271	3	996	TTG CGT TCA CCG	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	NIES-4105	264	271	3	996	TTG CGT TCA CCG	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	PCC_6303	264	271	3	996	TTG CGA TCG CCT	LRSP
+13991_HAMP_domain-containi...codon.alg.fasta.phy	PCC_7716	264	271	3	996	TTG CGT TCA CCA	LRSP
+15360_PfaB_family_protein.codon.alg.fasta.phy	NIES-267	845	852	2	4875	GGC GAT CGC	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	336-3	845	852	2	4875	GGC GAT CGC	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	NIES-3974	845	852	2	4875	GGC GAT CGC	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	NIES-4071	845	852	2	4875	GGG GAT AGA	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	NIES-4105	845	852	2	4875	GGG GAT AGA	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	PCC_6303	845	852	2	4875	GGC GAT CGC	GDR
+15360_PfaB_family_protein.codon.alg.fasta.phy	PCC_7716	845	852	2	4875	GGT GAC AGA	GDR
+16517_polysaccharide_biosy...codon.alg.fasta.phy	NIES-267	2163	2170	3	2373	ATG CGA TCG CAA	MRSQ
+16517_polysaccharide_biosy...codon.alg.fasta.phy	336-3	2163	2170	3	2373	GAG CGA TCG CAG	ERSQ
+16517_polysaccharide_biosy...codon.alg.fasta.phy	NIES-3974	2163	2170	3	2373	AAT CAA GCG GAA	NQAE
+16517_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4071	2163	2170	3	2373	CAG TTC TCG CGC	QFSR
+16517_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4105	2163	2170	3	2373	CAG TTC TCG CGC	QFSR
+16517_polysaccharide_biosy...codon.alg.fasta.phy	PCC_6303	2163	2170	3	2373	GAG CGA TCG CAT	ERSH
+16517_polysaccharide_biosy...codon.alg.fasta.phy	PCC_7716	2163	2170	3	2373	GAA CTA TCA CGC	ELSR
+13190_heme_A_synthase.codon.alg.fasta.phy	NIES-267	103	110	1	990	GCG ATC GCC	AIA
+13190_heme_A_synthase.codon.alg.fasta.phy	336-3	103	110	1	990	TGT GTC GCC	CVA
+13190_heme_A_synthase.codon.alg.fasta.phy	NIES-3974	103	110	1	990	AGT ATT GCC	SIA
+13190_heme_A_synthase.codon.alg.fasta.phy	NIES-4071	103	110	1	990	TCT ATC GCC	SIA
+13190_heme_A_synthase.codon.alg.fasta.phy	NIES-4105	103	110	1	990	TCT ATC GCC	SIA
+13190_heme_A_synthase.codon.alg.fasta.phy	PCC_6303	103	110	1	990	TGT ATA GCC	CIA
+13190_heme_A_synthase.codon.alg.fasta.phy	PCC_7716	103	110	1	990	TCT ATT GCC	SIA
+15942_EamA_family_transpor...codon.alg.fasta.phy	NIES-267	1669	1676	1	2337	GCG ATC GCC	AIA
+15942_EamA_family_transpor...codon.alg.fasta.phy	336-3	1669	1676	1	2337	GCG ATC GCC	AIA
+15942_EamA_family_transpor...codon.alg.fasta.phy	NIES-3974	1669	1676	1	2337	TCC ATT GCC	SIA
+15942_EamA_family_transpor...codon.alg.fasta.phy	NIES-4071	1669	1676	1	2337	GCA ATT TCG	AIS
+15942_EamA_family_transpor...codon.alg.fasta.phy	NIES-4105	1669	1676	1	2337	GCA ATT TCG	AIS
+15942_EamA_family_transpor...codon.alg.fasta.phy	PCC_6303	1669	1676	1	2337	GCG ATC GCG	AIA
+15942_EamA_family_transpor...codon.alg.fasta.phy	PCC_7716	1669	1676	1	2337	GCA ATT TCG	AIS
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	NIES-267	748	755	1	891	GCG ATC GCG	AIA
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	336-3	748	755	1	891	GCT GAA ACA	AET
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	NIES-3974	748	755	1	891	TCC CAA ACT	SQT
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	NIES-4071	748	755	1	891	ACT CAA ACT	TQT
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	NIES-4105	748	755	1	891	ACT CAA ACT	TQT
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	PCC_6303	748	755	1	891	GCC CAA ACC	AQT
+16667_HEAT_repeat_domain-c...codon.alg.fasta.phy	PCC_7716	748	755	1	891	GCT CAA ACT	AQT
+15580_prmA.codon.alg.fasta.phy	NIES-267	305	312	2	918	GGC GAT CGC	GDR
+15580_prmA.codon.alg.fasta.phy	336-3	305	312	2	918	GGC GAT CGC	GDR
+15580_prmA.codon.alg.fasta.phy	NIES-3974	305	312	2	918	GGC GAT CGC	GDR
+15580_prmA.codon.alg.fasta.phy	NIES-4071	305	312	2	918	GGT GAT AGA	GDR
+15580_prmA.codon.alg.fasta.phy	NIES-4105	305	312	2	918	GGT GAT AGA	GDR
+15580_prmA.codon.alg.fasta.phy	PCC_6303	305	312	2	918	GGC GAT CGC	GDR
+15580_prmA.codon.alg.fasta.phy	PCC_7716	305	312	2	918	GGT GAT AGA	GDR
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	NIES-267	1004	1011	2	1260	GGC GAT CGC	GDR
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	336-3	1004	1011	2	1260	GGA GAG CAG	GEQ
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	NIES-3974	1004	1011	2	1260	GGT GAA CAG	GEQ
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	NIES-4071	1004	1011	2	1260	GGT GAA ACG	GET
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	NIES-4105	1004	1011	2	1260	GGT GAA ACG	GET
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	PCC_6303	1004	1011	2	1260	GGA GAA AAA	GEK
+13706_class_I_SAM-dependen...codon.alg.fasta.phy	PCC_7716	1004	1011	2	1260	GGT GAA ACC	GET
+13065_M23_family_metallope...codon.alg.fasta.phy	NIES-267	335	342	2	741	GGC GAT CGC	GDR
+13065_M23_family_metallope...codon.alg.fasta.phy	336-3	335	342	2	741	GGC GAT CGC	GDR
+13065_M23_family_metallope...codon.alg.fasta.phy	NIES-3974	335	342	2	741	AGC GAT CGC	SDR
+13065_M23_family_metallope...codon.alg.fasta.phy	NIES-4071	335	342	2	741	GAA GAC CGT	EDR
+13065_M23_family_metallope...codon.alg.fasta.phy	NIES-4105	335	342	2	741	GAA GAC CGT	EDR
+13065_M23_family_metallope...codon.alg.fasta.phy	PCC_6303	335	342	2	741	TCT GAT CAA	SDQ
+13065_M23_family_metallope...codon.alg.fasta.phy	PCC_7716	335	342	2	741	GAA GAC CGT	EDR
+17000_plsX.codon.alg.fasta.phy	NIES-267	199	206	1	1026	GCG ATC GCG	AIA
+17000_plsX.codon.alg.fasta.phy	336-3	199	206	1	1026	GCG ATC GCC	AIA
+17000_plsX.codon.alg.fasta.phy	NIES-3974	199	206	1	1026	GCG ATC GCA	AIA
+17000_plsX.codon.alg.fasta.phy	NIES-4071	199	206	1	1026	GCA ATT GAA	AIE
+17000_plsX.codon.alg.fasta.phy	NIES-4105	199	206	1	1026	GCA ATT GAA	AIE
+17000_plsX.codon.alg.fasta.phy	PCC_6303	199	206	1	1026	GCG ATC GCA	AIA
+17000_plsX.codon.alg.fasta.phy	PCC_7716	199	206	1	1026	GCA ATC GAA	AIE
+14694_rlmD.codon.alg.fasta.phy	NIES-267	140	147	2	1434	GGC GAT CGC	GDR
+14694_rlmD.codon.alg.fasta.phy	336-3	140	147	2	1434	GGC GAT CGC	GDR
+14694_rlmD.codon.alg.fasta.phy	NIES-3974	140	147	2	1434	GGC GAT CGC	GDR
+14694_rlmD.codon.alg.fasta.phy	NIES-4071	140	147	2	1434	GGT GAC GTA	GDV
+14694_rlmD.codon.alg.fasta.phy	NIES-4105	140	147	2	1434	GGT GAC GTA	GDV
+14694_rlmD.codon.alg.fasta.phy	PCC_6303	140	147	2	1434	GGC GAT CGC	GDR
+14694_rlmD.codon.alg.fasta.phy	PCC_7716	140	147	2	1434	GGT GAT GTT	GDV
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	NIES-267	281	288	2	1410	CGC GAT CGC	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	336-3	281	288	2	1410	CGC GAT CGC	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	NIES-3974	281	288	2	1410	CGC GAT CGC	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	NIES-4071	281	288	2	1410	CGT GAC CGT	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	NIES-4105	281	288	2	1410	CGT GAC CGT	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	PCC_6303	281	288	2	1410	CGC GAT CGC	RDR
+16974_ferredoxin-protochlo...codon.alg.fasta.phy	PCC_7716	281	288	2	1410	CGT GAC CGT	RDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	NIES-267	1757	1764	2	1923	GGC GAT CGC	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	336-3	1757	1764	2	1923	GGC GAT CGC	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	NIES-3974	1757	1764	2	1923	GGC GAT CGC	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	NIES-4071	1757	1764	2	1923	GGG GAT AGA	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	NIES-4105	1757	1764	2	1923	GGG GAT AGA	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	PCC_6303	1757	1764	2	1923	GGC GAT CGC	GDR
+14332_cation-proton_antipo...codon.alg.fasta.phy	PCC_7716	1757	1764	2	1923	GGC GAC AGA	GDR
+15018_ruvX.codon.alg.fasta.phy	NIES-267	140	147	2	537	TGC GAT CGC	CDR
+15018_ruvX.codon.alg.fasta.phy	336-3	140	147	2	537	TGC GAT CGC	CDR
+15018_ruvX.codon.alg.fasta.phy	NIES-3974	140	147	2	537	TGC GAT CGC	CDR
+15018_ruvX.codon.alg.fasta.phy	NIES-4071	140	147	2	537	TGT GAC AAA	CDK
+15018_ruvX.codon.alg.fasta.phy	NIES-4105	140	147	2	537	TGT GAC AAA	CDK
+15018_ruvX.codon.alg.fasta.phy	PCC_6303	140	147	2	537	TGC GAT CGC	CDR
+15018_ruvX.codon.alg.fasta.phy	PCC_7716	140	147	2	537	TGC GAC AAA	CDK
+13414_hypothetical_protein.codon.alg.fasta.phy	NIES-267	301	308	1	510	GCG ATC GCA	AIA
+13414_hypothetical_protein.codon.alg.fasta.phy	336-3	301	308	1	510	GCC TTA AAA	ALK
+13414_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	301	308	1	510	GCG CTT CAA	ALQ
+13414_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	301	308	1	510	GCA CTT CAG	ALQ
+13414_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	301	308	1	510	GCA CTT CAG	ALQ
+13414_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	301	308	1	510	GCC CTA CAA	ALQ
+13414_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	301	308	1	510	GCG CTT CAG	ALQ
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	NIES-267	836	843	2	1152	AGC GAT CGC	SDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	336-3	836	843	2	1152	CGC GAT CGC	RDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	NIES-3974	836	843	2	1152	CGC GAT CGC	RDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	NIES-4071	836	843	2	1152	CGT GAC CGA	RDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	NIES-4105	836	843	2	1152	CGT GAC CGA	RDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	PCC_6303	836	843	2	1152	CGC GAT CGC	RDR
+15286_WD40_repeat_domain-c...codon.alg.fasta.phy	PCC_7716	836	843	2	1152	CGT GAC CGA	RDR
+12676_DUF1350_family_prote...codon.alg.fasta.phy	NIES-267	196	203	1	846	GCG ATC GCA	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	336-3	196	203	1	846	GCG ATC GCC	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	NIES-3974	196	203	1	846	GCG ATC GCA	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	NIES-4071	196	203	1	846	GCA ATT GCA	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	NIES-4105	196	203	1	846	GCA ATT GCA	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	PCC_6303	196	203	1	846	GCG ATC GCG	AIA
+12676_DUF1350_family_prote...codon.alg.fasta.phy	PCC_7716	196	203	1	846	GCT ATC GCA	AIA
+12727_rsmI.codon.alg.fasta.phy	NIES-267	447	454	3	876	AGG CGA TCG CAC	RRSH
+12727_rsmI.codon.alg.fasta.phy	336-3	447	454	3	876	AGA CGA GAA CAT	RREH
+12727_rsmI.codon.alg.fasta.phy	NIES-3974	447	454	3	876	CGT CGT CAG ACT	RRQT
+12727_rsmI.codon.alg.fasta.phy	NIES-4071	447	454	3	876	AGG CGC CAG CGG	RRQR
+12727_rsmI.codon.alg.fasta.phy	NIES-4105	447	454	3	876	AGG CGC CAG CGG	RRQR
+12727_rsmI.codon.alg.fasta.phy	PCC_6303	447	454	3	876	CGC CGT GAA TAT	RREY
+12727_rsmI.codon.alg.fasta.phy	PCC_7716	447	454	3	876	AGG CGC CAA CGC	RRQR
+13243_cysteine_synthase_A.codon.alg.fasta.phy	NIES-267	844	851	1	978	GCG ATC GCA	AIA
+13243_cysteine_synthase_A.codon.alg.fasta.phy	336-3	844	851	1	978	GCC GTC GCC	AVA
+13243_cysteine_synthase_A.codon.alg.fasta.phy	NIES-3974	844	851	1	978	GCG GTC AAG	AVK
+13243_cysteine_synthase_A.codon.alg.fasta.phy	NIES-4071	844	851	1	978	GCC GTG ATG	AVM
+13243_cysteine_synthase_A.codon.alg.fasta.phy	NIES-4105	844	851	1	978	GCC GTG ATG	AVM
+13243_cysteine_synthase_A.codon.alg.fasta.phy	PCC_6303	844	851	1	978	GCT GTA AGA	AVR
+13243_cysteine_synthase_A.codon.alg.fasta.phy	PCC_7716	844	851	1	978	GCC GTT GCT	AVA
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	NIES-267	809	816	2	1536	CGC GAT CGC	RDR
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	336-3	809	816	2	1536	TGC GAT CGC	CDR
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	NIES-3974	809	816	2	1536	CGC GAT CGC	RDR
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	NIES-4071	809	816	2	1536	AGA GAG CGT	RER
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	NIES-4105	809	816	2	1536	AGA GAG CGT	RER
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	PCC_6303	809	816	2	1536	CGC GAT CGC	RDR
+14025_YifB_family_Mg_chela...codon.alg.fasta.phy	PCC_7716	809	816	2	1536	AGA GAA CGT	RER
+13720_protein_kinase.codon.alg.fasta.phy	NIES-267	1658	1665	2	2346	CGC GAT CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	336-3	1658	1665	2	2346	CGC GAT CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	NIES-3974	1658	1665	2	2346	CGC GAT CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	NIES-4071	1658	1665	2	2346	CGT GAC CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	NIES-4105	1658	1665	2	2346	CGT GAC CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	PCC_6303	1658	1665	2	2346	CGC GAT CGC	RDR
+13720_protein_kinase.codon.alg.fasta.phy	PCC_7716	1658	1665	2	2346	CGT GAC CGT	RDR
+13101_ArsR_family_transcri...codon.alg.fasta.phy	NIES-267	139	146	1	369	GCG ATC GCA	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	336-3	139	146	1	369	GCG ATC GCC	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	NIES-3974	139	146	1	369	GCG ATC GCC	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	NIES-4071	139	146	1	369	GCA ATC GCA	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	NIES-4105	139	146	1	369	GCA ATC GCA	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	PCC_6303	139	146	1	369	GCG ATC GCA	AIA
+13101_ArsR_family_transcri...codon.alg.fasta.phy	PCC_7716	139	146	1	369	GCA ATT GCA	AIA
+13121_miaA.codon.alg.fasta.phy	NIES-267	591	598	3	1161	TTG CGA TCG CAA	LRSQ
+13121_miaA.codon.alg.fasta.phy	336-3	591	598	3	1161	TTG CGA TCG CAG	LRSQ
+13121_miaA.codon.alg.fasta.phy	NIES-3974	591	598	3	1161	TTG CGA TCG CAA	LRSQ
+13121_miaA.codon.alg.fasta.phy	NIES-4071	591	598	3	1161	TTA AGA ACC CAG	LRTQ
+13121_miaA.codon.alg.fasta.phy	NIES-4105	591	598	3	1161	TTA AGA ACC CAG	LRTQ
+13121_miaA.codon.alg.fasta.phy	PCC_6303	591	598	3	1161	CTG CGA TCG CAT	LRSH
+13121_miaA.codon.alg.fasta.phy	PCC_7716	591	598	3	1161	TTA AGA ACC CAA	LRTQ
+16788_purF.codon.alg.fasta.phy	NIES-267	502	509	1	1500	GCG ATC GCC	AIA
+16788_purF.codon.alg.fasta.phy	336-3	502	509	1	1500	GCG ATC GCC	AIA
+16788_purF.codon.alg.fasta.phy	NIES-3974	502	509	1	1500	GCG ATC GCG	AIA
+16788_purF.codon.alg.fasta.phy	NIES-4071	502	509	1	1500	GCA ATC GCG	AIA
+16788_purF.codon.alg.fasta.phy	NIES-4105	502	509	1	1500	GCA ATC GCG	AIA
+16788_purF.codon.alg.fasta.phy	PCC_6303	502	509	1	1500	GCG ATC GCA	AIA
+16788_purF.codon.alg.fasta.phy	PCC_7716	502	509	1	1500	GCA ATC GCG	AIA
+15420_coaE.codon.alg.fasta.phy	NIES-267	287	294	2	627	GGC GAT CGC	GDR
+15420_coaE.codon.alg.fasta.phy	336-3	287	294	2	627	GGC GAT CGC	GDR
+15420_coaE.codon.alg.fasta.phy	NIES-3974	287	294	2	627	GAA CAA AGT	EQS
+15420_coaE.codon.alg.fasta.phy	NIES-4071	287	294	2	627	AAA GAA AGA	KER
+15420_coaE.codon.alg.fasta.phy	NIES-4105	287	294	2	627	AAA GAA AGA	KER
+15420_coaE.codon.alg.fasta.phy	PCC_6303	287	294	2	627	CGG GAA AGA	RER
+15420_coaE.codon.alg.fasta.phy	PCC_7716	287	294	2	627	AAA GAA AGA	KER
+16343_pdxA.codon.alg.fasta.phy	NIES-267	1085	1092	2	1110	AGC GAT CGC	SDR
+16343_pdxA.codon.alg.fasta.phy	336-3	1085	1092	2	1110	CAA AGA AAA	QRK
+16343_pdxA.codon.alg.fasta.phy	NIES-3974	1085	1092	2	1110	AAT ATC CGG	NIR
+16343_pdxA.codon.alg.fasta.phy	NIES-4071	1085	1092	2	1110	AAG CAA AAA	KQK
+16343_pdxA.codon.alg.fasta.phy	NIES-4105	1085	1092	2	1110	AAG CAA AAA	KQK
+16343_pdxA.codon.alg.fasta.phy	PCC_6303	1085	1092	2	1110	AAA GCA AGA	KAR
+16343_pdxA.codon.alg.fasta.phy	PCC_7716	1085	1092	2	1110	GAG CAA AAA	EQK
+14811_phasin_family_protei...codon.alg.fasta.phy	NIES-267	99	106	3	402	TTG CGA TCG CAA	LRSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	336-3	99	106	3	402	TTG CCA TCA CAA	LPSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	NIES-3974	99	106	3	402	CTG CGA TCG CAA	LRSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	NIES-4071	99	106	3	402	TTA CGC TCG CAA	LRSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	NIES-4105	99	106	3	402	TTA CGC TCG CAA	LRSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	PCC_6303	99	106	3	402	TTG CGA TCG CAA	LRSQ
+14811_phasin_family_protei...codon.alg.fasta.phy	PCC_7716	99	106	3	402	TTG CGC TCG CAA	LRSQ
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	NIES-267	710	717	2	807	CGC GAT CGC	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	336-3	710	717	2	807	CGC GAT CGC	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	NIES-3974	710	717	2	807	CGC GAT CGC	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	NIES-4071	710	717	2	807	CGC GAC CGT	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	NIES-4105	710	717	2	807	CGC GAC CGT	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	PCC_6303	710	717	2	807	CGT GAT CGT	RDR
+15465_HesA-MoeB-ThiF_famil...codon.alg.fasta.phy	PCC_7716	710	717	2	807	CGC GAC CGT	RDR
+13742_hypothetical_protein.codon.alg.fasta.phy	NIES-267	513	520	3	1095	TTG CGA TCG CGA	LRSR
+13742_hypothetical_protein.codon.alg.fasta.phy	336-3	513	520	3	1095	GTG CGA TCG CGG	VRSR
+13742_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	513	520	3	1095	GTG CGA TCG CGA	VRSR
+13742_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	513	520	3	1095	GAA CGT TCG CGT	ERSR
+13742_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	513	520	3	1095	GAA CGT TCG CGT	ERSR
+13742_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	513	520	3	1095	GTG CGA TCG CGT	VRSR
+13742_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	513	520	3	1095	GAA CGT TCA CGT	ERSR
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-267	847	854	1	1926	GCG ATC GCC	AIA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	336-3	847	854	1	1926	GCG ATC GCT	AIA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-3974	847	854	1	1926	GCG ATC GCT	AIA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4071	847	854	1	1926	GCG GTT GCT	AVA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4105	847	854	1	1926	GCG GTT GCT	AVA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_6303	847	854	1	1926	GCC ACC GCT	ATA
+14587_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_7716	847	854	1	1926	GCT ATT TCT	AIS
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	NIES-267	427	434	1	2664	GCG ATC GCA	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	336-3	427	434	1	2664	GCG ATC GCC	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	NIES-3974	427	434	1	2664	GCG ATC GCC	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	NIES-4071	427	434	1	2664	GCT ATC GCA	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	NIES-4105	427	434	1	2664	GCT ATC GCA	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	PCC_6303	427	434	1	2664	GCG ATC GCG	AIA
+16802_DUF3536_domain-conta...codon.alg.fasta.phy	PCC_7716	427	434	1	2664	GCG ATA GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	NIES-267	61	68	1	741	GCG ATC GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	336-3	61	68	1	741	GCG ATC GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	NIES-3974	61	68	1	741	GCG ATC GCT	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	NIES-4071	61	68	1	741	GCT ATC GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	NIES-4105	61	68	1	741	GCT ATC GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	PCC_6303	61	68	1	741	GCG ATC GCA	AIA
+13138_2-phosphosulfolactat...codon.alg.fasta.phy	PCC_7716	61	68	1	741	GCT ATC GCG	AIA
+14984_YaaW_family_protein.codon.alg.fasta.phy	NIES-267	484	491	1	852	GCG ATC GCA	AIA
+14984_YaaW_family_protein.codon.alg.fasta.phy	336-3	484	491	1	852	GCG ATC GCC	AIA
+14984_YaaW_family_protein.codon.alg.fasta.phy	NIES-3974	484	491	1	852	GCT TTT GCG	AFA
+14984_YaaW_family_protein.codon.alg.fasta.phy	NIES-4071	484	491	1	852	GCA CTG GCT	ALA
+14984_YaaW_family_protein.codon.alg.fasta.phy	NIES-4105	484	491	1	852	GCA CTG GCT	ALA
+14984_YaaW_family_protein.codon.alg.fasta.phy	PCC_6303	484	491	1	852	GCT TTG GCT	ALA
+14984_YaaW_family_protein.codon.alg.fasta.phy	PCC_7716	484	491	1	852	GCG CTG GCT	ALA
+16149_wecB.codon.alg.fasta.phy	NIES-267	834	841	3	1119	ATG CGA TCG CAC	MRSH
+16149_wecB.codon.alg.fasta.phy	336-3	834	841	3	1119	GCC CGA TGT CAT	ARCH
+16149_wecB.codon.alg.fasta.phy	NIES-3974	834	841	3	1119	TTG CGA TCG CAT	LRSH
+16149_wecB.codon.alg.fasta.phy	NIES-4071	834	841	3	1119	ATG CGC TCA TAT	MRSY
+16149_wecB.codon.alg.fasta.phy	NIES-4105	834	841	3	1119	ATG CGC TCA TAT	MRSY
+16149_wecB.codon.alg.fasta.phy	PCC_6303	834	841	3	1119	ATG CGA TCG CAT	MRSH
+16149_wecB.codon.alg.fasta.phy	PCC_7716	834	841	3	1119	ATG CGC TCA TAT	MRSY
+15202_pheS.codon.alg.fasta.phy	NIES-267	196	203	1	1008	GCG ATC GCC	AIA
+15202_pheS.codon.alg.fasta.phy	336-3	196	203	1	1008	GCG ATC GCT	AIA
+15202_pheS.codon.alg.fasta.phy	NIES-3974	196	203	1	1008	GCG ATC GCT	AIA
+15202_pheS.codon.alg.fasta.phy	NIES-4071	196	203	1	1008	GCC GCA GCC	AAA
+15202_pheS.codon.alg.fasta.phy	NIES-4105	196	203	1	1008	GCC GCA GCC	AAA
+15202_pheS.codon.alg.fasta.phy	PCC_6303	196	203	1	1008	GCG ATC GCT	AIA
+15202_pheS.codon.alg.fasta.phy	PCC_7716	196	203	1	1008	GCC GCA GCC	AAA
+14879_M48_family_metallope...codon.alg.fasta.phy	NIES-267	1447	1454	1	2034	GCG ATC GCC	AIA
+14879_M48_family_metallope...codon.alg.fasta.phy	336-3	1447	1454	1	2034	GCG ATC GCT	AIA
+14879_M48_family_metallope...codon.alg.fasta.phy	NIES-3974	1447	1454	1	2034	GCC ATT GAT	AID
+14879_M48_family_metallope...codon.alg.fasta.phy	NIES-4071	1447	1454	1	2034	GCC ATT GAG	AIE
+14879_M48_family_metallope...codon.alg.fasta.phy	NIES-4105	1447	1454	1	2034	GCC ATT GAG	AIE
+14879_M48_family_metallope...codon.alg.fasta.phy	PCC_6303	1447	1454	1	2034	GCG ATC GCT	AIA
+14879_M48_family_metallope...codon.alg.fasta.phy	PCC_7716	1447	1454	1	2034	GCC ATT GAA	AIE
+15695_DNA_double-strand_br...codon.alg.fasta.phy	NIES-267	161	168	2	1284	CGC GAT CGC	RDR
+15695_DNA_double-strand_br...codon.alg.fasta.phy	336-3	161	168	2	1284	CGC GAT CGC	RDR
+15695_DNA_double-strand_br...codon.alg.fasta.phy	NIES-3974	161	168	2	1284	CGC GAT CGC	RDR
+15695_DNA_double-strand_br...codon.alg.fasta.phy	NIES-4071	161	168	2	1284	AAA GAG CGA	KER
+15695_DNA_double-strand_br...codon.alg.fasta.phy	NIES-4105	161	168	2	1284	AAA GAG CGA	KER
+15695_DNA_double-strand_br...codon.alg.fasta.phy	PCC_6303	161	168	2	1284	CGC GAT CGC	RDR
+15695_DNA_double-strand_br...codon.alg.fasta.phy	PCC_7716	161	168	2	1284	AAA GAC CGC	KDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	NIES-267	293	300	2	510	GGC GAT CGC	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	336-3	293	300	2	510	GGC GAT CGC	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	NIES-3974	293	300	2	510	GGC GAT CGC	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	NIES-4071	293	300	2	510	GGT GAT CGC	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	NIES-4105	293	300	2	510	GGT GAT CGC	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	PCC_6303	293	300	2	510	GGC GAT CGT	GDR
+15062_inorganic_diphosphat...codon.alg.fasta.phy	PCC_7716	293	300	2	510	GGT GAC CGT	GDR
+16913_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	854	861	2	1026	GGC GAT CGC	GDR
+16913_glycosyltransferase_...codon.alg.fasta.phy	336-3	854	861	2	1026	GGC AAT CGT	GNR
+16913_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	854	861	2	1026	GGC GAT CGC	GDR
+16913_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	854	861	2	1026	GGT AAT CGT	GNR
+16913_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	854	861	2	1026	GGT AAT CGT	GNR
+16913_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	854	861	2	1026	GGC GAT CGC	GDR
+16913_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	854	861	2	1026	GGA AAT CGC	GNR
+13634_cobJ.codon.alg.fasta.phy	NIES-267	1433	1440	2	2040	CGC GAT CGC	RDR
+13634_cobJ.codon.alg.fasta.phy	336-3	1433	1440	2	2040	ATC TCT AGG	ISR
+13634_cobJ.codon.alg.fasta.phy	NIES-3974	1433	1440	2	2040	CTA GAC CGA	LDR
+13634_cobJ.codon.alg.fasta.phy	NIES-4071	1433	1440	2	2040	TTG GCA CGG	LAR
+13634_cobJ.codon.alg.fasta.phy	NIES-4105	1433	1440	2	2040	TTG GCA CGG	LAR
+13634_cobJ.codon.alg.fasta.phy	PCC_6303	1433	1440	2	2040	TTA GCT AGG	LAR
+13634_cobJ.codon.alg.fasta.phy	PCC_7716	1433	1440	2	2040	TTA GCG CGG	LAR
+16373_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	357	364	3	1875	TTG CGA TCG CCA	LRSP
+16373_glycosyltransferase_...codon.alg.fasta.phy	336-3	357	364	3	1875	CTG CGA TCG CTG	LRSL
+16373_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	357	364	3	1875	TTA CGC TTG CTA	LRLL
+16373_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	357	364	3	1875	TTA CGA TTT CTA	LRFL
+16373_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	357	364	3	1875	TTA CGA TTT CTA	LRFL
+16373_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	357	364	3	1875	ATG CGA TCG CTT	MRSL
+16373_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	357	364	3	1875	TTG CGA TTT CTA	LRFL
+14602_hemolysin_family_pro...codon.alg.fasta.phy	NIES-267	120	127	3	1356	CGG CGA TCG CGA	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	336-3	120	127	3	1356	CGG CGA TCG CGG	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	NIES-3974	120	127	3	1356	CGG CGA TCG CGG	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	NIES-4071	120	127	3	1356	CGA CGT TCG CGC	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	NIES-4105	120	127	3	1356	CGA CGT TCG CGC	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	PCC_6303	120	127	3	1356	AGG CGA TCG CGG	RRSR
+14602_hemolysin_family_pro...codon.alg.fasta.phy	PCC_7716	120	127	3	1356	CGA CGT TCG CGC	RRSR
+14153_bchD.codon.alg.fasta.phy	NIES-267	121	128	1	2082	GCG ATC GCC	AIA
+14153_bchD.codon.alg.fasta.phy	336-3	121	128	1	2082	GCG ATC GCC	AIA
+14153_bchD.codon.alg.fasta.phy	NIES-3974	121	128	1	2082	GCG ATC GCT	AIA
+14153_bchD.codon.alg.fasta.phy	NIES-4071	121	128	1	2082	GCT ATT GCT	AIA
+14153_bchD.codon.alg.fasta.phy	NIES-4105	121	128	1	2082	GCT ATT GCT	AIA
+14153_bchD.codon.alg.fasta.phy	PCC_6303	121	128	1	2082	GCG ATC GCA	AIA
+14153_bchD.codon.alg.fasta.phy	PCC_7716	121	128	1	2082	GCT ATT GCA	AIA
+13028_lnt.codon.alg.fasta.phy	NIES-267	814	821	1	1824	GCG ATC GCC	AIA
+13028_lnt.codon.alg.fasta.phy	336-3	814	821	1	1824	--- --- ---	---
+13028_lnt.codon.alg.fasta.phy	NIES-3974	814	821	1	1824	--- --- ---	---
+13028_lnt.codon.alg.fasta.phy	NIES-4071	814	821	1	1824	--- --- ---	---
+13028_lnt.codon.alg.fasta.phy	NIES-4105	814	821	1	1824	--- --- ---	---
+13028_lnt.codon.alg.fasta.phy	PCC_6303	814	821	1	1824	--- --- ---	---
+13028_lnt.codon.alg.fasta.phy	PCC_7716	814	821	1	1824	--- --- ---	---
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	NIES-267	605	612	2	1212	CGC GAT CGC	RDR
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	336-3	605	612	2	1212	CGA GAG CGT	RER
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	NIES-3974	605	612	2	1212	CGC GAT CGC	RDR
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	NIES-4071	605	612	2	1212	CAT GAA CGC	HER
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	NIES-4105	605	612	2	1212	CAT GAA CGC	HER
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	PCC_6303	605	612	2	1212	CGA CAA CGA	RQR
+15956_ATP_phosphoribosyltr...codon.alg.fasta.phy	PCC_7716	605	612	2	1212	CAC GAA CGC	HER
+16964_carB.codon.alg.fasta.phy	NIES-267	1232	1239	2	3327	TGC GAT CGC	CDR
+16964_carB.codon.alg.fasta.phy	336-3	1232	1239	2	3327	TGC GAT CGC	CDR
+16964_carB.codon.alg.fasta.phy	NIES-3974	1232	1239	2	3327	TGC GAC ATC	CDI
+16964_carB.codon.alg.fasta.phy	NIES-4071	1232	1239	2	3327	TGT GAT AAA	CDK
+16964_carB.codon.alg.fasta.phy	NIES-4105	1232	1239	2	3327	TGT GAT AAA	CDK
+16964_carB.codon.alg.fasta.phy	PCC_6303	1232	1239	2	3327	TGT GAT CGC	CDR
+16964_carB.codon.alg.fasta.phy	PCC_7716	1232	1239	2	3327	TGT GAT AAA	CDK
+15078_mgtE.codon.alg.fasta.phy	NIES-267	148	155	1	1371	GCG ATC GCG	AIA
+15078_mgtE.codon.alg.fasta.phy	336-3	148	155	1	1371	GCG ATC GCG	AIA
+15078_mgtE.codon.alg.fasta.phy	NIES-3974	148	155	1	1371	GCG ATC GCA	AIA
+15078_mgtE.codon.alg.fasta.phy	NIES-4071	148	155	1	1371	GCG ATA GCT	AIA
+15078_mgtE.codon.alg.fasta.phy	NIES-4105	148	155	1	1371	GCG ATA GCT	AIA
+15078_mgtE.codon.alg.fasta.phy	PCC_6303	148	155	1	1371	GCG ATC GCA	AIA
+15078_mgtE.codon.alg.fasta.phy	PCC_7716	148	155	1	1371	GCT ATA GCT	AIA
+13347_htpG.codon.alg.fasta.phy	NIES-267	962	969	2	2016	GGC GAT CGC	GDR
+13347_htpG.codon.alg.fasta.phy	336-3	962	969	2	2016	GGC GAT CGC	GDR
+13347_htpG.codon.alg.fasta.phy	NIES-3974	962	969	2	2016	GGA GAT AGA	GDR
+13347_htpG.codon.alg.fasta.phy	NIES-4071	962	969	2	2016	GGT GAT AGA	GDR
+13347_htpG.codon.alg.fasta.phy	NIES-4105	962	969	2	2016	GGT GAT AGA	GDR
+13347_htpG.codon.alg.fasta.phy	PCC_6303	962	969	2	2016	GGC GAT CGC	GDR
+13347_htpG.codon.alg.fasta.phy	PCC_7716	962	969	2	2016	GGT GAT AGA	GDR
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	NIES-267	586	593	1	1563	GCG ATC GCA	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	336-3	586	593	1	1563	GCG ATC GCC	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	NIES-3974	586	593	1	1563	GCG ATC GCA	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	NIES-4071	586	593	1	1563	GCA ATT GCT	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	NIES-4105	586	593	1	1563	GCA ATT GCT	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	PCC_6303	586	593	1	1563	GCG ATC GCG	AIA
+13772_NAD-P-H-quinone_oxid...codon.alg.fasta.phy	PCC_7716	586	593	1	1563	GCA ATT GAG	AIE
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	NIES-267	1342	1349	1	1554	GCG ATC GCA	AIA
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	336-3	1342	1349	1	1554	GCG ATC GCC	AIA
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	NIES-3974	1342	1349	1	1554	GCC ATT AGC	AIS
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	NIES-4071	1342	1349	1	1554	GCT ATC TCT	AIS
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	NIES-4105	1342	1349	1	1554	GCT ATC TCT	AIS
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	PCC_6303	1342	1349	1	1554	GCA ATC GAA	AIE
+16484_FAD-binding_oxidored...codon.alg.fasta.phy	PCC_7716	1342	1349	1	1554	GCT ATT TCT	AIS
+16908_iron_uptake_porin.codon.alg.fasta.phy	NIES-267	76	83	1	2043	GCG ATC GCG	AIA
+16908_iron_uptake_porin.codon.alg.fasta.phy	336-3	76	83	1	2043	GCG ATC GCA	AIA
+16908_iron_uptake_porin.codon.alg.fasta.phy	NIES-3974	76	83	1	2043	GCG ATC GCA	AIA
+16908_iron_uptake_porin.codon.alg.fasta.phy	NIES-4071	76	83	1	2043	GCA TTT GCA	AFA
+16908_iron_uptake_porin.codon.alg.fasta.phy	NIES-4105	76	83	1	2043	GCA TTT GCA	AFA
+16908_iron_uptake_porin.codon.alg.fasta.phy	PCC_6303	76	83	1	2043	GCA ATG GCA	AMA
+16908_iron_uptake_porin.codon.alg.fasta.phy	PCC_7716	76	83	1	2043	GCA TTT GCA	AFA
+13053_thiD.codon.alg.fasta.phy	NIES-267	688	695	1	867	GCG ATC GCC	AIA
+13053_thiD.codon.alg.fasta.phy	336-3	688	695	1	867	GCG ATC GCG	AIA
+13053_thiD.codon.alg.fasta.phy	NIES-3974	688	695	1	867	GCG ATC GCG	AIA
+13053_thiD.codon.alg.fasta.phy	NIES-4071	688	695	1	867	GCA ATT ACA	AIT
+13053_thiD.codon.alg.fasta.phy	NIES-4105	688	695	1	867	GCA ATT ACA	AIT
+13053_thiD.codon.alg.fasta.phy	PCC_6303	688	695	1	867	GCG ATC GCA	AIA
+13053_thiD.codon.alg.fasta.phy	PCC_7716	688	695	1	867	GCA ATA ACA	AIT
+14676_ccsB.codon.alg.fasta.phy	NIES-267	145	152	1	1083	GCG ATC GCC	AIA
+14676_ccsB.codon.alg.fasta.phy	336-3	145	152	1	1083	GCG ATC GCC	AIA
+14676_ccsB.codon.alg.fasta.phy	NIES-3974	145	152	1	1083	GCG ATC GCA	AIA
+14676_ccsB.codon.alg.fasta.phy	NIES-4071	145	152	1	1083	GCT ATT GCC	AIA
+14676_ccsB.codon.alg.fasta.phy	NIES-4105	145	152	1	1083	GCT ATT GCC	AIA
+14676_ccsB.codon.alg.fasta.phy	PCC_6303	145	152	1	1083	GCA ATT GCC	AIA
+14676_ccsB.codon.alg.fasta.phy	PCC_7716	145	152	1	1083	GCG ATA GCG	AIA
+15815_hypothetical_protein.codon.alg.fasta.phy	NIES-267	311	318	2	456	GGC GAT CGC	GDR
+15815_hypothetical_protein.codon.alg.fasta.phy	336-3	311	318	2	456	AGC GAT CGC	SDR
+15815_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	311	318	2	456	AGC GAT CGC	SDR
+15815_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	311	318	2	456	AGT GAC CGT	SDR
+15815_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	311	318	2	456	AGT GAC CGT	SDR
+15815_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	311	318	2	456	AAC GAT CGT	NDR
+15815_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	311	318	2	456	AGT GAC CGT	SDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	NIES-267	233	240	2	1251	GGC GAT CGC	GDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	336-3	233	240	2	1251	AGC GAT CGC	SDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	NIES-3974	233	240	2	1251	GGC GAT CGC	GDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	NIES-4071	233	240	2	1251	GGA GAT CGC	GDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	NIES-4105	233	240	2	1251	GGA GAT CGC	GDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	PCC_6303	233	240	2	1251	GGC GAT CGC	GDR
+12783_VWA_domain-containin...codon.alg.fasta.phy	PCC_7716	233	240	2	1251	GGT GAT CGC	GDR
+13119_rpoD.codon.alg.fasta.phy	NIES-267	673	680	1	1182	GCG ATC GCC	AIA
+13119_rpoD.codon.alg.fasta.phy	336-3	673	680	1	1182	GCG ATC GCA	AIA
+13119_rpoD.codon.alg.fasta.phy	NIES-3974	673	680	1	1182	GCG ATC GCT	AIA
+13119_rpoD.codon.alg.fasta.phy	NIES-4071	673	680	1	1182	GCT ATT GCT	AIA
+13119_rpoD.codon.alg.fasta.phy	NIES-4105	673	680	1	1182	GCT ATT GCT	AIA
+13119_rpoD.codon.alg.fasta.phy	PCC_6303	673	680	1	1182	GCA ATT GCA	AIA
+13119_rpoD.codon.alg.fasta.phy	PCC_7716	673	680	1	1182	GCA ATT GCC	AIA
+13114_dxr.codon.alg.fasta.phy	NIES-267	1061	1068	2	1194	TGC GAT CGC	CDR
+13114_dxr.codon.alg.fasta.phy	336-3	1061	1068	2	1194	TGC GAT CGC	CDR
+13114_dxr.codon.alg.fasta.phy	NIES-3974	1061	1068	2	1194	TGC GAT CGC	CDR
+13114_dxr.codon.alg.fasta.phy	NIES-4071	1061	1068	2	1194	TGC GCG CGT	CAR
+13114_dxr.codon.alg.fasta.phy	NIES-4105	1061	1068	2	1194	TGC GCG CGT	CAR
+13114_dxr.codon.alg.fasta.phy	PCC_6303	1061	1068	2	1194	TGC GAT CGC	CDR
+13114_dxr.codon.alg.fasta.phy	PCC_7716	1061	1068	2	1194	TGT GCC CGT	CAR
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-267	446	453	2	513	TGC GAT CGC	CDR
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	336-3	446	453	2	513	TGC GAG CGT	CER
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-3974	446	453	2	513	TGC GAT CGC	CDR
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4071	446	453	2	513	TGC GAA CGC	CER
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4105	446	453	2	513	TGC GAA CGC	CER
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_6303	446	453	2	513	TGC GAT CGC	CDR
+15138_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_7716	446	453	2	513	TGC GAA CGC	CER
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-267	625	632	1	1347	GCG ATC GCA	AIA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	336-3	625	632	1	1347	GCT GCT GCG	AAA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-3974	625	632	1	1347	GCG ATC GCT	AIA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-4071	625	632	1	1347	GCA ATT GCT	AIA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-4105	625	632	1	1347	GCA ATT GCT	AIA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	PCC_6303	625	632	1	1347	GCG ATC GCG	AIA
+12787_lipid-A-disaccharide...codon.alg.fasta.phy	PCC_7716	625	632	1	1347	GCA ATT GCT	AIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	NIES-267	418	425	1	4026	GCG ATC GCC	AIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	336-3	418	425	1	4026	GTC ATC GCC	VIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	NIES-3974	418	425	1	4026	GCG ATC GCC	AIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	NIES-4071	418	425	1	4026	GCT ATT GCC	AIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	NIES-4105	418	425	1	4026	GCT ATT GCC	AIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	PCC_6303	418	425	1	4026	GTT ATC GCC	VIA
+13147_magnesium_chelatase_...codon.alg.fasta.phy	PCC_7716	418	425	1	4026	GCT ATT GCC	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	NIES-267	166	173	1	675	GCG ATC GCA	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	336-3	166	173	1	675	GCG ATC GCC	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	NIES-3974	166	173	1	675	GCG ATC GCA	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	NIES-4071	166	173	1	675	GCG ATT GCT	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	NIES-4105	166	173	1	675	GCG ATT GCT	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	PCC_6303	166	173	1	675	GCG ATC GCA	AIA
+16576_sugar_transferase.codon.alg.fasta.phy	PCC_7716	166	173	1	675	GCC ATT GCG	AIA
+16773_transposase.codon.alg.fasta.phy	NIES-267	1103	1110	2	1221	CGC GAT CGC	RDR
+16773_transposase.codon.alg.fasta.phy	336-3	1103	1110	2	1221	CGC GAT CGC	RDR
+16773_transposase.codon.alg.fasta.phy	NIES-3974	1103	1110	2	1221	CGC GAT CGC	RDR
+16773_transposase.codon.alg.fasta.phy	NIES-4071	1103	1110	2	1221	CGC GAC CGC	RDR
+16773_transposase.codon.alg.fasta.phy	NIES-4105	1103	1110	2	1221	CGC GAC CGC	RDR
+16773_transposase.codon.alg.fasta.phy	PCC_6303	1103	1110	2	1221	CGC GAT CGC	RDR
+16773_transposase.codon.alg.fasta.phy	PCC_7716	1103	1110	2	1221	CGC GAC CGC	RDR
+15511_transglutaminase.codon.alg.fasta.phy	NIES-267	707	714	2	1683	CGC GAT CGC	RDR
+15511_transglutaminase.codon.alg.fasta.phy	336-3	707	714	2	1683	CGC GAT CGC	RDR
+15511_transglutaminase.codon.alg.fasta.phy	NIES-3974	707	714	2	1683	CGC GAT CGC	RDR
+15511_transglutaminase.codon.alg.fasta.phy	NIES-4071	707	714	2	1683	CGG GAT CGG	RDR
+15511_transglutaminase.codon.alg.fasta.phy	NIES-4105	707	714	2	1683	CGG GAT CGG	RDR
+15511_transglutaminase.codon.alg.fasta.phy	PCC_6303	707	714	2	1683	CGC GAT CGC	RDR
+15511_transglutaminase.codon.alg.fasta.phy	PCC_7716	707	714	2	1683	CGT GAC CGG	RDR
+13528_cysteine_hydrolase.codon.alg.fasta.phy	NIES-267	276	283	3	777	ATG CGA TCG CAA	MRSQ
+13528_cysteine_hydrolase.codon.alg.fasta.phy	336-3	276	283	3	777	TTG CGA GTC CGA	LRVR
+13528_cysteine_hydrolase.codon.alg.fasta.phy	NIES-3974	276	283	3	777	TTA CGG GGT GTG	LRGV
+13528_cysteine_hydrolase.codon.alg.fasta.phy	NIES-4071	276	283	3	777	TTA CGC CAA GTT	LRQV
+13528_cysteine_hydrolase.codon.alg.fasta.phy	NIES-4105	276	283	3	777	TTA CGC CAA GTT	LRQV
+13528_cysteine_hydrolase.codon.alg.fasta.phy	PCC_6303	276	283	3	777	CTA AGG GAG GTA	LREV
+13528_cysteine_hydrolase.codon.alg.fasta.phy	PCC_7716	276	283	3	777	TTA CGC CAA GTT	LRQV
+13166_tetratricopeptide_re...codon.alg.fasta.phy	NIES-267	481	488	1	1164	GCG ATC GCC	AIA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	336-3	481	488	1	1164	GCG ATC GCC	AIA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	NIES-3974	481	488	1	1164	GGA ATT GCC	GIA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4071	481	488	1	1164	GCA GTT GCG	AVA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4105	481	488	1	1164	GCA GTT GCG	AVA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	PCC_6303	481	488	1	1164	GCG ATC GCA	AIA
+13166_tetratricopeptide_re...codon.alg.fasta.phy	PCC_7716	481	488	1	1164	GCA GTT GCA	AVA
+15178_lipA.codon.alg.fasta.phy	NIES-267	755	762	2	930	TGC GAT CGC	CDR
+15178_lipA.codon.alg.fasta.phy	336-3	755	762	2	930	TGC GAT CGC	CDR
+15178_lipA.codon.alg.fasta.phy	NIES-3974	755	762	2	930	TGC GAT CGC	CDR
+15178_lipA.codon.alg.fasta.phy	NIES-4071	755	762	2	930	TGT GAC CGT	CDR
+15178_lipA.codon.alg.fasta.phy	NIES-4105	755	762	2	930	TGT GAC CGT	CDR
+15178_lipA.codon.alg.fasta.phy	PCC_6303	755	762	2	930	TGC GAT CGC	CDR
+15178_lipA.codon.alg.fasta.phy	PCC_7716	755	762	2	930	TGT GAC CGC	CDR
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	NIES-267	376	383	1	1473	GCG ATC GCC	AIA
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	336-3	376	383	1	1473	GCA ATT ACT	AIT
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	NIES-3974	376	383	1	1473	GCG ATC GCG	AIA
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	NIES-4071	376	383	1	1473	GCT ATT ACC	AIT
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	NIES-4105	376	383	1	1473	GCT ATT ACC	AIT
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	PCC_6303	376	383	1	1473	GCT ATT GCA	AIA
+16784_leucyl_aminopeptidas...codon.alg.fasta.phy	PCC_7716	376	383	1	1473	GCT ATC ACC	AIT
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-267	426	433	3	1128	TTG CGA TCG CGA	LRSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	336-3	426	433	3	1128	TTG CGA TCG CGC	LRSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-3974	426	433	3	1128	TTG CGA TCG CGG	LRSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4071	426	433	3	1128	TTT CAA AGT CGC	FQSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4105	426	433	3	1128	TTT CAA AGT CGC	FQSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_6303	426	433	3	1128	TTG CGA TCG CGC	LRSR
+13234_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_7716	426	433	3	1128	TTT CAA GCT CGT	FQAR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	NIES-267	1064	1071	2	1260	GGC GAT CGC	GDR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	336-3	1064	1071	2	1260	GGT GGT CGT	GGR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	NIES-3974	1064	1071	2	1260	GGT GGT CGT	GGR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	NIES-4071	1064	1071	2	1260	GGT GGG CGC	GGR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	NIES-4105	1064	1071	2	1260	GGT GGG CGC	GGR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	PCC_6303	1064	1071	2	1260	GGA GGT CGT	GGR
+13037_DUF4912_domain-conta...codon.alg.fasta.phy	PCC_7716	1064	1071	2	1260	GGT GGG CGC	GGR
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	NIES-267	929	936	2	1446	TGC GAT CGC	CDR
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	336-3	929	936	2	1446	TGT GAT GTC	CDV
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	NIES-3974	929	936	2	1446	ATC GAT GAC	IDD
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	NIES-4071	929	936	2	1446	TGT GAC CGT	CDR
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	NIES-4105	929	936	2	1446	TGT GAC CGT	CDR
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	PCC_6303	929	936	2	1446	TGC GAT CGC	CDR
+16779_16S_rRNA_-cytosine-9...codon.alg.fasta.phy	PCC_7716	929	936	2	1446	TGT GAC CGT	CDR
+14592_tetratricopeptide_re...codon.alg.fasta.phy	NIES-267	513	520	3	1251	GTG CGA TCG CCA	VRSP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	336-3	513	520	3	1251	GTG CGA TCG CCA	VRSP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	NIES-3974	513	520	3	1251	GTA CGT TCC CCC	VRSP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4071	513	520	3	1251	ATA CGG GCG CCT	IRAP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4105	513	520	3	1251	ATA CGG GCG CCT	IRAP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	PCC_6303	513	520	3	1251	GTG CGA TCG CCT	VRSP
+14592_tetratricopeptide_re...codon.alg.fasta.phy	PCC_7716	513	520	3	1251	GTA CGG GCG CCT	VRAP
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	NIES-267	603	610	3	1104	GTG CGA TCG CGT	VRSR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	336-3	603	610	3	1104	GTG CGA TCG CGC	VRSR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	NIES-3974	603	610	3	1104	GTT CGC AAC CGT	VRNR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	NIES-4071	603	610	3	1104	GTT CGC AAC CGT	VRNR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	NIES-4105	603	610	3	1104	GTT CGC AAC CGT	VRNR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	PCC_6303	603	610	3	1104	GTA CGT AAT CGT	VRNR
+12613_D-alanine--D-alanine...codon.alg.fasta.phy	PCC_7716	603	610	3	1104	GTT CGT AAC CGT	VRNR
+14464_mraY.codon.alg.fasta.phy	NIES-267	82	89	1	1104	GCG ATC GCA	AIA
+14464_mraY.codon.alg.fasta.phy	336-3	82	89	1	1104	GTA GCT GCC	VAA
+14464_mraY.codon.alg.fasta.phy	NIES-3974	82	89	1	1104	ATT GCG GGG	IAG
+14464_mraY.codon.alg.fasta.phy	NIES-4071	82	89	1	1104	GTA GCA GCG	VAA
+14464_mraY.codon.alg.fasta.phy	NIES-4105	82	89	1	1104	GTA GCA GCG	VAA
+14464_mraY.codon.alg.fasta.phy	PCC_6303	82	89	1	1104	GCA GCA GCA	AAA
+14464_mraY.codon.alg.fasta.phy	PCC_7716	82	89	1	1104	GTG GCA GCA	VAA
+14464_mraY.codon.alg.fasta.phy	NIES-267	673	680	1	1104	GCG ATC GCA	AIA
+14464_mraY.codon.alg.fasta.phy	336-3	673	680	1	1104	GCG ATC GCT	AIA
+14464_mraY.codon.alg.fasta.phy	NIES-3974	673	680	1	1104	GCG ATC GCC	AIA
+14464_mraY.codon.alg.fasta.phy	NIES-4071	673	680	1	1104	GCA ACA GCG	ATA
+14464_mraY.codon.alg.fasta.phy	NIES-4105	673	680	1	1104	GCA ACA GCG	ATA
+14464_mraY.codon.alg.fasta.phy	PCC_6303	673	680	1	1104	GCG ATC GCA	AIA
+14464_mraY.codon.alg.fasta.phy	PCC_7716	673	680	1	1104	GCT ATT GCG	AIA
+16937_insulinase_family_pr...codon.alg.fasta.phy	NIES-267	345	352	3	1293	TTG CGA TCG CCA	LRSP
+16937_insulinase_family_pr...codon.alg.fasta.phy	336-3	345	352	3	1293	TTG CGA TCG CCA	LRSP
+16937_insulinase_family_pr...codon.alg.fasta.phy	NIES-3974	345	352	3	1293	TTG CGA TCG CCA	LRSP
+16937_insulinase_family_pr...codon.alg.fasta.phy	NIES-4071	345	352	3	1293	TTA CGA TTT CCA	LRFP
+16937_insulinase_family_pr...codon.alg.fasta.phy	NIES-4105	345	352	3	1293	TTA CGA TTT CCA	LRFP
+16937_insulinase_family_pr...codon.alg.fasta.phy	PCC_6303	345	352	3	1293	ATG CGA TCG CCT	MRSP
+16937_insulinase_family_pr...codon.alg.fasta.phy	PCC_7716	345	352	3	1293	TTA CGA TTT CCA	LRFP
+12882_hemN.codon.alg.fasta.phy	NIES-267	910	917	1	1383	GCG ATC GCA	AIA
+12882_hemN.codon.alg.fasta.phy	336-3	910	917	1	1383	GCG ATC GCC	AIA
+12882_hemN.codon.alg.fasta.phy	NIES-3974	910	917	1	1383	GCC CTA GCG	ALA
+12882_hemN.codon.alg.fasta.phy	NIES-4071	910	917	1	1383	GCA ATA GCA	AIA
+12882_hemN.codon.alg.fasta.phy	NIES-4105	910	917	1	1383	GCA ATA GCA	AIA
+12882_hemN.codon.alg.fasta.phy	PCC_6303	910	917	1	1383	GCG ATC GCA	AIA
+12882_hemN.codon.alg.fasta.phy	PCC_7716	910	917	1	1383	GCC ATA GCA	AIA
+12966_rpsQ.codon.alg.fasta.phy	NIES-267	161	168	2	246	GGC GAT CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	336-3	161	168	2	246	GGC GAT CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	NIES-3974	161	168	2	246	GGC GAT CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	NIES-4071	161	168	2	246	GGC GAC CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	NIES-4105	161	168	2	246	GGC GAC CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	PCC_6303	161	168	2	246	GGC GAT CGC	GDR
+12966_rpsQ.codon.alg.fasta.phy	PCC_7716	161	168	2	246	GGC GAC CGT	GDR
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	NIES-267	388	395	1	1047	GCG ATC GCA	AIA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	336-3	388	395	1	1047	GCG ATC GCC	AIA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	NIES-3974	388	395	1	1047	GCG ATC GCT	AIA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	NIES-4071	388	395	1	1047	GCT GTA GCT	AVA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	NIES-4105	388	395	1	1047	GCT GTA GCT	AVA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	PCC_6303	388	395	1	1047	GCG ATC GCA	AIA
+15070_aspartate_carbamoylt...codon.alg.fasta.phy	PCC_7716	388	395	1	1047	GCT GTA GCT	AVA
+13337_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	107	114	2	897	TGC GAT CGC	CDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	336-3	107	114	2	897	AGC GAT CGC	SDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	107	114	2	897	CGC GAT CGC	RDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	107	114	2	897	AGT GAC CGT	SDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	107	114	2	897	AGT GAC CGT	SDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	107	114	2	897	AGC GAT CGC	SDR
+13337_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	107	114	2	897	AGT GAC CGC	SDR
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	NIES-267	1406	1413	2	2610	GGC GAT CGC	GDR
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	336-3	1406	1413	2	2610	GGT GAA CAA	GEQ
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	NIES-3974	1406	1413	2	2610	GGC GAC CAC	GDH
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	NIES-4071	1406	1413	2	2610	GGC GAT AAA	GDK
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	NIES-4105	1406	1413	2	2610	GGC GAT AAA	GDK
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	PCC_6303	1406	1413	2	2610	GGG GAT AGA	GDR
+13236_PEP-utilizing_enzyme.codon.alg.fasta.phy	PCC_7716	1406	1413	2	2610	GGT GAT AAA	GDK
+16170_dnaA.codon.alg.fasta.phy	NIES-267	94	101	1	1395	GCG ATC GCC	AIA
+16170_dnaA.codon.alg.fasta.phy	336-3	94	101	1	1395	GCC AGC GCT	ASA
+16170_dnaA.codon.alg.fasta.phy	NIES-3974	94	101	1	1395	ACC AAA GCC	TKA
+16170_dnaA.codon.alg.fasta.phy	NIES-4071	94	101	1	1395	GCC AGC GCA	ASA
+16170_dnaA.codon.alg.fasta.phy	NIES-4105	94	101	1	1395	GCC AGC GCA	ASA
+16170_dnaA.codon.alg.fasta.phy	PCC_6303	94	101	1	1395	GCT ACT CCC	ATP
+16170_dnaA.codon.alg.fasta.phy	PCC_7716	94	101	1	1395	GCT AAC GCG	ANA
+15039_MFS_transporter.codon.alg.fasta.phy	NIES-267	1413	1420	3	3252	TTG CGA TCG CAA	LRSQ
+15039_MFS_transporter.codon.alg.fasta.phy	336-3	1413	1420	3	3252	CTG CGA TCG CAC	LRSH
+15039_MFS_transporter.codon.alg.fasta.phy	NIES-3974	1413	1420	3	3252	TTG CGA TCG CAC	LRSH
+15039_MFS_transporter.codon.alg.fasta.phy	NIES-4071	1413	1420	3	3252	TTG CGG TCA CTT	LRSL
+15039_MFS_transporter.codon.alg.fasta.phy	NIES-4105	1413	1420	3	3252	TTG CGG TCA CTT	LRSL
+15039_MFS_transporter.codon.alg.fasta.phy	PCC_6303	1413	1420	3	3252	TTG CGA TCG CAT	LRSH
+15039_MFS_transporter.codon.alg.fasta.phy	PCC_7716	1413	1420	3	3252	CTA CGG TCA CTT	LRSL
+12632_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	1165	1172	1	1440	GCG ATC GCA	AIA
+12632_glycosyltransferase_...codon.alg.fasta.phy	336-3	1165	1172	1	1440	GCG ATC GCC	AIA
+12632_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	1165	1172	1	1440	GCT GCG ATT	AAI
+12632_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	1165	1172	1	1440	GCA TTA ATT	ALI
+12632_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	1165	1172	1	1440	GCA TTA ATT	ALI
+12632_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	1165	1172	1	1440	GCA TTA ATT	ALI
+12632_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	1165	1172	1	1440	GCA TTA ATT	ALI
+17017_permease.codon.alg.fasta.phy	NIES-267	733	740	1	1059	GCG ATC GCC	AIA
+17017_permease.codon.alg.fasta.phy	336-3	733	740	1	1059	GCG ATC GCT	AIA
+17017_permease.codon.alg.fasta.phy	NIES-3974	733	740	1	1059	GCG ATC GCG	AIA
+17017_permease.codon.alg.fasta.phy	NIES-4071	733	740	1	1059	GCA GTT GCT	AVA
+17017_permease.codon.alg.fasta.phy	NIES-4105	733	740	1	1059	GCA GTT GCT	AVA
+17017_permease.codon.alg.fasta.phy	PCC_6303	733	740	1	1059	GCA ATA GCG	AIA
+17017_permease.codon.alg.fasta.phy	PCC_7716	733	740	1	1059	GCA GTT GCA	AVA
+14161_infB.codon.alg.fasta.phy	NIES-267	779	786	2	3411	CGC GAT CGC	RDR
+14161_infB.codon.alg.fasta.phy	336-3	779	786	2	3411	CGC GAT CGC	RDR
+14161_infB.codon.alg.fasta.phy	NIES-3974	779	786	2	3411	CGC GAT CGC	RDR
+14161_infB.codon.alg.fasta.phy	NIES-4071	779	786	2	3411	CGC GAC CGT	RDR
+14161_infB.codon.alg.fasta.phy	NIES-4105	779	786	2	3411	CGC GAC CGT	RDR
+14161_infB.codon.alg.fasta.phy	PCC_6303	779	786	2	3411	CGT GAA AAA	REK
+14161_infB.codon.alg.fasta.phy	PCC_7716	779	786	2	3411	CGT GAC CGT	RDR
+16136_DUF1802_family_prote...codon.alg.fasta.phy	NIES-267	359	366	2	603	TGC GAT CGC	CDR
+16136_DUF1802_family_prote...codon.alg.fasta.phy	336-3	359	366	2	603	AGC GAT CGC	SDR
+16136_DUF1802_family_prote...codon.alg.fasta.phy	NIES-3974	359	366	2	603	CAA GAA AGG	QER
+16136_DUF1802_family_prote...codon.alg.fasta.phy	NIES-4071	359	366	2	603	ACT GAG CGT	TER
+16136_DUF1802_family_prote...codon.alg.fasta.phy	NIES-4105	359	366	2	603	ACT GAG CGT	TER
+16136_DUF1802_family_prote...codon.alg.fasta.phy	PCC_6303	359	366	2	603	TGC GAC CGT	CDR
+16136_DUF1802_family_prote...codon.alg.fasta.phy	PCC_7716	359	366	2	603	GTT GAC CGT	VDR
+13971_uvrC.codon.alg.fasta.phy	NIES-267	1148	1155	2	1911	GGC GAT CGC	GDR
+13971_uvrC.codon.alg.fasta.phy	336-3	1148	1155	2	1911	GGC GAT CGC	GDR
+13971_uvrC.codon.alg.fasta.phy	NIES-3974	1148	1155	2	1911	AGC GAT CGC	SDR
+13971_uvrC.codon.alg.fasta.phy	NIES-4071	1148	1155	2	1911	GGT GAC CGT	GDR
+13971_uvrC.codon.alg.fasta.phy	NIES-4105	1148	1155	2	1911	GGT GAC CGT	GDR
+13971_uvrC.codon.alg.fasta.phy	PCC_6303	1148	1155	2	1911	GGA GAC AGA	GDR
+13971_uvrC.codon.alg.fasta.phy	PCC_7716	1148	1155	2	1911	GGT GAC CGT	GDR
+14188_hypothetical_protein.codon.alg.fasta.phy	NIES-267	444	451	3	1182	TTG CGA TCG CAA	LRSQ
+14188_hypothetical_protein.codon.alg.fasta.phy	336-3	444	451	3	1182	TGG CTG AAC TCA	WLNS
+14188_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	444	451	3	1182	TGG CGC --- ---	WR--
+14188_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	444	451	3	1182	TGG CGC CAG CTT	WRQL
+14188_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	444	451	3	1182	TGG CGC CAG CTT	WRQL
+14188_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	444	451	3	1182	TGG CGC GAT CGC	WRDR
+14188_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	444	451	3	1182	TGG CGC CAT CTT	WRHL
+13915_rsmG.codon.alg.fasta.phy	NIES-267	674	681	2	789	GGC GAT CGC	GDR
+13915_rsmG.codon.alg.fasta.phy	336-3	674	681	2	789	AGC ACC CGT	STR
+13915_rsmG.codon.alg.fasta.phy	NIES-3974	674	681	2	789	AGT CAA CGT	SQR
+13915_rsmG.codon.alg.fasta.phy	NIES-4071	674	681	2	789	AGT ATT CGT	SIR
+13915_rsmG.codon.alg.fasta.phy	NIES-4105	674	681	2	789	AGT ATT CGT	SIR
+13915_rsmG.codon.alg.fasta.phy	PCC_6303	674	681	2	789	AGC ATT CGA	SIR
+13915_rsmG.codon.alg.fasta.phy	PCC_7716	674	681	2	789	AGT ATT CGC	SIR
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-267	578	585	2	1194	GGC GAT CGC	GDR
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	336-3	578	585	2	1194	GGC GAT CGC	GDR
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-3974	578	585	2	1194	GGA GAA AAA	GEK
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-4071	578	585	2	1194	GGT GAG CAG	GEQ
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-4105	578	585	2	1194	GGT GAG CAG	GEQ
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	PCC_6303	578	585	2	1194	GGC GAA AAA	GEK
+15988_AI-2E_family_transpo...codon.alg.fasta.phy	PCC_7716	578	585	2	1194	GGT GAG CAG	GEQ
+15822_hrcA.codon.alg.fasta.phy	NIES-267	1027	1034	1	1089	GCG ATC GCA	AIA
+15822_hrcA.codon.alg.fasta.phy	336-3	1027	1034	1	1089	GCG ATC GCA	AIA
+15822_hrcA.codon.alg.fasta.phy	NIES-3974	1027	1034	1	1089	GCG ATC GCT	AIA
+15822_hrcA.codon.alg.fasta.phy	NIES-4071	1027	1034	1	1089	GCC ATT GCA	AIA
+15822_hrcA.codon.alg.fasta.phy	NIES-4105	1027	1034	1	1089	GCC ATT GCA	AIA
+15822_hrcA.codon.alg.fasta.phy	PCC_6303	1027	1034	1	1089	GCG ATC GCA	AIA
+15822_hrcA.codon.alg.fasta.phy	PCC_7716	1027	1034	1	1089	GCT ATT GCG	AIA
+17015_ribonuclease_J.codon.alg.fasta.phy	NIES-267	347	354	2	1845	CGC GAT CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	336-3	347	354	2	1845	CGC GAT CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	NIES-3974	347	354	2	1845	CGC GAT CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	NIES-4071	347	354	2	1845	CGC GAC CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	NIES-4105	347	354	2	1845	CGC GAC CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	PCC_6303	347	354	2	1845	CGC GAT CGC	RDR
+17015_ribonuclease_J.codon.alg.fasta.phy	PCC_7716	347	354	2	1845	CGT GAC CGT	RDR
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	NIES-267	571	578	1	699	GCG ATC GCA	AIA
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	336-3	571	578	1	699	AAA GTC GGG	KVG
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	NIES-3974	571	578	1	699	GCT ATT ATC	AII
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	NIES-4071	571	578	1	699	TCA GTT GCC	SVA
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	NIES-4105	571	578	1	699	TCA GTT GCC	SVA
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	PCC_6303	571	578	1	699	GCT GTG GAA	AVE
+12575_triacylglycerol_lipa...codon.alg.fasta.phy	PCC_7716	571	578	1	699	ACA GTA GCC	TVA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-267	253	260	1	831	GCG ATC GCC	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	336-3	253	260	1	831	GCG ATC GCC	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-3974	253	260	1	831	GCG ATC GCT	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-4071	253	260	1	831	GCC ATC GCT	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	NIES-4105	253	260	1	831	GCC ATC GCT	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	PCC_6303	253	260	1	831	GCT ATA GCT	AIA
+13903_Cof-type_HAD-IIB_fam...codon.alg.fasta.phy	PCC_7716	253	260	1	831	GCT ATT GCT	AIA
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	NIES-267	489	496	3	1137	TTG CGA TCG CAC	LRSH
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	336-3	489	496	3	1137	CAG CGA TCG CAC	QRSH
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	NIES-3974	489	496	3	1137	CAG CGA TCG CAA	QRSQ
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	NIES-4071	489	496	3	1137	TTG CGC GCA CGC	LRAR
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	NIES-4105	489	496	3	1137	TTG CGC GCA CGC	LRAR
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	PCC_6303	489	496	3	1137	ATG CGA TCG CGT	MRSR
+16151_thiamine_phosphate_s...codon.alg.fasta.phy	PCC_7716	489	496	3	1137	TTG CGT ACG CGT	LRTR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	NIES-267	140	147	2	945	GGC GAT CGC	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	336-3	140	147	2	945	GGC GAT CGC	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	NIES-3974	140	147	2	945	GGC GAT CGC	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	NIES-4071	140	147	2	945	GGC GAC CGT	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	NIES-4105	140	147	2	945	GGC GAC CGT	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	PCC_6303	140	147	2	945	GGC GAT CGC	GDR
+14167_NAD-dependent_epimer...codon.alg.fasta.phy	PCC_7716	140	147	2	945	GGT GAC CGT	GDR
+14975_rbsK.codon.alg.fasta.phy	NIES-267	136	143	1	939	GCG ATC GCA	AIA
+14975_rbsK.codon.alg.fasta.phy	336-3	136	143	1	939	GCC CTA GCA	ALA
+14975_rbsK.codon.alg.fasta.phy	NIES-3974	136	143	1	939	GCA GTA TCA	AVS
+14975_rbsK.codon.alg.fasta.phy	NIES-4071	136	143	1	939	GCT ATT GCT	AIA
+14975_rbsK.codon.alg.fasta.phy	NIES-4105	136	143	1	939	GCT ATT GCT	AIA
+14975_rbsK.codon.alg.fasta.phy	PCC_6303	136	143	1	939	GCA GTA GCG	AVA
+14975_rbsK.codon.alg.fasta.phy	PCC_7716	136	143	1	939	GCC AGT GCC	ASA
+15798_GTP-binding_protein.codon.alg.fasta.phy	NIES-267	1105	1112	1	1389	GCG ATC GCA	AIA
+15798_GTP-binding_protein.codon.alg.fasta.phy	336-3	1105	1112	1	1389	GCC ACA GCG	ATA
+15798_GTP-binding_protein.codon.alg.fasta.phy	NIES-3974	1105	1112	1	1389	GCA GCC GCG	AAA
+15798_GTP-binding_protein.codon.alg.fasta.phy	NIES-4071	1105	1112	1	1389	GCT TCT GTT	ASV
+15798_GTP-binding_protein.codon.alg.fasta.phy	NIES-4105	1105	1112	1	1389	GCT TCT GTT	ASV
+15798_GTP-binding_protein.codon.alg.fasta.phy	PCC_6303	1105	1112	1	1389	AGT TCA GCC	SSA
+15798_GTP-binding_protein.codon.alg.fasta.phy	PCC_7716	1105	1112	1	1389	GCT TCT ATA	ASI
+16631_hypothetical_protein.codon.alg.fasta.phy	NIES-267	398	405	2	627	GGC GAT CGC	GDR
+16631_hypothetical_protein.codon.alg.fasta.phy	336-3	398	405	2	627	GGC GAT CGC	GDR
+16631_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	398	405	2	627	GGC GAT CGC	GDR
+16631_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	398	405	2	627	GGC GAT AAT	GDN
+16631_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	398	405	2	627	GGC GAT AAT	GDN
+16631_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	398	405	2	627	GGC GAT CGC	GDR
+16631_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	398	405	2	627	GGC GAT AGT	GDS
+14873_aspartate_kinase.codon.alg.fasta.phy	NIES-267	481	488	1	1863	GCG ATC GCA	AIA
+14873_aspartate_kinase.codon.alg.fasta.phy	336-3	481	488	1	1863	GCT TTA GCG	ALA
+14873_aspartate_kinase.codon.alg.fasta.phy	NIES-3974	481	488	1	1863	GCT TTA GCG	ALA
+14873_aspartate_kinase.codon.alg.fasta.phy	NIES-4071	481	488	1	1863	GCA TTA GCA	ALA
+14873_aspartate_kinase.codon.alg.fasta.phy	NIES-4105	481	488	1	1863	GCA TTA GCA	ALA
+14873_aspartate_kinase.codon.alg.fasta.phy	PCC_6303	481	488	1	1863	GCT TTA GCG	ALA
+14873_aspartate_kinase.codon.alg.fasta.phy	PCC_7716	481	488	1	1863	GCA TTA GCA	ALA
+14294_aroC.codon.alg.fasta.phy	NIES-267	412	419	1	1089	GCG ATC GCC	AIA
+14294_aroC.codon.alg.fasta.phy	336-3	412	419	1	1089	GCG ATC GCC	AIA
+14294_aroC.codon.alg.fasta.phy	NIES-3974	412	419	1	1089	GCG ATC GCT	AIA
+14294_aroC.codon.alg.fasta.phy	NIES-4071	412	419	1	1089	GCC ATT GCC	AIA
+14294_aroC.codon.alg.fasta.phy	NIES-4105	412	419	1	1089	GCC ATT GCC	AIA
+14294_aroC.codon.alg.fasta.phy	PCC_6303	412	419	1	1089	GCG ATC GCT	AIA
+14294_aroC.codon.alg.fasta.phy	PCC_7716	412	419	1	1089	GCC ATT GCT	AIA
+16226_bchB.codon.alg.fasta.phy	NIES-267	1090	1097	1	1524	GCG ATC GCC	AIA
+16226_bchB.codon.alg.fasta.phy	336-3	1090	1097	1	1524	GCG ATC GCC	AIA
+16226_bchB.codon.alg.fasta.phy	NIES-3974	1090	1097	1	1524	TGG ATT GCC	WIA
+16226_bchB.codon.alg.fasta.phy	NIES-4071	1090	1097	1	1524	GCG ATA GCG	AIA
+16226_bchB.codon.alg.fasta.phy	NIES-4105	1090	1097	1	1524	GCG ATA GCG	AIA
+16226_bchB.codon.alg.fasta.phy	PCC_6303	1090	1097	1	1524	GCG ATC GCA	AIA
+16226_bchB.codon.alg.fasta.phy	PCC_7716	1090	1097	1	1524	GCC ATA GCG	AIA
+12638_hypothetical_protein.codon.alg.fasta.phy	NIES-267	4255	4262	1	5046	GCG ATC GCA	AIA
+12638_hypothetical_protein.codon.alg.fasta.phy	336-3	4255	4262	1	5046	GCG ATC GCC	AIA
+12638_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	4255	4262	1	5046	GCC AAC GCC	ANA
+12638_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	4255	4262	1	5046	GCA ACC GCA	ATA
+12638_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	4255	4262	1	5046	GCA ACC GCA	ATA
+12638_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	4255	4262	1	5046	GCC ACC CGT	ATR
+12638_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	4255	4262	1	5046	GCA ACT GCA	ATA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-267	3007	3014	1	3264	GCG ATC GCC	AIA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	336-3	3007	3014	1	3264	GCG ATC GCC	AIA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-3974	3007	3014	1	3264	GCG ATC GCA	AIA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-4071	3007	3014	1	3264	GCC ATT GCA	AIA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-4105	3007	3014	1	3264	GCC ATT GCA	AIA
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	PCC_6303	3007	3014	1	3264	GCA ATC GTC	AIV
+15997_glycoside_hydrolase_...codon.alg.fasta.phy	PCC_7716	3007	3014	1	3264	GCC ATT GCA	AIA
+12615_murG.codon.alg.fasta.phy	NIES-267	64	71	1	1080	GCG ATC GCA	AIA
+12615_murG.codon.alg.fasta.phy	336-3	64	71	1	1080	GCG ATC GCC	AIA
+12615_murG.codon.alg.fasta.phy	NIES-3974	64	71	1	1080	GCG ATC GCA	AIA
+12615_murG.codon.alg.fasta.phy	NIES-4071	64	71	1	1080	GCA ATT GCA	AIA
+12615_murG.codon.alg.fasta.phy	NIES-4105	64	71	1	1080	GCA ATT GCA	AIA
+12615_murG.codon.alg.fasta.phy	PCC_6303	64	71	1	1080	GCG ATC GCA	AIA
+12615_murG.codon.alg.fasta.phy	PCC_7716	64	71	1	1080	GCA ATT GCA	AIA
+16610_glpX.codon.alg.fasta.phy	NIES-267	49	56	1	1038	GCG ATC GCC	AIA
+16610_glpX.codon.alg.fasta.phy	336-3	49	56	1	1038	GCG ATC GCC	AIA
+16610_glpX.codon.alg.fasta.phy	NIES-3974	49	56	1	1038	GCG ATC GCA	AIA
+16610_glpX.codon.alg.fasta.phy	NIES-4071	49	56	1	1038	GCT ATC GCT	AIA
+16610_glpX.codon.alg.fasta.phy	NIES-4105	49	56	1	1038	GCT ATC GCT	AIA
+16610_glpX.codon.alg.fasta.phy	PCC_6303	49	56	1	1038	GCG ATC GCT	AIA
+16610_glpX.codon.alg.fasta.phy	PCC_7716	49	56	1	1038	GCT ATC GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	NIES-267	1324	1331	1	1428	GCG ATC GCC	AIA
+16869_lpdA.codon.alg.fasta.phy	336-3	1324	1331	1	1428	GCG ATC GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	NIES-3974	1324	1331	1	1428	GCG ATC GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	NIES-4071	1324	1331	1	1428	GCC ATT GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	NIES-4105	1324	1331	1	1428	GCC ATT GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	PCC_6303	1324	1331	1	1428	GCG ATC GCT	AIA
+16869_lpdA.codon.alg.fasta.phy	PCC_7716	1324	1331	1	1428	GCT ATT GCC	AIA
+14127_nadC.codon.alg.fasta.phy	NIES-267	86	93	2	867	GGC GAT CGC	GDR
+14127_nadC.codon.alg.fasta.phy	336-3	86	93	2	867	GGC GAT CGC	GDR
+14127_nadC.codon.alg.fasta.phy	NIES-3974	86	93	2	867	GGC GAT CGC	GDR
+14127_nadC.codon.alg.fasta.phy	NIES-4071	86	93	2	867	GGT GAC CGC	GDR
+14127_nadC.codon.alg.fasta.phy	NIES-4105	86	93	2	867	GGT GAC CGC	GDR
+14127_nadC.codon.alg.fasta.phy	PCC_6303	86	93	2	867	GGT GAC AGA	GDR
+14127_nadC.codon.alg.fasta.phy	PCC_7716	86	93	2	867	GGT GAC CGC	GDR
+13371_dihydroorotase.codon.alg.fasta.phy	NIES-267	605	612	2	1320	TGC GAT CGC	CDR
+13371_dihydroorotase.codon.alg.fasta.phy	336-3	605	612	2	1320	TGC GAT CGC	CDR
+13371_dihydroorotase.codon.alg.fasta.phy	NIES-3974	605	612	2	1320	TGT GAT CAA	CDQ
+13371_dihydroorotase.codon.alg.fasta.phy	NIES-4071	605	612	2	1320	TGT AAT ACA	CNT
+13371_dihydroorotase.codon.alg.fasta.phy	NIES-4105	605	612	2	1320	TGT AAT ACA	CNT
+13371_dihydroorotase.codon.alg.fasta.phy	PCC_6303	605	612	2	1320	TGT GAT CAT	CDH
+13371_dihydroorotase.codon.alg.fasta.phy	PCC_7716	605	612	2	1320	TGT AAC ACT	CNT
+12554_family_10_glycosylhy...codon.alg.fasta.phy	NIES-267	598	605	1	1506	GCG ATC GCC	AIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	336-3	598	605	1	1506	GCG ATC GCT	AIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	NIES-3974	598	605	1	1506	GTG ATC GCT	VIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	NIES-4071	598	605	1	1506	GCA ATC GCG	AIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	NIES-4105	598	605	1	1506	GCA ATC GCG	AIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	PCC_6303	598	605	1	1506	GCG ATC GCG	AIA
+12554_family_10_glycosylhy...codon.alg.fasta.phy	PCC_7716	598	605	1	1506	GCA ATT GCG	AIA
+15885_bioF.codon.alg.fasta.phy	NIES-267	295	302	1	1206	GCG ATC GCA	AIA
+15885_bioF.codon.alg.fasta.phy	336-3	295	302	1	1206	GCG ATC GCC	AIA
+15885_bioF.codon.alg.fasta.phy	NIES-3974	295	302	1	1206	GCG ATC GCA	AIA
+15885_bioF.codon.alg.fasta.phy	NIES-4071	295	302	1	1206	GCA ATA GCT	AIA
+15885_bioF.codon.alg.fasta.phy	NIES-4105	295	302	1	1206	GCA ATA GCT	AIA
+15885_bioF.codon.alg.fasta.phy	PCC_6303	295	302	1	1206	GCG ATC GCA	AIA
+15885_bioF.codon.alg.fasta.phy	PCC_7716	295	302	1	1206	GCA ATA GCA	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-267	1090	1097	1	1392	GCG ATC GCA	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	336-3	1090	1097	1	1392	GCT ATT GCC	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-3974	1090	1097	1	1392	GCG ATC GCA	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-4071	1090	1097	1	1392	GCA ATA GCA	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	NIES-4105	1090	1097	1	1392	GCA ATA GCA	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	PCC_6303	1090	1097	1	1392	GCG ATC GCT	AIA
+12498_lipid-A-disaccharide...codon.alg.fasta.phy	PCC_7716	1090	1097	1	1392	GCA ATA GCA	AIA
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	NIES-267	189	196	3	450	TGG CGA TCG CGA	WRSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	336-3	189	196	3	450	TGG CAA TCC CGA	WQSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	NIES-3974	189	196	3	450	TGG CGA TCG CGC	WRSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	NIES-4071	189	196	3	450	TGG CGT TCT CGT	WRSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	NIES-4105	189	196	3	450	TGG CGT TCT CGT	WRSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	PCC_6303	189	196	3	450	TGG CGA TCG CGT	WRSR
+16549_SRPBCC_family_protei...codon.alg.fasta.phy	PCC_7716	189	196	3	450	TGG CGT TCT CGC	WRSR
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	NIES-267	1222	1229	1	1677	GCG ATC GCC	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	336-3	1222	1229	1	1677	GCG ATC GCC	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	NIES-3974	1222	1229	1	1677	GCG ATC GCT	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	NIES-4071	1222	1229	1	1677	GCC ATT GCT	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	NIES-4105	1222	1229	1	1677	GCC ATT GCT	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	PCC_6303	1222	1229	1	1677	GCG ATC GCA	AIA
+16824_alpha-beta_hydrolase.codon.alg.fasta.phy	PCC_7716	1222	1229	1	1677	GCC ATT GTT	AIV
+15225_serine-threonine_pro...codon.alg.fasta.phy	NIES-267	930	937	3	1899	GTG CGA TCG CGT	VRSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	336-3	930	937	3	1899	GCG CGA TCG CGC	ARSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	NIES-3974	930	937	3	1899	ATG CGA TCG CGT	MRSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	NIES-4071	930	937	3	1899	GTG CGT TCT CGT	VRSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	NIES-4105	930	937	3	1899	GTG CGT TCT CGT	VRSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	PCC_6303	930	937	3	1899	GCG CGA TCG CGT	ARSR
+15225_serine-threonine_pro...codon.alg.fasta.phy	PCC_7716	930	937	3	1899	GCC CGC TCT CGT	ARSR
+15592_galE.codon.alg.fasta.phy	NIES-267	179	186	2	1005	GGC GAT CGC	GDR
+15592_galE.codon.alg.fasta.phy	336-3	179	186	2	1005	AAC GAT CGC	NDR
+15592_galE.codon.alg.fasta.phy	NIES-3974	179	186	2	1005	AAT GAC CGT	NDR
+15592_galE.codon.alg.fasta.phy	NIES-4071	179	186	2	1005	AAT GAC CGT	NDR
+15592_galE.codon.alg.fasta.phy	NIES-4105	179	186	2	1005	AAT GAC CGT	NDR
+15592_galE.codon.alg.fasta.phy	PCC_6303	179	186	2	1005	AAT GAC CGT	NDR
+15592_galE.codon.alg.fasta.phy	PCC_7716	179	186	2	1005	AAT GAC CGA	NDR
+12503_serine-threonine_pro...codon.alg.fasta.phy	NIES-267	531	538	3	2031	TTG CGA TCG CAA	LRSQ
+12503_serine-threonine_pro...codon.alg.fasta.phy	336-3	531	538	3	2031	TTG CAA TCT CCC	LQSP
+12503_serine-threonine_pro...codon.alg.fasta.phy	NIES-3974	531	538	3	2031	TTA CAA GCT CCC	LQAP
+12503_serine-threonine_pro...codon.alg.fasta.phy	NIES-4071	531	538	3	2031	TTA CAA TCA CCG	LQSP
+12503_serine-threonine_pro...codon.alg.fasta.phy	NIES-4105	531	538	3	2031	TTA CAA TCA CCG	LQSP
+12503_serine-threonine_pro...codon.alg.fasta.phy	PCC_6303	531	538	3	2031	CTG CAA CTA GGT	LQLG
+12503_serine-threonine_pro...codon.alg.fasta.phy	PCC_7716	531	538	3	2031	TTA CAG TCA CCA	LQSP
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-267	385	392	1	1179	GCG ATC GCC	AIA
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	336-3	385	392	1	1179	GCG ATT ACG	AIT
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-3974	385	392	1	1179	GCG GTG ACA	AVT
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-4071	385	392	1	1179	GCA ACA ATA	ATI
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	NIES-4105	385	392	1	1179	GCA ACA ATA	ATI
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	PCC_6303	385	392	1	1179	GCG ATT GAA	AIE
+15948_pyridoxal_phosphate-...codon.alg.fasta.phy	PCC_7716	385	392	1	1179	GCA ACG ATA	ATI
+12539_AAA_family_ATPase.codon.alg.fasta.phy	NIES-267	565	572	1	1515	GCG ATC GCC	AIA
+12539_AAA_family_ATPase.codon.alg.fasta.phy	336-3	565	572	1	1515	GCG ATC GCC	AIA
+12539_AAA_family_ATPase.codon.alg.fasta.phy	NIES-3974	565	572	1	1515	GCG ATC GCA	AIA
+12539_AAA_family_ATPase.codon.alg.fasta.phy	NIES-4071	565	572	1	1515	GCT ATT GCG	AIA
+12539_AAA_family_ATPase.codon.alg.fasta.phy	NIES-4105	565	572	1	1515	GCT ATT GCG	AIA
+12539_AAA_family_ATPase.codon.alg.fasta.phy	PCC_6303	565	572	1	1515	GCA ATT GTT	AIV
+12539_AAA_family_ATPase.codon.alg.fasta.phy	PCC_7716	565	572	1	1515	GCT ATT GCG	AIA
+16732_atpC.codon.alg.fasta.phy	NIES-267	181	188	1	411	GCG ATC GCA	AIA
+16732_atpC.codon.alg.fasta.phy	336-3	181	188	1	411	GCG ATC GCC	AIA
+16732_atpC.codon.alg.fasta.phy	NIES-3974	181	188	1	411	GCG ATC GCT	AIA
+16732_atpC.codon.alg.fasta.phy	NIES-4071	181	188	1	411	GCT ATT GCT	AIA
+16732_atpC.codon.alg.fasta.phy	NIES-4105	181	188	1	411	GCT ATT GCT	AIA
+16732_atpC.codon.alg.fasta.phy	PCC_6303	181	188	1	411	GCG ATC GCT	AIA
+16732_atpC.codon.alg.fasta.phy	PCC_7716	181	188	1	411	GCT ATA GCT	AIA
+16304_recJ.codon.alg.fasta.phy	NIES-267	905	912	2	2532	GGC GAT CGC	GDR
+16304_recJ.codon.alg.fasta.phy	336-3	905	912	2	2532	GGC GAT CGC	GDR
+16304_recJ.codon.alg.fasta.phy	NIES-3974	905	912	2	2532	GGC GAT CGC	GDR
+16304_recJ.codon.alg.fasta.phy	NIES-4071	905	912	2	2532	GGC GAT AGA	GDR
+16304_recJ.codon.alg.fasta.phy	NIES-4105	905	912	2	2532	GGC GAT AGA	GDR
+16304_recJ.codon.alg.fasta.phy	PCC_6303	905	912	2	2532	GGT GAT CGA	GDR
+16304_recJ.codon.alg.fasta.phy	PCC_7716	905	912	2	2532	GGC GAC AGA	GDR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	NIES-267	29	36	2	282	AGC GAT CGC	SDR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	336-3	29	36	2	282	AGC GAT CGC	SDR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	NIES-3974	29	36	2	282	AGT GCG CGT	SAR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	NIES-4071	29	36	2	282	AGT TCT CGT	SSR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	NIES-4105	29	36	2	282	AGT TCT CGT	SSR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	PCC_6303	29	36	2	282	AGC TCT CGT	SSR
+14276_DUF2470_domain-conta...codon.alg.fasta.phy	PCC_7716	29	36	2	282	AGT TCT CGA	SSR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	NIES-267	917	924	2	1326	TGC GAT CGC	CDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	336-3	917	924	2	1326	TGC GAT CGC	CDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	NIES-3974	917	924	2	1326	TGC GAT CGC	CDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	NIES-4071	917	924	2	1326	AGT GAC CGT	SDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	NIES-4105	917	924	2	1326	AGT GAC CGT	SDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	PCC_6303	917	924	2	1326	TGC GAT CGC	CDR
+14540_TldD-PmbA_family_pro...codon.alg.fasta.phy	PCC_7716	917	924	2	1326	AGC GAC CGT	SDR
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	NIES-267	205	212	1	756	GCG ATC GCC	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	336-3	205	212	1	756	GCG ATC GCC	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	NIES-3974	205	212	1	756	GCG ATC GCT	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	NIES-4071	205	212	1	756	GCG ATT GCC	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	NIES-4105	205	212	1	756	GCG ATT GCC	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	PCC_6303	205	212	1	756	GCG ATC GCT	AIA
+14683_YebC-PmpR_family_DNA...codon.alg.fasta.phy	PCC_7716	205	212	1	756	GCC ATT GCT	AIA
+16064_speA.codon.alg.fasta.phy	NIES-267	815	822	2	2082	GGC GAT CGC	GDR
+16064_speA.codon.alg.fasta.phy	336-3	815	822	2	2082	GGC GAT CGC	GDR
+16064_speA.codon.alg.fasta.phy	NIES-3974	815	822	2	2082	GGC GAT CGC	GDR
+16064_speA.codon.alg.fasta.phy	NIES-4071	815	822	2	2082	GGC GAC CGT	GDR
+16064_speA.codon.alg.fasta.phy	NIES-4105	815	822	2	2082	GGC GAC CGT	GDR
+16064_speA.codon.alg.fasta.phy	PCC_6303	815	822	2	2082	GGA GAT CGG	GDR
+16064_speA.codon.alg.fasta.phy	PCC_7716	815	822	2	2082	GGC GAC CGT	GDR
+14884_penicillin-binding_p...codon.alg.fasta.phy	NIES-267	594	601	3	2730	TTG CGA TCG CAA	LRSQ
+14884_penicillin-binding_p...codon.alg.fasta.phy	336-3	594	601	3	2730	CTG CGC TCC AAG	LRSK
+14884_penicillin-binding_p...codon.alg.fasta.phy	NIES-3974	594	601	3	2730	GTC CGT TCC CAA	VRSQ
+14884_penicillin-binding_p...codon.alg.fasta.phy	NIES-4071	594	601	3	2730	TTA CGC TCG CAA	LRSQ
+14884_penicillin-binding_p...codon.alg.fasta.phy	NIES-4105	594	601	3	2730	TTA CGC TCG CAA	LRSQ
+14884_penicillin-binding_p...codon.alg.fasta.phy	PCC_6303	594	601	3	2730	TTG CGA TCG CAA	LRSQ
+14884_penicillin-binding_p...codon.alg.fasta.phy	PCC_7716	594	601	3	2730	TTG CGC TCG CAA	LRSQ
+17008_GntR_family_transcri...codon.alg.fasta.phy	NIES-267	73	80	1	984	GCG ATC GCA	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	336-3	73	80	1	984	GCG ATC GCT	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	NIES-3974	73	80	1	984	GCG ATC GCT	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	NIES-4071	73	80	1	984	GCG ATT GCA	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	NIES-4105	73	80	1	984	GCG ATT GCA	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	PCC_6303	73	80	1	984	GCG ATC GCG	AIA
+17008_GntR_family_transcri...codon.alg.fasta.phy	PCC_7716	73	80	1	984	GCG ATT GCT	AIA
+15364_mnmE.codon.alg.fasta.phy	NIES-267	37	44	1	1395	GCG ATC GCA	AIA
+15364_mnmE.codon.alg.fasta.phy	336-3	37	44	1	1395	GCG ATC GCC	AIA
+15364_mnmE.codon.alg.fasta.phy	NIES-3974	37	44	1	1395	GCG ATC GCA	AIA
+15364_mnmE.codon.alg.fasta.phy	NIES-4071	37	44	1	1395	GCC ATC GCT	AIA
+15364_mnmE.codon.alg.fasta.phy	NIES-4105	37	44	1	1395	GCC ATC GCT	AIA
+15364_mnmE.codon.alg.fasta.phy	PCC_6303	37	44	1	1395	GCT ATT GCC	AIA
+15364_mnmE.codon.alg.fasta.phy	PCC_7716	37	44	1	1395	GCC ATC GCT	AIA
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	NIES-267	1168	1175	1	1344	GCG ATC GCC	AIA
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	336-3	1168	1175	1	1344	GCG ATC GGT	AIG
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	NIES-3974	1168	1175	1	1344	GCG ATT GGT	AIG
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	NIES-4071	1168	1175	1	1344	GCA ATC GGC	AIG
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	NIES-4105	1168	1175	1	1344	GCA ATC GGC	AIG
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	PCC_6303	1168	1175	1	1344	GCA GTT GGT	AVG
+13331_2-oxo_acid_dehydroge...codon.alg.fasta.phy	PCC_7716	1168	1175	1	1344	GCA ATC GGC	AIG
+15712_glyS.codon.alg.fasta.phy	NIES-267	1733	1740	2	2151	CGC GAT CGC	RDR
+15712_glyS.codon.alg.fasta.phy	336-3	1733	1740	2	2151	CGC GAT CGC	RDR
+15712_glyS.codon.alg.fasta.phy	NIES-3974	1733	1740	2	2151	CGT CAA CGA	RQR
+15712_glyS.codon.alg.fasta.phy	NIES-4071	1733	1740	2	2151	AGA AAC CGC	RNR
+15712_glyS.codon.alg.fasta.phy	NIES-4105	1733	1740	2	2151	AGA AAC CGC	RNR
+15712_glyS.codon.alg.fasta.phy	PCC_6303	1733	1740	2	2151	CGC AAC CGT	RNR
+15712_glyS.codon.alg.fasta.phy	PCC_7716	1733	1740	2	2151	AGA AAC CGC	RNR
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	NIES-267	109	116	1	543	GCG ATC GCA	AIA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	336-3	109	116	1	543	GCG ATC GCT	AIA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	NIES-3974	109	116	1	543	GCG ATC GCT	AIA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	NIES-4071	109	116	1	543	GTT GTA GCG	VVA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	NIES-4105	109	116	1	543	GTT GTA GCG	VVA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	PCC_6303	109	116	1	543	GCG ATC GCA	AIA
+14030_ComEA_family_DNA-bin...codon.alg.fasta.phy	PCC_7716	109	116	1	543	GCT GTA GCT	AVA
+16806_iron-containing_alco...codon.alg.fasta.phy	NIES-267	574	581	1	1236	GCG ATC GCA	AIA
+16806_iron-containing_alco...codon.alg.fasta.phy	336-3	574	581	1	1236	GCG ATC GCC	AIA
+16806_iron-containing_alco...codon.alg.fasta.phy	NIES-3974	574	581	1	1236	GCG ATC GCG	AIA
+16806_iron-containing_alco...codon.alg.fasta.phy	NIES-4071	574	581	1	1236	GCC TTA GCG	ALA
+16806_iron-containing_alco...codon.alg.fasta.phy	NIES-4105	574	581	1	1236	GCC TTA GCG	ALA
+16806_iron-containing_alco...codon.alg.fasta.phy	PCC_6303	574	581	1	1236	GCG ATC GCT	AIA
+16806_iron-containing_alco...codon.alg.fasta.phy	PCC_7716	574	581	1	1236	GCT TTA GCC	ALA
+16441_ilvA.codon.alg.fasta.phy	NIES-267	904	911	1	1509	GCG ATC GCC	AIA
+16441_ilvA.codon.alg.fasta.phy	336-3	904	911	1	1509	GCG ATC GCC	AIA
+16441_ilvA.codon.alg.fasta.phy	NIES-3974	904	911	1	1509	GCG ATC GCC	AIA
+16441_ilvA.codon.alg.fasta.phy	NIES-4071	904	911	1	1509	GCT ATA GCT	AIA
+16441_ilvA.codon.alg.fasta.phy	NIES-4105	904	911	1	1509	GCT ATA GCT	AIA
+16441_ilvA.codon.alg.fasta.phy	PCC_6303	904	911	1	1509	GCG ATC GCA	AIA
+16441_ilvA.codon.alg.fasta.phy	PCC_7716	904	911	1	1509	GCT ATT GCT	AIA
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	NIES-267	50	57	2	1440	GGC GAT CGC	GDR
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	336-3	50	57	2	1440	GGC GAT CGC	GDR
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	NIES-3974	50	57	2	1440	GGC GAT CGC	GDR
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	NIES-4071	50	57	2	1440	GGA GAA AAG	GEK
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	NIES-4105	50	57	2	1440	GGA GAA AAG	GEK
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	PCC_6303	50	57	2	1440	GGG GAA AAG	GEK
+13211_aspartate_ammonia-ly...codon.alg.fasta.phy	PCC_7716	50	57	2	1440	GGA GAA ATG	GEM
+15027_argS.codon.alg.fasta.phy	NIES-267	433	440	1	1758	GCG ATC GCC	AIA
+15027_argS.codon.alg.fasta.phy	336-3	433	440	1	1758	GCG ATC GCC	AIA
+15027_argS.codon.alg.fasta.phy	NIES-3974	433	440	1	1758	TGT ATT GCC	CIA
+15027_argS.codon.alg.fasta.phy	NIES-4071	433	440	1	1758	TGT ATA GCT	CIA
+15027_argS.codon.alg.fasta.phy	NIES-4105	433	440	1	1758	TGT ATA GCT	CIA
+15027_argS.codon.alg.fasta.phy	PCC_6303	433	440	1	1758	AGT ATT GCC	SIA
+15027_argS.codon.alg.fasta.phy	PCC_7716	433	440	1	1758	AGC ATT GCT	SIA
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-267	827	834	2	1506	GGC GAT CGC	GDR
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	336-3	827	834	2	1506	GGC GAT CGC	GDR
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-3974	827	834	2	1506	GGG GAG CGG	GER
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-4071	827	834	2	1506	GGA GAT AGA	GDR
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	NIES-4105	827	834	2	1506	GGA GAT AGA	GDR
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	PCC_6303	827	834	2	1506	GGC GAT CGC	GDR
+16143_glycoside_hydrolase_...codon.alg.fasta.phy	PCC_7716	827	834	2	1506	GGA GAT AGA	GDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	NIES-267	677	684	2	1236	TGC GAT CGC	CDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	336-3	677	684	2	1236	GGC GAT CGC	GDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	NIES-3974	677	684	2	1236	AGC GAT CGC	SDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	NIES-4071	677	684	2	1236	GGT GAC CGG	GDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	NIES-4105	677	684	2	1236	GGT GAC CGG	GDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	PCC_6303	677	684	2	1236	AGC GAT CGC	SDR
+13250_FIST_C-terminal_doma...codon.alg.fasta.phy	PCC_7716	677	684	2	1236	GGT GAC CGC	GDR
+15860_plsY.codon.alg.fasta.phy	NIES-267	502	509	1	714	GCG ATC GCA	AIA
+15860_plsY.codon.alg.fasta.phy	336-3	502	509	1	714	GCG ATC GCT	AIA
+15860_plsY.codon.alg.fasta.phy	NIES-3974	502	509	1	714	GCT GTA GCT	AVA
+15860_plsY.codon.alg.fasta.phy	NIES-4071	502	509	1	714	GCC GTT GCA	AVA
+15860_plsY.codon.alg.fasta.phy	NIES-4105	502	509	1	714	GCC GTT GCA	AVA
+15860_plsY.codon.alg.fasta.phy	PCC_6303	502	509	1	714	GCT ATA AGT	AIS
+15860_plsY.codon.alg.fasta.phy	PCC_7716	502	509	1	714	GCC GTT GCA	AVA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-267	754	761	1	1209	GCG ATC GCA	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	336-3	754	761	1	1209	GCG ATC GCT	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-3974	754	761	1	1209	GCG ATC GCA	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-4071	754	761	1	1209	GCT ATT GCT	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	NIES-4105	754	761	1	1209	GCT ATT GCT	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	PCC_6303	754	761	1	1209	GCG ATC GCA	AIA
+15180_AI-2E_family_transpo...codon.alg.fasta.phy	PCC_7716	754	761	1	1209	GCA ATT GCT	AIA
+13824_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	1014	1021	3	1110	TTG CGA TCG CAG	LRSQ
+13824_glycosyltransferase_...codon.alg.fasta.phy	336-3	1014	1021	3	1110	GAG CGC GAT CGC	ERDR
+13824_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	1014	1021	3	1110	CTG CGA TCG CAT	LRSH
+13824_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	1014	1021	3	1110	TTG CGC GTT CAA	LRVQ
+13824_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	1014	1021	3	1110	TTG CGC GTT CAA	LRVQ
+13824_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	1014	1021	3	1110	ATG CGA TCG CAT	MRSH
+13824_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	1014	1021	3	1110	TTA CGC GAT AAA	LRDK
+13845_alr.codon.alg.fasta.phy	NIES-267	640	647	1	1212	GCG ATC GCA	AIA
+13845_alr.codon.alg.fasta.phy	336-3	640	647	1	1212	GCG ATC GCC	AIA
+13845_alr.codon.alg.fasta.phy	NIES-3974	640	647	1	1212	GCG ATC GCC	AIA
+13845_alr.codon.alg.fasta.phy	NIES-4071	640	647	1	1212	GCA ATT GCC	AIA
+13845_alr.codon.alg.fasta.phy	NIES-4105	640	647	1	1212	GCA ATT GCC	AIA
+13845_alr.codon.alg.fasta.phy	PCC_6303	640	647	1	1212	GCG ATC GCT	AIA
+13845_alr.codon.alg.fasta.phy	PCC_7716	640	647	1	1212	GCA ATT GCC	AIA
+13295_csaB.codon.alg.fasta.phy	NIES-267	283	290	1	1056	GCG ATC GCA	AIA
+13295_csaB.codon.alg.fasta.phy	336-3	283	290	1	1056	ACA TTA GCC	TLA
+13295_csaB.codon.alg.fasta.phy	NIES-3974	283	290	1	1056	GCG ATC GCC	AIA
+13295_csaB.codon.alg.fasta.phy	NIES-4071	283	290	1	1056	GCA TTA GCG	ALA
+13295_csaB.codon.alg.fasta.phy	NIES-4105	283	290	1	1056	GCA TTA GCG	ALA
+13295_csaB.codon.alg.fasta.phy	PCC_6303	283	290	1	1056	GCA TTG GCG	ALA
+13295_csaB.codon.alg.fasta.phy	PCC_7716	283	290	1	1056	GCG TTA GCC	ALA
+16413_ATP-binding_protein.codon.alg.fasta.phy	NIES-267	1748	1755	2	3885	TGC GAT CGC	CDR
+16413_ATP-binding_protein.codon.alg.fasta.phy	336-3	1748	1755	2	3885	TGC GAT CGC	CDR
+16413_ATP-binding_protein.codon.alg.fasta.phy	NIES-3974	1748	1755	2	3885	TGC GAT CGT	CDR
+16413_ATP-binding_protein.codon.alg.fasta.phy	NIES-4071	1748	1755	2	3885	TGT GAC CTA	CDL
+16413_ATP-binding_protein.codon.alg.fasta.phy	NIES-4105	1748	1755	2	3885	TGT GAC CTA	CDL
+16413_ATP-binding_protein.codon.alg.fasta.phy	PCC_6303	1748	1755	2	3885	TGC GAT CGC	CDR
+16413_ATP-binding_protein.codon.alg.fasta.phy	PCC_7716	1748	1755	2	3885	TGT GAC TTA	CDL
+12416_menD.codon.alg.fasta.phy	NIES-267	808	815	1	1875	GCG ATC GCA	AIA
+12416_menD.codon.alg.fasta.phy	336-3	808	815	1	1875	GCG ATC GCC	AIA
+12416_menD.codon.alg.fasta.phy	NIES-3974	808	815	1	1875	GCG ATC GCG	AIA
+12416_menD.codon.alg.fasta.phy	NIES-4071	808	815	1	1875	AGT ATT GCC	SIA
+12416_menD.codon.alg.fasta.phy	NIES-4105	808	815	1	1875	AGT ATT GCC	SIA
+12416_menD.codon.alg.fasta.phy	PCC_6303	808	815	1	1875	GCG ATC GCG	AIA
+12416_menD.codon.alg.fasta.phy	PCC_7716	808	815	1	1875	CAG GTA GCA	QVA
+12527_ribonuclease_R.codon.alg.fasta.phy	NIES-267	38	45	2	2067	GGC GAT CGC	GDR
+12527_ribonuclease_R.codon.alg.fasta.phy	336-3	38	45	2	2067	AGC GAA CGC	SER
+12527_ribonuclease_R.codon.alg.fasta.phy	NIES-3974	38	45	2	2067	AGC GAT CGC	SDR
+12527_ribonuclease_R.codon.alg.fasta.phy	NIES-4071	38	45	2	2067	GCA GAG CGG	AER
+12527_ribonuclease_R.codon.alg.fasta.phy	NIES-4105	38	45	2	2067	GCA GAG CGG	AER
+12527_ribonuclease_R.codon.alg.fasta.phy	PCC_6303	38	45	2	2067	AGC GAT CGC	SDR
+12527_ribonuclease_R.codon.alg.fasta.phy	PCC_7716	38	45	2	2067	GCA GAA CGA	AER
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	NIES-267	150	157	3	1017	TGG CGA TCG CGT	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	336-3	150	157	3	1017	TGG CGA TCG CGG	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	NIES-3974	150	157	3	1017	TGG CGA TCG CGT	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	NIES-4071	150	157	3	1017	TGG CGA AGT CGT	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	NIES-4105	150	157	3	1017	TGG CGA AGT CGT	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	PCC_6303	150	157	3	1017	TGG CGA TCG CGT	WRSR
+15708_LD-carboxypeptidase.codon.alg.fasta.phy	PCC_7716	150	157	3	1017	TGG CGA AGT CGT	WRSR
+15294_hypothetical_protein.codon.alg.fasta.phy	NIES-267	676	683	1	816	GCG ATC GCA	AIA
+15294_hypothetical_protein.codon.alg.fasta.phy	336-3	676	683	1	816	GCG ATC GCC	AIA
+15294_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	676	683	1	816	GCG ATC GCT	AIA
+15294_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	676	683	1	816	GCA ATC GCA	AIA
+15294_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	676	683	1	816	GCA ATC GCA	AIA
+15294_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	676	683	1	816	GCG GTT GCT	AVA
+15294_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	676	683	1	816	GCC ATT GCT	AIA
+14073_hypothetical_protein.codon.alg.fasta.phy	NIES-267	1106	1113	2	1374	AGC GAT CGC	SDR
+14073_hypothetical_protein.codon.alg.fasta.phy	336-3	1106	1113	2	1374	ATT GCC CGC	IAR
+14073_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	1106	1113	2	1374	AGC CAA AGA	SQR
+14073_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	1106	1113	2	1374	ACC GAA AGA	TER
+14073_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	1106	1113	2	1374	ACC GAA AGA	TER
+14073_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	1106	1113	2	1374	GCG AAA CGA	AKR
+14073_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	1106	1113	2	1374	ACT GAG AGA	TER
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	NIES-267	148	155	1	336	GCG ATC GCA	AIA
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	336-3	148	155	1	336	GCA GTG CAA	AVQ
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	NIES-3974	148	155	1	336	GCT GTC AAA	AVK
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	NIES-4071	148	155	1	336	GCT GTT GAA	AVE
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	NIES-4105	148	155	1	336	GCT GTT GAA	AVE
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	PCC_6303	148	155	1	336	GCT GTT TAT	AVY
+14530_-2Fe-2S--binding_pro...codon.alg.fasta.phy	PCC_7716	148	155	1	336	GCT GTT GAA	AVE
+15402_argC.codon.alg.fasta.phy	NIES-267	422	429	2	1056	CGC GAT CGC	RDR
+15402_argC.codon.alg.fasta.phy	336-3	422	429	2	1056	CGC GAT CGC	RDR
+15402_argC.codon.alg.fasta.phy	NIES-3974	422	429	2	1056	CGC GAT CGC	RDR
+15402_argC.codon.alg.fasta.phy	NIES-4071	422	429	2	1056	CGT GAC CGT	RDR
+15402_argC.codon.alg.fasta.phy	NIES-4105	422	429	2	1056	CGT GAC CGT	RDR
+15402_argC.codon.alg.fasta.phy	PCC_6303	422	429	2	1056	CGC GAT CGC	RDR
+15402_argC.codon.alg.fasta.phy	PCC_7716	422	429	2	1056	CGC GAC CGT	RDR
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	NIES-267	896	903	2	2397	GGC GAT CGC	GDR
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	336-3	896	903	2	2397	GGG GAA CCT	GEP
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	NIES-3974	896	903	2	2397	--- --- TCC	--S
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	NIES-4071	896	903	2	2397	GGA GAA CCA	GEP
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	NIES-4105	896	903	2	2397	GGA GAA CCA	GEP
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	PCC_6303	896	903	2	2397	GGT GAA CCA	GEP
+13576_DUF3488_and_DUF4129_...codon.alg.fasta.phy	PCC_7716	896	903	2	2397	GGG GAG CAA	GEQ
+12518_smc.codon.alg.fasta.phy	NIES-267	977	984	2	3756	GGC GAT CGC	GDR
+12518_smc.codon.alg.fasta.phy	336-3	977	984	2	3756	GGA GAA AGA	GER
+12518_smc.codon.alg.fasta.phy	NIES-3974	977	984	2	3756	GGG GAA AAG	GEK
+12518_smc.codon.alg.fasta.phy	NIES-4071	977	984	2	3756	GGA GAT AAG	GDK
+12518_smc.codon.alg.fasta.phy	NIES-4105	977	984	2	3756	GGA GAT AAG	GDK
+12518_smc.codon.alg.fasta.phy	PCC_6303	977	984	2	3756	GGT GAA TTG	GEL
+12518_smc.codon.alg.fasta.phy	PCC_7716	977	984	2	3756	GGA GAT AAG	GDK
+12571_gshB.codon.alg.fasta.phy	NIES-267	554	561	2	975	GGC GAT CGC	GDR
+12571_gshB.codon.alg.fasta.phy	336-3	554	561	2	975	GGC GAT CGC	GDR
+12571_gshB.codon.alg.fasta.phy	NIES-3974	554	561	2	975	GGC GAT CGC	GDR
+12571_gshB.codon.alg.fasta.phy	NIES-4071	554	561	2	975	GGA GAC CGC	GDR
+12571_gshB.codon.alg.fasta.phy	NIES-4105	554	561	2	975	GGA GAC CGC	GDR
+12571_gshB.codon.alg.fasta.phy	PCC_6303	554	561	2	975	AGC GAT CGC	SDR
+12571_gshB.codon.alg.fasta.phy	PCC_7716	554	561	2	975	GGA GAC CGT	GDR
+14761_tatC.codon.alg.fasta.phy	NIES-267	147	154	3	801	TTG CGA TCG CGA	LRSR
+14761_tatC.codon.alg.fasta.phy	336-3	147	154	3	801	TTA CGA CAA CGA	LRQR
+14761_tatC.codon.alg.fasta.phy	NIES-3974	147	154	3	801	TTA CGA CTG CGG	LRLR
+14761_tatC.codon.alg.fasta.phy	NIES-4071	147	154	3	801	CTA AGA CGA CGA	LRRR
+14761_tatC.codon.alg.fasta.phy	NIES-4105	147	154	3	801	CTA AGA CGA CGA	LRRR
+14761_tatC.codon.alg.fasta.phy	PCC_6303	147	154	3	801	CTG CGA CGC AGG	LRRR
+14761_tatC.codon.alg.fasta.phy	PCC_7716	147	154	3	801	CTA AGA CTA CGA	LRLR
+15720_alaS.codon.alg.fasta.phy	NIES-267	2326	2333	1	2703	GCG ATC GCC	AIA
+15720_alaS.codon.alg.fasta.phy	336-3	2326	2333	1	2703	GCG ATC GCC	AIA
+15720_alaS.codon.alg.fasta.phy	NIES-3974	2326	2333	1	2703	GCG ATC GCT	AIA
+15720_alaS.codon.alg.fasta.phy	NIES-4071	2326	2333	1	2703	GCA ATA GCA	AIA
+15720_alaS.codon.alg.fasta.phy	NIES-4105	2326	2333	1	2703	GCA ATA GCA	AIA
+15720_alaS.codon.alg.fasta.phy	PCC_6303	2326	2333	1	2703	GCG ATC GCT	AIA
+15720_alaS.codon.alg.fasta.phy	PCC_7716	2326	2333	1	2703	GCA ATA GCC	AIA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	NIES-267	121	128	1	669	GCG ATC GCA	AIA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	336-3	121	128	1	669	GCG ATC GCC	AIA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	NIES-3974	121	128	1	669	GCA ATA TCA	AIS
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	NIES-4071	121	128	1	669	GCA GTT GCG	AVA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	NIES-4105	121	128	1	669	GCA GTT GCG	AVA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	PCC_6303	121	128	1	669	GCG ATC GCA	AIA
+15009_DUF4040_domain-conta...codon.alg.fasta.phy	PCC_7716	121	128	1	669	GCG ATT GCG	AIA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-267	520	527	1	672	GCG ATC GCA	AIA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	336-3	520	527	1	672	ACA ACT GCC	TTA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-3974	520	527	1	672	ACT ACC GCT	TTA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-4071	520	527	1	672	GGT GTC GCA	GVA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	NIES-4105	520	527	1	672	GGT GTC GCA	GVA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	PCC_6303	520	527	1	672	GCT AAA GCT	AKA
+15025_HAD_family_hydrolase.codon.alg.fasta.phy	PCC_7716	520	527	1	672	GGT GTC GCT	GVA
+14166_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	528	535	3	1668	TTG CGA TCG CGT	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	336-3	528	535	3	1668	TTG CGA TCG CGG	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	528	535	3	1668	TTG CGA TCG CGG	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	528	535	3	1668	CTA CGT TCG CGT	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	528	535	3	1668	CTA CGT TCG CGT	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	528	535	3	1668	TTG CGA TCG CGT	LRSR
+14166_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	528	535	3	1668	CTG CGT TCA CGT	LRSR
+12731_rseP.codon.alg.fasta.phy	NIES-267	16	23	1	1116	GCG ATC GCA	AIA
+12731_rseP.codon.alg.fasta.phy	336-3	16	23	1	1116	GCG ATC GCA	AIA
+12731_rseP.codon.alg.fasta.phy	NIES-3974	16	23	1	1116	GCG ATC GCA	AIA
+12731_rseP.codon.alg.fasta.phy	NIES-4071	16	23	1	1116	GCA ATC GCA	AIA
+12731_rseP.codon.alg.fasta.phy	NIES-4105	16	23	1	1116	GCA ATC GCA	AIA
+12731_rseP.codon.alg.fasta.phy	PCC_6303	16	23	1	1116	GCG ATC GGA	AIG
+12731_rseP.codon.alg.fasta.phy	PCC_7716	16	23	1	1116	GCA ATC GCA	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	NIES-267	739	746	1	816	GCG ATC GCC	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	336-3	739	746	1	816	GCG ATC GCC	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	NIES-3974	739	746	1	816	GCG ATC GCA	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	NIES-4071	739	746	1	816	GCC ATC GCT	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	NIES-4105	739	746	1	816	GCC ATC GCT	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	PCC_6303	739	746	1	816	GCG ATC GCA	AIA
+14103_carbon-nitrogen_hydr...codon.alg.fasta.phy	PCC_7716	739	746	1	816	GCC ATC GCT	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-267	439	446	1	1116	GCG ATC GCA	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	336-3	439	446	1	1116	GCG ATC GCC	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-3974	439	446	1	1116	GCG ATC GCT	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4071	439	446	1	1116	GCA ATT GCC	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4105	439	446	1	1116	GCA ATT GCC	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_6303	439	446	1	1116	GCG ATC GCA	AIA
+16236_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_7716	439	446	1	1116	GCT ATT GCC	AIA
+15932_thiL.codon.alg.fasta.phy	NIES-267	396	403	3	1035	GTG CGA TCG CCA	VRSP
+15932_thiL.codon.alg.fasta.phy	336-3	396	403	3	1035	GTG CGA TCG CCA	VRSP
+15932_thiL.codon.alg.fasta.phy	NIES-3974	396	403	3	1035	GTG CGA TCG CCG	VRSP
+15932_thiL.codon.alg.fasta.phy	NIES-4071	396	403	3	1035	GTA CGG GCG CCT	VRAP
+15932_thiL.codon.alg.fasta.phy	NIES-4105	396	403	3	1035	GTA CGG GCG CCT	VRAP
+15932_thiL.codon.alg.fasta.phy	PCC_6303	396	403	3	1035	GTG CGA TCG CCT	VRSP
+15932_thiL.codon.alg.fasta.phy	PCC_7716	396	403	3	1035	GTA CGG GCG CCT	VRAP
+16875_fetB.codon.alg.fasta.phy	NIES-267	433	440	1	807	GCG ATC GCA	AIA
+16875_fetB.codon.alg.fasta.phy	336-3	433	440	1	807	GCG ATC GCT	AIA
+16875_fetB.codon.alg.fasta.phy	NIES-3974	433	440	1	807	GCG ATC GCA	AIA
+16875_fetB.codon.alg.fasta.phy	NIES-4071	433	440	1	807	GCT TCT TCA	ASS
+16875_fetB.codon.alg.fasta.phy	NIES-4105	433	440	1	807	GCT TCT TCA	ASS
+16875_fetB.codon.alg.fasta.phy	PCC_6303	433	440	1	807	GCA ATT GCC	AIA
+16875_fetB.codon.alg.fasta.phy	PCC_7716	433	440	1	807	GCG ATA GCG	AIA
+13949_aspS.codon.alg.fasta.phy	NIES-267	318	325	3	1791	GTG CGA TCG CAA	VRSQ
+13949_aspS.codon.alg.fasta.phy	336-3	318	325	3	1791	GTG CGC AAG CAG	VRKQ
+13949_aspS.codon.alg.fasta.phy	NIES-3974	318	325	3	1791	GTT CGT AAG CAA	VRKQ
+13949_aspS.codon.alg.fasta.phy	NIES-4071	318	325	3	1791	GTC CGC AAG CAG	VRKQ
+13949_aspS.codon.alg.fasta.phy	NIES-4105	318	325	3	1791	GTC CGC AAG CAG	VRKQ
+13949_aspS.codon.alg.fasta.phy	PCC_6303	318	325	3	1791	GTT CGC AAA CAG	VRKQ
+13949_aspS.codon.alg.fasta.phy	PCC_7716	318	325	3	1791	GTT CGT AAG CAG	VRKQ
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-267	877	884	1	1617	GCG ATC GCC	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	336-3	877	884	1	1617	GCG ATC GCA	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-3974	877	884	1	1617	GCG ATC GCC	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-4071	877	884	1	1617	GCG ATC GCT	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-4105	877	884	1	1617	GCG ATC GCT	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	PCC_6303	877	884	1	1617	GCG ATC GCA	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	PCC_7716	877	884	1	1617	GCG ATC GCT	AIA
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-267	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	336-3	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-3974	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-4071	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	NIES-4105	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	PCC_6303	929	936	2	1617	CGC GAT CGC	RDR
+14979_bifunctional_pantoat...codon.alg.fasta.phy	PCC_7716	929	936	2	1617	CGC GAT CGC	RDR
+14454_amidase.codon.alg.fasta.phy	NIES-267	623	630	2	1404	GGC GAT CGC	GDR
+14454_amidase.codon.alg.fasta.phy	336-3	623	630	2	1404	GGC GAT CGC	GDR
+14454_amidase.codon.alg.fasta.phy	NIES-3974	623	630	2	1404	GGC GAT CGC	GDR
+14454_amidase.codon.alg.fasta.phy	NIES-4071	623	630	2	1404	GGC GAT AAA	GDK
+14454_amidase.codon.alg.fasta.phy	NIES-4105	623	630	2	1404	GGC GAT AAA	GDK
+14454_amidase.codon.alg.fasta.phy	PCC_6303	623	630	2	1404	GGC GAT CGC	GDR
+14454_amidase.codon.alg.fasta.phy	PCC_7716	623	630	2	1404	GGT GAT AAA	GDK
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	NIES-267	179	186	2	1653	GGC GAT CGC	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	336-3	179	186	2	1653	GGC GAT CGC	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	NIES-3974	179	186	2	1653	GGC GAT CGC	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	NIES-4071	179	186	2	1653	GGT GAC CGT	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	NIES-4105	179	186	2	1653	GGT GAC CGT	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	PCC_6303	179	186	2	1653	GGT GAT CGT	GDR
+12369_Ppx-GppA_family_phos...codon.alg.fasta.phy	PCC_7716	179	186	2	1653	GGT GAC CGA	GDR
+16328_M48_family_metallopr...codon.alg.fasta.phy	NIES-267	181	188	1	2385	GCG ATC GCG	AIA
+16328_M48_family_metallopr...codon.alg.fasta.phy	336-3	181	188	1	2385	GCG ATC GCC	AIA
+16328_M48_family_metallopr...codon.alg.fasta.phy	NIES-3974	181	188	1	2385	GCG ATC GCC	AIA
+16328_M48_family_metallopr...codon.alg.fasta.phy	NIES-4071	181	188	1	2385	GCA ATG ACT	AMT
+16328_M48_family_metallopr...codon.alg.fasta.phy	NIES-4105	181	188	1	2385	GCA ATG ACT	AMT
+16328_M48_family_metallopr...codon.alg.fasta.phy	PCC_6303	181	188	1	2385	GCG ATC GCA	AIA
+16328_M48_family_metallopr...codon.alg.fasta.phy	PCC_7716	181	188	1	2385	GCC ATG ACT	AMT
+13589_response_regulator.codon.alg.fasta.phy	NIES-267	287	294	2	408	GGC GAT CGC	GDR
+13589_response_regulator.codon.alg.fasta.phy	336-3	287	294	2	408	GGC GAT CGC	GDR
+13589_response_regulator.codon.alg.fasta.phy	NIES-3974	287	294	2	408	GGC GAT CGC	GDR
+13589_response_regulator.codon.alg.fasta.phy	NIES-4071	287	294	2	408	GGT GAC CGC	GDR
+13589_response_regulator.codon.alg.fasta.phy	NIES-4105	287	294	2	408	GGT GAC CGC	GDR
+13589_response_regulator.codon.alg.fasta.phy	PCC_6303	287	294	2	408	GGG GAT CGT	GDR
+13589_response_regulator.codon.alg.fasta.phy	PCC_7716	287	294	2	408	GGT GAC CGT	GDR
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	NIES-267	865	872	1	1209	GCG ATC GCC	AIA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	336-3	865	872	1	1209	GCG ATC GCG	AIA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	NIES-3974	865	872	1	1209	GCG ATC GCT	AIA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	NIES-4071	865	872	1	1209	GCC GTT GCT	AVA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	NIES-4105	865	872	1	1209	GCC GTT GCT	AVA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	PCC_6303	865	872	1	1209	GCG ATC GCA	AIA
+12453_LL-diaminopimelate_a...codon.alg.fasta.phy	PCC_7716	865	872	1	1209	GCC GTT GCT	AVA
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	NIES-267	990	997	3	1290	GTG CGA TCG CGA	VRSR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	336-3	990	997	3	1290	GTG CGA TCG CGG	VRSR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	NIES-3974	990	997	3	1290	GTG CGA TCG CGG	VRSR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	NIES-4071	990	997	3	1290	GTA CGT GCG CGC	VRAR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	NIES-4105	990	997	3	1290	GTA CGT GCG CGC	VRAR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	PCC_6303	990	997	3	1290	GTG CGA TCG CGT	VRSR
+14660_glucose-1-phosphate_...codon.alg.fasta.phy	PCC_7716	990	997	3	1290	GTA CGT GCG CGC	VRAR
+13310_proS.codon.alg.fasta.phy	NIES-267	1259	1266	2	1809	GGC GAT CGC	GDR
+13310_proS.codon.alg.fasta.phy	336-3	1259	1266	2	1809	GGC GAT CGC	GDR
+13310_proS.codon.alg.fasta.phy	NIES-3974	1259	1266	2	1809	GGC GAT CGC	GDR
+13310_proS.codon.alg.fasta.phy	NIES-4071	1259	1266	2	1809	GGA GAC AGG	GDR
+13310_proS.codon.alg.fasta.phy	NIES-4105	1259	1266	2	1809	GGA GAC AGG	GDR
+13310_proS.codon.alg.fasta.phy	PCC_6303	1259	1266	2	1809	GGA GAT ATG	GDM
+13310_proS.codon.alg.fasta.phy	PCC_7716	1259	1266	2	1809	GGA GAC AGG	GDR
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	NIES-267	323	330	2	741	AGC GAT CGC	SDR
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	336-3	323	330	2	741	AGC GAT CGC	SDR
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	NIES-3974	323	330	2	741	AGC GAT CGC	SDR
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	NIES-4071	323	330	2	741	AGC GAA CGT	SER
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	NIES-4105	323	330	2	741	AGC GAA CGT	SER
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	PCC_6303	323	330	2	741	AGC GAT CGC	SDR
+14360_16S_rRNA_-uracil-149...codon.alg.fasta.phy	PCC_7716	323	330	2	741	AGT GAG CGT	SER
+15872_phosphoribulokinase.codon.alg.fasta.phy	NIES-267	809	816	2	960	TGC GAT CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	336-3	809	816	2	960	TGC GAT CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	NIES-3974	809	816	2	960	TGC GAT CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	NIES-4071	809	816	2	960	TGC GAC CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	NIES-4105	809	816	2	960	TGC GAC CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	PCC_6303	809	816	2	960	TGC GAT CGC	CDR
+15872_phosphoribulokinase.codon.alg.fasta.phy	PCC_7716	809	816	2	960	TGC GAC CGT	CDR
+15902_holA.codon.alg.fasta.phy	NIES-267	49	56	1	993	GCG ATC GCC	AIA
+15902_holA.codon.alg.fasta.phy	336-3	49	56	1	993	GCC GTG GCA	AVA
+15902_holA.codon.alg.fasta.phy	NIES-3974	49	56	1	993	GCC GTC AAA	AVK
+15902_holA.codon.alg.fasta.phy	NIES-4071	49	56	1	993	GCT GTC GTG	AVV
+15902_holA.codon.alg.fasta.phy	NIES-4105	49	56	1	993	GCT GTC GTG	AVV
+15902_holA.codon.alg.fasta.phy	PCC_6303	49	56	1	993	GCC GTT TCA	AVS
+15902_holA.codon.alg.fasta.phy	PCC_7716	49	56	1	993	GCC GTT GTG	AVV
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	NIES-267	802	809	1	1485	GCG ATC GCC	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	336-3	802	809	1	1485	GCG ATC GCT	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	NIES-3974	802	809	1	1485	GCG ATC GCG	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	NIES-4071	802	809	1	1485	GCC ATC GCA	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	NIES-4105	802	809	1	1485	GCC ATC GCA	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	PCC_6303	802	809	1	1485	GCG ATC GCA	AIA
+14482_AtzE_family_amidohyd...codon.alg.fasta.phy	PCC_7716	802	809	1	1485	GCT ATT GCT	AIA
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-267	938	945	2	1011	GGC GAT CGC	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	336-3	938	945	2	1011	GGC GAT CGC	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-3974	938	945	2	1011	GGC GAT CGC	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4071	938	945	2	1011	GGC GAT AGA	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	NIES-4105	938	945	2	1011	GGC GAT AGA	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_6303	938	945	2	1011	GGC GAT CGC	GDR
+12922_pentapeptide_repeat-...codon.alg.fasta.phy	PCC_7716	938	945	2	1011	GGC GAT AGA	GDR
+15474_MltA_domain-containi...codon.alg.fasta.phy	NIES-267	1292	1299	2	1368	GGC GAT CGC	GDR
+15474_MltA_domain-containi...codon.alg.fasta.phy	336-3	1292	1299	2	1368	GGC GAT CGC	GDR
+15474_MltA_domain-containi...codon.alg.fasta.phy	NIES-3974	1292	1299	2	1368	GGA GAC CGA	GDR
+15474_MltA_domain-containi...codon.alg.fasta.phy	NIES-4071	1292	1299	2	1368	GCC GAA CGT	AER
+15474_MltA_domain-containi...codon.alg.fasta.phy	NIES-4105	1292	1299	2	1368	GCC GAA CGT	AER
+15474_MltA_domain-containi...codon.alg.fasta.phy	PCC_6303	1292	1299	2	1368	GGA GAA CGG	GER
+15474_MltA_domain-containi...codon.alg.fasta.phy	PCC_7716	1292	1299	2	1368	GCC GAA CGT	AER
+14631_response_regulator_t...codon.alg.fasta.phy	NIES-267	140	147	2	684	CGC GAT CGC	RDR
+14631_response_regulator_t...codon.alg.fasta.phy	336-3	140	147	2	684	CGC GAT CGC	RDR
+14631_response_regulator_t...codon.alg.fasta.phy	NIES-3974	140	147	2	684	CGC GAT CGC	RDR
+14631_response_regulator_t...codon.alg.fasta.phy	NIES-4071	140	147	2	684	CGT GAA CGT	RER
+14631_response_regulator_t...codon.alg.fasta.phy	NIES-4105	140	147	2	684	CGT GAA CGT	RER
+14631_response_regulator_t...codon.alg.fasta.phy	PCC_6303	140	147	2	684	CGT GAT TGC	RDC
+14631_response_regulator_t...codon.alg.fasta.phy	PCC_7716	140	147	2	684	CGT GAA CGT	RER
+14718_purQ.codon.alg.fasta.phy	NIES-267	41	48	2	678	TGC GAT CGC	CDR
+14718_purQ.codon.alg.fasta.phy	336-3	41	48	2	678	TGC GAT CGC	CDR
+14718_purQ.codon.alg.fasta.phy	NIES-3974	41	48	2	678	TGC GAT CGC	CDR
+14718_purQ.codon.alg.fasta.phy	NIES-4071	41	48	2	678	TGC GAT CGA	CDR
+14718_purQ.codon.alg.fasta.phy	NIES-4105	41	48	2	678	TGC GAT CGA	CDR
+14718_purQ.codon.alg.fasta.phy	PCC_6303	41	48	2	678	TGC GAT CGT	CDR
+14718_purQ.codon.alg.fasta.phy	PCC_7716	41	48	2	678	TGC GAT AGA	CDR
+16714_nifV.codon.alg.fasta.phy	NIES-267	91	98	1	1140	GCG ATC GCG	AIA
+16714_nifV.codon.alg.fasta.phy	336-3	91	98	1	1140	GCG ATC GCC	AIA
+16714_nifV.codon.alg.fasta.phy	NIES-3974	91	98	1	1140	GCG ATC GCT	AIA
+16714_nifV.codon.alg.fasta.phy	NIES-4071	91	98	1	1140	GCA ATT GCC	AIA
+16714_nifV.codon.alg.fasta.phy	NIES-4105	91	98	1	1140	GCA ATT GCC	AIA
+16714_nifV.codon.alg.fasta.phy	PCC_6303	91	98	1	1140	GCG ATC GCA	AIA
+16714_nifV.codon.alg.fasta.phy	PCC_7716	91	98	1	1140	GCG ATT GCT	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	NIES-267	664	671	1	1179	GCG ATC GCC	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	336-3	664	671	1	1179	GCG ATC GCC	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	NIES-3974	664	671	1	1179	GCG ATC GCT	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	NIES-4071	664	671	1	1179	GCG ATA GCA	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	NIES-4105	664	671	1	1179	GCG ATA GCA	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	PCC_6303	664	671	1	1179	GCG ATC GCT	AIA
+16562_RpoD-SigA_family_RNA...codon.alg.fasta.phy	PCC_7716	664	671	1	1179	GCT ATA GCA	AIA
+15682_polysaccharide_biosy...codon.alg.fasta.phy	NIES-267	298	305	1	2289	GCG ATC GCG	AIA
+15682_polysaccharide_biosy...codon.alg.fasta.phy	336-3	298	305	1	2289	GCA --- ---	A--
+15682_polysaccharide_biosy...codon.alg.fasta.phy	NIES-3974	298	305	1	2289	AGT AAT CAA	SNQ
+15682_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4071	298	305	1	2289	CCA AAT GCA	PNA
+15682_polysaccharide_biosy...codon.alg.fasta.phy	NIES-4105	298	305	1	2289	CCA AAT GCA	PNA
+15682_polysaccharide_biosy...codon.alg.fasta.phy	PCC_6303	298	305	1	2289	GCA --- ---	A--
+15682_polysaccharide_biosy...codon.alg.fasta.phy	PCC_7716	298	305	1	2289	CCA --- ---	P--
+15140_dapF.codon.alg.fasta.phy	NIES-267	110	117	2	837	TGC GAT CGC	CDR
+15140_dapF.codon.alg.fasta.phy	336-3	110	117	2	837	TGC GAT CGC	CDR
+15140_dapF.codon.alg.fasta.phy	NIES-3974	110	117	2	837	TGC GAT CGC	CDR
+15140_dapF.codon.alg.fasta.phy	NIES-4071	110	117	2	837	TGC GAC CGT	CDR
+15140_dapF.codon.alg.fasta.phy	NIES-4105	110	117	2	837	TGC GAC CGT	CDR
+15140_dapF.codon.alg.fasta.phy	PCC_6303	110	117	2	837	TGC GAT CGC	CDR
+15140_dapF.codon.alg.fasta.phy	PCC_7716	110	117	2	837	TGC GAC CGT	CDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	NIES-267	560	567	2	1548	GGC GAT CGC	GDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	336-3	560	567	2	1548	GGC GAT CGC	GDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	NIES-3974	560	567	2	1548	GGC GAT CGC	GDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	NIES-4071	560	567	2	1548	GGC GAC CGT	GDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	NIES-4105	560	567	2	1548	GGC GAC CGT	GDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	PCC_6303	560	567	2	1548	AGC GAT CGC	SDR
+13604_site-2_protease_fami...codon.alg.fasta.phy	PCC_7716	560	567	2	1548	GGC GAC CGT	GDR
+16839_hrmK.codon.alg.fasta.phy	NIES-267	1868	1875	2	1995	GGC GAT CGC	GDR
+16839_hrmK.codon.alg.fasta.phy	336-3	1868	1875	2	1995	GGC GAT CGC	GDR
+16839_hrmK.codon.alg.fasta.phy	NIES-3974	1868	1875	2	1995	AGC GAT CGC	SDR
+16839_hrmK.codon.alg.fasta.phy	NIES-4071	1868	1875	2	1995	GGC GAC CGT	GDR
+16839_hrmK.codon.alg.fasta.phy	NIES-4105	1868	1875	2	1995	GGC GAC CGT	GDR
+16839_hrmK.codon.alg.fasta.phy	PCC_6303	1868	1875	2	1995	GGC GAT CGA	GDR
+16839_hrmK.codon.alg.fasta.phy	PCC_7716	1868	1875	2	1995	GGC GAC CGT	GDR
+12828_rph.codon.alg.fasta.phy	NIES-267	415	422	1	741	GCG ATC GCC	AIA
+12828_rph.codon.alg.fasta.phy	336-3	415	422	1	741	GCA AAT GCG	ANA
+12828_rph.codon.alg.fasta.phy	NIES-3974	415	422	1	741	GCG AAT GCT	ANA
+12828_rph.codon.alg.fasta.phy	NIES-4071	415	422	1	741	GCT GGC GCC	AGA
+12828_rph.codon.alg.fasta.phy	NIES-4105	415	422	1	741	GCT GGC GCC	AGA
+12828_rph.codon.alg.fasta.phy	PCC_6303	415	422	1	741	GCT TGT GCT	ACA
+12828_rph.codon.alg.fasta.phy	PCC_7716	415	422	1	741	GCT GGC GCC	AGA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	NIES-267	517	524	1	1416	GCG ATC GCC	AIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	336-3	517	524	1	1416	GAA ATT GCT	EIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	NIES-3974	517	524	1	1416	GAT ATT GCT	DIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	NIES-4071	517	524	1	1416	GAC ATC GCG	DIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	NIES-4105	517	524	1	1416	GAC ATC GCG	DIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	PCC_6303	517	524	1	1416	GAG ATA GCT	EIA
+12693_bifunctional_folylpo...codon.alg.fasta.phy	PCC_7716	517	524	1	1416	GAT ATT GCT	DIA
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	NIES-267	842	849	2	1632	GGC GAT CGC	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	336-3	842	849	2	1632	GGC GAT CGC	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	NIES-3974	842	849	2	1632	GGC GAT CGC	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	NIES-4071	842	849	2	1632	GGT GAC AGA	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	NIES-4105	842	849	2	1632	GGT GAC AGA	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	PCC_6303	842	849	2	1632	GGC GAT CGC	GDR
+14326_alpha-D-glucose_phos...codon.alg.fasta.phy	PCC_7716	842	849	2	1632	GGT GAC AGA	GDR
+15370_polyribonucleotide_n...codon.alg.fasta.phy	NIES-267	132	139	3	2154	ACG CGA TCG CAA	TRSQ
+15370_polyribonucleotide_n...codon.alg.fasta.phy	336-3	132	139	3	2154	ACG CGA TCG CAA	TRSQ
+15370_polyribonucleotide_n...codon.alg.fasta.phy	NIES-3974	132	139	3	2154	ACG CGT TCG ACG	TRST
+15370_polyribonucleotide_n...codon.alg.fasta.phy	NIES-4071	132	139	3	2154	ACG CGC TCG GAA	TRSE
+15370_polyribonucleotide_n...codon.alg.fasta.phy	NIES-4105	132	139	3	2154	ACG CGC TCG GAA	TRSE
+15370_polyribonucleotide_n...codon.alg.fasta.phy	PCC_6303	132	139	3	2154	ACG CGA TCG CAA	TRSQ
+15370_polyribonucleotide_n...codon.alg.fasta.phy	PCC_7716	132	139	3	2154	ACG CGC TCG CAA	TRSQ
+15842_minC.codon.alg.fasta.phy	NIES-267	763	770	1	1248	GCG ATC GCA	AIA
+15842_minC.codon.alg.fasta.phy	336-3	763	770	1	1248	GCG ATC GCT	AIA
+15842_minC.codon.alg.fasta.phy	NIES-3974	763	770	1	1248	GCG ATC GCA	AIA
+15842_minC.codon.alg.fasta.phy	NIES-4071	763	770	1	1248	GCT ATA GCT	AIA
+15842_minC.codon.alg.fasta.phy	NIES-4105	763	770	1	1248	GCT ATA GCT	AIA
+15842_minC.codon.alg.fasta.phy	PCC_6303	763	770	1	1248	GCG ATC GCA	AIA
+15842_minC.codon.alg.fasta.phy	PCC_7716	763	770	1	1248	GCT ATA GCT	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	NIES-267	829	836	1	1389	GCG ATC GCA	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	336-3	829	836	1	1389	GCC ATT GCG	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	NIES-3974	829	836	1	1389	GCG ATC GCC	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	NIES-4071	829	836	1	1389	GCA ATT GCG	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	NIES-4105	829	836	1	1389	GCA ATT GCG	AIA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	PCC_6303	829	836	1	1389	GCT GTA GCC	AVA
+13740_NAD-dependent_malic_...codon.alg.fasta.phy	PCC_7716	829	836	1	1389	GCA ATT GCC	AIA
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	NIES-267	130	137	1	852	GCG ATC GCC	AIA
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	336-3	130	137	1	852	ATT AGT GGG	ISG
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	NIES-3974	130	137	1	852	ATT GCT GCT	IAA
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	NIES-4071	130	137	1	852	ATA TTG GGT	ILG
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	NIES-4105	130	137	1	852	ATA TTG GGT	ILG
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	PCC_6303	130	137	1	852	ATT TTG GGT	ILG
+15101_D-alanyl-D-alanine_c...codon.alg.fasta.phy	PCC_7716	130	137	1	852	ATA TTG GGT	ILG
+13268_purB.codon.alg.fasta.phy	NIES-267	647	654	2	1293	CGC GAT CGC	RDR
+13268_purB.codon.alg.fasta.phy	336-3	647	654	2	1293	CGC GAT CGC	RDR
+13268_purB.codon.alg.fasta.phy	NIES-3974	647	654	2	1293	CGT GAT ATT	RDI
+13268_purB.codon.alg.fasta.phy	NIES-4071	647	654	2	1293	CGC GAT ATA	RDI
+13268_purB.codon.alg.fasta.phy	NIES-4105	647	654	2	1293	CGC GAT ATA	RDI
+13268_purB.codon.alg.fasta.phy	PCC_6303	647	654	2	1293	CGC GAT CGC	RDR
+13268_purB.codon.alg.fasta.phy	PCC_7716	647	654	2	1293	CGA GAT ATA	RDI
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	NIES-267	169	176	1	1587	GCG ATC GCA	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	336-3	169	176	1	1587	GCG ATC GCC	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	NIES-3974	169	176	1	1587	GCG ATC GCA	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	NIES-4071	169	176	1	1587	GCT ATC GCG	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	NIES-4105	169	176	1	1587	GCT ATC GCG	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	PCC_6303	169	176	1	1587	GCG ATC GCA	AIA
+16817_glucose-6-phosphate_...codon.alg.fasta.phy	PCC_7716	169	176	1	1587	GCC ATT GCA	AIA
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-267	668	675	2	1680	TGC GAT CGC	CDR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	336-3	668	675	2	1680	TGC GAT CGC	CDR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-3974	668	675	2	1680	TGC GAT CGC	CDR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4071	668	675	2	1680	TGT TCG CGC	CSR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	NIES-4105	668	675	2	1680	TGT TCG CGC	CSR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_6303	668	675	2	1680	TGC GAT CGC	CDR
+13466_ABC_transporter_ATP-...codon.alg.fasta.phy	PCC_7716	668	675	2	1680	TGT ACT CGC	CTR
+12751_ribD.codon.alg.fasta.phy	NIES-267	879	886	3	1209	TTG CGA TCG CAA	LRSQ
+12751_ribD.codon.alg.fasta.phy	336-3	879	886	3	1209	CTG CGA ACA AAA	LRTK
+12751_ribD.codon.alg.fasta.phy	NIES-3974	879	886	3	1209	TTA GAA GCT TCG	LEAS
+12751_ribD.codon.alg.fasta.phy	NIES-4071	879	886	3	1209	TTA CGT CGT CGT	LRRR
+12751_ribD.codon.alg.fasta.phy	NIES-4105	879	886	3	1209	TTA CGT CGT CGT	LRRR
+12751_ribD.codon.alg.fasta.phy	PCC_6303	879	886	3	1209	CTG CGA AAC CAA	LRNQ
+12751_ribD.codon.alg.fasta.phy	PCC_7716	879	886	3	1209	CTA CGT CGT CGT	LRRR
+13540_aroA.codon.alg.fasta.phy	NIES-267	1112	1119	2	1371	AGC GAT CGC	SDR
+13540_aroA.codon.alg.fasta.phy	336-3	1112	1119	2	1371	AGC GAT CGC	SDR
+13540_aroA.codon.alg.fasta.phy	NIES-3974	1112	1119	2	1371	AGC GAT CGC	SDR
+13540_aroA.codon.alg.fasta.phy	NIES-4071	1112	1119	2	1371	AGC GAC CGT	SDR
+13540_aroA.codon.alg.fasta.phy	NIES-4105	1112	1119	2	1371	AGC GAC CGT	SDR
+13540_aroA.codon.alg.fasta.phy	PCC_6303	1112	1119	2	1371	AGC GAT CGC	SDR
+13540_aroA.codon.alg.fasta.phy	PCC_7716	1112	1119	2	1371	AGC GAC CGT	SDR
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	NIES-267	596	603	2	789	GGC GAT CGC	GDR
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	336-3	596	603	2	789	AGC GAT CGC	SDR
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	NIES-3974	596	603	2	789	AGC GAT CGC	SDR
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	NIES-4071	596	603	2	789	CCG GAG CGA	PER
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	NIES-4105	596	603	2	789	CCG GAG CGA	PER
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	PCC_6303	596	603	2	789	AGC GAT CGC	SDR
+13980_TatD_family_hydrolas...codon.alg.fasta.phy	PCC_7716	596	603	2	789	CCA GAA AGA	PER
+14125_der.codon.alg.fasta.phy	NIES-267	146	153	2	1371	CGC GAT CGC	RDR
+14125_der.codon.alg.fasta.phy	336-3	146	153	2	1371	AGC GAT CGC	SDR
+14125_der.codon.alg.fasta.phy	NIES-3974	146	153	2	1371	CGC GAT CGC	RDR
+14125_der.codon.alg.fasta.phy	NIES-4071	146	153	2	1371	CGT GAT AGA	RDR
+14125_der.codon.alg.fasta.phy	NIES-4105	146	153	2	1371	CGT GAT AGA	RDR
+14125_der.codon.alg.fasta.phy	PCC_6303	146	153	2	1371	CGA GAT CGG	RDR
+14125_der.codon.alg.fasta.phy	PCC_7716	146	153	2	1371	CGT GAT AGA	RDR
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	NIES-267	478	485	1	984	GCG ATC GCA	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	336-3	478	485	1	984	GCG ATC GCC	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	NIES-3974	478	485	1	984	GCG ATC GCC	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	NIES-4071	478	485	1	984	GCG ATT GCC	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	NIES-4105	478	485	1	984	GCG ATT GCC	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	PCC_6303	478	485	1	984	GCG ATC GCT	AIA
+16587_RNA_polymerase_sigma...codon.alg.fasta.phy	PCC_7716	478	485	1	984	GCT ATT GCC	AIA
+12916_hypothetical_protein.codon.alg.fasta.phy	NIES-267	200	207	2	1038	CGC GAT CGC	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	336-3	200	207	2	1038	CGC GAT CGC	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	NIES-3974	200	207	2	1038	CGT GAC CGG	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	NIES-4071	200	207	2	1038	CGG GAT AGA	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	NIES-4105	200	207	2	1038	CGG GAT AGA	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	PCC_6303	200	207	2	1038	CGT GAT CGG	RDR
+12916_hypothetical_protein.codon.alg.fasta.phy	PCC_7716	200	207	2	1038	CGG GAT AGA	RDR
+16272_histidine_kinase.codon.alg.fasta.phy	NIES-267	1049	1056	2	1224	CGC GAT CGC	RDR
+16272_histidine_kinase.codon.alg.fasta.phy	336-3	1049	1056	2	1224	CGC GAT CGT	RDR
+16272_histidine_kinase.codon.alg.fasta.phy	NIES-3974	1049	1056	2	1224	CGC GAT CGC	RDR
+16272_histidine_kinase.codon.alg.fasta.phy	NIES-4071	1049	1056	2	1224	CGC GAG CGC	RER
+16272_histidine_kinase.codon.alg.fasta.phy	NIES-4105	1049	1056	2	1224	CGC GAG CGC	RER
+16272_histidine_kinase.codon.alg.fasta.phy	PCC_6303	1049	1056	2	1224	CGC GAT CGC	RDR
+16272_histidine_kinase.codon.alg.fasta.phy	PCC_7716	1049	1056	2	1224	CGC GAG CGC	RER
+16929_U32_family_peptidase.codon.alg.fasta.phy	NIES-267	692	699	2	2754	GGC GAT CGC	GDR
+16929_U32_family_peptidase.codon.alg.fasta.phy	336-3	692	699	2	2754	GGT GAT AAA	GDK
+16929_U32_family_peptidase.codon.alg.fasta.phy	NIES-3974	692	699	2	2754	GGT GAT AAA	GDK
+16929_U32_family_peptidase.codon.alg.fasta.phy	NIES-4071	692	699	2	2754	AAA GAT AAA	KDK
+16929_U32_family_peptidase.codon.alg.fasta.phy	NIES-4105	692	699	2	2754	AAA GAT AAA	KDK
+16929_U32_family_peptidase.codon.alg.fasta.phy	PCC_6303	692	699	2	2754	GGA GAT AAG	GDK
+16929_U32_family_peptidase.codon.alg.fasta.phy	PCC_7716	692	699	2	2754	AAA GAT AAA	KDK
+15605_M23_family_metallope...codon.alg.fasta.phy	NIES-267	710	717	2	1239	AGC GAT CGC	SDR
+15605_M23_family_metallope...codon.alg.fasta.phy	336-3	710	717	2	1239	AGC GAT CGC	SDR
+15605_M23_family_metallope...codon.alg.fasta.phy	NIES-3974	710	717	2	1239	AAC GAT AAA	NDK
+15605_M23_family_metallope...codon.alg.fasta.phy	NIES-4071	710	717	2	1239	AAT GAC CGT	NDR
+15605_M23_family_metallope...codon.alg.fasta.phy	NIES-4105	710	717	2	1239	AAT GAC CGT	NDR
+15605_M23_family_metallope...codon.alg.fasta.phy	PCC_6303	710	717	2	1239	AGC GAT CGC	SDR
+15605_M23_family_metallope...codon.alg.fasta.phy	PCC_7716	710	717	2	1239	AAC GAC CGT	NDR
+15347_retroviral-like_aspa...codon.alg.fasta.phy	NIES-267	567	574	3	1317	GCG CGA TCG CAA	ARSQ
+15347_retroviral-like_aspa...codon.alg.fasta.phy	336-3	567	574	3	1317	--- ATT TCT GAG	-ISE
+15347_retroviral-like_aspa...codon.alg.fasta.phy	NIES-3974	567	574	3	1317	GCG GTT GCT TCT	AVAS
+15347_retroviral-like_aspa...codon.alg.fasta.phy	NIES-4071	567	574	3	1317	CAA ATA CAA GCA	QIQA
+15347_retroviral-like_aspa...codon.alg.fasta.phy	NIES-4105	567	574	3	1317	CAA ATA CAA GCA	QIQA
+15347_retroviral-like_aspa...codon.alg.fasta.phy	PCC_6303	567	574	3	1317	--- GTA TCT GCC	-VSA
+15347_retroviral-like_aspa...codon.alg.fasta.phy	PCC_7716	567	574	3	1317	CAA GTT CAA GCG	QVQA
+14889_serine-threonine_pho...codon.alg.fasta.phy	NIES-267	1158	1165	3	2241	CTG CGA TCG CAG	LRSQ
+14889_serine-threonine_pho...codon.alg.fasta.phy	336-3	1158	1165	3	2241	CTA CAA TTA CGA	LQLR
+14889_serine-threonine_pho...codon.alg.fasta.phy	NIES-3974	1158	1165	3	2241	GTC CAA TCC AGT	VQSS
+14889_serine-threonine_pho...codon.alg.fasta.phy	NIES-4071	1158	1165	3	2241	TTA CAA GCA CGG	LQAR
+14889_serine-threonine_pho...codon.alg.fasta.phy	NIES-4105	1158	1165	3	2241	TTA CAA GCA CGG	LQAR
+14889_serine-threonine_pho...codon.alg.fasta.phy	PCC_6303	1158	1165	3	2241	TTA CAA TTG CGC	LQLR
+14889_serine-threonine_pho...codon.alg.fasta.phy	PCC_7716	1158	1165	3	2241	TTG CAA GCA AGG	LQAR
+16895_accB.codon.alg.fasta.phy	NIES-267	449	456	2	606	GGC GAT CGC	GDR
+16895_accB.codon.alg.fasta.phy	336-3	449	456	2	606	GGC GAT CGC	GDR
+16895_accB.codon.alg.fasta.phy	NIES-3974	449	456	2	606	GGT ACA AGG	GTR
+16895_accB.codon.alg.fasta.phy	NIES-4071	449	456	2	606	GGC GGT CGG	GGR
+16895_accB.codon.alg.fasta.phy	NIES-4105	449	456	2	606	GGC GGT CGG	GGR
+16895_accB.codon.alg.fasta.phy	PCC_6303	449	456	2	606	GGT GGA CGT	GGR
+16895_accB.codon.alg.fasta.phy	PCC_7716	449	456	2	606	GGC GGT CGA	GGR
+15325_AAA_family_ATPase.codon.alg.fasta.phy	NIES-267	1413	1420	3	1791	TTG CGA TCG CAC	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	336-3	1413	1420	3	1791	TTG CGA TCG CAC	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	NIES-3974	1413	1420	3	1791	TTG CGA TCG CAT	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	NIES-4071	1413	1420	3	1791	TTA CGG TCA CAC	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	NIES-4105	1413	1420	3	1791	TTA CGG TCA CAC	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	PCC_6303	1413	1420	3	1791	TTG CGA TCG CAT	LRSH
+15325_AAA_family_ATPase.codon.alg.fasta.phy	PCC_7716	1413	1420	3	1791	CTG CGG TCA CAC	LRSH
+16863_ispE.codon.alg.fasta.phy	NIES-267	451	458	1	948	GCG ATC GCA	AIA
+16863_ispE.codon.alg.fasta.phy	336-3	451	458	1	948	GCG ATC GCC	AIA
+16863_ispE.codon.alg.fasta.phy	NIES-3974	451	458	1	948	GCG ATC GCA	AIA
+16863_ispE.codon.alg.fasta.phy	NIES-4071	451	458	1	948	GCG ATA GCA	AIA
+16863_ispE.codon.alg.fasta.phy	NIES-4105	451	458	1	948	GCG ATA GCA	AIA
+16863_ispE.codon.alg.fasta.phy	PCC_6303	451	458	1	948	GCG ATC GCA	AIA
+16863_ispE.codon.alg.fasta.phy	PCC_7716	451	458	1	948	GCG ATA GCA	AIA
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	NIES-267	302	309	2	348	GGC GAT CGC	GDR
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	336-3	302	309	2	348	GGC GAT CGC	GDR
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	NIES-3974	302	309	2	348	GGC GAT CGC	GDR
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	NIES-4071	302	309	2	348	GGG GAT CGC	GDR
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	NIES-4105	302	309	2	348	GGG GAT CGC	GDR
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	PCC_6303	302	309	2	348	GGG GAA TTG	GEL
+15518_YkgJ_family_cysteine...codon.alg.fasta.phy	PCC_7716	302	309	2	348	GGA GAG CGC	GER
+14310_coaBC.codon.alg.fasta.phy	NIES-267	828	835	3	1287	ATG CGA TCG CAA	MRSQ
+14310_coaBC.codon.alg.fasta.phy	336-3	828	835	3	1287	ATG CGA GGC GCA	MRGA
+14310_coaBC.codon.alg.fasta.phy	NIES-3974	828	835	3	1287	ATG CAT TCA GTA	MHSV
+14310_coaBC.codon.alg.fasta.phy	NIES-4071	828	835	3	1287	ATG CGC CAA GCG	MRQA
+14310_coaBC.codon.alg.fasta.phy	NIES-4105	828	835	3	1287	ATG CGC CAA GCG	MRQA
+14310_coaBC.codon.alg.fasta.phy	PCC_6303	828	835	3	1287	ATG CGC CAA GCG	MRQA
+14310_coaBC.codon.alg.fasta.phy	PCC_7716	828	835	3	1287	ATG CGG CAA GTA	MRQV
+15066_leuC.codon.alg.fasta.phy	NIES-267	418	425	1	1413	GCG ATC GCC	AIA
+15066_leuC.codon.alg.fasta.phy	336-3	418	425	1	1413	GCG ATC GCC	AIA
+15066_leuC.codon.alg.fasta.phy	NIES-3974	418	425	1	1413	GCG ATC GCG	AIA
+15066_leuC.codon.alg.fasta.phy	NIES-4071	418	425	1	1413	GCA ATT GCT	AIA
+15066_leuC.codon.alg.fasta.phy	NIES-4105	418	425	1	1413	GCA ATT GCT	AIA
+15066_leuC.codon.alg.fasta.phy	PCC_6303	418	425	1	1413	GCG ATC GCA	AIA
+15066_leuC.codon.alg.fasta.phy	PCC_7716	418	425	1	1413	GCT ATT GCT	AIA
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	NIES-267	356	363	2	555	GGC GAT CGC	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	336-3	356	363	2	555	GGC GAT CGC	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	NIES-3974	356	363	2	555	GGC GAT CGC	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	NIES-4071	356	363	2	555	GGC GAT AGG	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	NIES-4105	356	363	2	555	GGC GAT AGG	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	PCC_6303	356	363	2	555	GGC GAT CGC	GDR
+15016_YqeG_family_HAD_IIIA...codon.alg.fasta.phy	PCC_7716	356	363	2	555	GGT GAC AGG	GDR
+13601_glucokinase.codon.alg.fasta.phy	NIES-267	761	768	2	1032	AGC GAT CGC	SDR
+13601_glucokinase.codon.alg.fasta.phy	336-3	761	768	2	1032	AGC GAT CGC	SDR
+13601_glucokinase.codon.alg.fasta.phy	NIES-3974	761	768	2	1032	AGC GAT CGC	SDR
+13601_glucokinase.codon.alg.fasta.phy	NIES-4071	761	768	2	1032	AGT GAT GAT	SDD
+13601_glucokinase.codon.alg.fasta.phy	NIES-4105	761	768	2	1032	AGT GAT GAT	SDD
+13601_glucokinase.codon.alg.fasta.phy	PCC_6303	761	768	2	1032	CGC GAT CGC	RDR
+13601_glucokinase.codon.alg.fasta.phy	PCC_7716	761	768	2	1032	ACT GAT AAT	TDN
+14755_tetratricopeptide_re...codon.alg.fasta.phy	NIES-267	352	359	1	858	GCG ATC GCC	AIA
+14755_tetratricopeptide_re...codon.alg.fasta.phy	336-3	352	359	1	858	GCG ATC GCA	AIA
+14755_tetratricopeptide_re...codon.alg.fasta.phy	NIES-3974	352	359	1	858	GCG ATC GCA	AIA
+14755_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4071	352	359	1	858	GCC ATA TCA	AIS
+14755_tetratricopeptide_re...codon.alg.fasta.phy	NIES-4105	352	359	1	858	GCC ATA TCA	AIS
+14755_tetratricopeptide_re...codon.alg.fasta.phy	PCC_6303	352	359	1	858	GCG ATC GCA	AIA
+14755_tetratricopeptide_re...codon.alg.fasta.phy	PCC_7716	352	359	1	858	GCC ATA GCA	AIA
+13916_superoxide_dismutase.codon.alg.fasta.phy	NIES-267	460	467	1	780	GCG ATC GCC	AIA
+13916_superoxide_dismutase.codon.alg.fasta.phy	336-3	460	467	1	780	GCG ATC GCC	AIA
+13916_superoxide_dismutase.codon.alg.fasta.phy	NIES-3974	460	467	1	780	GAA TTG GTT	ELV
+13916_superoxide_dismutase.codon.alg.fasta.phy	NIES-4071	460	467	1	780	GCC TTG GCT	ALA
+13916_superoxide_dismutase.codon.alg.fasta.phy	NIES-4105	460	467	1	780	GCC TTG GCT	ALA
+13916_superoxide_dismutase.codon.alg.fasta.phy	PCC_6303	460	467	1	780	GCG ATC GCA	AIA
+13916_superoxide_dismutase.codon.alg.fasta.phy	PCC_7716	460	467	1	780	GCC TTA GCA	ALA
+14712_trmD.codon.alg.fasta.phy	NIES-267	557	564	2	735	CGC GAT CGC	RDR
+14712_trmD.codon.alg.fasta.phy	336-3	557	564	2	735	CGT GGT TGG	RGW
+14712_trmD.codon.alg.fasta.phy	NIES-3974	557	564	2	735	CGC GAA TGG	REW
+14712_trmD.codon.alg.fasta.phy	NIES-4071	557	564	2	735	CGT GGT TGG	RGW
+14712_trmD.codon.alg.fasta.phy	NIES-4105	557	564	2	735	CGT GGT TGG	RGW
+14712_trmD.codon.alg.fasta.phy	PCC_6303	557	564	2	735	CGT GGT TGG	RGW
+14712_trmD.codon.alg.fasta.phy	PCC_7716	557	564	2	735	CGT GGT TGG	RGW
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	NIES-267	529	536	1	648	GCG ATC GCA	AIA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	336-3	529	536	1	648	GCT GTT GCA	AVA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	NIES-3974	529	536	1	648	GCT GTC GCA	AVA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	NIES-4071	529	536	1	648	GCC ATC GCA	AIA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	NIES-4105	529	536	1	648	GCC ATC GCA	AIA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	PCC_6303	529	536	1	648	GCC ATT GCC	AIA
+16191_bifunctional_4-hydro...codon.alg.fasta.phy	PCC_7716	529	536	1	648	GCC GTT GCA	AVA
+15394_ribonuclease_R.codon.alg.fasta.phy	NIES-267	311	318	2	2451	GGC GAT CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	336-3	311	318	2	2451	GGC GAT CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	NIES-3974	311	318	2	2451	GGC GAT CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	NIES-4071	311	318	2	2451	GGC GAC CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	NIES-4105	311	318	2	2451	GGC GAC CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	PCC_6303	311	318	2	2451	GGC GAT CGC	GDR
+15394_ribonuclease_R.codon.alg.fasta.phy	PCC_7716	311	318	2	2451	GGC GAC CGC	GDR
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	NIES-267	484	491	1	1074	GCG ATC GCA	AIA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	336-3	484	491	1	1074	GCG ATC GCC	AIA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	NIES-3974	484	491	1	1074	GCG ATC GCA	AIA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	NIES-4071	484	491	1	1074	GCG ATA GCG	AIA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	NIES-4105	484	491	1	1074	GCG ATA GCG	AIA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	PCC_6303	484	491	1	1074	GCT GTA GCA	AVA
+12942_DUF3326_domain-conta...codon.alg.fasta.phy	PCC_7716	484	491	1	1074	GCT GTA GCT	AVA
+13552_cbiE.codon.alg.fasta.phy	NIES-267	880	887	1	1260	GCG ATC GCC	AIA
+13552_cbiE.codon.alg.fasta.phy	336-3	880	887	1	1260	GCG ATC GCC	AIA
+13552_cbiE.codon.alg.fasta.phy	NIES-3974	880	887	1	1260	GCA ATC GCT	AIA
+13552_cbiE.codon.alg.fasta.phy	NIES-4071	880	887	1	1260	GCG ATT GCT	AIA
+13552_cbiE.codon.alg.fasta.phy	NIES-4105	880	887	1	1260	GCG ATT GCT	AIA
+13552_cbiE.codon.alg.fasta.phy	PCC_6303	880	887	1	1260	GCG ATC GCT	AIA
+13552_cbiE.codon.alg.fasta.phy	PCC_7716	880	887	1	1260	GCA ATT GCG	AIA
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	NIES-267	223	230	1	1110	GCG ATC GCA	AIA
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	336-3	223	230	1	1110	GTT TTT TCT	VFS
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	NIES-3974	223	230	1	1110	ACA TTT GCA	TFA
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	NIES-4071	223	230	1	1110	ATA GTT GCA	IVA
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	NIES-4105	223	230	1	1110	ATA GTT GCA	IVA
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	PCC_6303	223	230	1	1110	GTT TTT TCA	VFS
+13974_fatty_acid_desaturas...codon.alg.fasta.phy	PCC_7716	223	230	1	1110	GTA GTT TCT	VVS
+15750_glycosyltransferase_...codon.alg.fasta.phy	NIES-267	966	973	3	1182	GTG CGA TCG CAA	VRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	336-3	966	973	3	1182	GTG CGA TCG CAA	VRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	NIES-3974	966	973	3	1182	GTG CGA TCG CAA	VRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	NIES-4071	966	973	3	1182	GTA CGT TCA CAA	VRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	NIES-4105	966	973	3	1182	GTA CGT TCA CAA	VRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	PCC_6303	966	973	3	1182	ACG CGA TCG CAA	TRSQ
+15750_glycosyltransferase_...codon.alg.fasta.phy	PCC_7716	966	973	3	1182	GTG CGT TCA CAA	VRSQ
+15970_sufD.codon.alg.fasta.phy	NIES-267	391	398	1	1389	GCG ATC GCC	AIA
+15970_sufD.codon.alg.fasta.phy	336-3	391	398	1	1389	GCG ATC GCT	AIA
+15970_sufD.codon.alg.fasta.phy	NIES-3974	391	398	1	1389	TGT GTG CAG	CVQ
+15970_sufD.codon.alg.fasta.phy	NIES-4071	391	398	1	1389	GCA GTC TCA	AVS
+15970_sufD.codon.alg.fasta.phy	NIES-4105	391	398	1	1389	GCA GTC TCA	AVS
+15970_sufD.codon.alg.fasta.phy	PCC_6303	391	398	1	1389	GCT GTT TCT	AVS
+15970_sufD.codon.alg.fasta.phy	PCC_7716	391	398	1	1389	GCA GTT TCA	AVS
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	NIES-267	362	369	2	564	CGC GAT CGC	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	336-3	362	369	2	564	CGC GAT CGC	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	NIES-3974	362	369	2	564	CGC GAT CGC	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	NIES-4071	362	369	2	564	CGC GAC CGT	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	NIES-4105	362	369	2	564	CGC GAC CGT	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	PCC_6303	362	369	2	564	CGC GAT CGC	RDR
+13128_FKBP-type_peptidyl-p...codon.alg.fasta.phy	PCC_7716	362	369	2	564	CGC GAC CGT	RDR

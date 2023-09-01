@@ -1,0 +1,2 @@
+"ortólogo"	"sitio"	"deleciones"	"species"
+"13028_lnt.codon.alg.fasta.phy"	"814:821"	"6"	"336-3,NIES-3974,PCC_6303,PCC_7716,NIES-4105,NIES-4071"

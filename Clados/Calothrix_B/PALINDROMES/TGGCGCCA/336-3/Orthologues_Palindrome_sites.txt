@@ -1,0 +1,3 @@
+FILE	PAL	START	END
+16240_serine-threonine-pro...codon.alg.fasta.phy	TGGCGCCA	924	931
+15608_DUF2993_domain-conta...codon.alg.fasta.phy	TGGCGCCA	180	187

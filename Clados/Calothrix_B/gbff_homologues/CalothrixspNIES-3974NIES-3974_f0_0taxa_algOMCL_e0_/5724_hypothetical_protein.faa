@@ -1,0 +1,4 @@
+>ID:WP_096661311.1 |[Calothrix parasitica NIES-267]|NIES-267|Calothrix_parasitica_NIES-267.gbff|hypothetical protein|246|NZ_AP018227(8952435):7757363-7757608:-1 ^^ Calothrix parasitica NIES-267 DNA, nearly complete genome.|neighbours:ID:WP_096659753.1(1),ID:WP_096659755.1(1)|neighbour_genes:AbgT family transpor..,DUF4089 domain-conta..| | aligned:15-78 (81)
+MAESAKEIQKLLAPLQATYPTKSAYEKQVFVNKFREEIRKNFRVQELLTSGGVELIKILCEPLDIPVEMGEKWLKTAQNCR
+>ID:WP_223978076.1 |[Calothrix sp. PCC 7716]|PCC 7716|Calothrix_sp_PCC_7716_PCC_7716.gbff|hypothetical protein|204|NZ_AP025018(11423121):8730004-8730207:-1 ^^ Calothrix sp. PCC 7716 chromosome, complete genome.|neighbours:ID:WP_223978075.1(1),ID:WP_224175497.1(1)|neighbour_genes:GGDEF domain-contain..,hypothetical protein| | aligned:1-64 (67)
+MQTSYPTANDYEKQVFVNKFNDEVKTNTRVRDIILAGGIELIKILCPPLGIPIEMAKRWLETAERNK
