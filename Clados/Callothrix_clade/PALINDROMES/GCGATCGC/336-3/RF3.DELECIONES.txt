@@ -1,0 +1,6 @@
+"ortólogo"	"sitio"	"deleciones"	"species"
+"6932_polysaccharide_deace...codon.alg.fasta.phy"	"144:151"	"5"	"NIES-3974,PCC_6303,PCC_7716,NIES-4071,NIES-4105"
+"6318_hpsA.codon.alg.fasta.phy"	"5028:5035"	"3"	"PCC_6303,NIES-4071,NIES-4105"
+"6709_alpha-mannosidase.codon.alg.fasta.phy"	"693:700"	"3"	"PCC_7716,NIES-4071,NIES-4105"
+"9771_FAD-binding_oxidored...codon.alg.fasta.phy"	"15:22"	"1"	"PCC_6303"
+"6571_GNAT_family_N-acetyl...codon.alg.fasta.phy"	"57:64"	"1"	"PCC_7716"
