@@ -1,5 +1,5 @@
-	suppressMessages(source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R"))
-	setwd('/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/TGGCGCCA/336-3/')
+	suppressMessages(source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/NodeAndEdges.R"))
+	setwd('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/TGGCGCCA/336-3/')
 
 	RFS <- sort(unique(system('awk \'{if(NR!=1) {print $5}}\' Orthologues_Palindrome_sites.AllFrames.SECOND.txt |uniq',intern = TRUE)))
 
