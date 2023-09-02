@@ -28,7 +28,7 @@ Posteriormente creamos la red usando la función ```Create_Network()```:
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
 source("ASR_Orth_Functions/NodeAndEdges.R")
-Transition_table <- read.table("Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/TRANSICIONES.txt", sep = "\t", header = TRUE )
+Transition_table <- read.table("Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/All_RF.TRANSICIONES.txt", sep = "\t", header = TRUE )
 #Network <- Create_Network(Transitions = Transition_table)
 Network <- Create_Network(Transitions = Transition_table,
                           MinimumCounts = 7,
@@ -119,29 +119,33 @@ kbl(table.Transitions, align = "l",caption = "Transiciones entre nodos.",longtab
 Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \@ref(fig:FIG15)).
 
 ```{r FIG15,echo=FALSE,fig.cap="**Filogenia del clado Calotrix**. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10. "}
-Tree = ggtree::read.tree("Clados/Callothrix_clade/SpeciesTree_rooted.txt")
-tree2 <- ggtree::groupClade(Tree, c(7,10,11))
+Tree = ggtree::read.tree("Clados/Calothrix_B/SpeciesTree_rooted.txt")
+tree2 <- ggtree::groupClade(Tree, c(8,11,12))
 tree3 <- as.data.frame(tidytree::as_tibble(tree2))
-
-tree3[4,5]<- 3
-
+tree3[4,5]<- 1
+tree3[11,5]<- 1
+tree3[12,5]<- 2
+tree3[2,5]<- 2
 ggtree::ggtree(tidytree::as.treedata(tree3), ggplot2::aes(color=group),branch.length='none') + 
   ggplot2::theme(legend.position='none')+
-  ggtree::scale_color_manual(values=c("red","green","steelblue"))+
-  ggtree::geom_label(ggplot2::aes(label = node),show.legend = TRUE)+
-    ggtree::geom_cladelab(node=1, label="336-3", align=TRUE, 
-                        geom='label', fill='red')+
-  ggtree::geom_cladelab(node=2, label="NIES-3974", align=TRUE, 
-                        geom='label', fill='red')+
-  ggtree::geom_cladelab(node=3, label="PCC_6303", align=TRUE, 
-                        geom='label', fill='red',)+
-    ggtree::geom_cladelab(node=4, label="PCC_7716", align=TRUE, 
-                        geom='label', fill='steelblue')+
-  ggtree::geom_cladelab(node=5, label="NIES-4071", align=TRUE, 
-                        geom='label', fill='steelblue')+
-  ggtree::geom_cladelab(node=6, label="NIES-4105", align=TRUE, 
-                        geom='label', fill='steelblue')+
-  ggplot2::expand_limits(x = 6) 
+  ggtree::geom_label(ggplot2::aes(label = node),show.legend = FALSE)+
+  ggtree::scale_color_manual(values=c("red","gold1","steelblue"))+
+  ggtree::geom_cladelab(node=1, label="336-3", align=TRUE, 
+                        geom='label', fill='red',textcolor='white')+
+  ggtree::geom_cladelab(node=2, label="NIES-267", align=TRUE, 
+                        geom='label', fill='lightblue4',textcolor='white')+
+  ggtree::geom_cladelab(node=3, label="NIES-3974", align=TRUE, 
+                        geom='label', fill='red',textcolor='white')+
+  ggtree::geom_cladelab(node=4, label="PCC_6303", align=TRUE, 
+                        geom='label', fill='red',textcolor='white')+
+  ggtree::geom_cladelab(node=5, label="PCC_7716", align=TRUE, 
+                        geom='label', fill='steelblue',textcolor='white')+
+  ggtree::geom_cladelab(node=6, label="NIES-4071", align=TRUE, 
+                        geom='label', fill='steelblue',textcolor='white')+
+  ggtree::geom_cladelab(node=7, label="NIES-4105", align=TRUE, 
+                        geom='label', fill='steelblue',textcolor='white')+
+  ggtree::theme(plot.title = ggplot2::element_text(color="black", size=14, face="bold",hjust = 0.5))+
+  ggplot2::expand_limits(x = 6)
 
 ```
 
@@ -149,9 +153,9 @@ Para hacer esto filtramos los datos de la red para mostrar unicamente las transi
 En la (Figura \@ref(fig:FIG16)) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \@ref(fig:FIG17)) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
 
 ```{r, echo=FALSE,message=FALSE,warning=FALSE,results='hide'}
-Directed_Transition_table <- read.table("Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/TRANSICIONES_DIRECCION.txt", sep = "\t", header = TRUE )
+Directed_Transition_table <- read.table("Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/All_RF.TRANSICIONES_DIRECCION.txt", sep = "\t", header = TRUE )
 Directed_Network <- Create_Directed_Network(DirectedTransitions = Directed_Transition_table,
-                                             Direction = "10--9",
+                                             Direction = "12--11",
                                              Weight = 10)
 nodesL = Directed_Network[[1]]
 edgesL = Directed_Network[[2]]
@@ -180,7 +184,7 @@ networkD3::sankeyNetwork(Links = edges_d3L, Nodes = nodes_d3L, Source = "from", 
 Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \@ref(fig:FIG18)) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
 
 ```{r FIG18, echo=FALSE, fig.show="hold", out.width="110%",fig.align='center',fig.cap="**Abundancia de peptidos por cada nodo segun el marco de lectura.**.",message=FALSE,warning=FALSE,results='hide'}
-File= "Clados/Callothrix_clade/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
+File= "Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 table = read.table(File,header = TRUE,sep = "\t",row.names = NULL)
 tableMA = table[ , c(2,5,8)]
 tableMA = as.data.frame(tableMA)

@@ -1,21 +1,24 @@
-Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Calothrix_B/SpeciesTree_rooted.txt")
-SppPath <- "/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/"
+Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt")
+SppPath <- "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/"
 setwd(SppPath)
 HIP1NodeStatus = "Ancestor"
 
 RF_list <- list()
+RF_title <-list()
 RFFiles <- system('ls *rooted.txt | sed \'s/codon_mutations_RF//g\' | sed \'s/.rooted.txt//g\'', intern = TRUE)
-#RF ="1"
+#RF ="3"
 for (RF in RFFiles){
   FileRF = paste0(SppPath,"codon_mutations_RF",RF,".rooted.txt")
   tableRF = read.table(FileRF,header = TRUE,sep = "\t",row.names = NULL)
-  tableRF<-tableRF%>%
-    filter(SType!='Deletion')
+  TitleRF = tableRF
+  #tableRF<-tableRF%>%
+  #  filter(SType!='Deletion')
   
   if(HIP1NodeStatus == "Ancestor"){
     ##Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
     tableRF<-tableRF%>%
       filter(AncestorType=='SITE')
+    TitleRF = tableRF
     PlotsTitle = "Nodos con sitios HIP1 en el nodo parental"
   }
   if(HIP1NodeStatus == "Actual"){
@@ -24,6 +27,7 @@ for (RF in RFFiles){
       filter(ActualType=='SITE')
     tableRF<-tableRF%>%
       filter(AncestorType=='NoSITE')
+    TitleRF = tableRF
     PlotsTitle = "Nodos con sitios HIP1 en el nodo Actual"
   }
   
@@ -47,6 +51,7 @@ for (RF in RFFiles){
   #ColNames <- unlist(strsplit("GCGATCGC", split=""))
   ancstats2 <- as.data.frame(HIP.Muts)
   RF_list[[RF]] <- ancstats2
+  RF_title[[RF]] <- TitleRF
 }
 
 plots <- list()
@@ -58,13 +63,15 @@ for (RF in 1:3) {
       group=c(ColNames[1:8]),
       value=as.numeric(as.vector(RF_list[[RF]][1:8][i,]))
     )
+    AcualNode <- RF_list[[RF]][9][i,]
+    PieTitle <- length(filter(RF_title[[RF]],Spp==AcualNode)[,1])
     pies[[i]] =  ggplot(data, aes(x="", y=value, fill=group)) +
       geom_bar(stat="identity", width=0.1, color="white") +
       coord_polar("y", start=0) +
       theme_void() +
       theme(legend.position="none")+
       ggplot2::scale_fill_brewer(palette="Set2")+
-      ggtitle(paste0(sum(data$value)))+
+      ggtitle(PieTitle)+
       theme(
         plot.title = element_text(color = "black", size = 8, face = "bold",hjust = ifelse(sum(data$value)<10,-0.1,ifelse(sum(data$value)<=20,-0.5,-1.5)),vjust = -8))
   }
@@ -108,3 +115,36 @@ PLOTS <- gridExtra::grid.arrange(plots[[1]],plots[[2]],plots[[3]],
                                  widths = 1,
                                  right=legend$grobs[[1]],
                                  top=grid::textGrob(PlotsTitle))
+
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts2.R")
+PALINDROME = "GCGATCGC"
+i="Ancestor"
+for(i in c("All","Ancestor","Actual")){
+  print(paste0(" --", i))
+  res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts2(Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
+                                                     SppPath = paste0("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/"),
+                                                     HIP1NodeStatus = i,
+                                                     Palindrome = "GCGATCGC",
+                                                     TreePlot = p),silent=TRUE)
+  if(inherits(res, "try-error")){
+    print("  Error. Faltan Datos")
+    next
+  }
+  ggsave(PLOTS, file=paste0("336-3","_",i,"_HIP_nuc_mutations_tree.png"),width=8, height=6, units="in", scale=1.5)
+}
+
+i="All"
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts2.R")
+print(paste0(" --", i))
+res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts2(Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
+                                                    SppPath = paste0("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/"),
+                                                    HIP1NodeStatus = i,
+                                                    Palindrome = "GCGATCGC",
+                                                    TreePlot = p),silent=TRUE)
+if(inherits(res, "try-error")){
+  print("  Error. Faltan Datos")
+  next
+}
+ggsave(PLOTS, file=paste0("336-3","_",i,"_HIP_nuc_mutations_tree.png"),width=8, height=6, units="in", scale=1.5)
+
+

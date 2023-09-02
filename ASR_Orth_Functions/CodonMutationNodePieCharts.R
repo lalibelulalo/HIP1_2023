@@ -79,14 +79,14 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
         group=c('Conservative','ConservativeNoSiteMut','Deletion','NoMutation','NoSynonym','NoSynonymNoSiteMut','Synonym'),
         value=as.numeric(as.vector(RF_list[[RF]][1:7][i,]))
       )
-      if (length(RF)==1){
-        VJUST = -1
+      if (length(RFFiles)==1){
+        VJUST = -3
       }
-      if (length(RF)==2){
-        VJUST = -7
-      }
-      if (length(RF)==3){
+      if (length(RFFiles)==2){
         VJUST = -5
+      }
+      if (length(RFFiles)==3){
+        VJUST = -7
       }
       pies[[i]] =  ggplot(data, aes(x="", y=value, fill=group)) +
         geom_bar(stat="identity", width=0.1, color="white") +
@@ -98,13 +98,13 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
           plot.title = element_text(color = "black",
                                     size = 8,
                                     face = "bold",
-                                    hjust = ifelse(sum(data$value)<10,
+                                    hjust = ifelse(nchar(sum(data$value))==1,
                                                    -0.1,
-                                                   ifelse(sum(data$value)<=99,
+                                                   ifelse(nchar(sum(data$value))==2,
                                                           -0.4,
-                                                          ifelse(sum(data$value)<=999,
+                                                          ifelse(nchar(sum(data$value))==3,
                                                                  -0.9,
-                                                                 -1.7))),
+                                                                 -1.9))),
                                     vjust = VJUST))
     }
     PiesVector = RF_list[[RF]]$node

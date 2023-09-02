@@ -4,8 +4,8 @@ library(ggplot2)
 library(ggtree)
 ##-----------------------------------------------------------------------##
 #Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Callothrix_clade/SpeciesTree_rooted.txt")
-Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Calothrix_B/SpeciesTree_rooted.txt")
-SppPath <- "/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/TGGCGCCA/NIES-4071/"
+Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt")
+SppPath <- "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/TGGCGCCA/NIES-4071/"
 setwd(SppPath)
 HIP1NodeStatus = "Ancestor"
 
@@ -19,6 +19,7 @@ tree3 <- as.data.frame(tidytree::as_tibble(tree2))
 tree3[4,5]<- 1
 tree3[11,5]<- 1
 tree3[12,5]<- 2
+tree3[2,5]<- 2
 p <- ggtree::ggtree(tidytree::as.treedata(tree3), ggplot2::aes(color=group),branch.length='none') + 
   ggplot2::theme(legend.position='none')+
   ggtree::scale_color_manual(values=c("red","gold1","steelblue"))+
@@ -193,11 +194,14 @@ for (Spp in 1:length(Spps)){
   }
 }
 
+
+
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts.R")
 PALINDROME = "GCGATCGC"
 for(i in c("All","Ancestor","Actual")){
   print(paste0(" --", i))
-  res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts(Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
-                                                     SppPath = paste0("/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/SUBLCLADE/"),
+  res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts(Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
+                                                     SppPath = paste0("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/"),
                                                      HIP1NodeStatus = i,
                                                      Palindrome = "GCGATCGC",
                                                      TreePlot = p),silent=TRUE)
@@ -205,6 +209,6 @@ for(i in c("All","Ancestor","Actual")){
     print("  Error. Faltan Datos")
     next
   }
-  ggsave(PLOTS, file=paste0("SUBCLADE","_",i,"_codon_mutations_tree.png"),width=8, height=6, units="in", scale=1.5)
+  ggsave(PLOTS, file=paste0("336-3","_",i,"_codon_mutations_tree.png"),width=8, height=6, units="in", scale=1.5)
 }
 
