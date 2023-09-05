@@ -25,8 +25,8 @@ Para hacer esto primero filtramos todos los ortólogos que tuvieran al menos sit
 El primer conjunto corresponde a los sitios hallados en la especie **Calothrix sp. 336/3** (**336-3**) el cual contiene **2407** sitios y corresponde al **58%** de los sitios totales entre las tres especies antes mencionadas (Figura \@ref(fig:FIG3)A). El segundo conjunto corresponde a los sitios hallados cuando se usó a **Calothrix sp. NIES 3974** (**NIES-3974**) como referencia, contiene **2370** sitios y corresponde al **57%** de los sitios (Figura \@ref(fig:FIG3)B). El tercer conjunto tiene a **Calothrix sp. PCC 6303** (**PCC_6303**) como referencia y contiene **1887** sitios que corresponden al **46%** de los sitios totales (Figura \@ref(fig:FIG3)C). Finalmente se usó un conjunto de sitios únicos entre las tres especies el cual contiene **2447** sitios que corresponden al **59%** de los sitios totales (Figura \@ref(fig:FIG3)D).
 
 <div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/All_venn_calothrix.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia." width="80%" />
-<p class="caption">(\#fig:FIG3)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.</p>
+<img src="Clados/Calothrix_B/figures/All_venn_calothrix.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia. El texto en azul se muestra la cantidad de sitios del conjunto y el porcentaje de los sitios totales que representa." width="80%" />
+<p class="caption">(\#fig:FIG3)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia. El texto en azul se muestra la cantidad de sitios del conjunto y el porcentaje de los sitios totales que representa.</p>
 </div>
 
 Una vez obtenidos los conjuntos de sitios, se hizo una reconstrucción ancestral para cada conjunto, se cuantificaron todas las sustituciones para cada transición entre cada nodo de la filogenia y se clasificaron de acuerdo a como cambiaba el aminoácido de un nodo al siguiente. 
@@ -54,7 +54,8 @@ Por lo tanto, los cambios entre un nodo y el siguiente pueden ser de 7 tipos y s
 
 ## Filogenias anotadas 
 
-Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente. Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
+Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente (Figura \@ref(fig:EXA)). Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
+
 
 ## Condiciones de interés 
 
@@ -66,12 +67,18 @@ El segundo conjunto (**Actual**) muestra solo aquellos sitios en los que la tran
 
 El tercer conjunto (**All**) muestra todas las transiciones que se dieron en todos los sitios de la especie de referencia. Este conjunto muestra lo que pasa en cada transición entre cada nodo sin importar si se parte de un sitio **GCGATCGC** o si se llega al mismo. 
 
-Un ejemplo de lo que pasa en las figuras  se muestra en la Figura \@ref(fig:FIG4).
+Un ejemplo de lo que pasa en las figuras  se muestra en las figuras \@ref(fig:FIG4) y \@ref(fig:EXA).
 
 <div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/Reconstruction_explanation.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia." width="100%" />
-<p class="caption">(\#fig:FIG4)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.</p>
+<img src="Clados/Calothrix_B/figures/Reconstruction_explanation.png" alt="**Ejemplo de como se leen los diagramas de pie.** En esta figura podemos observar como es que se contruyen los diagramas de pie a lo largo de los nodos. Cada diagrama representa las proporciones de tipos de cambio que sufrieron aminoacidos en cada transición." width="100%" />
+<p class="caption">(\#fig:FIG4)**Ejemplo de como se leen los diagramas de pie.** En esta figura podemos observar como es que se contruyen los diagramas de pie a lo largo de los nodos. Cada diagrama representa las proporciones de tipos de cambio que sufrieron aminoacidos en cada transición.</p>
 </div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/transition example.png" alt="**Proceso para anotar las filogenias de acuerdo a las transiciones.** En la Figura A se muestra (remarcado en un cuadro amarillo) el sitio GCGATCGC alineado a lo largo de las especies y las recosntrucciones. En la Figura B se muestra la reconstrucción acomodada en la filogenia. Las flechas de colores indican el tipo de cambio que sufrió el aminoacido en la transición." width="100%" />
+<p class="caption">(\#fig:EXA)**Proceso para anotar las filogenias de acuerdo a las transiciones.** En la Figura A se muestra (remarcado en un cuadro amarillo) el sitio GCGATCGC alineado a lo largo de las especies y las recosntrucciones. En la Figura B se muestra la reconstrucción acomodada en la filogenia. Las flechas de colores indican el tipo de cambio que sufrió el aminoacido en la transición.</p>
+</div>
+
 
 ## Conjunto Ancestor 
 

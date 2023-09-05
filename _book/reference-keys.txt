@@ -15,6 +15,7 @@ fig:FIG5
 fig:FIG6
 tab:HighestSites
 tab:TABMuts2
+fig:EXA
 fig:FIG7
 fig:FIG8
 fig:FIG9

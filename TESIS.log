@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 01:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 03:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,12 +999,21 @@ LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
 File: Clados/Calothrix_B/figures/Reconstruction_explanation.png Graphic file (t
 ype bmp)
 <Clados/Calothrix_B/figures/Reconstruction_explanation.png>
+File: Clados/Calothrix_B/figures/transition example.png Graphic file (type bmp)
+
+<Clados/Calothrix_B/figures/transition example.png>
 [33]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 34 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
+
+[34]
 File: Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree.png 
 Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 640--641
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 649--650
  [][] 
  []
 
@@ -1012,7 +1021,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree.
 png Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 649--650
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 658--659
  [][] 
  []
 
@@ -1020,7 +1029,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree.
 png Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 658--659
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 667--668
  [][] 
  []
 
@@ -1028,31 +1037,28 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree.p
 ng Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 667--668
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 676--677
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 34 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[34] [35]
+[35]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 36 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
 [36] [37]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
+
+[38]
 File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png Grap
 hic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 683--684
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 692--693
  [][] 
  []
 
@@ -1060,7 +1066,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png
 Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 692--693
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 701--702
  [][] 
  []
 
@@ -1068,7 +1074,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png G
 raphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 701--702
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 710--711
  [][] 
  []
 
@@ -1076,31 +1082,31 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png G
 raphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 710--711
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 719--720
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[38] [39]
+[39]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 40 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
 [40] [41]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
+
+[42]
 File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png Grap
 hic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 726--727
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 735--736
  [][] 
  []
 
@@ -1108,7 +1114,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png
 Graphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 735--736
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 744--745
  [][] 
  []
 
@@ -1116,7 +1122,7 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png G
 raphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 744--745
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 753--754
  [][] 
  []
 
@@ -1124,34 +1130,34 @@ File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png G
 raphic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png>
 
-Overfull \hbox (69.00072pt too wide) in paragraph at lines 753--754
+Overfull \hbox (69.00072pt too wide) in paragraph at lines 762--763
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[42] [43]
+[43]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 44 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
-[44] [45] (./TESIS.bbl
+[44] [45]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 46 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
-[46]) [47
+[46] (./TESIS.bbl [47]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 48 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
 
-] (./TESIS.aux)
+[48
+
+]) [49] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1160,12 +1166,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19640 strings out of 476191
- 376744 string characters out of 5812072
- 843107 words of memory out of 5000000
- 40064 multiletter control sequences out of 15000+600000
+ 19659 strings out of 476191
+ 377691 string characters out of 5812072
+ 843765 words of memory out of 5000000
+ 40082 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,1027b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,15n,121p,1036b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TESIS.pdf (47 pages).
+Output written on TESIS.pdf (49 pages).
