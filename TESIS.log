@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 03:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 04:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,9 +970,6 @@ _HIG.png Graphic file (type bmp)
 png>
 File: ENG_files/figure-latex/FIG2-1.pdf Graphic file (type pdf)
 <use ENG_files/figure-latex/FIG2-1.pdf>
-
-Underfull \vbox (badness 2269) has occurred while \output is active []
-
 [27]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 28 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
@@ -1002,6 +999,9 @@ ype bmp)
 File: Clados/Calothrix_B/figures/transition example.png Graphic file (type bmp)
 
 <Clados/Calothrix_B/figures/transition example.png>
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
 [33]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 34 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
@@ -1041,19 +1041,6 @@ Overfull \hbox (69.00072pt too wide) in paragraph at lines 676--677
  [][] 
  []
 
-[35]
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 36 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[36] [37]
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[38]
 File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png Grap
 hic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png>
@@ -1086,22 +1073,6 @@ Overfull \hbox (69.00072pt too wide) in paragraph at lines 719--720
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[39]
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 40 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[40] [41]
-Overfull \hbox (170.55122pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
-LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
- []
-
-[42]
 File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png Grap
 hic file (type bmp)
 <Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png>
@@ -1134,10 +1105,31 @@ Overfull \hbox (69.00072pt too wide) in paragraph at lines 762--763
  [][] 
  []
 
+[35]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 36 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[36] [37]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
 
-[43]
+[38] [39]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 40 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
+
+[40] [41]
+Overfull \hbox (170.55122pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 42 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
+LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
+ []
+
+[42] [43]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 44 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
@@ -1149,15 +1141,15 @@ Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
-[46] (./TESIS.bbl [47]
+[46] [47] (./TESIS.bbl
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 48 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
 LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
  []
 
-[48
+[48]) [49
 
-]) [49] (./TESIS.aux)
+] (./TESIS.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1168,10 +1160,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  19659 strings out of 476191
  377691 string characters out of 5812072
- 843765 words of memory out of 5000000
+ 851645 words of memory out of 5000000
  40082 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,1036b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,15n,121p,1372b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on TESIS.pdf (49 pages).
