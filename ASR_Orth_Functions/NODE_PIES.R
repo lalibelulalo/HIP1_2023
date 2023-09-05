@@ -141,7 +141,8 @@ for (RF in 1:3) {
     #  plot.title = element_text(color = "gray21", size = 22, face = "bold",hjust = 0.50,vjust = - 13))
   
   p<- p +
-    ggtitle(paste0("Marco de lectura ",RF))+
+    ggtitle(paste0("Reading Frame ",RF))+
+    #ggtitle(paste0("Marco de lectura ",RF))+
     theme(
       plot.title = element_text(color = "gray21", size = 8, face = "bold",vjust = -7))
   p2 <- inset(p, pies, width=.6, height=.3, hjust=0,vjust = -0.3)
@@ -165,7 +166,9 @@ img <- png::readPNG("/home/lalibelulalo/TESIS/Clados/Calothrix_B/Venn/Venn_Calot
 rasterImage(img,2,2,4,4)
 
 
-source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/CodonMutationNodePieCharts.R")
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts.R")
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts2.R")
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/CodonMutationNodePieCharts3.R")
 Spps <- c("336-3",
           "NIES-267",
           "NIES-4105",
@@ -174,25 +177,40 @@ Spps <- c("336-3",
           "NIES-4071",
           "PCC_7716")
 PALINDROME = "GCGATCGC"
+PALINDROME = "TGGCGCCA"
+Output = "codon_mutations"
+Output = "HIP_nuc_mutations"
+Output = "HIP_mutation_type"
 
-#Spp=2
+Spp=1
+i= "All"
 for (Spp in 1:length(Spps)){
   print(Spps[Spp])
-  setwd(paste0("/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/",PALINDROME,"/",Spps[Spp],"/"))
+  setwd(paste0("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/",PALINDROME,"/",Spps[Spp],"/"))
   for(i in c("All","Ancestor","Actual")){
     print(paste0(" --", i))
-    res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts(Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
-                                              SppPath = paste0("/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/",PALINDROME,"/",Spps[Spp],"/"),
+    res <- try(PLOTS <- Codon_Mutation_Node_Pie_Charts(Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt"),
+                                              SppPath = paste0("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/",PALINDROME,"/",Spps[Spp],"/"),
                                               HIP1NodeStatus = i,
                                               Palindrome = PALINDROME,
-                                              TreePlot = p),silent=TRUE)
+                                              TreePlot = p,
+                                              SPP = Spps[Spp]),silent=TRUE)
     if(inherits(res, "try-error")){
       print("  Error. Faltan Datos")
       next
     }
-  ggsave(PLOTS, file=paste0(Spps[Spp],"_",i,"_codon_mutations_tree.png"),width=8, height=6, units="in", scale=1.5)
+  ggsave(PLOTS, file=paste0(Spps[Spp],"_",i,"_",Output,"_tree.png"),width=8, height=6, units="in", scale=1.5)
   }
+  
+  
 }
+
+
+
+
+
+
+
 
 
 

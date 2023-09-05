@@ -3,6 +3,7 @@
 
 # USE:
 # for f in $(cat Spps.txt); do sh ASR_PipeLine_lastR.sh $f GCGATCGC /home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B 7 8;done
+#for f in $(cat Spps.txt); do sh ASR_PipeLine_lastR.sh $f TGGCGCCA /home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B 7 8;done
 
 SppA="$1"
 PALINDROME="$2"

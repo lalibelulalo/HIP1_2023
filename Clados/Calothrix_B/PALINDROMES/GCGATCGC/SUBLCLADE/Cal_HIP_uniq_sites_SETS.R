@@ -35,10 +35,10 @@ for (i in 1:length(spps)){
 }
 
 #------------------------------------
-setwd("/home/lalibelulalo/TESIS/Clados/Callothrix_clade/PALINDROMES/GCGATCGC/SUBLCLADE/")
-SitesTableA = "/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.txt"
-SitesTableB = "/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/NIES-3974/Orthologues_Palindrome_sites.txt"
-SitesTableC = "/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/PCC_6303/Orthologues_Palindrome_sites.txt"
+setwd("/home/lalibelulalo/HIP1_2023/Clados/Callothrix_clade/PALINDROMES/GCGATCGC/SUBLCLADE/")
+SitesTableA = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.txt"
+SitesTableB = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/NIES-3974/Orthologues_Palindrome_sites.txt"
+SitesTableC = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/PCC_6303/Orthologues_Palindrome_sites.txt"
 
 
 SitesA <- read.table(SitesTableA, sep = "\t", header = TRUE)
@@ -75,8 +75,8 @@ Cal_HIP_uniq_sites <- Cal_HIP_uniq_sites[ , c(1,2,3,4)]
 write.table(Cal_HIP_uniq_sites,file="Cal_HIP_uniq_sites.txt",sep="\t",row.names = FALSE,col.names = TRUE)
 
 
-source("/home/lalibelulalo/TESIS/ASR_Orth_Functions/NodeAndEdges.R")
-setwd("/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/SUBLCLADE/")
+source("/home/lalibelulalo/HIP1_2023/ASR_Orth_Functions/NodeAndEdges.R")
+setwd("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/SUBLCLADE/")
 Nodes.Edges <- Create_Transition_Table_No_Fit(SitesTable = "Cal_HIP_uniq_sites.txt",
                                               EvolutionModel = "F81",
                                               Method = "bayes",
@@ -85,10 +85,10 @@ Nodes.Edges <- Create_Transition_Table_No_Fit(SitesTable = "Cal_HIP_uniq_sites.t
                                               OutName = "All_RF")
 
 #------------------------------------------------------------------------------------------------------------------------------------------------
-setwd("/home/lalibelulalo/TESIS/Clados/Calothrix_B/PALINDROMES/GCGATCGC/SUBLCLADE/")
-SecondTableA = "/home/lalibelulalo/TESIS/Clados/Calothrix_B//PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
-SecondTableB = "/home/lalibelulalo/TESIS/Clados/Calothrix_B//PALINDROMES/GCGATCGC/NIES-3974/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
-SecondTableC = "/home/lalibelulalo/TESIS/Clados/Calothrix_B//PALINDROMES/GCGATCGC/PCC_6303/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
+setwd("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/SUBLCLADE/")
+SecondTableA = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/336-3/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
+SecondTableB = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/NIES-3974/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
+SecondTableC = "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/GCGATCGC/PCC_6303/Orthologues_Palindrome_sites.AllFrames.SECOND.txt"
 
 SecondA <- read.table(SecondTableA, sep = "\t", header = TRUE)
 SecondA$MergedCoordsOrth <- paste(SecondA$FILE,"-",SecondA$Spp,"-",SecondA$START)

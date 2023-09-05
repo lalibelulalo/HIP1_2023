@@ -2,7 +2,7 @@ library(lemon)
 library(dplyr)
 library(ggplot2)
 library(ggtree)
-Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrome,TreePlot) {
+Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrome,TreePlot,SPP) {
   TreeTipsA <- Tree[["tip.label"]]
   TreeTipsB <-  as.data.frame(tidytree::as_tibble(Tree))[,c(2,4)]
   
@@ -28,8 +28,8 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
       ##Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
       tableRF<-tableRF%>%
         filter(AncestorType=='SITE')
-      
-      PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo parental")
+      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites on the PARENT node.\nReference: ",SPP,".")
+      #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo parental")
     }
     if(HIP1NodeStatus == "Actual"){
       ##Filtro dejando solo aquellos casos en los que HIP fue el palíndromo parental
@@ -37,11 +37,14 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
         filter(ActualType=='SITE')
       tableRF<-tableRF%>%
         filter(AncestorType=='NoSITE')
-      PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo Actual")
+      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites ONLY in the ACTUAL node.\nReference: ",SPP,".")
+      #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo Actual")
     }
     if(HIP1NodeStatus == "All"){
       tableRF=tableRF
-      PlotsTitle = paste0("Mutaciones en sitios ",Palindrome," con un octamero CUALESQUIERA del nodo parental al nodo actual")
+      #Transitions at the "HIP" sites of species 336-3.
+      PlotsTitle = paste0("All Transitions at the \"",Palindrome,"\" sites. \nReference: ",SPP,".")
+      #PlotsTitle = paste0("Mutaciones en sitios ",Palindrome," con un octamero CUALESQUIERA del nodo parental al nodo actual")
     }
     
     if (RF==3){
@@ -83,10 +86,10 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
         VJUST = -3
       }
       if (length(RFFiles)==2){
-        VJUST = -5
+        VJUST = -4
       }
       if (length(RFFiles)==3){
-        VJUST = -7
+        VJUST = -5
       }
       pies[[i]] =  ggplot(data, aes(x="", y=value, fill=group)) +
         geom_bar(stat="identity", width=0.1, color="white") +
@@ -99,12 +102,12 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
                                     size = 8,
                                     face = "bold",
                                     hjust = ifelse(nchar(sum(data$value))==1,
-                                                   -0.1,
+                                                   -0.2,
                                                    ifelse(nchar(sum(data$value))==2,
-                                                          -0.4,
+                                                          -0.6,
                                                           ifelse(nchar(sum(data$value))==3,
-                                                                 -0.9,
-                                                                 -1.9))),
+                                                                 -1.2,
+                                                                 -2.6))),
                                     vjust = VJUST))
     }
     PiesVector = RF_list[[RF]]$node
@@ -119,10 +122,11 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,SppPath,HIP1NodeStatus,Palindrom
       coord_polar("y", start=0) +
       theme_void()+
       theme(legend.position='right',legend.key.size = unit(0.4, 'cm'))+
-      guides(fill=guide_legend(title="Substitution Type",title.theme = element_text(color="gray21", size=12, face="bold",hjust = 0.5) ))
+      guides(fill=guide_legend(title="Substitution Type",title.theme = element_text(color="gray21", size=10, face="bold",hjust = 0.5) ))
     #legend <- gtable::gtable_filter(ggplotGrob(z), 'guide-box')
     p <- p +
-      ggtitle(paste0("Marco de lectura ",RF))+
+      ggtitle(paste0("Reading Frame ",RF))+
+      #ggtitle(paste0("Marco de lectura ",RF))+
       theme(
         plot.title = element_text(color = "gray21", size = 8, face = "bold",vjust = -7))
     #p2 <- inset(p, pies, width=.4, height=.25, hjust=0)
