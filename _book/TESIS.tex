@@ -120,7 +120,7 @@
 
 \title{Evolución de secuencias palindromicas en genomas de cianobacterias}
 \author{Eduardo Padilla Mendoza}
-\date{2023-09-01}
+\date{2023-09-05}
 
 \begin{document}
 \maketitle
@@ -528,646 +528,239 @@ Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo si
 
 Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos un conteo de sitios en cada marco de lectura (Tabla \ref{tab:TABMuts2}).
 
-\hypertarget{secciuxf3n-ii}{%
-\chapter*{Sección II}\label{secciuxf3n-ii}}
-\addcontentsline{toc}{chapter}{Sección II}
+\hypertarget{reconstrucciuxf3n-de-sitios-ancestrales-en-ortuxf3logos-del-clado-calothrix.}{%
+\chapter{Reconstrucción de sitios ancestrales en ortólogos del clado Calothrix.}\label{reconstrucciuxf3n-de-sitios-ancestrales-en-ortuxf3logos-del-clado-calothrix.}}
 
-\hypertarget{clado-calothrix}{%
-\section{Clado Calothrix}\label{clado-calothrix}}
+\hypertarget{filogenia-1}{%
+\section{Filogenia}\label{filogenia-1}}
 
-El clado calothrix contiene 6 especies y es de interes ya que segun la filogenia estan estrechamente relacionadas y muestra un cambio en el palindromo mas abundante, pasando de \textbf{GCGATCGC} a \textbf{TGGCGCCA} (Figure \ref{fig:FIG12}).
+Este análisis se centra en el subclado Calothrix el cual está compuesto de 6 especies. La importancia de este clado radica en que 3 de las especies (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} y \textbf{Calothrix sp. PCC 6303}) de este clado contienen alta abundancia de sitios \textbf{GCGATCGC} mientras que las otras 3 especies (\textbf{Calothrix PCC 7716}, \textbf{Calothrix sp. NIES 4071} y \textbf{Calothrix sp. NIES 4105}) tienen muy baja o nula abundancia de sitios. Sin mencionar que, estas últimas tres especies muestran una abundancia significante de otro palíndromo, el cual se encuentra en muy baja (o nula) abundancia en las otras tres especies (Figura \ref{fig:FIG1}). Entendido esto, se creó una filogenia con las 6 especies y una adicional (\textbf{Calothrix parasitica NIES 267}) como grupo externo. Esto último para evitar un sesgo en los resultados (Figura \ref{fig:FIG2}).
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG} 
+{\centering \includegraphics[width=0.8\linewidth]{Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG} 
 
 }
 
-\caption{**Filogenia anotada del clado Calothrix.** En esta imagen se muestra un cambio abrupto en la Frecuencia observada de **GCGCATCGC** en las especies NIES-4105, NIES-4071 y PCC\_7716.}\label{fig:FIG12}
+\caption{**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante.}\label{fig:FIG1}
 \end{figure}
-
-\hypertarget{conjunto-de-sitios-hip1-usando-la-especie-336-3-como-referencia}{%
-\subsection{Conjunto de sitios HIP1 usando la especie 336-3 como referencia}\label{conjunto-de-sitios-hip1-usando-la-especie-336-3-como-referencia}}
-
-\hypertarget{red-de-transiciones}{%
-\subsubsection{Red de transiciones}\label{red-de-transiciones}}
-
-Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función \texttt{Create\_Transition\_Table()}:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{source}\NormalTok{(}\StringTok{"ASR\_Orth\_Functions/NodeAndEdges.R"}\NormalTok{)}
-\NormalTok{Nodes.Edges }\OtherTok{\textless{}{-}} \FunctionTok{Create\_Transition\_Table\_No\_Fit}\NormalTok{(}\AttributeTok{SitesTable =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/336{-}3/Orthologues\_Palindrome\_sites.txt"}\NormalTok{,}
-                                \AttributeTok{EvolutionModel =} \StringTok{"F81"}\NormalTok{,}
-                                \AttributeTok{Method =} \StringTok{"bayes"}\NormalTok{,}
-                                \AttributeTok{Phylogeny =} \StringTok{"Clados/Callothrix\_clade/SpeciesTree\_rooted.txt"}\NormalTok{,}
-                                \AttributeTok{OrthoPath =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/336{-}3/Only\_ORTHOLOGUES/"}\NormalTok{,}
-                                \AttributeTok{OutName =} \StringTok{"All\_RF"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-Posteriormente creamos la red usando la función \texttt{Create\_Network()}:
-
-y visualizamos dicha red .
-
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG13}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como \textbf{GCGATTGC}, \textbf{GCAATTGC}, \textbf{GCTATCGC}, \textbf{GCTATTGC} (Tabla \ref{tab:TAB6}).
-
-En la (Figura \ref{fig:FIG14}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{transiciones-entre-nodo-9-y-nodo-10}{%
-\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10}}
-
-Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \ref{fig:FIG15}).
-
-\begin{figure}
-\centering
-\includegraphics{ResultadosII_files/figure-latex/FIG15-1.pdf}
-\caption{\label{fig:FIG15}\textbf{Filogenia del clado Calotrix}. En rojo y azul se muestran los subclados unidos (en verde) por la transición entre los nodos 9 y 10.}
-\end{figure}
-
-Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
-En la (Figura \ref{fig:FIG16}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG17}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{mutaciones-en-los-codones}{%
-\subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones}}
-
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG18}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
 
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG18-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG18-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG18-3} 
+{\centering \includegraphics[width=0.8\linewidth]{ENG_files/figure-latex/FIG2-1} 
 
 }
 
-\caption{**Abundancia de peptidos por cada nodo segun el marco de lectura.**.}\label{fig:FIG18}
+\caption{**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo.}\label{fig:FIG2}
 \end{figure}
 
-En la (Figura \ref{fig:FIG19}) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
+\hypertarget{ortuxf3logos-1}{%
+\section{Ortólogos}\label{ortuxf3logos-1}}
+
+Los sitios para este análisis se obtuvieron de los ortólogos entre las 7 especies (subclado + el grupo externo). Posteriormente se filtraron todos aquellos ortólogos que no eran de utilidad. Es decir, ortólogos sin sitios y parálogos. Finalmente, dependiendo la especie a revisar, estos ortólogos se filtraban para realizar una alineación múltiple y buscar los sitios palindrómicos.
+
+\hypertarget{buxfasqueda-de-sitios-gcgatcgc}{%
+\section{Búsqueda de sitios GCGATCGC}\label{buxfasqueda-de-sitios-gcgatcgc}}
+
+Para hacer esto primero filtramos todos los ortólogos que tuvieran al menos sitio \textbf{GCGATCGC} en una de las 3 especies con alta abundancia (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} o \textbf{Calothrix sp. PCC 6303} remarcadas en el subclado azul de la filogenia) (Figura \ref{fig:FIG2}). En un inicio esto se hizo para partir del conjunto con el mayor número de sitios posibles y así poder tener una mayor cantidad de datos. Sin embargo, después de revisar la distribución de los sitios en todas las especies. Se decidió, hacer un análisis para cada una de las especies como referencia. Además, los sitios hallados también se clasificaron de acuerdo al marco de lectura en el que estaban situados. Por lo tanto, se crearon 4 conjuntos dependiendo la especie en donde se buscaron y 3 subconjuntos para cada marco de lectura.
+
+El primer conjunto corresponde a los sitios hallados en la especie \textbf{Calothrix sp. 336/3} (\textbf{336-3}) el cual contiene \textbf{2407} sitios y corresponde al \textbf{58\%} de los sitios totales entre las tres especies antes mencionadas (Figura \ref{fig:FIG3}A). El segundo conjunto corresponde a los sitios hallados cuando se usó a \textbf{Calothrix sp. NIES 3974} (\textbf{NIES-3974}) como referencia, contiene \textbf{2370} sitios y corresponde al \textbf{57\%} de los sitios (Figura \ref{fig:FIG3}B). El tercer conjunto tiene a \textbf{Calothrix sp. PCC 6303} (\textbf{PCC\_6303}) como referencia y contiene \textbf{1887} sitios que corresponden al \textbf{46\%} de los sitios totales (Figura \ref{fig:FIG3}C). Finalmente se usó un conjunto de sitios únicos entre las tres especies el cual contiene \textbf{2447} sitios que corresponden al \textbf{59\%} de los sitios totales (Figura \ref{fig:FIG3}D).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{Clados/Calothrix_B/figures/All_venn_calothrix} 
+
+}
+
+\caption{**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.}\label{fig:FIG3}
+\end{figure}
+
+Una vez obtenidos los conjuntos de sitios, se hizo una reconstrucción ancestral para cada conjunto, se cuantificaron todas las sustituciones para cada transición entre cada nodo de la filogenia y se clasificaron de acuerdo a como cambiaba el aminoácido de un nodo al siguiente.
+
+\hypertarget{transiciones-entre-los-nodos}{%
+\section{Transiciones entre los nodos}\label{transiciones-entre-los-nodos}}
+
+Es importante resaltar que debido a que los sitios \textbf{GCGATCGC} contienen únicamente 8 nucleótidos, se agregaron nucleótidos rio abajo o arriba del sitio, esto dependiendo el marco de lectura. Para el marco de lectura 1 se agregó un nucleótido al final para completar el 3er codón. Para el marco de lectura 2 se agregó un nucleótido al inicio para completar el primer codón. Finalmente, para el marco de lectura 3 se agregaron 2 nucleótidos al inicio y dos al final de la secuencia para completar el 1er y el 4to codón. Esto se hizo para poder tener una secuencia de AA que abarcara todo el sitio. Sin embargo, agregar estos nucleótidos planteó el agregar un tipo de transiciones particulares en las que, si bien el aminoácido cambia de un nodo a otro, dicho cambio se da sin alterar el sitio palindrómico en sí. Esto es porque la mutación puede caer en los nucleótidos que se agregaron para completar los codones y no en el sitio en sí.
+
+Por lo tanto, los cambios entre un nodo y el siguiente pueden ser de 7 tipos y se explican a continuación.
 
 \begin{itemize}
-\tightlist
 \item
-  Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
+  \textbf{Conservative.} La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62.
 \item
-  ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
+  \textbf{ConservativeNoSiteMut.} La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, a pesar de este cambio, el sitio GCGATCGC no sufrió mutaciones.
 \item
-  Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
+  \textbf{Deletion.} La secuencia de AA tuvo una o más deleciones en la transición.
 \item
-  NoMutation (La secuencia de AA no sufrio mutaciones)
+  \textbf{NoMutation.} La secuencia de AA no sufrió mutaciones. Es decir, la secuencia pasó sin cambios al siguiente nodo.
 \item
-  NoSynonym (La secuencia de AA cambió)
+  \textbf{NoSynonym.} La secuencia de AA cambió en la transición
 \item
-  NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
+  \textbf{NoSynonymNoSiteMut.} La secuencia de AA cambió en la transición. Sin embargo, el sitio GCGATCGC no sufrió mutaciones.)
 \item
-  Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
+  \textbf{Synonym.} El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió en la transición.
 \end{itemize}
 
+\hypertarget{filogenias-anotadas}{%
+\section{Filogenias anotadas}\label{filogenias-anotadas}}
+
+Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente. Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
+
+\hypertarget{condiciones-de-interuxe9s}{%
+\section{Condiciones de interés}\label{condiciones-de-interuxe9s}}
+
+Dado que una de las preguntas esenciales sobre los sitios \textbf{GCGATCGC} es como es que se pierden (o ganan), separamos los resultados en 3 conjuntos los cuales debían cumplir ciertas condiciones de interés.
+
+El primer conjunto de resultados (\textbf{Ancestor}) muestra solo aquellos sitios en los que en la transición partió de un sitio \textbf{GCGATCGC}. En dicha transición el sitio pudo haberse conservado, cambiado o eliminado en el siguiente nodo.
+
+El segundo conjunto (\textbf{Actual}) muestra solo aquellos sitios en los que la transición condujo a un sitio \textbf{GCGATCGC} a partir de un sitio que no lo era anteriormente. Es decir, aquellas transiciones que partieron de \textbf{GCGATCGC} y concluyeron en \textbf{GCGATCGC} (no tuvieron cambios) no se cuentan en este conjunto
+
+El tercer conjunto (\textbf{All}) muestra todas las transiciones que se dieron en todos los sitios de la especie de referencia. Este conjunto muestra lo que pasa en cada transición entre cada nodo sin importar si se parte de un sitio \textbf{GCGATCGC} o si se llega al mismo.
+
+Un ejemplo de lo que pasa en las figuras se muestra en la Figura \ref{fig:FIG4}.
+
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG19-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG19-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG19-3} 
+{\centering \includegraphics[width=1\linewidth]{Clados/Calothrix_B/figures/Reconstruction_explanation} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.}\label{fig:FIG19}
+\caption{**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.}\label{fig:FIG4}
 \end{figure}
 
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1}{%
-\subsubsection{Análisis de sitios en los cuales su ancestro era HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1}}
+\hypertarget{conjunto-ancestor}{%
+\section{Conjunto Ancestor}\label{conjunto-ancestor}}
 
-Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.
+En las \textbf{figuras 5 a 8} se muestran los resultados del conjunto Ancestor, es decir transiciones que partieron de un sitio \textbf{GCGATCGC}. Se muestran 8 figuras, una para cada conjunto de sitios de acuerdo con la especie de referencia: \textbf{336-3}, \textbf{NIES-3974}, \textbf{PCC\_6303} y sitios únicos entre las tres especies (\textbf{SUBCLADE}).
 
-En la (Figura \ref{fig:FIG20}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
+Por ejemplo, en la Figura \ref{fig:FIG5} la cual corresponde al conjunto de sitios cuando usamos a la especie \textbf{Calothrix sp. 336/3} como referencia, podemos ver que en el \textbf{marco de lectura 1} en la transición del \textbf{nodo 9 al 10} (rama remarcada en amarillo) hubo \textbf{504} sitios \textbf{GCGATCGC} en el \textbf{nodo 9} que dejaron de serlo en el \textbf{nodo 10}. Esto principalmente a través de cambios sinónimos o conservativos en la secuencia de aminoácidos. Para los \textbf{marcos de lectura 2 y 3} parece ser que los sitios \textbf{GCGATCGC} también se perdieron de la misma manera en dicha transición. En general para los otros conjuntos (\textbf{figuras} \ref{fig:FIG6},\ref{fig:FIG7} y\ref{fig:FIG8}) podemos ver más o menos el mismo comportamiento en la transición del nodo 9 al 10. Los sitios GCGATCGC se pierden principalmente a través de cambios sinónimos y cambios conservativos. Es decir, parece ser que dichos sitios se eliminan de manera neutral.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG20-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG20-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG20-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**}\label{fig:FIG20}
+\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG5}
 \end{figure}
 
-En la (Figura \ref{fig:FIG21}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG21-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG21-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG21-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree} 
 
 }
 
-\caption{**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.}\label{fig:FIG21}
+\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG6}
 \end{figure}
 
-En la (Figura \ref{fig:FIG22}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG22-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG22-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG22-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree} 
 
 }
 
-\caption{**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.}\label{fig:FIG22}
+\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG7}
 \end{figure}
 
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1}{%
-\subsubsection{Análisis de sitios en los cuales solo el nodo actual tiene HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1}}
-
-Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.
-
-En la Figura \ref{fig:FIG23} mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG23-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG23-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG23-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.}\label{fig:FIG23}
+\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG8}
 \end{figure}
 
-\hypertarget{conjunto-de-sitios-hip1-usando-la-especie-nies-3974-como-referencia}{%
-\subsection{Conjunto de sitios HIP1 usando la especie NIES-3974 como referencia}\label{conjunto-de-sitios-hip1-usando-la-especie-nies-3974-como-referencia}}
+\hypertarget{conjunto-actual}{%
+\section{Conjunto Actual}\label{conjunto-actual}}
 
-\hypertarget{red-de-transiciones-1}{%
-\subsubsection{Red de transiciones}\label{red-de-transiciones-1}}
+En las *\textbf{figuras 9 a 12} se muestran los resultados del conjunto Actual, es decir transiciones que partieron de un sitio que no era \textbf{GCGATCGC} y se convirtieron en \textbf{GCGATCGC}.
 
-visualizamos dicha red .
-
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG44}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición.
-
-En la (Figura \ref{fig:FIG45}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{transiciones-entre-nodo-9-y-nodo-10-1}{%
-\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10-1}}
-
-Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \ref{fig:FIG15}).
-
-Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
-En la (Figura \ref{fig:FIG46}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG47}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{mutaciones-en-los-codones-1}{%
-\subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones-1}}
-
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG48}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
+En la Figura \ref{fig:FIG9} podemos ver por ejemplo que la especie \textbf{336-3} en el marco de lectura uno ganó \textbf{685} sitios \textbf{GCGATCGC} a partir de sitios que anteriormente no lo eran, esto principalmente a través de cambios no sinónimos y en menor medida a través de cambios sinónimos. Esto se observa también en los demás conjuntos (\textbf{figuras} \ref{fig:FIG10},\ref{fig:FIG11} y\ref{fig:FIG12}). Es decir en estos sitios hay una tendencia a crear esta secuencia de nucléotidos.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG48-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG48-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG48-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia de peptidos por cada nodo segun el marco de lectura.**.}\label{fig:FIG48}
+\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG9}
 \end{figure}
 
-En la (Figura \ref{fig:FIG49}) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
-
-\begin{itemize}
-\tightlist
-\item
-  Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
-\item
-  ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
-\item
-  Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
-\item
-  NoMutation (La secuencia de AA no sufrio mutaciones)
-\item
-  NoSynonym (La secuencia de AA cambió)
-\item
-  NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
-\item
-  Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
-\end{itemize}
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG49-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG49-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG49-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.}\label{fig:FIG49}
+\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG10}
 \end{figure}
 
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-1}{%
-\subsubsection{Análisis de sitios en los cuales su ancestro era HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-1}}
-
-Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.
-
-En la (Figura \ref{fig:FIG50}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG50-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG50-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG50-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**}\label{fig:FIG50}
+\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG11}
 \end{figure}
 
-En la (Figura \ref{fig:FIG51}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG51-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG51-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG51-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree} 
 
 }
 
-\caption{**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.}\label{fig:FIG51}
+\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG12}
 \end{figure}
 
-En la (Figura \ref{fig:FIG52}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
+\hypertarget{conjunto-all}{%
+\section{Conjunto All}\label{conjunto-all}}
+
+En las \textbf{figuras 13 a 16} se muestran los resultados del conjunto \textbf{All}, es decir todas las transiciones que ocurrieron en los sitios de la especie de referencia.
+
+Por ejemplo, en la Figura \ref{fig:FIG13} podemos ver que en el marco de lectura hubo 1290 sitios GCGATCGC los cuales son sitios de la especie 336-3. Lo interesante de esta figura es que podemos ver que en la transición entre los nodos 9 y 10 parece ser que la mayoria de cambios son no sinónimos, y posteriormente la mayoría se conservan. Esta tendencia se observa en los demás conjuntos (\textbf{figuras} \ref{fig:FIG14},\ref{fig:FIG15} y\ref{fig:FIG16}) por lo tanto parece ser que la secuencia de aminoacidos tiende a conservarse.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG52-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG52-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG52-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree} 
 
 }
 
-\caption{**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.}\label{fig:FIG52}
+\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG13}
 \end{figure}
 
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-1}{%
-\subsubsection{Análisis de sitios en los cuales solo el nodo actual tiene HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-1}}
-
-Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.
-
-En la Figura \ref{fig:FIG53} mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG53-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG53-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG53-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.}\label{fig:FIG53}
+\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG14}
 \end{figure}
 
-\hypertarget{conjunto-de-sitios-hip1-usando-la-especie-pcc_6303-como-referencia}{%
-\subsection{Conjunto de sitios HIP1 usando la especie PCC\_6303 como referencia}\label{conjunto-de-sitios-hip1-usando-la-especie-pcc_6303-como-referencia}}
-
-\hypertarget{red-de-transiciones-2}{%
-\subsubsection{Red de transiciones}\label{red-de-transiciones-2}}
-
-visualizamos dicha red .
-
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG54}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición.
-
-En la (Figura \ref{fig:FIG55}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{transiciones-entre-nodo-9-y-nodo-10-2}{%
-\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10-2}}
-
-Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \ref{fig:FIG15}).
-
-Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
-En la (Figura \ref{fig:FIG56}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG57}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{mutaciones-en-los-codones-2}{%
-\subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones-2}}
-
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG58}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG58-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG58-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG58-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia de peptidos por cada nodo segun el marco de lectura.**.}\label{fig:FIG58}
+\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG15}
 \end{figure}
 
-En la (Figura \ref{fig:FIG59}) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
-
-\begin{itemize}
-\tightlist
-\item
-  Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
-\item
-  ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
-\item
-  Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
-\item
-  NoMutation (La secuencia de AA no sufrio mutaciones)
-\item
-  NoSynonym (La secuencia de AA cambió)
-\item
-  NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
-\item
-  Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
-\end{itemize}
-
 \begin{figure}
 
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG59-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG59-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG59-3} 
+{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree} 
 
 }
 
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.}\label{fig:FIG59}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-2}{%
-\subsubsection{Análisis de sitios en los cuales su ancestro era HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-2}}
-
-Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.
-
-En la (Figura \ref{fig:FIG60}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG60-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG60-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG60-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**}\label{fig:FIG60}
-\end{figure}
-
-En la (Figura \ref{fig:FIG61}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG61-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG61-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG61-3} 
-
-}
-
-\caption{**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.}\label{fig:FIG61}
-\end{figure}
-
-En la (Figura \ref{fig:FIG62}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG62-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG62-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG62-3} 
-
-}
-
-\caption{**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.}\label{fig:FIG62}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-2}{%
-\subsubsection{Análisis de sitios en los cuales solo el nodo actual tiene HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-2}}
-
-Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.
-
-En la Figura \ref{fig:FIG63} mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG63-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG63-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG63-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.}\label{fig:FIG63}
-\end{figure}
-
-\hypertarget{conjunto-de-sitios-hip1-unicos-en-las-especies-336-3-nies-3974-y-pcc_6303}{%
-\subsection{Conjunto de sitios HIP1 unicos en las especies 336-3, NIES-3974 y PCC\_6303}\label{conjunto-de-sitios-hip1-unicos-en-las-especies-336-3-nies-3974-y-pcc_6303}}
-
-\hypertarget{red-de-transiciones-3}{%
-\subsubsection{Red de transiciones}\label{red-de-transiciones-3}}
-
-Para aumentar el numero de ``experimentos'', buscamos todos los sitios HIP1 UNICOS existentes en el subclado que contiene a las especies 336-3, NIES-3974 y PCC\_6303.
-
-Posteriormente creamos la red usando la función \texttt{Create\_Network()}:
-
-y visualizamos dicha red .
-
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG34}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición.
-
-En la (Figura \ref{fig:FIG35}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{transiciones-entre-nodo-9-y-nodo-10-3}{%
-\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10-3}}
-
-En la (Figura \ref{fig:FIG36}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG37}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{mutaciones-en-los-codones-3}{%
-\subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones-3}}
-
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG38}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran. En esta figura podemos observar que el marco de lectura es el que contiene la mayoria de los sitios
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG38-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG38-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG38-3} 
-
-}
-
-\caption{**Abundancia de peptidos por cada nodo segun el marco de lectura.**.}\label{fig:FIG38}
-\end{figure}
-
-En la (Figura \ref{fig:FIG39}) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
-
-\begin{itemize}
-\tightlist
-\item
-  Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
-\item
-  ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
-\item
-  Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
-\item
-  NoMutation (La secuencia de AA no sufrio mutaciones)
-\item
-  NoSynonym (La secuencia de AA cambió)
-\item
-  NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
-\item
-  Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
-\end{itemize}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG39-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG39-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG39-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.}\label{fig:FIG39}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-3}{%
-\subsubsection{Análisis de sitios en los cuales su ancestro era HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-hip1-3}}
-
-Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio HIP1.
-
-En la (Figura \ref{fig:FIG40}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG40-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG40-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG40-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio HIP1.**}\label{fig:FIG40}
-\end{figure}
-
-En la (Figura \ref{fig:FIG41}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG41-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG41-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG41-3} 
-
-}
-
-\caption{**Frecuencia de las mutaciones de cada nucleótido del sitio HIP para cada nodo segun el marco de lectura.**.}\label{fig:FIG41}
-\end{figure}
-
-En la (Figura \ref{fig:FIG42}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG42-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG42-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG42-3} 
-
-}
-
-\caption{**Frecuencia del tipo de sustituciónes de base en los sitios HIP para cada marco de lectura**.}\label{fig:FIG42}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-3}{%
-\subsubsection{Análisis de sitios en los cuales solo el nodo actual tiene HIP1}\label{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-hip1-3}}
-
-Para tratar de entender como es que los sitios HIP se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio HIP1.
-
-En la Figura \ref{fig:FIG43} mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG43-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG43-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG43-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio HIP1.**.}\label{fig:FIG43}
+\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG16}
 \end{figure}
 
 \hypertarget{tggcgcca}{%
-\subsection{TGGCGCCA}\label{tggcgcca}}
+\section{TGGCGCCA}\label{tggcgcca}}
 
-\hypertarget{red-de-transiciones-4}{%
-\subsubsection{Red de transiciones}\label{red-de-transiciones-4}}
-
-Para hacer mas visual la reconstrucción, construimos una red de las transiciones entre los estados ancestrales. Esto lo hicimos en r usando la función \texttt{Create\_Transition\_Table()}:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{source}\NormalTok{(}\StringTok{"ASR\_Orth\_Functions/NodeAndEdges.R"}\NormalTok{)}
-\NormalTok{Nodes.Edges }\OtherTok{\textless{}{-}} \FunctionTok{Create\_Transition\_Table}\NormalTok{(}\AttributeTok{SitesTable =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/TGGCGCCA/PCC\_7716/Orthologues\_Palindrome\_sites.txt"}\NormalTok{,}
-                                \AttributeTok{EvolutionModel =} \StringTok{"F81"}\NormalTok{,}
-                                \AttributeTok{Method =} \StringTok{"bayes"}\NormalTok{,}
-                                \AttributeTok{Phylogeny =} \StringTok{"Clados/Callothrix\_clade/SpeciesTree\_rooted.txt"}\NormalTok{,}
-                                \AttributeTok{OrthoPath =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/TGGCGCCA/PCC\_7716/Only\_ORTHOLOGUES/"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-Posteriormente creamos la red usando la función \texttt{Create\_Network()}:
-
-y visualizamos dicha red .
-
-Para visualizar la red usamos la paqueteria \texttt{networkD3}. Hicimos 2 figuras, la (Figura \ref{fig:FIG24}) muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En dicha red podemos ver algunos nodos con bordes muy gruesos como \textbf{GCAATTGC}, \textbf{GCAATCGC}, \textbf{GCAATAGC}, \textbf{GCGATTGC} (Tabla \ref{tab:TAB62}).
-
-En la (Figura \ref{fig:FIG25}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{transiciones-entre-nodo-9-y-nodo-10-4}{%
-\subsubsection{Transiciones entre Nodo 9 y Nodo 10}\label{transiciones-entre-nodo-9-y-nodo-10-4}}
-
-Para entender más como es que se gana o se pierden los sitios palindrómicos revisamos la transición en tre los nodos 9 y 10. Esto es porque es esta transicion de nodos la que separa a los dos subclados entre los que hay una repentino cambio de abundancia de sitios palindrómicos (Figura \ref{fig:FIG15}).
-
-Para hacer esto filtramos los datos de la red para mostrar unicamente las transiciones que se dieron entre los nodos 9 y 10 e hicimos las mismas figuras.
-En la (Figura \ref{fig:FIG26}) se muestra la red como una conexión de nodos a través de vertices con un grosor proporcional al numero de veces que ocurrió cada transición. En la (Figura \ref{fig:FIG27}) podemos ver las transiciones de una forma mas ordenada, con el numero de ocurrencias y la dirección en la que ocurrieron.
-
-\hypertarget{mutaciones-en-los-codones-4}{%
-\subsubsection{Mutaciones en los codones}\label{mutaciones-en-los-codones-4}}
-
-Para entender como es que se van ganando o perdiendo los sitios palindrómicos hicimos un análisis del tipo mutaciones de los sitios. Esto lo hicimos viendo en que marco de lectura se encontraba cada nodo y revisando la secuencia de aminoacidos que codificaban. En la (Figura \ref{fig:FIG28}) mostramos 3 gráficos que indican la abundancia de los peptidos codificados por los sitios palindrómicos de acuerdo al marco de lectura en el que se encuentran.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG28-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG28-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG28-3} 
-
-}
-
-\caption{**Abundancia de peptidos por cada nodo segun el marco de lectura.**.}\label{fig:FIG28}
-\end{figure}
-
-En la (Figura \ref{fig:FIG29}) mostramos 3 gráficos que indican la abundancia del tipo de mutaciones que hay en cada nodo de acuerdo al marco de lectura. Lo sitios de mutaciones mostrados pueden ser de los siguientes tipos:
-
-\begin{itemize}
-\tightlist
-\item
-  Conservative (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62)
-\item
-  ConservativeNoSiteMut (la secuencia de AA cambió pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, el sitio no sufrió mutaciones)
-\item
-  Deletion (La secuencia de AA tiene sufrio 1 o mas deleciones)
-\item
-  NoMutation (La secuencia de AA no sufrio mutaciones)
-\item
-  NoSynonym (La secuencia de AA cambió)
-\item
-  NoSynonymNoSiteMut (La secuencia de AA cambió. Sin embargo, el sitio no sufrió mutaciones.)
-\item
-  Synonym (El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió.)
-\end{itemize}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG29-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG29-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG29-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura.**.}\label{fig:FIG29}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-tggcgcca}{%
-\subsubsection{Análisis de sitios en los cuales su ancestro era TGGCGCCA}\label{anuxe1lisis-de-sitios-en-los-cuales-su-ancestro-era-tggcgcca}}
-
-Para tratar de entender como es que los sitios HIP1 se pierden hicimos un análisis unicamente en en las transiciones en las que el nodo ancestral tenia un sitio TGGCGCCA.
-
-En la (Figura \ref{fig:FIG30}) mostramos 3 gráficos que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-En la (Figura \ref{fig:FIG31}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia de las mutaciones en cada uno de los 8 nucleótidos del sitio HIP.
-
-En la (Figura \ref{fig:FIG32}) mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo sustitucion de bases.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG30-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG30-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG30-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo ancestral era un sitio TGGCGCCA.**}\label{fig:FIG30}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG31-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG31-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG31-3} 
-
-}
-
-\caption{**Frecuencia de las mutaciones de cada nucleótido del sitio TGGCGCCA para cada nodo segun el marco de lectura.**.}\label{fig:FIG31}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG32-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG32-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG32-3} 
-
-}
-
-\caption{**Frecuencia del tipo de sustituciónes de base en los sitios TGGCGCCA para cada marco de lectura**.}\label{fig:FIG32}
-\end{figure}
-
-\hypertarget{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-tggcgcca}{%
-\subsubsection{Análisis de sitios en los cuales solo el nodo actual tiene TGGCGCCA}\label{anuxe1lisis-de-sitios-en-los-cuales-solo-el-nodo-actual-tiene-tggcgcca}}
-
-Para tratar de entender como es que los sitios TGGCGCCA se ganan, hicimos un analisis unicamente en las transiciones en las que el nodo actual tenia un sitio TGGCGCCA.
-
-En la Figura \ref{fig:FIG33} mostramos 3 gráficos (uno por cada marco de lectura) que indican la frecuencia del tipo de sustituciones que hubo para estos casos para cada nodo en cada uno de los marcos de lectura.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG33-1} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG33-2} \includegraphics[width=1.1\linewidth]{ResultadosII_files/figure-latex/FIG33-3} 
-
-}
-
-\caption{**Abundancia del tipo de sustitución por cada nodo segun el marco de lectura. Unicamente para transiciones en los que el nodo actual era un sitio TGGCGCCA.**.}\label{fig:FIG33}
-\end{figure}
+Como se mencionó anteriormente, la importancia del subclado calothrix radica que en 3 de las especies (\textbf{Calothrix PCC 7716}, \textbf{Calothrix sp. NIES 4071} y \textbf{Calothrix sp. NIES 4105}) la abundancia de \textbf{GCGATCGC} es muy baja (o casi nula), además de que contienen otra secuencia palindrómica (\textbf{TGGCGCCA}) la cual tiene abundancia baja (o nula) en las otras tres especies (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} y \textbf{Calothrix sp. PCC 6303}). Por lo tanto, para ver que estaba sucediendo con esta otra secuencia y si estaba relacionada con \textbf{GCGATCGC}. Realizamos el mismo análisis.
 
   \bibliography{book.bib,packages.bib}
 

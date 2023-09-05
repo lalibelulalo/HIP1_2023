@@ -1,0 +1,159 @@
+# Reconstrucción de sitios ancestrales en ortólogos del clado Calothrix. 
+
+## Filogenia 
+
+Este análisis se centra en el subclado Calothrix el cual está compuesto de 6 especies. La importancia de este clado radica en que 3 de las especies (**Calothrix sp. 336/3**, **Calothrix sp. NIES 3974** y **Calothrix sp. PCC 6303**) de este clado contienen alta abundancia de sitios **GCGATCGC** mientras que las otras 3 especies (**Calothrix PCC 7716**, **Calothrix sp. NIES 4071** y **Calothrix sp. NIES 4105**) tienen muy baja o nula abundancia de sitios. Sin mencionar que, estas últimas tres especies muestran una abundancia significante de otro palíndromo, el cual se encuentra en muy baja (o nula) abundancia en las otras tres especies (Figura \@ref(fig:FIG1)). Entendido esto, se creó una filogenia con las 6 especies y una adicional (**Calothrix parasitica NIES 267**) como grupo externo. Esto último para evitar un sesgo en los resultados (Figura \@ref(fig:FIG2)).
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante." width="80%" />
+<p class="caption">(\#fig:FIG1)**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="ENG_files/figure-epub3/FIG2-1.png" alt="**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo." width="80%" />
+<p class="caption">(\#fig:FIG2)**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo.</p>
+</div>
+
+## Ortólogos 
+
+Los sitios para este análisis se obtuvieron de los ortólogos entre las 7 especies (subclado + el grupo externo). Posteriormente se filtraron todos aquellos ortólogos que no eran de utilidad. Es decir, ortólogos sin sitios y parálogos. Finalmente, dependiendo la especie a revisar, estos ortólogos se filtraban para realizar una alineación múltiple y buscar los sitios palindrómicos.
+
+## Búsqueda de sitios GCGATCGC 
+
+Para hacer esto primero filtramos todos los ortólogos que tuvieran al menos sitio **GCGATCGC** en una de las 3 especies con alta abundancia (**Calothrix sp. 336/3**, **Calothrix sp. NIES 3974** o **Calothrix sp. PCC 6303** remarcadas en el subclado azul de la filogenia) (Figura \@ref(fig:FIG2)). En un inicio esto se hizo para partir del conjunto con el mayor número de sitios posibles y así poder tener una mayor cantidad de datos. Sin embargo, después de revisar la distribución de los sitios en todas las especies. Se decidió, hacer un análisis para cada una de las especies como referencia. Además, los sitios hallados también se clasificaron de acuerdo al marco de lectura en el que estaban situados. Por lo tanto, se crearon 4 conjuntos dependiendo la especie en donde se buscaron y 3 subconjuntos para cada marco de lectura. 
+
+El primer conjunto corresponde a los sitios hallados en la especie **Calothrix sp. 336/3** (**336-3**) el cual contiene **2407** sitios y corresponde al **58%** de los sitios totales entre las tres especies antes mencionadas (Figura \@ref(fig:FIG3)A). El segundo conjunto corresponde a los sitios hallados cuando se usó a **Calothrix sp. NIES 3974** (**NIES-3974**) como referencia, contiene **2370** sitios y corresponde al **57%** de los sitios (Figura \@ref(fig:FIG3)B). El tercer conjunto tiene a **Calothrix sp. PCC 6303** (**PCC_6303**) como referencia y contiene **1887** sitios que corresponden al **46%** de los sitios totales (Figura \@ref(fig:FIG3)C). Finalmente se usó un conjunto de sitios únicos entre las tres especies el cual contiene **2447** sitios que corresponden al **59%** de los sitios totales (Figura \@ref(fig:FIG3)D).
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/All_venn_calothrix.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia." width="80%" />
+<p class="caption">(\#fig:FIG3)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.</p>
+</div>
+
+Una vez obtenidos los conjuntos de sitios, se hizo una reconstrucción ancestral para cada conjunto, se cuantificaron todas las sustituciones para cada transición entre cada nodo de la filogenia y se clasificaron de acuerdo a como cambiaba el aminoácido de un nodo al siguiente. 
+
+ 
+## Transiciones entre los nodos 
+
+Es importante resaltar que debido a que los sitios **GCGATCGC** contienen únicamente 8 nucleótidos, se agregaron nucleótidos rio abajo o arriba del sitio, esto dependiendo el marco de lectura. Para el marco de lectura 1 se agregó un nucleótido al final para completar el 3er codón. Para el marco de lectura 2 se agregó un nucleótido al inicio para completar el primer codón. Finalmente, para el marco de lectura 3 se agregaron 2 nucleótidos al inicio y dos al final de la secuencia para completar el 1er y el 4to codón. Esto se hizo para poder tener una secuencia de AA que abarcara todo el sitio. Sin embargo, agregar estos nucleótidos planteó el agregar un tipo de transiciones particulares en las que, si bien el aminoácido cambia de un nodo a otro, dicho cambio se da sin alterar el sitio palindrómico en sí. Esto es porque la mutación puede caer en los nucleótidos que se agregaron para completar los codones y no en el sitio en sí. 
+
+Por lo tanto, los cambios entre un nodo y el siguiente pueden ser de 7 tipos y se explican a continuación. 
+
+* **Conservative.** La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. 
+
+* **ConservativeNoSiteMut.** La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, a pesar de este cambio, el sitio GCGATCGC no sufrió mutaciones. 
+
+* **Deletion.** La secuencia de AA tuvo una o más deleciones en la transición. 
+
+* **NoMutation.** La secuencia de AA no sufrió mutaciones. Es decir, la secuencia pasó sin cambios al siguiente nodo. 
+
+* **NoSynonym.** La secuencia de AA cambió en la transición 
+
+* **NoSynonymNoSiteMut.** La secuencia de AA cambió en la transición. Sin embargo, el sitio GCGATCGC no sufrió mutaciones.) 
+
+* **Synonym.** El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió en la transición. 
+
+## Filogenias anotadas 
+
+Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente. Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
+
+## Condiciones de interés 
+
+Dado que una de las preguntas esenciales sobre los sitios **GCGATCGC** es como es que se pierden (o ganan), separamos los resultados en 3 conjuntos los cuales debían cumplir ciertas condiciones de interés. 
+
+El primer conjunto de resultados (**Ancestor**) muestra solo aquellos sitios en los que en la transición partió de un sitio **GCGATCGC**. En dicha transición el sitio pudo haberse conservado, cambiado o eliminado en el siguiente nodo. 
+
+El segundo conjunto (**Actual**) muestra solo aquellos sitios en los que la transición condujo a un sitio **GCGATCGC** a partir de un sitio que no lo era anteriormente. Es decir, aquellas transiciones que partieron de **GCGATCGC** y concluyeron en **GCGATCGC** (no tuvieron cambios) no se cuentan en este conjunto 
+
+El tercer conjunto (**All**) muestra todas las transiciones que se dieron en todos los sitios de la especie de referencia. Este conjunto muestra lo que pasa en cada transición entre cada nodo sin importar si se parte de un sitio **GCGATCGC** o si se llega al mismo. 
+
+Un ejemplo de lo que pasa en las figuras  se muestra en la Figura \@ref(fig:FIG4).
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/Reconstruction_explanation.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia." width="100%" />
+<p class="caption">(\#fig:FIG4)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia.</p>
+</div>
+
+## Conjunto Ancestor 
+
+En las **figuras 5 a 8** se muestran los resultados del conjunto Ancestor, es decir transiciones que partieron de un sitio **GCGATCGC**. Se muestran 8 figuras, una para cada conjunto de sitios de acuerdo con la especie de referencia: **336-3**, **NIES-3974**, **PCC_6303** y sitios únicos entre las tres especies (**SUBCLADE**). 
+
+Por ejemplo, en la Figura \@ref(fig:FIG5) la cual corresponde al conjunto de sitios cuando usamos a la especie **Calothrix sp. 336/3** como referencia, podemos ver que en el **marco de lectura 1** en la transición del **nodo 9 al 10** (rama remarcada en amarillo) hubo **504** sitios **GCGATCGC** en el **nodo 9** que dejaron de serlo en el **nodo 10**. Esto principalmente a través de cambios sinónimos o conservativos en la secuencia de aminoácidos. Para los **marcos de lectura 2 y 3** parece ser que los sitios **GCGATCGC** también se perdieron de la misma manera en dicha transición. En general para los otros conjuntos (**figuras** \@ref(fig:FIG6),\@ref(fig:FIG7) y\@ref(fig:FIG8)) podemos ver más o menos el mismo comportamiento en la transición del nodo 9 al 10. Los sitios GCGATCGC se pierden principalmente a través de cambios sinónimos y cambios conservativos. Es decir, parece ser que dichos sitios se eliminan de manera neutral. 
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG5)**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG6)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG7)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG8)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+
+## Conjunto Actual 
+
+En las ***figuras 9 a 12** se muestran los resultados del conjunto Actual, es decir transiciones que partieron de un sitio que no era **GCGATCGC** y se convirtieron en **GCGATCGC**. 
+
+En la Figura \@ref(fig:FIG9) podemos ver por ejemplo que la especie **336-3** en el marco de lectura uno ganó **685** sitios **GCGATCGC** a partir de sitios que anteriormente no lo eran, esto principalmente a través de cambios no sinónimos y en menor medida a través de cambios sinónimos. Esto se observa también en los demás conjuntos (**figuras** \@ref(fig:FIG10),\@ref(fig:FIG11) y\@ref(fig:FIG12)). Es decir en estos sitios hay una tendencia a crear esta secuencia de nucléotidos. 
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG9)**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG10)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG11)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG12)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+
+## Conjunto All 
+
+En las **figuras 13 a 16** se muestran los resultados del conjunto **All**, es decir todas las transiciones que ocurrieron en los sitios de la especie de referencia. 
+
+Por ejemplo, en la Figura \@ref(fig:FIG13) podemos ver que en el marco de lectura hubo 1290 sitios GCGATCGC los cuales son sitios de la especie 336-3. Lo interesante de esta figura es que podemos ver que en la transición entre los nodos 9 y 10 parece ser que la mayoria de cambios son no sinónimos, y posteriormente la mayoría se conservan. Esta tendencia se observa en los demás conjuntos (**figuras** \@ref(fig:FIG14),\@ref(fig:FIG15) y\@ref(fig:FIG16)) por lo tanto parece ser que la secuencia de aminoacidos tiende a conservarse.
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG13)**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG14)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG15)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
+<p class="caption">(\#fig:FIG16)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+</div>
+
+
+## TGGCGCCA 
+
+Como se mencionó anteriormente, la importancia del subclado calothrix radica que en 3 de las especies (**Calothrix PCC 7716**, **Calothrix  sp. NIES 4071** y **Calothrix  sp. NIES 4105**) la abundancia de **GCGATCGC** es muy baja (o casi nula), además de que contienen otra secuencia palindrómica (**TGGCGCCA**) la cual tiene abundancia baja (o nula) en las otras tres especies (**Calothrix  sp. 336/3**, **Calothrix  sp. NIES 3974** y **Calothrix sp. PCC 6303**). Por lo tanto, para ver que estaba sucediendo con esta otra secuencia y si estaba relacionada con **GCGATCGC**. Realizamos el mismo análisis. 

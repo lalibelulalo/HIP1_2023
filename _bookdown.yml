@@ -10,6 +10,7 @@ rmd_files: [
   "Introduccion.Rmd",
   "Metodos.Rmd",
   "ResultadosI.Rmd",
-  "ResultadosII.Rmd",
+  #"ResultadosII.Rmd",
+  "ENG.Rmd",
   "Referencias.Rmd"
 ]
