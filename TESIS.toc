@@ -23,10 +23,11 @@
 \contentsline {section}{\numberline {4.1}Filogenia}{27}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Ortólogos}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Búsqueda de sitios GCGATCGC}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transiciones entre los nodos}{30}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Filogenias anotadas}{32}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Condiciones de interés}{32}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Conjunto Ancestor}{35}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Conjunto Actual}{35}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Conjunto All}{35}{section.4.9}%
-\contentsline {section}{\numberline {4.10}TGGCGCCA}{48}{section.4.10}%
+\contentsline {section}{\numberline {4.4}Peptidos}{30}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Transiciones entre los nodos}{32}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Filogenias anotadas}{33}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Condiciones de interés}{33}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conjunto Ancestor}{34}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Conjunto Actual}{36}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Conjunto All}{36}{section.4.10}%
+\contentsline {section}{\numberline {4.11}TGGCGCCA}{49}{section.4.11}%
