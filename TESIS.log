@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 04:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,26 +441,7 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count320
 )) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./TESIS.aux
-
-LaTeX Warning: Label `fig:FIG1' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG2' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG3' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG4' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG5' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG6' multiply defined.
-
-)
+) (./TESIS.aux)
 \openout1 = `TESIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
@@ -968,8 +949,8 @@ File: Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia
 _HIG.png Graphic file (type bmp)
 <Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.
 png>
-File: ENG_files/figure-latex/FIG2-1.pdf Graphic file (type pdf)
-<use ENG_files/figure-latex/FIG2-1.pdf>
+File: ENG_files/figure-latex/FIG2x-1.pdf Graphic file (type pdf)
+<use ENG_files/figure-latex/FIG2x-1.pdf>
 [27]
 Overfull \hbox (170.55122pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 28 \TU/lmr/m/sl/10 CHAPTER 4.  RECONSTRUCCIÓN DE SITIOS ANCESTRA
@@ -1153,17 +1134,14 @@ LES EN ORTÓLOGOS DEL CLADO CALOTHRIX.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 19659 strings out of 476191
- 377691 string characters out of 5812072
- 851645 words of memory out of 5000000
- 40082 multiletter control sequences out of 15000+600000
+ 19665 strings out of 476191
+ 377778 string characters out of 5812072
+ 853629 words of memory out of 5000000
+ 40088 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,1372b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,15n,121p,1374b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on TESIS.pdf (49 pages).
