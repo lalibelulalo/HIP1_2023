@@ -1,3 +1,9 @@
 awk -F "," '{if($15==0 && $16==0 && $17==1 && $18==1 && $19==0 && $20==1) {print $1}}' pangenoma/pangenome_matrix_t0.tr.csv | sed 's/.faa/.fna/g' >TGGCGCCA.orthologues.list
 
+/home/lalibelulalo/HIP1_2023/Clados/Callothrix_clade/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_
 
+for word in $(cat methyltransferases.list); do head -n 1 gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_/$word | awk -F "|" '{print $1 $2 $5}'; done
+
+for word in $(cat methyltransferases.list); do awk '/^#/ {print $1}' gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_/$word; done
+
+for word in $(cat methyltransferases.list); do awk '/^>/ {print $0}' gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_/$word | awk -F "|" '{print $1 $2 $5}'; done

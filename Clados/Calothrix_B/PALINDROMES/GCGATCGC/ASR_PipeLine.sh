@@ -3,6 +3,7 @@
 
 # USE:
 # sh TEST2.sh Calothrix_sp_336/3 GCGATCGC /home/lalibelulalo/TESIS/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B
+# for f in $(cat Spps.txt); do sh ASR_PipeLine.sh $f GCAATTGC /home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/gbff_homologues/CalothrixspNIES-3974NIES-3974_f0_0taxa_algOMCL_e0_ Calothrix_B 7 8;done
 
 SppA="$1"
 PALINDROME="$2"

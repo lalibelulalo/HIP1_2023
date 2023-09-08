@@ -203,19 +203,19 @@ En las **figuras 13 a 16** se muestran los resultados del conjunto **All**, es d
 Por ejemplo, en la Figura \@ref(fig:FIG13x) podemos ver que en el marco de lectura hubo 1290 sitios GCGATCGC los cuales son sitios de la especie 336-3. Lo interesante de esta figura es que podemos ver que en la transición entre los nodos 9 y 10 parece ser que la mayoria de cambios son no sinónimos, y posteriormente la mayoría se conservan. Esta tendencia se observa en los demás conjuntos (**figuras** \@ref(fig:FIG14x),\@ref(fig:FIG15x) y\@ref(fig:FIG16x)).
 
 ```{r FIG13x, echo=FALSE, fig.cap='**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.', out.width='120%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png'))
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/All/336-3_All_A_tree.png'))
 ```
 
 ```{r FIG14x, echo=FALSE, fig.cap='**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.', out.width='120%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png'))
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/All/NIES-3974_All_A_tree.png'))
 ```
 
 ```{r FIG15x, echo=FALSE, fig.cap='**Conjuntos de sitios de la especie PCC\\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.', out.width='120%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png'))
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/All/PCC_6303_All_A_tree.png'))
 ```
 
 ```{r FIG16x, echo=FALSE, fig.cap='**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.', out.width='120%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png'))
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/figures/A/GCGATCGC/All/SUBCLADE_All_A_tree.png'))
 ```
 
 ## TGGCGCCA 

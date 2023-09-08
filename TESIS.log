@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  5 SEP 2023 16:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.30)  8 SEP 2023 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,33 +1054,33 @@ Overfull \hbox (69.00072pt too wide) in paragraph at lines 733--734
  [][] 
  []
 
-File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png Grap
-hic file (type bmp)
-<Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png>
+File: Clados/Calothrix_B/figures/A/GCGATCGC/All/336-3_All_A_tree.png Graphic fi
+le (type bmp)
+<Clados/Calothrix_B/figures/A/GCGATCGC/All/336-3_All_A_tree.png>
 
 Overfull \hbox (69.00072pt too wide) in paragraph at lines 749--750
  [][] 
  []
 
-File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png 
-Graphic file (type bmp)
-<Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png>
+File: Clados/Calothrix_B/figures/A/GCGATCGC/All/NIES-3974_All_A_tree.png Graphi
+c file (type bmp)
+<Clados/Calothrix_B/figures/A/GCGATCGC/All/NIES-3974_All_A_tree.png>
 
 Overfull \hbox (69.00072pt too wide) in paragraph at lines 758--759
  [][] 
  []
 
-File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png G
-raphic file (type bmp)
-<Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png>
+File: Clados/Calothrix_B/figures/A/GCGATCGC/All/PCC_6303_All_A_tree.png Graphic
+ file (type bmp)
+<Clados/Calothrix_B/figures/A/GCGATCGC/All/PCC_6303_All_A_tree.png>
 
 Overfull \hbox (69.00072pt too wide) in paragraph at lines 767--768
  [][] 
  []
 
-File: Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png G
-raphic file (type bmp)
-<Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png>
+File: Clados/Calothrix_B/figures/A/GCGATCGC/All/SUBCLADE_All_A_tree.png Graphic
+ file (type bmp)
+<Clados/Calothrix_B/figures/A/GCGATCGC/All/SUBCLADE_All_A_tree.png>
 
 Overfull \hbox (69.00072pt too wide) in paragraph at lines 776--777
  [][] 
@@ -1145,10 +1145,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19678 strings out of 476191
- 378188 string characters out of 5812072
- 853353 words of memory out of 5000000
- 40100 multiletter control sequences out of 15000+600000
+ 19751 strings out of 476191
+ 383038 string characters out of 5812072
+ 853527 words of memory out of 5000000
+ 40168 multiletter control sequences out of 15000+600000
  475734 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,15n,121p,1374b,402s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,7 +1,7 @@
 --- 
 title: "Evolución de secuencias palindromicas en genomas de cianobacterias"
 author: "Eduardo Padilla Mendoza"
-date: "2023-09-05"
+date: "2023-09-08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
