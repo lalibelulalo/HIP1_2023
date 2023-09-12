@@ -24,7 +24,7 @@ def Markov(kmer,genome_length,order,NUC,DINUC,TRINUC,TETRANUC):
             K1nuc = kmer[ii:ii + (order+1)]
             if not (len(K1nuc) == (order+1)):
                 break
-            numerador_frec_K1nuc = K1NUCLEOTIDES[K1nuc] * (1 / (genome_length - (order+1))+1) * numerador_frec_K1nuc
+            numerador_frec_K1nuc = K1NUCLEOTIDES[K1nuc] * (1 / (genome_length - (order+1)+1)) * numerador_frec_K1nuc
         # Producto de frecuencias de [K-1]nucleotidos del palindromo en el genoma (DENOMINADOR)
         contador_extremos_K2nuc, denominador_frec_K2nuc = 1, 1
         for ii, ch in enumerate(kmer):
