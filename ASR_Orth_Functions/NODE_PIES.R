@@ -4,8 +4,8 @@ library(ggplot2)
 library(ggtree)
 ##-----------------------------------------------------------------------##
 #Tree = ggtree::read.tree("/home/lalibelulalo/TESIS/Clados/Callothrix_clade/SpeciesTree_rooted.txt")
-Tree = ggtree::read.tree("/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/SpeciesTree_rooted.txt")
-SppPath <- "/home/lalibelulalo/HIP1_2023/Clados/Calothrix_B/PALINDROMES/TGGCGCCA/NIES-4071/"
+Tree = ggtree::read.tree("/home/lalibelulalo/New_Pipe_test/Calothrix_C/SpeciesTree_rooted.txt")
+SppPath <- "/home/lalibelulalo/New_Pipe_test/Calothrix_C/PALINDROMES/GCGATCGC/336-3/"
 setwd(SppPath)
 HIP1NodeStatus = "Ancestor"
 
