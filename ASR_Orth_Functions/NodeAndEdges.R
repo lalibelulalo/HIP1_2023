@@ -519,7 +519,7 @@ Create_Transition_Table_No_Fit <- function(SitesTable,EvolutionModel,Method,Phyl
     
     df <- as.data.frame(LinksMtx2) ## CONVIERTO A DF LA MATRIZ DE TRANSICIONES
     DF <- rbind(DF,df) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES CON LA ANTERIOR PARA CREAR UNA SOLA
-    print(paste0("Sitio ",ORTH, " de ",length(Sites$FILE),"."))
+    print(paste0("Sitio ",ORTH, " de ",length(Sites[,1]),"."))
     DELECIONES <- rbind(DELECIONES,deleciones)
   }
   length(DELECIONES[,1])
