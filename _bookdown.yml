@@ -8,8 +8,8 @@ language:
 rmd_files: [
   "index.Rmd",
   "Introduccion.Rmd",
-  "Metodos.Rmd",
-  "ResultadosI.Rmd",
+  #"Metodos.Rmd",
+  #"ResultadosI.Rmd",
   #"ResultadosII.Rmd",
   "ENG.Rmd",
   "Referencias.Rmd"

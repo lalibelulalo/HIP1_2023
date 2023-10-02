@@ -2,6 +2,22 @@ Create_Transition_Table_No_Fit_Codon <- function(SitesTable,EvolutionModel,Metho
   ## Primero cargo Orthologues_Palindrome_sites.txt del paso anterior.
   Sites <- read.table(SitesTable, sep = "\t", header = TRUE)
   
+  if (ReadingFrame==1){
+    Sites<-Sites%>%
+      filter((nchar(V2)-2)==9)%>%
+      filter(!grepl("*CGC", V2))
+  }
+  if (ReadingFrame==2){
+    Sites<-Sites%>%
+      filter((nchar(V2)-2)==9)%>%
+      filter(grepl("*CGC", V2))
+  }
+  if (ReadingFrame==3){
+    Sites<-Sites%>%
+      filter((nchar(V2)-3)==12)
+  }
+
+  
   ## Creo la matriz que va a contener unicamente las transiciones
   DF <- matrix(0,
                nrow = 0,
@@ -282,7 +298,7 @@ Create_Transition_Table_No_Fit_Codon <- function(SitesTable,EvolutionModel,Metho
     
     df <- as.data.frame(LinksMtx2) ## CONVIERTO A DF LA MATRIZ DE TRANSICIONES
     DF <- rbind(DF,df) ## UNO LA MATRIZ ACTUAL DE TRANSICIONES CON LA ANTERIOR PARA CREAR UNA SOLA
-    print(paste0("Sitio ",ORTH, " de ",length(Sites$FILE),"."))
+    print(paste0("Sitio ",ORTH, " de ",length(Sites[,1]),"."))
     DELECIONES <- rbind(DELECIONES,deleciones)
   }
   length(DELECIONES[,1])

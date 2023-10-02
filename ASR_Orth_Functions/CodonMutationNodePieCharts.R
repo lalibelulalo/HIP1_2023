@@ -44,7 +44,7 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,Root,SppPath,HIP1NodeStatus,Pali
       tableRFALL=tableRF
       tableRF<-tableRF%>%
         filter(AncestorType=='SITE')
-      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites on the PARENT node.\nSet: ",SPP,".")
+      PlotsTitle = paste0("Subset: PARENT.\nTransitions with \"",Palindrome,"\" sequences in the PARENT node.\n")
       #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo parental")
     }
     if(HIP1NodeStatus == "AncestorO"){
@@ -54,7 +54,7 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,Root,SppPath,HIP1NodeStatus,Pali
         filter(AncestorType=='SITE')
       tableRF<-tableRF%>%
         filter(ActualType=='NoSITE')
-      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites ONLY in the PARENT node.\nSet: ",SPP,".")
+      PlotsTitle = paste0("Subset: ONLY PARENT\nTransitions with \"",Palindrome,"\" sequences ONLY in the PARENT node.\n")
       #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo parental")
     }
     if(HIP1NodeStatus == "ActualO"){
@@ -64,7 +64,7 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,Root,SppPath,HIP1NodeStatus,Pali
         filter(ActualType=='SITE')
       tableRF<-tableRF%>%
         filter(AncestorType=='NoSITE')
-      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites ONLY in the ACTUAL node.\nSet: ",SPP,".")
+      PlotsTitle = paste0("Subset: ONLY CHILD\nTransitions with \"",Palindrome,"\" sequences ONLY in the CHILD node.\n")
       #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo Actual")
     }
     if(HIP1NodeStatus == "Actual"){
@@ -72,14 +72,14 @@ Codon_Mutation_Node_Pie_Charts <- function(Tree,Root,SppPath,HIP1NodeStatus,Pali
       tableRFALL=tableRF
       tableRF<-tableRF%>%
         filter(ActualType=='SITE')
-      PlotsTitle = paste0("Transitions with \"",Palindrome,"\" sites in the ACTUAL node.\nSet: ",SPP,".")
+      PlotsTitle = paste0("Subset: CHILD.\nTransitions with \"",Palindrome,"\" sequences in the CHILD node.\n")
       #PlotsTitle = paste0("Nodos con sitios ",Palindrome," en el nodo Actual")
     }
     if(HIP1NodeStatus == "All"){
       tableRFALL=tableRF
       tableRF=tableRF
       #Transitions at the "HIP" sites of species 336-3.
-      PlotsTitle = paste0("All Transitions at the \"",Palindrome,"\" sites. \nSet: ",SPP,".")
+      PlotsTitle = paste0("All changes between node pairs at the \"",Palindrome,"\" sites.")
       #PlotsTitle = paste0("Mutaciones en sitios ",Palindrome," con un octamero CUALESQUIERA del nodo parental al nodo actual")
     }
     
