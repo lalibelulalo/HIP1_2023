@@ -1,174 +1,383 @@
-# Reconstrucción de sitios ancestrales en ortólogos del clado Calothrix. 
+# Materials and methods 
 
-## Filogenia 
+## Case of interest 
 
-Este análisis se centra en el subclado Calothrix el cual está compuesto de 6 especies. La importancia de este clado radica en que 3 de las especies (**Calothrix sp. 336/3**, **Calothrix sp. NIES 3974** y **Calothrix sp. PCC 6303**) de este clado contienen alta abundancia de sitios **GCGATCGC** mientras que las otras 3 especies (**Calothrix PCC 7716**, **Calothrix sp. NIES 4071** y **Calothrix sp. NIES 4105**) tienen muy baja o nula abundancia de sitios. Sin mencionar que, estas últimas tres especies muestran una abundancia significante de otro palíndromo, el cual se encuentra en muy baja (o nula) abundancia en las otras tres especies (Figura \@ref(fig:FIG1x)). Entendido esto, se creó una filogenia con las 6 especies y una adicional (**Calothrix parasitica NIES 267**) como grupo externo. Esto último para evitar un sesgo en los resultados (Figura \@ref(fig:FIG2x)). Cabe mencionar que al crear la nueva filogenia, la especie **Calothrix parasitica NIES 267** no quedo como grupo externo si no como especie hermana de la especie **Calothrix sp. 336/3**. Si bien este no era el objetivo, para fines de los análisis funcionó bien, ya que de igual manera se evitó que la especie **Calothrix sp. 336/3** funcionara como el grupo externo y se perdiera informacion de esta rama.
+This analysis focuses on the **Calothrix subclade**, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species ***Calothrix sp. 336/3***, ***Calothrix sp. NIES 3974*** and ***Calothrix sp. PCC 6303*** contains a high abundance of **HIP1** sites while the subclade with the species ***Calothrix PCC 7716***, ***Calothrix sp. NIES 4071*** and ***Calothrix sp. NIES 4105*** has a very low or no abundance of sites. Not to mention that the last 3 species have a significant abundance of another palindrome (**GGCGCC**), which is found in very low (or null) abundance in the other three species (**Figure** \@ref(fig:FIG1x)). 
 
 <div class="figure" style="text-align: center">
-<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante." width="80%" />
-<p class="caption">(\#fig:FIG1x)**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante.</p>
+<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Phylogeny of the Calothrix clade**. In this figure, we can see the annotated phylogeny of the Calothrix clade. The heatmap included in the figure indicates the observed frequency per 1000 nts of each palindromic octamer in each of the species, while the barplot showcases the most abundant octamer." width="80%" />
+<p class="caption">(\#fig:FIG1x)**Phylogeny of the Calothrix clade**. In this figure, we can see the annotated phylogeny of the Calothrix clade. The heatmap included in the figure indicates the observed frequency per 1000 nts of each palindromic octamer in each of the species, while the barplot showcases the most abundant octamer.</p>
 </div>
 
+## General diagram 
 <div class="figure" style="text-align: center">
-<img src="ENG_files/figure-epub3/FIG2x-1.png" alt="**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo." width="80%" />
-<p class="caption">(\#fig:FIG2x)**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo.</p>
+<img src="figures/4x/pipeline.png" alt="**General project diagram.**" width="30%" />
+<p class="caption">(\#fig:FIG2x)**General project diagram.**</p>
 </div>
 
-## Ortólogos 
+## Phylogeny 
 
-Los sitios para este análisis se obtuvieron de los ortólogos entre las 7 especies (subclado + el grupo externo). Posteriormente se filtraron todos aquellos ortólogos que no eran de utilidad. Es decir, ortólogos sin sitios y parálogos. Finalmente, dependiendo la especie a revisar, estos ortólogos se filtraban para realizar una alineación múltiple y buscar los sitios palindrómicos.
-
-## Búsqueda de sitios GCGATCGC 
-
-Para hacer esto primero filtramos todos los ortólogos que tuvieran al menos sitio **GCGATCGC** en una de las 3 especies con alta abundancia (**Calothrix sp. 336/3**, **Calothrix sp. NIES 3974** o **Calothrix sp. PCC 6303** remarcadas en el subclado azul de la filogenia) (Figura \@ref(fig:FIG2x)). En un inicio esto se hizo para partir del conjunto con el mayor número de sitios posibles y así poder tener una mayor cantidad de datos. Sin embargo, después de revisar la distribución de los sitios en todas las especies. Se decidió, hacer un análisis para cada una de las especies como referencia. Además, los sitios hallados también se clasificaron de acuerdo al marco de lectura en el que estaban situados. Por lo tanto, se crearon 4 conjuntos dependiendo la especie en donde se buscaron y 3 subconjuntos para cada marco de lectura. 
-
-El primer conjunto corresponde a los sitios hallados en la especie **Calothrix sp. 336/3** (**336-3**) el cual contiene **2407** sitios y corresponde al **58%** de los sitios totales entre las tres especies antes mencionadas (Figura \@ref(fig:FIG3x)A). El segundo conjunto corresponde a los sitios hallados cuando se usó a **Calothrix sp. NIES 3974** (**NIES-3974**) como referencia, contiene **2370** sitios y corresponde al **57%** de los sitios (Figura \@ref(fig:FIG3x)B). El tercer conjunto tiene a **Calothrix sp. PCC 6303** (**PCC_6303**) como referencia y contiene **1887** sitios que corresponden al **46%** de los sitios totales (Figura \@ref(fig:FIG3x)C). Finalmente se usó un conjunto de sitios únicos entre las tres especies (**SUBCLADE**) el cual contiene **2447** sitios que corresponden al **59%** de los sitios totales (Figura \@ref(fig:FIG3x)D).
+To perform the analysis, phylogeny is needed. The phylogeny used in this analysis was constructed using 5 species from the Calothrix clade. To build this phylogeny, `orthofinder` software was used, which uses maximum likelihood to create it. The subclade with the species *Calothrix sp 336/3*, *Calothrix sp NIES 3974* and *Calothrix sp PCC 6303* (hereafter **H Subclade**) contain high abundance of HIP1 sites while the subclade with the species *Calothrix sp PCC 7716* and *Calothrix sp NIES 4105* (hereafter **L Subclade**) contains low abundance. The species *Calothrix sp NIES 4071* was omitted because this genome is almost identical to that of *Calothrix sp NIES 4105*. The species *Calothrix sp NIES-267* was also added as an outgroup (**Figure** \@ref(fig:FIG3x)). 
 
 <div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/All_venn_calothrix.png" alt="**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia. El texto en azul se muestra la cantidad de sitios del conjunto y el porcentaje de los sitios totales que representa." width="100%" />
-<p class="caption">(\#fig:FIG3x)**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia. El texto en azul se muestra la cantidad de sitios del conjunto y el porcentaje de los sitios totales que representa.</p>
-</div>
-
-Una vez obtenidos los conjuntos de sitios, se hizo una reconstrucción ancestral para cada conjunto, se tradujeron todos los sitios a aminoacidos y se cuantificaron todas las sustituciones para cada transición entre cada nodo de la filogenia y se clasificaron de acuerdo a como cambiaba el aminoácido de un nodo al siguiente. 
-
-## Peptidos
-
-Para saber que es lo que esta pasando con los peptidos, traduje cada secuencia de cada sitio reconstruido a aminoacidos y los cuantifique en cada nodo. En la Figura \@ref(fig:FIG17x) se muestran los conteos de peptidos para cada nodo y punta de la filogenia en el **marco de lectura 1**. Este conteo se hizo en el conjunto de datos **SUBCLADE** el cual contiene los sitios unicos entre las especies **33-6**, **NIES-3974** y **PCC_6303**. Aqui podemos ver que en el **marco de lectura 1** (donde se encuentran la mayoria de los sitios), la mayoria de los peptidos en los nodos y puntas de la filogenia corresponde a **AIA**. Lo interesante es que sabemos que las especies  **PCC_7716**, **NIES-4071** y **NIES-4105** tienen una baja o casi nula abundancia de sitios **GCGATCGC** y aun así podemos ver que en esta estas especies se encuentra el mismo peptido. Esto sugiere que la secuencia de AA es mas importante que la de nucleotidos ya que los sitios palindrómicos se pierden pero el peptido prevalece. Para entender mejor esto, se hizo una analisis de todas las transiciones entre los peptidos de cada nodo.
-
-<div class="figure" style="text-align: center">
-<img src="ENG_files/figure-epub3/FIG17x-1.png" alt="**Abundancia de peptidos en el marco de lectura 1.**." width="100%" />
-<p class="caption">(\#fig:FIG17x)**Abundancia de peptidos en el marco de lectura 1.**.</p>
-</div>
-
- 
-## Transiciones entre los nodos 
-
-Es importante resaltar que debido a que los sitios **GCGATCGC** contienen únicamente 8 nucleótidos, se agregaron nucleótidos rio abajo o arriba del sitio, esto dependiendo el marco de lectura. Para el marco de lectura 1 se agregó un nucleótido al final para completar el 3er codón. Para el marco de lectura 2 se agregó un nucleótido al inicio para completar el primer codón. Finalmente, para el marco de lectura 3 se agregaron 2 nucleótidos al inicio y dos al final de la secuencia para completar el 1er y el 4to codón. Esto se hizo para poder tener una secuencia de AA que abarcara todo el sitio. Sin embargo, agregar estos nucleótidos planteó el agregar un tipo de transiciones particulares en las que, si bien el aminoácido cambia de un nodo a otro, dicho cambio se da sin alterar el sitio palindrómico en sí. Esto es porque la mutación puede caer en los nucleótidos que se agregaron para completar los codones y no en el sitio en sí. 
-
-Por lo tanto, los cambios entre un nodo y el siguiente pueden ser de 7 tipos y se explican a continuación. 
-
-* **Conservative.** La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. 
-
-* **ConservativeNoSiteMut.** La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, a pesar de este cambio, el sitio GCGATCGC no sufrió mutaciones. 
-
-* **Deletion.** La secuencia de AA tuvo una o más deleciones en la transición. 
-
-* **NoMutation.** La secuencia de AA no sufrió mutaciones. Es decir, la secuencia pasó sin cambios al siguiente nodo. 
-
-* **NoSynonym.** La secuencia de AA cambió en la transición 
-
-* **NoSynonymNoSiteMut.** La secuencia de AA cambió en la transición. Sin embargo, el sitio GCGATCGC no sufrió mutaciones.) 
-
-* **Synonym.** El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió en la transición. 
-
-## Filogenias anotadas 
-
-Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente (Figura \@ref(fig:EXAx)). Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
-
-
-## Condiciones de interés 
-
-Dado que una de las preguntas esenciales sobre los sitios **GCGATCGC** es como es que se pierden (o ganan), separamos los resultados en 3 conjuntos los cuales debían cumplir ciertas condiciones de interés. 
-
-El primer conjunto de resultados (**Ancestor**) muestra solo aquellos sitios en los que en la transición partió de un sitio **GCGATCGC**. En dicha transición el sitio pudo haberse conservado, cambiado o eliminado en el siguiente nodo. 
-
-El segundo conjunto (**Actual**) muestra solo aquellos sitios en los que la transición condujo a un sitio **GCGATCGC** a partir de un sitio que no lo era anteriormente. Es decir, aquellas transiciones que partieron de **GCGATCGC** y concluyeron en **GCGATCGC** (no tuvieron cambios) no se cuentan en este conjunto 
-
-El tercer conjunto (**All**) muestra todas las transiciones que se dieron en todos los sitios de la especie de referencia. Este conjunto muestra lo que pasa en cada transición entre cada nodo sin importar si se parte de un sitio **GCGATCGC** o si se llega al mismo. 
-
-Un ejemplo de lo que pasa en las figuras  se muestra en las figuras \@ref(fig:FIG4x) y \@ref(fig:EXAx).
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/Reconstruction_explanation.png" alt="**Proceso para anotar las filogenias de acuerdo a las transiciones.** En la Figura A se muestra (remarcado en un cuadro amarillo) el sitio GCGATCGC alineado a lo largo de las especies y las recosntrucciones. En la Figura B se muestra la reconstrucción acomodada en la filogenia. Las flechas de colores indican el tipo de cambio que sufrió el aminoacido en la transición." width="100%" />
-<p class="caption">(\#fig:FIG4x)**Proceso para anotar las filogenias de acuerdo a las transiciones.** En la Figura A se muestra (remarcado en un cuadro amarillo) el sitio GCGATCGC alineado a lo largo de las especies y las recosntrucciones. En la Figura B se muestra la reconstrucción acomodada en la filogenia. Las flechas de colores indican el tipo de cambio que sufrió el aminoacido en la transición.</p>
-</div>
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/transition example.png" alt="**Ejemplo de como se leen los diagramas de pie.** En esta figura podemos observar como es que se contruyen los diagramas de pie a lo largo de los nodos. Cada diagrama de pie representa las proporciones de tipos de cambio que sufrieron los aminoacidos en cada transición." width="100%" />
-<p class="caption">(\#fig:EXAx)**Ejemplo de como se leen los diagramas de pie.** En esta figura podemos observar como es que se contruyen los diagramas de pie a lo largo de los nodos. Cada diagrama de pie representa las proporciones de tipos de cambio que sufrieron los aminoacidos en cada transición.</p>
+<img src="figures/4x/philogenie_subclades.png" alt="*Calothrix subclades.* In this figure we can see the calothrix clade phylogeny. In red we see the subclade that contains an abundance of HIP1 sites and in blue the subclade with low abundance. In yellow the transition from node 9 to 10 is shown, which is of interest since it is the moment in which the abundances of the palindromes change. In gray the species Calothrix parasitica NIES 267 is shown as an outgroup." width="100%" />
+<p class="caption">(\#fig:FIG3x)*Calothrix subclades.* In this figure we can see the calothrix clade phylogeny. In red we see the subclade that contains an abundance of HIP1 sites and in blue the subclade with low abundance. In yellow the transition from node 9 to 10 is shown, which is of interest since it is the moment in which the abundances of the palindromes change. In gray the species Calothrix parasitica NIES 267 is shown as an outgroup.</p>
 </div>
 
 
-## Conjunto Ancestor 
+## Orthogroups 
 
-En las **figuras 5 a 8** se muestran los resultados del conjunto Ancestor, es decir transiciones que partieron de un sitio **GCGATCGC**. Se muestran 8 figuras, una para cada conjunto de sitios de acuerdo con la especie de referencia: **336-3**, **NIES-3974**, **PCC_6303** y sitios únicos entre las tres especies (**SUBCLADE**). 
+Sites for this analysis were obtained from orthogroups among the 6 species in the phylogeny. 
 
-Por ejemplo, en la Figura \@ref(fig:FIG5x) la cual corresponde al conjunto de sitios cuando usamos a la especie **Calothrix sp. 336/3** como referencia, podemos ver que en el **marco de lectura 1** en la transición del **nodo 9 al 10** (rama remarcada en amarillo) hubo **504** sitios **GCGATCGC** en el **nodo 9** que dejaron de serlo en el **nodo 10**. Esto principalmente a través de cambios sinónimos o conservativos en la secuencia de aminoácidos. Para los **marcos de lectura 2 y 3** parece ser que los sitios **GCGATCGC** también se perdieron de la misma manera en dicha transición. En general para los otros conjuntos (**figuras** \@ref(fig:FIG6x),\@ref(fig:FIG7x) y\@ref(fig:FIG8x)) podemos ver más o menos el mismo comportamiento en la transición del nodo 9 al 10. Los sitios GCGATCGC se pierden principalmente a través de cambios sinónimos y cambios conservativos. Es decir, parece ser que dichos sitios se eliminan de manera neutral ya que hay una tendencia a conservar la secuencia de aminoacidos.
+### Pangenome 
+
+In this part we identify the orthogroups families that make up the **pan-genome** of the 6 species of phylogeny. The pan-genome is defined as the set of all gene families. In turn, a subset of this is the core genome that contains only the genes present in all 6 genomes. 
+
+To know the pan-genome, the `get_homologues.pl` pipeline (@{contreras2013get_homologues}) was used with the options: 
+```
+get_homologues.pl -d genomes_directory/ -t 0 -M -n PPN 
+```
+
+This left us with a total of **17451 orthogroups**.
+
+### Core genome 
+
+`get_homologues.pl` also compute consensus **core-genome** clusters from the solutions generated by the three clustering algorithms it implements, and consensus pan-genome clusters from COGtriangles and OMCL clustering results. The `get_homologues.pl` program options used are shown below: 
+
+```
+compare_clusters.pl -o pangenoma -m -d orthogroups_directory/
+```
+
+This creates a matrix of presence/absence of genes throughout the species (**Table** \@ref(tab:TAB1X)). Subsequently, all those orthogroups that are not useful are filtered out. This left us with a total of **2393 orthogroups**.  
+
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TAB1X)**Matrix of presence/absence of genes.** The table shows the first 10 rows of the pangenomic matrix. A value of 1 indicates that the ortholog is present in the genome. A value of 0 indicates that the ortholog is absent.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Gene </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> NIES.267 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> X336.3 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> NIES.3974 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> NIES.4105 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> PCC_6303 </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> PCC_7716 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16222_response_regulator.faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16223_ATP-binding_protein.faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16224_ATP-binding_protein.faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16225_response_regulator_t...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16226_bchB.faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16227_beta-ketoacyl-ACP_sy...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16228_ATP-grasp_domain-con...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16229_aromatic_ring-hydrox...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16230_NYN_domain-containin...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> 16231_pentapeptide_repeat-...faa </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+   <td style="text-align:left;"> ... </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Multiple Alignment and Paralogue Filtering 
+
+To reconstruct ancestral genes, the amino acid sequences of the orthogroup need to be aligned. Subsequently, a codon alignment is made using the amino acid and nucleotide sequences. This codon alignment is what we will use to reconstruct the ancestral nucleotide sequences and finally to translate them into amino acid sequences. 
+
+An important detail is that to do the ancestral reconstruction we need orthogroups with the same number of orthologs as species in the phylogeny used for the reconstruction. That is why those orthogroups that contained more than one orthologue (**paralogues**) for each species were omitted. This left us with a total of **2158 orthogroups** without paralogs. 
+
+## Ancestral Reconstruction 
+
+After obtaining the orthogroups, the ancestral reconstruction was done using the R package `phangorn`, which provides several methods to estimate ancestral character states with Maximum Parsimony (MP) or **Maximum Likelihood** (ML). In this case, we use ML. Additionally, we can assign the ancestral states according to the criterion of greatest posterior probability (“bayes”). Additionally, we used the **F81** nucleotide substitutions model.
+
+## HIP1 Sites 
+
+### HIP1 Site Counting and Filtering 
+
+A 3rd order Markov model was used to count the sites. This count was done on the **2158** orthogroups of the core genome that remained after paralog filtering. Subsequently, all **orthogroups that did not contain HIP1** sites were removed. This left us with a total of **1842 orthogroups**. 
+
+### Location of HIP1 sites 
+
+Once all those orthogroups with HIP1 sites were obtained, the coordinates (that is, the beginning and end nucleotides of the site) of all the sites were searched for each ortholog of each species in all orthogroups.Finally, a list was made of all the sites and all those repeated coordinates were filtered.This left us with 4211 sites to analyze.
+
+
+## Peptides by node 
+
+To know what is happening with the peptides, the nucleotide sequences of each site were translated. Subsequently, the peptides were quantified for each species node in each reading frame. 
+
+## Mutation analysis 
+
+### Site classification according to the reading frame 
+
+After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework. 
+
+### Substitution types and codon completions 
+
+The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.
+
+It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons. 
+
+In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.
+
+**NoMutation.** The AA sequence had no mutations. That is, the AA and nucleotide sequence passed unchanged to the child node. 
+
+**Synonym.** The nucleotide sequence had mutations. However, the AA sequence did not change in the child node. 
+
+**NoSynonymConservative.** The AA sequence changed in the child node. However, these changes are conservative according to the BLOSUM62 matrix score. 
+
+**NoSynonym.** The AA sequence changed in the child node. 
+
+**Deletion.** The AA sequence had one or more deletions. 
+
+**ConservativeNoHIPMutation.** The AA sequence changed in the child node but has similarity according to the **BLOSUM62 score**. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon. 
+
+**NoSynonymNoHIPMutation.** The AA sequence changed in child node. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon. 
+
+**SynonymNoHIPMutation.** The nucleotide sequence had mutations. However, the AA sequence did not change in the child node because the change was out-of-site. That is, in some nucleotide added to the sequence to complete the codon. 
+
+**Figure** \@ref(fig:FIG4x)**A** shows what happens to the nucleotide and amino acid sequences in each case and **Figure** \@ref(fig:FIG4x)**B**  shows some examples. 
 
 <div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG5x)**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+<img src="figures/4x/table1.png" alt="*Substitution examples.* The first column of Subfigure **A** shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure **B** shows some examples. " width="100%" />
+<p class="caption">(\#fig:FIG4x)*Substitution examples.* The first column of Subfigure **A** shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure **B** shows some examples. </p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG6x)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+## Phylogenies Annotation
+
+Once all substitutions at all sites in all orthogroups were quantified, a phylogeny was annotated to visualize the frequency of the type of changes that occurred at each node. This annotation was made for each reading frame. 
+
+The phylogeny was annotated with pie charts on the branches between each pair of nodes (parents and children). This diagram corresponds to the proportions of the types of substitution that occurred from the parent node to the child node. That is, the proportions shown in the diagrams show the evolution of the sites between parent and child nodes. 
+
+### Example of phylogeny annotation. 
+
+A detailed explanation of how phylogenies are annotated is shown below using the **YbhN family protein orthogroup** which contains **3 HIP1 sites**, all in **reading frame 1**: 
+
+* **Location of the site.** First, hip1 sites are placed in the orthogroup (**Figure** \@ref(fig:FIG5x)**A**). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes. 
+
+* **Assignment of sequences to nodes.** For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (**Figure** \@ref(fig:FIG5x)**B**). 
+
+* **Counting of substitution types.** Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (**Figure** \@ref(fig:FIG5x)**C**). 
+
+* **Sum of all changes between nodes.** To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (**Figure** \@ref(fig:FIG5x)**D**). 
+
+* **Phylogeny annotation.** Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (**Number on the left of the diagram**)(**Figure** \@ref(fig:FIG5x)**E**). Therefore, the pie charts are divided into 3 pieces. 
+
+In this example only one orthogroup was analyzed. However, for the results shown in this work this process was repeated for the **4211 sites** of the **1842 orthogroups**. 
+
+<div class="figure">
+<img src="figures/4x/philogenies_annotation.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG5x)**Phylogeny annotation process.**</p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG7x)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+## Subsets of interest 
+
+Since one of the essential questions about HIP1 sites is how they are lost (or gained), we separated the counts of substitution types into 2 pairs of subsets which had to meet certain conditions of interest. 
+
+### Parent and Only Parent Subsets 
+
+The first subset of results (**Parent**) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (**Figure** \@ref(fig:FIG5x)**A1**). 
+
+Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called **Only Parent** (**Figure** \@ref(fig:FIG5x)**A2**).
+
+The third subset of results (**Child**) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (**Figure** \@ref(fig:FIG5x)**B1**). 
+
+Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called **Only Child** (**Figure** \@ref(fig:FIG5x)**B2**). 
+
+<div class="figure">
+<img src="figures/4x/node_cases.png" alt="**Subsets examples.**" width="100%" />
+<p class="caption">(\#fig:FIG6x)**Subsets examples.**</p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG8x)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+# Results
+
+## HIP1 sites
+Because the reconstruction requires specific characteristics in the set of sequences to be reconstructed. Several orthogroups were discarded. As a consequence, at the end of filtering the number of HIP1 sites in each species is significantly lower than in the complete genome. A summary of this filtering is shown in (**Table** \@ref(tab:TAB2X)). The column marked in orange (filtering) shows the remaining sites that were used in subsequent analyses.
+<table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:TAB2X)**Number of HIP1 sites throughout the filtering of the sequences.** **Complete genome** shows all HIP1 sites in the genome. **Only chromosome** refers to sites that are found only on the chromosome and not on the plasmids. **Pangenome** shows the sites of the pangenome. **Core-genome** shows the sites of the **core-genome**. **Filtering** shows the sites remaining after filtering out paralogs and interrupted sites in the alignment.The column marked in orange (filtering) shows the remaining sites that were used in subsequent analyses</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Spp </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Complete Genome </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Only Chromosome </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Pangenome </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Core-genome </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Filtering </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: darkgray !important;">Calothrix parasitica NIES 267</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9b7c3">991</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9b7c3">965</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9b7c3">880</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7bbc7">414</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7bbc7">326</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: red !important;">Calothrix sp 336/3</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ff0000">6202</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ff0000">6112</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ff0000">5457</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ff0000">3036</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ff0000">2414</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: red !important;">Calothrix sp NIES 3974</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #f31e20">5328</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #f41b1d">5328</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #f31e20">4701</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fb0a0a">2894</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #fd0303">2377</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: red !important;">Calothrix sp PCC 6303</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #eb3235">4769</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #eb3336">4681</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ec3134">4228</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ec3134">2344</span> </td>
+   <td style="text-align:left;font-weight: bold;color: white !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ed2f32">1887</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: steelblue !important;">Calothrix sp PCC 7716</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">66</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">62</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">62</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">9</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add8e6">4</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;color: white !important;"> <span style="     border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: steelblue !important;">Calothrix sp NIES 4105</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add5e3">125</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add6e4">113</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add6e3">109</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add7e5">16</span> </td>
+   <td style="text-align:left;font-weight: bold;color: black !important;background-color: white !important;font-weight: bold;background-color: #FFEC8B !important;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #add7e5">6</span> </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Peptides by node  
+
+To find out what happens to the HIP1 sites of the orthogroups, we counted the peptides in the hip1 site. This was done for all three reading frames. 
+
+The figures \@ref(fig:FIG7x),\@ref(fig:FIG8x) and \@ref(fig:FIG9x)  show the peptide count for each node. It is important to mention that those peptides with counts less than 1% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
+
+In the reading frame 1 the important thing is that we know that the **L subclade** species has a low or almost zero abundance of HIP1 sites and yet we can see in figure \@ref(fig:FIG7x) that the same peptide of the **H subclade** is found in **L subclade**. This suggests that the AA sequence is more important than the nucleotide sequence since the palindromic sites are lost but the peptide prevails. For reading frames 2 and 3, although there is more variation between the peptides, the differences between them may likely be largely conservative.To better understand this, an analysis of the substitutions between each pair of nodes was done.
+<div class="figure">
+<img src="figures/Peptides_RF1.png" alt="**Peptides by node in reading frame 1.**" width="100%" />
+<p class="caption">(\#fig:FIG7x)**Peptides by node in reading frame 1.**</p>
 </div>
 
-
-## Conjunto Actual 
-
-En las ***figuras 9 a 12** se muestran los resultados del conjunto Actual, es decir transiciones que partieron de un sitio que no era **GCGATCGC** y se convirtieron en **GCGATCGC**. 
-
-En la Figura \@ref(fig:FIG9x) podemos ver por ejemplo que la especie **336-3** en el marco de lectura uno ganó **685** sitios **GCGATCGC** a partir de sitios que anteriormente no lo eran, esto principalmente a través de cambios no sinónimos y en menor medida a través de cambios sinónimos. Esto se observa también en los demás conjuntos (**figuras** \@ref(fig:FIG10x),\@ref(fig:FIG11x) y\@ref(fig:FIG12x)). Es decir en estos sitios hay una tendencia a crear esta secuencia de nucléotidos. 
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG9x)**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+<div class="figure">
+<img src="figures/Peptides_RF2.png" alt="**Peptides by node in reading frame 2.**" width="100%" />
+<p class="caption">(\#fig:FIG8x)**Peptides by node in reading frame 2.**</p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG10x)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+<div class="figure">
+<img src="figures/Peptides_RF3.png" alt="**Peptides by node in reading frame 3.**" width="100%" />
+<p class="caption">(\#fig:FIG9x)**Peptides by node in reading frame 3.**</p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG11x)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
+## Mutation analysis
+
+### Changes between all parent and child nodes
+<div class="figure">
+<img src="figures/ALL_SITES_All_codon_mutations_tree.png" alt="**Changes bee.**" width="100%" />
+<p class="caption">(\#fig:FIG10x)**Changes bee.**</p>
 </div>
 
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG12x)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
-</div>
+### Parent and Only Parent subsets
 
 
-## Conjunto All 
 
-En las **figuras 13 a 16** se muestran los resultados del conjunto **All**, es decir todas las transiciones que ocurrieron en los sitios de la especie de referencia. 
 
-Por ejemplo, en la Figura \@ref(fig:FIG13x) podemos ver que en el marco de lectura hubo 1290 sitios GCGATCGC los cuales son sitios de la especie 336-3. Lo interesante de esta figura es que podemos ver que en la transición entre los nodos 9 y 10 parece ser que la mayoria de cambios son no sinónimos, y posteriormente la mayoría se conservan. Esta tendencia se observa en los demás conjuntos (**figuras** \@ref(fig:FIG14x),\@ref(fig:FIG15x) y\@ref(fig:FIG16x)).
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/All/336-3_All_A_tree.png" alt="**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG13x)**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
-</div>
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/All/NIES-3974_All_A_tree.png" alt="**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG14x)**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
-</div>
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/All/PCC_6303_All_A_tree.png" alt="**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG15x)**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
-</div>
-
-<div class="figure" style="text-align: center">
-<img src="Clados/Calothrix_B/figures/A/GCGATCGC/All/SUBCLADE_All_A_tree.png" alt="**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura." width="120%" />
-<p class="caption">(\#fig:FIG16x)**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.</p>
-</div>
-
-## TGGCGCCA 
-
-Como se mencionó anteriormente, la importancia del subclado calothrix radica que en 3 de las especies (**Calothrix PCC 7716**, **Calothrix  sp. NIES 4071** y **Calothrix  sp. NIES 4105**) la abundancia de **GCGATCGC** es muy baja (o casi nula), además de que contienen otra secuencia palindrómica (**TGGCGCCA**) la cual tiene abundancia baja (o nula) en las otras tres especies (**Calothrix  sp. 336/3**, **Calothrix  sp. NIES 3974** y **Calothrix sp. PCC 6303**). Por lo tanto, para ver que estaba sucediendo con esta otra secuencia y si estaba relacionada con **GCGATCGC**. Realizamos el mismo análisis. 

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 2 Materials and methods | Evolución de secuencias palindromicas en genomas de cianobacterias</title>
+<meta name="author" content="Eduardo Padilla Mendoza">
+<meta name="description" content="2.1 Case of interest This analysis focuses on the Calothrix subclade, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species Calothrix sp....">
+<meta name="generator" content="bookdown 0.34 with bs4_book()">
+<meta property="og:title" content="Chapter 2 Materials and methods | Evolución de secuencias palindromicas en genomas de cianobacterias">
+<meta property="og:type" content="book">
+<meta property="og:description" content="2.1 Case of interest This analysis focuses on the Calothrix subclade, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species Calothrix sp....">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 2 Materials and methods | Evolución de secuencias palindromicas en genomas de cianobacterias">
+<meta name="twitter:description" content="2.1 Case of interest This analysis focuses on the Calothrix subclade, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species Calothrix sp....">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.0/transition.js"></script><script src="libs/bs3compat-0.5.0/tabs.js"></script><script src="libs/bs3compat-0.5.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet">
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Evolución de secuencias palindromicas en genomas de cianobacterias</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Resumen</a></li>
+<li><a class="" href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></li>
+<li><a class="active" href="materials-and-methods.html"><span class="header-section-number">2</span> Materials and methods</a></li>
+<li><a class="" href="results.html"><span class="header-section-number">3</span> Results</a></li>
+<li><a class="" href="referencias.html">Referencias</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/lalibelulalo/TESIS">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="materials-and-methods" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> Materials and methods<a class="anchor" aria-label="anchor" href="#materials-and-methods"><i class="fas fa-link"></i></a>
+</h1>
+<div id="case-of-interest" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Case of interest<a class="anchor" aria-label="anchor" href="#case-of-interest"><i class="fas fa-link"></i></a>
+</h2>
+<p>This analysis focuses on the <strong>Calothrix subclade</strong>, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species <strong><em>Calothrix sp. 336/3</em></strong>, <strong><em>Calothrix sp. NIES 3974</em></strong> and <strong><em>Calothrix sp. PCC 6303</em></strong> contains a high abundance of <strong>HIP1</strong> sites while the subclade with the species <strong><em>Calothrix PCC 7716</em></strong>, <strong><em>Calothrix sp. NIES 4071</em></strong> and <strong><em>Calothrix sp. NIES 4105</em></strong> has a very low or no abundance of sites. Not to mention that the last 3 species have a significant abundance of another palindrome (<strong>GGCGCC</strong>), which is found in very low (or null) abundance in the other three species (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG1x">2.1</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG1x"></span>
+<img src="Clados/Callothrix_clade/figures/Calothrix_Octanuc_FrecObs_sel32_filogenia_HIG.png" alt="**Phylogeny of the Calothrix clade**. In this figure, we can see the annotated phylogeny of the Calothrix clade. The heatmap included in the figure indicates the observed frequency per 1000 nts of each palindromic octamer in each of the species, while the barplot showcases the most abundant octamer." width="80%"><p class="caption">
+Figure 2.1: <strong>Phylogeny of the Calothrix clade</strong>. In this figure, we can see the annotated phylogeny of the Calothrix clade. The heatmap included in the figure indicates the observed frequency per 1000 nts of each palindromic octamer in each of the species, while the barplot showcases the most abundant octamer.
+</p>
+</div>
+</div>
+<div id="general-diagram" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> General diagram<a class="anchor" aria-label="anchor" href="#general-diagram"><i class="fas fa-link"></i></a>
+</h2>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG2x"></span>
+<img src="figures/4x/pipeline.png" alt="**General project diagram.**" width="30%"><p class="caption">
+Figure 2.2: <strong>General project diagram.</strong>
+</p>
+</div>
+</div>
+<div id="phylogeny" class="section level2" number="2.3">
+<h2>
+<span class="header-section-number">2.3</span> Phylogeny<a class="anchor" aria-label="anchor" href="#phylogeny"><i class="fas fa-link"></i></a>
+</h2>
+<p>To perform the analysis, phylogeny is needed. The phylogeny used in this analysis was constructed using 5 species from the Calothrix clade. To build this phylogeny, <code>orthofinder</code> software was used, which uses maximum likelihood to create it. The subclade with the species <em>Calothrix sp 336/3</em>, <em>Calothrix sp NIES 3974</em> and <em>Calothrix sp PCC 6303</em> (hereafter <strong>H Subclade</strong>) contain high abundance of HIP1 sites while the subclade with the species <em>Calothrix sp PCC 7716</em> and <em>Calothrix sp NIES 4105</em> (hereafter <strong>L Subclade</strong>) contains low abundance. The species <em>Calothrix sp NIES 4071</em> was omitted because this genome is almost identical to that of <em>Calothrix sp NIES 4105</em>. The species <em>Calothrix sp NIES-267</em> was also added as an outgroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG3x">2.3</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG3x"></span>
+<img src="figures/4x/philogenie_subclades.png" alt="*Calothrix subclades.* In this figure we can see the calothrix clade phylogeny. In red we see the subclade that contains an abundance of HIP1 sites and in blue the subclade with low abundance. In yellow the transition from node 9 to 10 is shown, which is of interest since it is the moment in which the abundances of the palindromes change. In gray the species Calothrix parasitica NIES 267 is shown as an outgroup." width="100%"><p class="caption">
+Figure 2.3: <em>Calothrix subclades.</em> In this figure we can see the calothrix clade phylogeny. In red we see the subclade that contains an abundance of HIP1 sites and in blue the subclade with low abundance. In yellow the transition from node 9 to 10 is shown, which is of interest since it is the moment in which the abundances of the palindromes change. In gray the species Calothrix parasitica NIES 267 is shown as an outgroup.
+</p>
+</div>
+</div>
+<div id="orthogroups" class="section level2" number="2.4">
+<h2>
+<span class="header-section-number">2.4</span> Orthogroups<a class="anchor" aria-label="anchor" href="#orthogroups"><i class="fas fa-link"></i></a>
+</h2>
+<p>Sites for this analysis were obtained from orthogroups among the 6 species in the phylogeny.</p>
+<div id="pangenome" class="section level3" number="2.4.1">
+<h3>
+<span class="header-section-number">2.4.1</span> Pangenome<a class="anchor" aria-label="anchor" href="#pangenome"><i class="fas fa-link"></i></a>
+</h3>
+<p>In this part we identify the orthogroups families that make up the <strong>pan-genome</strong> of the 6 species of phylogeny. The pan-genome is defined as the set of all gene families. In turn, a subset of this is the core genome that contains only the genes present in all 6 genomes.</p>
+<p>To know the pan-genome, the <code>get_homologues.pl</code> pipeline (<span class="citation">Bruno Contreras-Moreira and Pablo Vinuesa<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content="&lt;p&gt;&lt;span&gt;“GET_HOMOLOGUES, a Versatile Software Package for Scalable and Robust Microbial Pangenome Analysis,”&lt;/span&gt; &lt;em&gt;Applied and Environmental Microbiology&lt;/em&gt; 79, no. 24 (2013): 7696–7701.&lt;/p&gt;"><sup>1</sup></a></span>) was used with the options:</p>
+<pre><code>get_homologues.pl -d genomes_directory/ -t 0 -M -n PPN </code></pre>
+<p>This left us with a total of <strong>17451 orthogroups</strong>.</p>
+</div>
+<div id="core-genome" class="section level3" number="2.4.2">
+<h3>
+<span class="header-section-number">2.4.2</span> Core genome<a class="anchor" aria-label="anchor" href="#core-genome"><i class="fas fa-link"></i></a>
+</h3>
+<p><code>get_homologues.pl</code> also compute consensus <strong>core-genome</strong> clusters from the solutions generated by the three clustering algorithms it implements, and consensus pan-genome clusters from COGtriangles and OMCL clustering results. The <code>get_homologues.pl</code> program options used are shown below:</p>
+<pre><code>compare_clusters.pl -o pangenoma -m -d orthogroups_directory/</code></pre>
+<p>This creates a matrix of presence/absence of genes throughout the species (<strong>Table</strong> <a href="materials-and-methods.html#tab:TAB1X">2.1</a>). Subsequently, all those orthogroups that are not useful are filtered out. This left us with a total of <strong>2393 orthogroups</strong>.</p>
+<div class="inline-table"><table class=" lightable-paper table table-striped table-condensed" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 11px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">
+<span id="tab:TAB1X">Table 2.1: </span><strong>Matrix of presence/absence of genes.</strong> The table shows the first 10 rows of the pangenomic matrix. A value of 1 indicates that the ortholog is present in the genome. A value of 0 indicates that the ortholog is absent.
+</caption>
+<thead><tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Gene
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+NIES.267
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+X336.3
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+NIES.3974
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+NIES.4105
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+PCC_6303
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+PCC_7716
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16222_response_regulator.faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16223_ATP-binding_protein.faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16224_ATP-binding_protein.faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16225_response_regulator_t…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16226_bchB.faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16227_beta-ketoacyl-ACP_sy…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16228_ATP-grasp_domain-con…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16229_aromatic_ring-hydrox…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16230_NYN_domain-containin…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+16231_pentapeptide_repeat-…faa
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">0</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+<td style="text-align:left;">
+<span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffa500">1</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+<td style="text-align:left;">
+…
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div id="multiple-alignment-and-paralogue-filtering" class="section level2" number="2.5">
+<h2>
+<span class="header-section-number">2.5</span> Multiple Alignment and Paralogue Filtering<a class="anchor" aria-label="anchor" href="#multiple-alignment-and-paralogue-filtering"><i class="fas fa-link"></i></a>
+</h2>
+<p>To reconstruct ancestral genes, the amino acid sequences of the orthogroup need to be aligned. Subsequently, a codon alignment is made using the amino acid and nucleotide sequences. This codon alignment is what we will use to reconstruct the ancestral nucleotide sequences and finally to translate them into amino acid sequences.</p>
+<p>An important detail is that to do the ancestral reconstruction we need orthogroups with the same number of orthologs as species in the phylogeny used for the reconstruction. That is why those orthogroups that contained more than one orthologue (<strong>paralogues</strong>) for each species were omitted. This left us with a total of <strong>2158 orthogroups</strong> without paralogs.</p>
+</div>
+<div id="ancestral-reconstruction" class="section level2" number="2.6">
+<h2>
+<span class="header-section-number">2.6</span> Ancestral Reconstruction<a class="anchor" aria-label="anchor" href="#ancestral-reconstruction"><i class="fas fa-link"></i></a>
+</h2>
+<p>After obtaining the orthogroups, the ancestral reconstruction was done using the R package <code>phangorn</code>, which provides several methods to estimate ancestral character states with Maximum Parsimony (MP) or <strong>Maximum Likelihood</strong> (ML). In this case, we use ML. Additionally, we can assign the ancestral states according to the criterion of greatest posterior probability (“bayes”). Additionally, we used the <strong>F81</strong> nucleotide substitutions model.</p>
+</div>
+<div id="hip1-sites" class="section level2" number="2.7">
+<h2>
+<span class="header-section-number">2.7</span> HIP1 Sites<a class="anchor" aria-label="anchor" href="#hip1-sites"><i class="fas fa-link"></i></a>
+</h2>
+<div id="hip1-site-counting-and-filtering" class="section level3" number="2.7.1">
+<h3>
+<span class="header-section-number">2.7.1</span> HIP1 Site Counting and Filtering<a class="anchor" aria-label="anchor" href="#hip1-site-counting-and-filtering"><i class="fas fa-link"></i></a>
+</h3>
+<p>A 3rd order Markov model was used to count the sites. This count was done on the <strong>2158</strong> orthogroups of the core genome that remained after paralog filtering. Subsequently, all <strong>orthogroups that did not contain HIP1</strong> sites were removed. This left us with a total of <strong>1842 orthogroups</strong>.</p>
+</div>
+<div id="location-of-hip1-sites" class="section level3" number="2.7.2">
+<h3>
+<span class="header-section-number">2.7.2</span> Location of HIP1 sites<a class="anchor" aria-label="anchor" href="#location-of-hip1-sites"><i class="fas fa-link"></i></a>
+</h3>
+<p>Once all those orthogroups with HIP1 sites were obtained, the coordinates (that is, the beginning and end nucleotides of the site) of all the sites were searched for each ortholog of each species in all orthogroups.Finally, a list was made of all the sites and all those repeated coordinates were filtered.This left us with 4211 sites to analyze.</p>
+</div>
+</div>
+<div id="peptides-by-node" class="section level2" number="2.8">
+<h2>
+<span class="header-section-number">2.8</span> Peptides by node<a class="anchor" aria-label="anchor" href="#peptides-by-node"><i class="fas fa-link"></i></a>
+</h2>
+<p>To know what is happening with the peptides, the nucleotide sequences of each site were translated. Subsequently, the peptides were quantified for each species node in each reading frame.</p>
+</div>
+<div id="mutation-analysis" class="section level2" number="2.9">
+<h2>
+<span class="header-section-number">2.9</span> Mutation analysis<a class="anchor" aria-label="anchor" href="#mutation-analysis"><i class="fas fa-link"></i></a>
+</h2>
+<div id="site-classification-according-to-the-reading-frame" class="section level3" number="2.9.1">
+<h3>
+<span class="header-section-number">2.9.1</span> Site classification according to the reading frame<a class="anchor" aria-label="anchor" href="#site-classification-according-to-the-reading-frame"><i class="fas fa-link"></i></a>
+</h3>
+<p>After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework.</p>
+</div>
+<div id="substitution-types-and-codon-completions" class="section level3" number="2.9.2">
+<h3>
+<span class="header-section-number">2.9.2</span> Substitution types and codon completions<a class="anchor" aria-label="anchor" href="#substitution-types-and-codon-completions"><i class="fas fa-link"></i></a>
+</h3>
+<p>The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.</p>
+<p>It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons.</p>
+<p>In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.</p>
+<p><strong>NoMutation.</strong> The AA sequence had no mutations. That is, the AA and nucleotide sequence passed unchanged to the child node.</p>
+<p><strong>Synonym.</strong> The nucleotide sequence had mutations. However, the AA sequence did not change in the child node.</p>
+<p><strong>NoSynonymConservative.</strong> The AA sequence changed in the child node. However, these changes are conservative according to the BLOSUM62 matrix score.</p>
+<p><strong>NoSynonym.</strong> The AA sequence changed in the child node.</p>
+<p><strong>Deletion.</strong> The AA sequence had one or more deletions.</p>
+<p><strong>ConservativeNoHIPMutation.</strong> The AA sequence changed in the child node but has similarity according to the <strong>BLOSUM62 score</strong>. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
+<p><strong>NoSynonymNoHIPMutation.</strong> The AA sequence changed in child node. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
+<p><strong>SynonymNoHIPMutation.</strong> The nucleotide sequence had mutations. However, the AA sequence did not change in the child node because the change was out-of-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
+<p><strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.4</a><strong>A</strong> shows what happens to the nucleotide and amino acid sequences in each case and <strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.4</a><strong>B</strong> shows some examples.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG4x"></span>
+<img src="figures/4x/table1.png" alt="*Substitution examples.* The first column of Subfigure **A** shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure **B** shows some examples. " width="100%"><p class="caption">
+Figure 2.4: <em>Substitution examples.</em> The first column of Subfigure <strong>A</strong> shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure <strong>B</strong> shows some examples.
+</p>
+</div>
+</div>
+</div>
+<div id="phylogenies-annotation" class="section level2" number="2.10">
+<h2>
+<span class="header-section-number">2.10</span> Phylogenies Annotation<a class="anchor" aria-label="anchor" href="#phylogenies-annotation"><i class="fas fa-link"></i></a>
+</h2>
+<p>Once all substitutions at all sites in all orthogroups were quantified, a phylogeny was annotated to visualize the frequency of the type of changes that occurred at each node. This annotation was made for each reading frame.</p>
+<p>The phylogeny was annotated with pie charts on the branches between each pair of nodes (parents and children). This diagram corresponds to the proportions of the types of substitution that occurred from the parent node to the child node. That is, the proportions shown in the diagrams show the evolution of the sites between parent and child nodes.</p>
+<div id="example-of-phylogeny-annotation." class="section level3" number="2.10.1">
+<h3>
+<span class="header-section-number">2.10.1</span> Example of phylogeny annotation.<a class="anchor" aria-label="anchor" href="#example-of-phylogeny-annotation."><i class="fas fa-link"></i></a>
+</h3>
+<p>A detailed explanation of how phylogenies are annotated is shown below using the <strong>YbhN family protein orthogroup</strong> which contains <strong>3 HIP1 sites</strong>, all in <strong>reading frame 1</strong>:</p>
+<ul>
+<li><p><strong>Location of the site.</strong> First, hip1 sites are placed in the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A</strong>). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes.</p></li>
+<li><p><strong>Assignment of sequences to nodes.</strong> For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B</strong>).</p></li>
+<li><p><strong>Counting of substitution types.</strong> Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>C</strong>).</p></li>
+<li><p><strong>Sum of all changes between nodes.</strong> To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>D</strong>).</p></li>
+<li><p><strong>Phylogeny annotation.</strong> Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (<strong>Number on the left of the diagram</strong>)(<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>E</strong>). Therefore, the pie charts are divided into 3 pieces.</p></li>
+</ul>
+<p>In this example only one orthogroup was analyzed. However, for the results shown in this work this process was repeated for the <strong>4211 sites</strong> of the <strong>1842 orthogroups</strong>.</p>
+<div class="figure">
+<span style="display:block;" id="fig:FIG5x"></span>
+<img src="figures/4x/philogenies_annotation.png" alt="**Phylogeny annotation process.**" width="100%"><p class="caption">
+Figure 2.5: <strong>Phylogeny annotation process.</strong>
+</p>
+</div>
+</div>
+</div>
+<div id="subsets-of-interest" class="section level2" number="2.11">
+<h2>
+<span class="header-section-number">2.11</span> Subsets of interest<a class="anchor" aria-label="anchor" href="#subsets-of-interest"><i class="fas fa-link"></i></a>
+</h2>
+<p>Since one of the essential questions about HIP1 sites is how they are lost (or gained), we separated the counts of substitution types into 2 pairs of subsets which had to meet certain conditions of interest.</p>
+<div id="parent-and-only-parent-subsets" class="section level3" number="2.11.1">
+<h3>
+<span class="header-section-number">2.11.1</span> Parent and Only Parent Subsets<a class="anchor" aria-label="anchor" href="#parent-and-only-parent-subsets"><i class="fas fa-link"></i></a>
+</h3>
+<p>The first subset of results (<strong>Parent</strong>) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A1</strong>).</p>
+<p>Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called <strong>Only Parent</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A2</strong>).</p>
+<p>The third subset of results (<strong>Child</strong>) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B1</strong>).</p>
+<p>Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called <strong>Only Child</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B2</strong>).</p>
+<div class="figure">
+<span style="display:block;" id="fig:FIG6x"></span>
+<img src="figures/4x/node_cases.png" alt="**Subsets examples.**" width="100%"><p class="caption">
+Figure 2.6: <strong>Subsets examples.</strong>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+  <div class="chapter-nav">
+<div class="prev"><a href="introducci%C3%B3n.html"><span class="header-section-number">1</span> Introducción</a></div>
+<div class="next"><a href="results.html"><span class="header-section-number">3</span> Results</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#materials-and-methods"><span class="header-section-number">2</span> Materials and methods</a></li>
+<li><a class="nav-link" href="#case-of-interest"><span class="header-section-number">2.1</span> Case of interest</a></li>
+<li><a class="nav-link" href="#general-diagram"><span class="header-section-number">2.2</span> General diagram</a></li>
+<li><a class="nav-link" href="#phylogeny"><span class="header-section-number">2.3</span> Phylogeny</a></li>
+<li>
+<a class="nav-link" href="#orthogroups"><span class="header-section-number">2.4</span> Orthogroups</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#pangenome"><span class="header-section-number">2.4.1</span> Pangenome</a></li>
+<li><a class="nav-link" href="#core-genome"><span class="header-section-number">2.4.2</span> Core genome</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#multiple-alignment-and-paralogue-filtering"><span class="header-section-number">2.5</span> Multiple Alignment and Paralogue Filtering</a></li>
+<li><a class="nav-link" href="#ancestral-reconstruction"><span class="header-section-number">2.6</span> Ancestral Reconstruction</a></li>
+<li>
+<a class="nav-link" href="#hip1-sites"><span class="header-section-number">2.7</span> HIP1 Sites</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#hip1-site-counting-and-filtering"><span class="header-section-number">2.7.1</span> HIP1 Site Counting and Filtering</a></li>
+<li><a class="nav-link" href="#location-of-hip1-sites"><span class="header-section-number">2.7.2</span> Location of HIP1 sites</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#peptides-by-node"><span class="header-section-number">2.8</span> Peptides by node</a></li>
+<li>
+<a class="nav-link" href="#mutation-analysis"><span class="header-section-number">2.9</span> Mutation analysis</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#site-classification-according-to-the-reading-frame"><span class="header-section-number">2.9.1</span> Site classification according to the reading frame</a></li>
+<li><a class="nav-link" href="#substitution-types-and-codon-completions"><span class="header-section-number">2.9.2</span> Substitution types and codon completions</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#phylogenies-annotation"><span class="header-section-number">2.10</span> Phylogenies Annotation</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#example-of-phylogeny-annotation."><span class="header-section-number">2.10.1</span> Example of phylogeny annotation.</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#subsets-of-interest"><span class="header-section-number">2.11</span> Subsets of interest</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#parent-and-only-parent-subsets"><span class="header-section-number">2.11.1</span> Parent and Only Parent Subsets</a></li></ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/lalibelulalo/TESIS/blob/master/ENG.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/lalibelulalo/TESIS/edit/master/ENG.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Evolución de secuencias palindromicas en genomas de cianobacterias</strong>" was written by Eduardo Padilla Mendoza. It was last built on 2023-10-02.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

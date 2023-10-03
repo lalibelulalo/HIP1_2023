@@ -1,0 +1,11 @@
+Gene	NIES-267	336-3	NIES-3974	NIES-4105	PCC_6303	PCC_7716
+16222_response_regulator.faa	1	0	1	1	0	1
+16223_ATP-binding_protein.faa	1	0	1	0	0	0
+16224_ATP-binding_protein.faa	0	0	1	0	0	0
+16225_response_regulator_t...faa	1	0	1	1	0	1
+16226_bchB.faa	1	1	1	1	1	1
+16227_beta-ketoacyl-ACP_sy...faa	0	0	1	0	0	0
+16228_ATP-grasp_domain-con...faa	0	0	1	0	0	0
+16229_aromatic_ring-hydrox...faa	1	1	1	1	0	1
+16230_NYN_domain-containin...faa	0	0	1	0	0	0
+16231_pentapeptide_repeat-...faa	0	1	1	1	1	1

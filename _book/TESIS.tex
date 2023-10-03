@@ -36,46 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -120,7 +80,7 @@
 
 \title{Evolución de secuencias palindromicas en genomas de cianobacterias}
 \author{Eduardo Padilla Mendoza}
-\date{2023-09-08}
+\date{2023-10-02}
 
 \begin{document}
 \maketitle
@@ -138,403 +98,13 @@ El palíndromo altamente iterado 1 (HIP1 por sus siglas en inglés) cuya secuenc
 \hypertarget{introducciuxf3n}{%
 \chapter{Introducción}\label{introducciuxf3n}}
 
-\hypertarget{muxe9todos}{%
-\chapter{Métodos}\label{muxe9todos}}
+\hypertarget{materials-and-methods}{%
+\chapter{Materials and methods}\label{materials-and-methods}}
 
-Se descargaron 2 conjuntos de genomas de cianobacterias del servidor del NCBI (\url{https://www.ncbi.nlm.nih.gov/genome/browse/\#!/prokaryotes}).
+\hypertarget{case-of-interest}{%
+\section{Case of interest}\label{case-of-interest}}
 
-Estos conjuntos corresponden a:
-
-\begin{itemize}
-\tightlist
-\item
-  269 genomas completos y aquellos que solo contenian el cromosoma (\textbf{complete\_chr})
-\item
-  165 genomas nuevos usados en \citet{cabello2022elucidating} (\textbf{pico})
-\end{itemize}
-
-Dichos genomas fueron descargados en formato Genebank (.gbk o gbff).
-
-\hypertarget{abundancia-de-paluxedndromos.}{%
-\section{Abundancia de palíndromos.}\label{abundancia-de-paluxedndromos.}}
-
-Una vez descargados los genomas, el siguiente paso fue calcular el valor observado y esperado de repeticiones de todos los posibles octámeros palindrómicos de 8 nucleótidos.
-
-El valor observado es el número de veces que cada octámero palindrómico se repite a lo largo de cada genoma.
-El valor esperado se calculó mediante un \textbf{modelo de markov de 3er orden}.
-
-\hypertarget{modelos-de-markov}{%
-\subsection{Modelos de Markov}\label{modelos-de-markov}}
-
-En una cadena de Markov, el valor tomado por una variable aleatoria depende de los valores tomados por la variable aleatoria en un estado anterior. El número de estados históricos que influyen en el valor de la variable aleatoria en un lugar dado a lo largo de la secuencia también se conoce como el \textbf{grado del proceso de Markov}. El modelo de cadena de Markov de \textbf{primer grado} tiene parámetros \(|\Sigma| + |\Sigma|^2\), correspondientes a las frecuencias de nucleótidos individuales así como a las frecuencias de dinucleótidos. De esta manera, este modelo permite que una posición sea dependiente de la posición anterior. Sin embargo, las frecuencias se modelan de manera invariable en la posición y, por lo tanto, pueden no ser adecuadas para modelar señales. Este modelo de secuencia \(M\) se define sobre el espacio muestral \(\Sigma^{*}\) y asigna una probabilidad a cada secuencia \(x\) de longitud \(n(x)\) sobre \(\Sigma^{*}\):
-
-\begin{equation}
-P(x|M) = P_1(x_1) \prod_{i=2,...,n(x)} P_2(x_i|x_{i-1},...,x_{i-n})
-\label{eq:markov}
-\end{equation}
-
-donde \(P_1\) es una función de probabilidad en \(\Sigma\) que modela la distribución de \(\alpha\)'s en la primera posición de la secuencia y \(P_2\) es la función de probabilidad condicional en \(\Sigma\times\Sigma\) que modela la distribución de \(\beta\)'s en la posición \(i>1\) en el símbolo alfabético \(\alpha\) en la posición \(i-1\). La estimación de parámetros se hace utilizando el estimador de \textbf{\emph{probabilidad máxima}}. Las probabilidades de transición se estiman utilizando el teorema de Bayes, como se muestra a continuación:
-
-\begin{equation}
-P_2(\beta|\alpha)={P(\alpha\beta) \over P(\alpha)}
-\label{eq:bayes}
-\end{equation}
-
-De esta manera, las probabilidades transicionales condicionales de encontrar una base \(\beta\) en la posición (\(i\)) dado que la base \(\alpha\) se encontró en la posición (\(i-1\)) se calculan encontrando la abundancia del dinucleótido \(\alpha\beta\) como una fracción de la abundancia del nucleótido \(\alpha\).
-
-\textbf{Ejemplo:}
-
-Considerando una la secuencia de 25 nucleótidos.
-\[Seq = AACGT\space CTCTA\space TCATG\space CCAGG\space ATCTG\]
-
-Al considerar los modelos de cadena de Markov de \textbf{primer grado}, es necesario calcular los \(4-parámetros\) correspondientes a las \textbf{frecuencias de nucleótidos individuales} y los \(4^2\) parámetros correspondientes a las \textbf{frecuencias de dinucleótidos}. Los parámetros de \(\Sigma\) son:
-
-\begin{equation} 
-\begin{split}
-\Sigma & = \{frec(A),frec(C),frec(G),frec(T),\}\\
- & =\{\frac{6}{25},\frac{7}{25},\frac{7}{25},\frac{5}{25}\}
-\end{split}
-\label{eq:EQ3}
-\end{equation}
-
-Para calcular \(P_2\), los valores de probabilidad condicional \(\Sigma \times \Sigma\), las frecuencias de dinucleótidos y las probabilidades se calculan a partir de los datos de secuencia. Las frecuencias de los dinucleótidos y las probabilidades se muestran a continuación (con los números entre paréntesis que representan las probabilidades):
-
-\begin{equation}
-\Sigma \times \Sigma = 
-\begin{Bmatrix}
-frec(AA)=\frac{1}{24} & frec(AC)=\frac{1}{24} & frec(AT)=\frac{3}{24} & frec(AG)=\frac{1}{24} \\
-frec(CA)=\frac{2}{24} & frec(CC)=\frac{1}{24} & frec(CT)=\frac{3}{24} &frec(CG)=\frac{1}{24} \\
-frec(TA)=\frac{1}{24} & frec(TC)=\frac{4}{24} & frec(TT)=\frac{0}{24} & frec(TG)=\frac{1}{24} \\
-frec(GA)=\frac{1}{24} & frec(GC)=\frac{1}{24} & frec(GT)=\frac{1}{24} & frec(GG)=\frac{1}{24}
-\end{Bmatrix}
-\label{eq:EQ4}
-\end{equation}
-
-A continuación, las probabilidades condicionales se calculan utilizando el teorema de Bayes (consulte la Ecuación \eqref{eq:bayes} ). Por ejemplo, la probabilidad de encontrar \(C\) en la posición \(i+1\) dado que se ha encontrado una \(A\) en la posición (\(i\)) es:
-
-\begin{equation}
-P(C|A)= \frac{P_{AC}}{P_A}=\frac{\frac{1}{24}}{\frac{6}{25}}
-\label{eq:EQ5}
-\end{equation}
-
-Para secuencias grandes, la probabilidad condicional \(P(S_i|S_{i-1})\) se aproxima a:
-
-\begin{equation}
-P(S_i|S_{i-1}) =\frac{frec(S_iS_{i-1})}{frec(S_{i-1})}
-\label{eq:EQ6}
-\end{equation}
-
-Las probabilidades condicionales para la secuencia de ejemplo se muestran en \eqref{eq:EQ4}. Usando estos parámetros del modelo, la probabilidad de encontrar el patrón \(CAAT\) en esta secuencia usando el \textbf{modelo de Markov de primer orden} de la secuencia subyacente sería igual a:
-
-\begin{equation}
-\begin{split}
-P(C)P(A|C)P(A|A)P(T|A) & = P(C)\cdot\frac{P(CA)}{P(C)}\cdot\frac{P(AA)}{P(A)}\cdot\frac{P(AT)}{P(A)} \\
-& = (\frac{7}{25}) \cdot (\frac{50}{168}) \cdot (\frac{25}{144}) \cdot (\frac{75}{144})\\
-& = 0.0075
-\end{split}
-\label{eq:EQ7}
-\end{equation}
-
-\hypertarget{modelo-de-markov-de-orden-1-para-hallar-octanucleuxf3tidos}{%
-\subsection{Modelo de Markov de orden 1 para hallar octanucleótidos}\label{modelo-de-markov-de-orden-1-para-hallar-octanucleuxf3tidos}}
-
-Por ejemplo, para una octanucleótido de 8 letras, digamos HIP1:
-\[W=GCGATCGC\]
-Los parametros de \(\Sigma\) corresponden a:
-\begin{equation}
-\Sigma= \{frec(A),frec(C),frec(G),frec(T)\}
-\end{equation}
-
-Los valores de probabilidad condicional de \(\Sigma \times \Sigma\) son:
-\begin{equation}
-\Sigma \times \Sigma = 
-\begin{Bmatrix}
-  frec(AA) & frec(AC) & frec(AT) & frec(AG) \\ 
-  frec(CA) & frec(CC) & frec(CT) & frec(CG) \\
-  frec(TA) & frec(TC) & frec(TT) & frec(TG) \\
-  frec(GA) & frec(GC) & frec(GT) & frec(GG)
-\end{Bmatrix}
-\end{equation}
-
-Si queremos usar un \textbf{modelo de orden 1}, la probabilidad de hallar \(W\) segun las ecuaciones \eqref{eq:markov} y\eqref{eq:bayes} es:
-\begin{equation}
-\begin{split}
-P(W) & = P(G) \cdot P(C|G) \cdot P(G|C) \cdot P(A|G) \cdot P(T|A) \cdot P(C|T) \cdot P(G|C) \cdot P(C|G)\\
-& = {P(G)} \cdot \frac{P(GC)}{P(G)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}\\
-& = P(GC) \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GA)}{P(G)} \cdot \frac{P(AT)}{P(A)} \cdot \frac{P(TC)}{P(T)} \cdot \frac{P(CG)}{P(C)} \cdot \frac{P(GC)}{P(G)}
-\end{split}
-\end{equation}
-
-finalmente:
-\begin{equation}
-P(W) = \frac{P(GC) \cdot P(CG) \cdot P(GA) \cdot P(AT) \cdot P(TC) \cdot P(CG) \cdot P(GC)}{P(C) \cdot P(G) \cdot P(A) \cdot P(T) \cdot P(C) \cdot P(G)}
-\label{eq:Markov1HIP}
-\end{equation}
-
-\hypertarget{abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe}{%
-\subsection{Abundancia de acuerdo a la frecuencia observada y tasa OE}\label{abundancia-de-acuerdo-a-la-frecuencia-observada-y-tasa-oe}}
-
-Adicionalmente se calculó una abundancia de acuerdo a la frecuencia observada cada 1000 nucleótidos (\textbf{FrecObs}) y otra en base a la tasa de sitios observados sobre esperados (\textbf{OE}).
-
-\hypertarget{significancia-de-los-conteos-observados}{%
-\section{Significancia de los conteos observados}\label{significancia-de-los-conteos-observados}}
-
-Para darle una significancia estadística al conteo se usó una \textbf{prueba binomial} y un test \textbf{FDR}.
-
-\hypertarget{prueba-binomial.}{%
-\subsection{Prueba binomial.}\label{prueba-binomial.}}
-
-Para calcular la probabilidad de que el \textbf{conteo esperado}, el cual sigue una distribución binomial, tome valores MAYORES O IGUALES al \textbf{conteo observado}, usamos la función \textbf{\emph{pbinom}}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{pbinom}\NormalTok{(q, size, prob, }\AttributeTok{lower.tail =} \ConstantTok{FALSE}\NormalTok{)  }
-\end{Highlighting}
-\end{Shaded}
-
-Donde:
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{q}: Cuantil o vector de cuantiles
-\item
-  \textbf{size}: Numero de experimentos (n\textgreater=0)
-\item
-  \textbf{prob}: Probabilidad de éxito en cada experimento
-\item
-  \textbf{lower.tail}: si es TRUE, las probabilidades son P(X\textless=x), o P(X\textgreater x) en otro caso.
-\end{itemize}
-
-Tomemos un caso particular del conteo:
-
-\begin{longtable}[]{@{}lllll@{}}
-\toprule\noalign{}
-Spp & Palindrome & Observed & Markov (Expected) & GenomeSize \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-336-3 & GCGATCGC & 6202 & 65.396286071305 & 6420126 \\
-\end{longtable}
-
-La probabilidad de que se observen \textbf{6202} sitios \(GCGATCGC\), O MAS, si el número de sitios posibles en el genoma es \textbf{6420119} (\(6420126-8+1\), es decir \(GenomeSize-k+1\)) y la probabilidad de observar dicho sitio es de: \textbf{1.018615e-05} (\(65.3962860713054 \over 6420126-8+1\), es decir \(Expected \over GenomeSize-k+1\)), es casi \textbf{0}.
-
-En otras palabras, la probabilidad de que suceda lo que estoy observando es muy baja.
-
-\hypertarget{fdr}{%
-\subsection{FDR}\label{fdr}}
-
-Para estudios en los que se realizan miles de test de forma simultánea, el resultado de estos métodos es demasiado conservativo e impide que se detecten diferencias reales. Una alternativa es controlar el false discovery rate o FDR.
-
-Para nuestros datos el FDR se calculó en R de usando los valores obtenidos de la prueba binomial:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{p.adjust}\NormalTok{(pval, }\AttributeTok{method=}\StringTok{"fdr"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-Donde \textbf{pval} es la probabilidad obtenida de la prueba binomial.
-
-\hypertarget{conjuntos-de-conteos-de-acuerdo-a-la-significancia}{%
-\subsection{Conjuntos de conteos de acuerdo a la significancia}\label{conjuntos-de-conteos-de-acuerdo-a-la-significancia}}
-
-Se crearon 4 conjuntos de resultados de acuerdo a 4 valores mínimos de significancia de acuerdo al FDR:
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{sel32} (\(1 \times 10^{-32}\))
-\item
-  \textbf{sel64} (\(1 \times 10^{-64}\))
-\item
-  \textbf{sel128} (\(1 \times 10^{-128}\))
-\item
-  \textbf{sel256} (\(1 \times 10^{-256}\))
-\end{itemize}
-
-El conjunto más laxo corresponde a \textbf{sel32} ya que su valor de corte de FDR es \(1 \times 10^{-32}\), debido a esto, es el conjunto con más palíndromos (Figura \ref{fig:FIG1}). Por otro lado, el conjunto \textbf{sel256} es el conjunto más restrictivo ya que su valor de corte de FDR es de \(1 \times 10^{-256}\), y por lo tanto tiene menos palíndromos (Figura \ref{fig:FIG2}).
-
-En la tabla (Tabla \ref{tab:SigSites}) se muestra el conjunto \textbf{sel256} el cual contiene 9 palindromos significativos.
-
-\hypertarget{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}{%
-\section{Visualización de la abundancia: OE vs Frecuencia Observada cada 1000nt}\label{visualizaciuxf3n-de-la-abundancia-oe-vs-frecuencia-observada-cada-1000nt}}
-
-Para visualizar la abundancia creamos un gráfico que muestra el enriquecimiento OE vs la abundancia por cada 1000 nucleótidos. Esto se hizo para cada conjunto de significancia y para cada conjunto de genomas.
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{figures/df_refseq_chr_269_Octanuc_FrecObs_sel32_significative-palindromes} 
-
-}
-
-\caption{**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-32}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.}\label{fig:FIG1}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.8\linewidth]{figures/df_refseq_chr_269_Octanuc_FrecObs_sel256_significative-palindromes} 
-
-}
-
-\caption{**Enriquecimiento versus abundancia de palíndromos octámeros en el conjunto de genomas complete\_chr con un $FDR \leq 1 \times 10^{-256}$.** Enriquecimiento (**O/E**) en función de la frecuencia del motivo cada 1000 nt (**FrecObs**). Cada punto representa un palíndromo octámero de un genoma.}\label{fig:FIG2}
-\end{figure}
-
-\hypertarget{filogenia}{%
-\section{Filogenia}\label{filogenia}}
-
-Se infirieron filogenias para los dos conjuntos de genomas. Para esto usamos el software \textbf{Orthofinder} (\citet{emms2019orthofinder}), el cual utiliza \textbf{FastME} para inferir la filogenia (\citet{lefort2015fastme}). \textbf{FastME} proporciona algoritmos de distancia para inferir filogenias. FastME se basa en una evolución mínima equilibrada, que es el principio mismo de Neighbor Joining (NJ).
-
-El software se corrió en la línea de comandos de la siguiente manera:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\ExtensionTok{orthofinder}\NormalTok{ –f genomas/ }
-\end{Highlighting}
-\end{Shaded}
-
-\hypertarget{anotaciuxf3n-de-la-filogenia}{%
-\subsection{Anotación de la filogenia}\label{anotaciuxf3n-de-la-filogenia}}
-
-Para tener una forma de más visual de entender la distribución de los palíndromos en los genomas, anotamos las filogenias de acuerdo a su abundancia. Se anotaron 4 filogenias según la significancia (\textbf{sel32}, \textbf{sel64}, \textbf{sel128} y \textbf{sel256}) para los 2 conjuntos de genomas. Además, esta anotación se hizo para la abundancia de acuerdo a la Frecuencia Observada por cada 1000 nucleotidos (\(FrecObs\)) (Figura \ref{fig:FIG3}) y a la tasa de Observados sobre esperados (\(OE\)) (Figura \ref{fig:FIG4}).
-
-La anotación de las filogenias consistió en agregarles un heatmap que mostrara la abundancia de cada palíndromo y un diagrama de barras que indicara aquel palíndromo con mayor abundancia.
-
-\begin{figure}
-
-{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG} 
-
-}
-
-\caption{**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la Frecuencia observada cada 1000 nt (FrecObs).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.}\label{fig:FIG3}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_OE_sel256_filogenia_HIG} 
-
-}
-
-\caption{**Filogenia del conjunto de genomas *complete\_chr* anotada de acuerdo a la tasa de observados sobre esperados (OE).** La abundancia visualizada en esta filogenia es de acuerdo al conjunto **sel256**, es decir conteos con un $FDR \leq 1 \times 10^{-256}$. La filogenia muestra 269 especies, frente a la filogenia se muestra un heatmap que indica la abundancia de cada palíndromo. Frente al Heatmap se muestra un Diagrama de barras el cual indíca el palindromo mas abundante de entre todos.}\label{fig:FIG4}
-\end{figure}
-
-\hypertarget{identificaciuxf3n-de-casos-relevantes}{%
-\section{Identificación de casos relevantes}\label{identificaciuxf3n-de-casos-relevantes}}
-
-De acuerdo a las filogenias anotadas, se buscaron aquellos casos en los que HIP1 o algún otro palíndromo se hubiera ganado o perdido abruptamente y en su lugar hubiese otro palíndromo abundante. Además, se buscó que en aquellos casos, las ramas en la filogenia no fueran tan largas. Esto se hizo de manera visual revisando el diagrama de barras que mostraba el palíndromo más abundante para cada especie. En total hubo 6 subclados que mostraban cambios abruptos en la abundancia de sus palíndromos (Figura \ref{fig:FIG5}).
-
-\begin{figure}
-
-{\centering \includegraphics[width=75in]{figures/refseq_chr_269_Octanuc_FrecObs_sel256_filogenia_HIG_cases} 
-
-}
-
-\caption{**Casos de interés.** En la figura se muestran remarcados los casos interesantes: **clado calothrix** (rojo), **clado cyanobacterium** (naranja), **clado geminocystis** (amarillo), **clado thermosynechococcus** (azul), **clado pseudoanabaena** (verde).}\label{fig:FIG5}
-\end{figure}
-
-También se hallo un caso interesante en el conjunto \textbf{pico} (\textbf{clado A18-40}) el cual sirvió como punto de partida para analisis posteriores. En este caso se muestra que la especie Synechococcus A18-40 muestra una tasa OE mucho mayor comparada con las demás especies del clado (Figura \ref{fig:FIG6}).
-
-\begin{figure}
-
-{\centering \includegraphics[width=75in]{figures/pico_165_Octanuc_OE_sel32_filogenia_HIG_cases} 
-
-}
-
-\caption{**Casos de interés.** En la figura se muestra remarcado el **clado A18-40** (azul).}\label{fig:FIG6}
-\end{figure}
-
-\hypertarget{reconstrucciuxf3n-ancestral-de-sitios-palindruxf3micos-en-ortuxf3logos}{%
-\section{Reconstrucción Ancestral de sitios palindrómicos en ortólogos}\label{reconstrucciuxf3n-ancestral-de-sitios-palindruxf3micos-en-ortuxf3logos}}
-
-Para tratar de entender como es que los sitios HIP1 han ido evolucionando, hicimos una reconstrucción de sitios ancestrales y posteriormente construimos varios conjuntos de redes para visualizar dicha evolución.
-
-\hypertarget{ortuxf3logos}{%
-\subsection{Ortólogos}\label{ortuxf3logos}}
-
-Para simplificar la reconstrucción de secuencias ancestrales usamos unicamente los ortólogos. Para obtener esto usamos el pipeline \texttt{get\_homologues}:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\ExtensionTok{get\_homologues.pl} \AttributeTok{{-}d}\NormalTok{ gbff }\AttributeTok{{-}t}\NormalTok{ 0 }\AttributeTok{{-}M} \AttributeTok{{-}n}\NormalTok{ PPN}
-\end{Highlighting}
-\end{Shaded}
-
-Después de obtener los ortólgos filtramos:
-
-\begin{itemize}
-\tightlist
-\item
-  aquellos que no estuvieran en las 6 especies del clado
-\item
-  aquellos que tuvieran mas de una copia (parálogos)
-\item
-  aquellos sin sitios HIP1
-\end{itemize}
-
-\hypertarget{reconstrucciuxf3n}{%
-\subsection{Reconstrucción}\label{reconstrucciuxf3n}}
-
-Para hacer la reconstrucción usamos la pagueteria de R \texttt{phangorn}, la cual proporciona varios métodos para estimar estados de caracteres ancestrales con Máxima Parsimonia (MP) o Máxima Verosimilitud (ML). En este caso usamos ML. Adicionalmente podemos asignar los estados ancestrales según la máxima verosimilitud (``ml''):
-\[P(x_r=A) = {{L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} L(x_r= k) }\]
-
-y el criterio de mayor probabilidad posterior (``bayes''):
-\[P(x_r=A) = {{\pi_A L(x_r=A)} \over {\sum\limits_{k\in \{A,C,G,T\}}} \pi_k L(x_r= k) }\]
-
-dónde \(L(x_r)\) es la probabilidad conjunta de los estados en las puntas y el estado en la raíz \(x_r\) y \(\pi_i\) son las frecuencias base estimadas del estado \(i\).
-
-Toda la información de la reconstrucción fue guardada en dos tablas las cuales contienen listas de cada transicion entre cada estado. Estas tablas fueron creadas con la siguiente función:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{source}\NormalTok{(}\StringTok{"ASR\_Orth\_Functions/NodeAndEdges.R"}\NormalTok{)}
-
-\FunctionTok{Create\_Transition\_Table}\NormalTok{ (}\AttributeTok{SitesTable =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Orthologues\_Palindrome\_sites.txt"}\NormalTok{,}
-                                \AttributeTok{EvolutionModel =} \StringTok{"F81"}\NormalTok{,}
-                                \AttributeTok{Method =} \StringTok{"bayes"}\NormalTok{,}
-                                \AttributeTok{Phylogeny =} \StringTok{"Clados/Callothrix\_clade/SpeciesTree\_rooted.txt"}\NormalTok{,}
-                                \AttributeTok{OrthoPath =} \StringTok{"Clados/Callothrix\_clade/PALINDROMES/GCGATCGC/Only\_ORTHOLOGUES/"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\hypertarget{resultados}{%
-\chapter{RESULTADOS}\label{resultados}}
-
-Acontinucación se presentan los resultados en cuatro secciones:
-
-\begin{itemize}
-\item
-  La \textbf{Seccion I} muestra los analisis de la distribución de los sitios palindromicos a través de los ortólogos y marcos de lectura de las especies.
-\item
-  La \textbf{Sección II} muestra una serie de resultados de la reconstrucción ancestral de los sitios palindrómicos HIP1 y TGGCGCCA unicamente para el clado Calothrix.
-\item
-  La \textbf{Sección III} muestra una serie de resultados de la reconstrucción ancestral de los sitios palindrómicos HIP1 y TGGCGCCA unicamente para el clado Thermosynechococcus.
-\item
-  La \textbf{Sección IV} muestra los resultados del análisis de sitios CGTTAACG en el clado A18-40.
-\item
-  La \textbf{Sección V} muestra los resultados del análisis de sitios repetidos en el los clados.
-\item
-  La \textbf{Sección VI} muestra una serie de resultados de la reconstrucción ancestral de los sitios palindrómicos HIP1 para los clados Cyanobacterium, Geminocystis y Pseudoanabaena.
-\end{itemize}
-
-\hypertarget{secciuxf3n-i}{%
-\chapter*{Sección I}\label{secciuxf3n-i}}
-\addcontentsline{toc}{chapter}{Sección I}
-
-\hypertarget{distribuciuxf3n-de-hip1-en-los-marcos-de-lectura}{%
-\section{Distribución de HIP1 en los marcos de lectura}\label{distribuciuxf3n-de-hip1-en-los-marcos-de-lectura}}
-
-Para el analisis de los sitios palindrómicos primero se hizo un conteo de lo sitios en cada especie de cada clado para luego tomar aquella especie que tuviera la mayor cantidad de sitios posibles. Esto con el fin de tener mas sitios para analizar. Aquellas especies con la mayor cantidad de sitios se muestran resaltadas en amarillo en la Tabla \ref{tab:HighestSites}.
-
-Para ver como es la distribución de los sitios HIP1 a traves del genoma hicimos un conteo de sitios en cada marco de lectura (Tabla \ref{tab:TABMuts2}).
-
-\hypertarget{reconstrucciuxf3n-de-sitios-ancestrales-en-ortuxf3logos-del-clado-calothrix.}{%
-\chapter{Reconstrucción de sitios ancestrales en ortólogos del clado Calothrix.}\label{reconstrucciuxf3n-de-sitios-ancestrales-en-ortuxf3logos-del-clado-calothrix.}}
-
-\hypertarget{filogenia-1}{%
-\section{Filogenia}\label{filogenia-1}}
-
-Este análisis se centra en el subclado Calothrix el cual está compuesto de 6 especies. La importancia de este clado radica en que 3 de las especies (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} y \textbf{Calothrix sp. PCC 6303}) de este clado contienen alta abundancia de sitios \textbf{GCGATCGC} mientras que las otras 3 especies (\textbf{Calothrix PCC 7716}, \textbf{Calothrix sp. NIES 4071} y \textbf{Calothrix sp. NIES 4105}) tienen muy baja o nula abundancia de sitios. Sin mencionar que, estas últimas tres especies muestran una abundancia significante de otro palíndromo, el cual se encuentra en muy baja (o nula) abundancia en las otras tres especies (Figura \ref{fig:FIG1x}). Entendido esto, se creó una filogenia con las 6 especies y una adicional (\textbf{Calothrix parasitica NIES 267}) como grupo externo. Esto último para evitar un sesgo en los resultados (Figura \ref{fig:FIG2x}). Cabe mencionar que al crear la nueva filogenia, la especie \textbf{Calothrix parasitica NIES 267} no quedo como grupo externo si no como especie hermana de la especie \textbf{Calothrix sp. 336/3}. Si bien este no era el objetivo, para fines de los análisis funcionó bien, ya que de igual manera se evitó que la especie \textbf{Calothrix sp. 336/3} funcionara como el grupo externo y se perdiera informacion de esta rama.
+This analysis focuses on the \textbf{Calothrix subclade}, which is composed of 6 species. The importance of this clade lies in the fact that the subclade with the species \textbf{\emph{Calothrix sp. 336/3}}, \textbf{\emph{Calothrix sp. NIES 3974}} and \textbf{\emph{Calothrix sp. PCC 6303}} contains a high abundance of \textbf{HIP1} sites while the subclade with the species \textbf{\emph{Calothrix PCC 7716}}, \textbf{\emph{Calothrix sp. NIES 4071}} and \textbf{\emph{Calothrix sp. NIES 4105}} has a very low or no abundance of sites. Not to mention that the last 3 species have a significant abundance of another palindrome (\textbf{GGCGCC}), which is found in very low (or null) abundance in the other three species (\textbf{Figure} \ref{fig:FIG1x}).
 
 \begin{figure}
 
@@ -542,248 +112,230 @@ Este análisis se centra en el subclado Calothrix el cual está compuesto de 6 e
 
 }
 
-\caption{**Filogenia anotada del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix, un heatmap que indica la frecuencia Observada por cada 1000 nts de cada octámero palindrómico en cada una de las especies y un barplot que muestra aquel octamero mas abundante.}\label{fig:FIG1x}
+\caption{**Phylogeny of the Calothrix clade**. In this figure, we can see the annotated phylogeny of the Calothrix clade. The heatmap included in the figure indicates the observed frequency per 1000 nts of each palindromic octamer in each of the species, while the barplot showcases the most abundant octamer.}\label{fig:FIG1x}
 \end{figure}
+
+\hypertarget{general-diagram}{%
+\section{General diagram}\label{general-diagram}}
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{ENG_files/figure-latex/FIG2x-1} 
+{\centering \includegraphics[width=0.3\linewidth]{figures/4x/pipeline} 
 
 }
 
-\caption{**Filogenia del clado Calothrix.** En esta figura podemos ver la filogenia del clado calothrix. En azul vemos el subclado que contiene abundancia de sitios GCGATCGC y en rojo el subclado con abundancia de sitios TGGCGCCA. En amarillo se muestra la transición del nodo 9 al 10 la cual es de interes ya que es el momento en la que las abundancias de los palíndromos cambian. En gris se muestra a la especie **Calothrix parasitica NIES 267** como grupo externo.}\label{fig:FIG2x}
+\caption{**General project diagram.**}\label{fig:FIG2x}
 \end{figure}
 
-\hypertarget{ortuxf3logos-1}{%
-\section{Ortólogos}\label{ortuxf3logos-1}}
+\hypertarget{phylogeny}{%
+\section{Phylogeny}\label{phylogeny}}
 
-Los sitios para este análisis se obtuvieron de los ortólogos entre las 7 especies (subclado + el grupo externo). Posteriormente se filtraron todos aquellos ortólogos que no eran de utilidad. Es decir, ortólogos sin sitios y parálogos. Finalmente, dependiendo la especie a revisar, estos ortólogos se filtraban para realizar una alineación múltiple y buscar los sitios palindrómicos.
-
-\hypertarget{buxfasqueda-de-sitios-gcgatcgc}{%
-\section{Búsqueda de sitios GCGATCGC}\label{buxfasqueda-de-sitios-gcgatcgc}}
-
-Para hacer esto primero filtramos todos los ortólogos que tuvieran al menos sitio \textbf{GCGATCGC} en una de las 3 especies con alta abundancia (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} o \textbf{Calothrix sp. PCC 6303} remarcadas en el subclado azul de la filogenia) (Figura \ref{fig:FIG2x}). En un inicio esto se hizo para partir del conjunto con el mayor número de sitios posibles y así poder tener una mayor cantidad de datos. Sin embargo, después de revisar la distribución de los sitios en todas las especies. Se decidió, hacer un análisis para cada una de las especies como referencia. Además, los sitios hallados también se clasificaron de acuerdo al marco de lectura en el que estaban situados. Por lo tanto, se crearon 4 conjuntos dependiendo la especie en donde se buscaron y 3 subconjuntos para cada marco de lectura.
-
-El primer conjunto corresponde a los sitios hallados en la especie \textbf{Calothrix sp. 336/3} (\textbf{336-3}) el cual contiene \textbf{2407} sitios y corresponde al \textbf{58\%} de los sitios totales entre las tres especies antes mencionadas (Figura \ref{fig:FIG3x}A). El segundo conjunto corresponde a los sitios hallados cuando se usó a \textbf{Calothrix sp. NIES 3974} (\textbf{NIES-3974}) como referencia, contiene \textbf{2370} sitios y corresponde al \textbf{57\%} de los sitios (Figura \ref{fig:FIG3x}B). El tercer conjunto tiene a \textbf{Calothrix sp. PCC 6303} (\textbf{PCC\_6303}) como referencia y contiene \textbf{1887} sitios que corresponden al \textbf{46\%} de los sitios totales (Figura \ref{fig:FIG3x}C). Finalmente se usó un conjunto de sitios únicos entre las tres especies (\textbf{SUBCLADE}) el cual contiene \textbf{2447} sitios que corresponden al \textbf{59\%} de los sitios totales (Figura \ref{fig:FIG3x}D).
+To perform the analysis, phylogeny is needed. The phylogeny used in this analysis was constructed using 5 species from the Calothrix clade. To build this phylogeny, \texttt{orthofinder} software was used, which uses maximum likelihood to create it. The subclade with the species \emph{Calothrix sp 336/3}, \emph{Calothrix sp NIES 3974} and \emph{Calothrix sp PCC 6303} (hereafter \textbf{H Subclade}) contain high abundance of HIP1 sites while the subclade with the species \emph{Calothrix sp PCC 7716} and \emph{Calothrix sp NIES 4105} (hereafter \textbf{L Subclade}) contains low abundance. The species \emph{Calothrix sp NIES 4071} was omitted because this genome is almost identical to that of \emph{Calothrix sp NIES 4105}. The species \emph{Calothrix sp NIES-267} was also added as an outgroup (\textbf{Figure} \ref{fig:FIG3x}).
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{Clados/Calothrix_B/figures/All_venn_calothrix} 
+{\centering \includegraphics[width=1\linewidth]{figures/4x/philogenie_subclades} 
 
 }
 
-\caption{**Conjuntos de sitios.** En esta figura podemos ver los 4 conjuntos de sitios de acuerdo a la especie de referencia. El texto en azul se muestra la cantidad de sitios del conjunto y el porcentaje de los sitios totales que representa.}\label{fig:FIG3x}
+\caption{*Calothrix subclades.* In this figure we can see the calothrix clade phylogeny. In red we see the subclade that contains an abundance of HIP1 sites and in blue the subclade with low abundance. In yellow the transition from node 9 to 10 is shown, which is of interest since it is the moment in which the abundances of the palindromes change. In gray the species Calothrix parasitica NIES 267 is shown as an outgroup.}\label{fig:FIG3x}
 \end{figure}
 
-Una vez obtenidos los conjuntos de sitios, se hizo una reconstrucción ancestral para cada conjunto, se tradujeron todos los sitios a aminoacidos y se cuantificaron todas las sustituciones para cada transición entre cada nodo de la filogenia y se clasificaron de acuerdo a como cambiaba el aminoácido de un nodo al siguiente.
+\hypertarget{orthogroups}{%
+\section{Orthogroups}\label{orthogroups}}
 
-\hypertarget{peptidos}{%
-\section{Peptidos}\label{peptidos}}
+Sites for this analysis were obtained from orthogroups among the 6 species in the phylogeny.
 
-Para saber que es lo que esta pasando con los peptidos, traduje cada secuencia de cada sitio reconstruido a aminoacidos y los cuantifique en cada nodo. En la Figura \ref{fig:FIG17x} se muestran los conteos de peptidos para cada nodo y punta de la filogenia en el \textbf{marco de lectura 1}. Este conteo se hizo en el conjunto de datos \textbf{SUBCLADE} el cual contiene los sitios unicos entre las especies \textbf{33-6}, \textbf{NIES-3974} y \textbf{PCC\_6303}. Aqui podemos ver que en el \textbf{marco de lectura 1} (donde se encuentran la mayoria de los sitios), la mayoria de los peptidos en los nodos y puntas de la filogenia corresponde a \textbf{AIA}. Lo interesante es que sabemos que las especies \textbf{PCC\_7716}, \textbf{NIES-4071} y \textbf{NIES-4105} tienen una baja o casi nula abundancia de sitios \textbf{GCGATCGC} y aun así podemos ver que en esta estas especies se encuentra el mismo peptido. Esto sugiere que la secuencia de AA es mas importante que la de nucleotidos ya que los sitios palindrómicos se pierden pero el peptido prevalece. Para entender mejor esto, se hizo una analisis de todas las transiciones entre los peptidos de cada nodo.
+\hypertarget{pangenome}{%
+\subsection{Pangenome}\label{pangenome}}
+
+In this part we identify the orthogroups families that make up the \textbf{pan-genome} of the 6 species of phylogeny. The pan-genome is defined as the set of all gene families. In turn, a subset of this is the core genome that contains only the genes present in all 6 genomes.
+
+To know the pan-genome, the \texttt{get\_homologues.pl} pipeline (\citet{contreras2013get_homologues}) was used with the options:
+
+\begin{verbatim}
+get_homologues.pl -d genomes_directory/ -t 0 -M -n PPN 
+\end{verbatim}
+
+This left us with a total of \textbf{17451 orthogroups}.
+
+\hypertarget{core-genome}{%
+\subsection{Core genome}\label{core-genome}}
+
+\texttt{get\_homologues.pl} also compute consensus \textbf{core-genome} clusters from the solutions generated by the three clustering algorithms it implements, and consensus pan-genome clusters from COGtriangles and OMCL clustering results. The \texttt{get\_homologues.pl} program options used are shown below:
+
+\begin{verbatim}
+compare_clusters.pl -o pangenoma -m -d orthogroups_directory/
+\end{verbatim}
+
+This creates a matrix of presence/absence of genes throughout the species (\textbf{Table} \ref{tab:TAB1X}). Subsequently, all those orthogroups that are not useful are filtered out. This left us with a total of \textbf{2393 orthogroups}.
+
+\hypertarget{multiple-alignment-and-paralogue-filtering}{%
+\section{Multiple Alignment and Paralogue Filtering}\label{multiple-alignment-and-paralogue-filtering}}
+
+To reconstruct ancestral genes, the amino acid sequences of the orthogroup need to be aligned. Subsequently, a codon alignment is made using the amino acid and nucleotide sequences. This codon alignment is what we will use to reconstruct the ancestral nucleotide sequences and finally to translate them into amino acid sequences.
+
+An important detail is that to do the ancestral reconstruction we need orthogroups with the same number of orthologs as species in the phylogeny used for the reconstruction. That is why those orthogroups that contained more than one orthologue (\textbf{paralogues}) for each species were omitted. This left us with a total of \textbf{2158 orthogroups} without paralogs.
+
+\hypertarget{ancestral-reconstruction}{%
+\section{Ancestral Reconstruction}\label{ancestral-reconstruction}}
+
+After obtaining the orthogroups, the ancestral reconstruction was done using the R package \texttt{phangorn}, which provides several methods to estimate ancestral character states with Maximum Parsimony (MP) or \textbf{Maximum Likelihood} (ML). In this case, we use ML. Additionally, we can assign the ancestral states according to the criterion of greatest posterior probability (``bayes''). Additionally, we used the \textbf{F81} nucleotide substitutions model.
+
+\hypertarget{hip1-sites}{%
+\section{HIP1 Sites}\label{hip1-sites}}
+
+\hypertarget{hip1-site-counting-and-filtering}{%
+\subsection{HIP1 Site Counting and Filtering}\label{hip1-site-counting-and-filtering}}
+
+A 3rd order Markov model was used to count the sites. This count was done on the \textbf{2158} orthogroups of the core genome that remained after paralog filtering. Subsequently, all \textbf{orthogroups that did not contain HIP1} sites were removed. This left us with a total of \textbf{1842 orthogroups}.
+
+\hypertarget{location-of-hip1-sites}{%
+\subsection{Location of HIP1 sites}\label{location-of-hip1-sites}}
+
+Once all those orthogroups with HIP1 sites were obtained, the coordinates (that is, the beginning and end nucleotides of the site) of all the sites were searched for each ortholog of each species in all orthogroups.Finally, a list was made of all the sites and all those repeated coordinates were filtered.This left us with 4211 sites to analyze.
+
+\hypertarget{peptides-by-node}{%
+\section{Peptides by node}\label{peptides-by-node}}
+
+To know what is happening with the peptides, the nucleotide sequences of each site were translated. Subsequently, the peptides were quantified for each species node in each reading frame.
+
+\hypertarget{mutation-analysis}{%
+\section{Mutation analysis}\label{mutation-analysis}}
+
+\hypertarget{site-classification-according-to-the-reading-frame}{%
+\subsection{Site classification according to the reading frame}\label{site-classification-according-to-the-reading-frame}}
+
+After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework.
+
+\hypertarget{substitution-types-and-codon-completions}{%
+\subsection{Substitution types and codon completions}\label{substitution-types-and-codon-completions}}
+
+The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.
+
+It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons.
+
+In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.
+
+\textbf{NoMutation.} The AA sequence had no mutations. That is, the AA and nucleotide sequence passed unchanged to the child node.
+
+\textbf{Synonym.} The nucleotide sequence had mutations. However, the AA sequence did not change in the child node.
+
+\textbf{NoSynonymConservative.} The AA sequence changed in the child node. However, these changes are conservative according to the BLOSUM62 matrix score.
+
+\textbf{NoSynonym.} The AA sequence changed in the child node.
+
+\textbf{Deletion.} The AA sequence had one or more deletions.
+
+\textbf{ConservativeNoHIPMutation.} The AA sequence changed in the child node but has similarity according to the \textbf{BLOSUM62 score}. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.
+
+\textbf{NoSynonymNoHIPMutation.} The AA sequence changed in child node. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.
+
+\textbf{SynonymNoHIPMutation.} The nucleotide sequence had mutations. However, the AA sequence did not change in the child node because the change was out-of-site. That is, in some nucleotide added to the sequence to complete the codon.
+
+\textbf{Figure} \ref{fig:FIG4x}\textbf{A} shows what happens to the nucleotide and amino acid sequences in each case and \textbf{Figure} \ref{fig:FIG4x}\textbf{B} shows some examples.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{ENG_files/figure-latex/FIG17x-1} 
+{\centering \includegraphics[width=1\linewidth]{figures/4x/table1} 
 
 }
 
-\caption{**Abundancia de peptidos en el marco de lectura 1.**.}\label{fig:FIG17x}
+\caption{*Substitution examples.* The first column of Subfigure **A** shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure **B** shows some examples. }\label{fig:FIG4x}
 \end{figure}
 
-\hypertarget{transiciones-entre-los-nodos}{%
-\section{Transiciones entre los nodos}\label{transiciones-entre-los-nodos}}
+\hypertarget{phylogenies-annotation}{%
+\section{Phylogenies Annotation}\label{phylogenies-annotation}}
 
-Es importante resaltar que debido a que los sitios \textbf{GCGATCGC} contienen únicamente 8 nucleótidos, se agregaron nucleótidos rio abajo o arriba del sitio, esto dependiendo el marco de lectura. Para el marco de lectura 1 se agregó un nucleótido al final para completar el 3er codón. Para el marco de lectura 2 se agregó un nucleótido al inicio para completar el primer codón. Finalmente, para el marco de lectura 3 se agregaron 2 nucleótidos al inicio y dos al final de la secuencia para completar el 1er y el 4to codón. Esto se hizo para poder tener una secuencia de AA que abarcara todo el sitio. Sin embargo, agregar estos nucleótidos planteó el agregar un tipo de transiciones particulares en las que, si bien el aminoácido cambia de un nodo a otro, dicho cambio se da sin alterar el sitio palindrómico en sí. Esto es porque la mutación puede caer en los nucleótidos que se agregaron para completar los codones y no en el sitio en sí.
+Once all substitutions at all sites in all orthogroups were quantified, a phylogeny was annotated to visualize the frequency of the type of changes that occurred at each node. This annotation was made for each reading frame.
 
-Por lo tanto, los cambios entre un nodo y el siguiente pueden ser de 7 tipos y se explican a continuación.
+The phylogeny was annotated with pie charts on the branches between each pair of nodes (parents and children). This diagram corresponds to the proportions of the types of substitution that occurred from the parent node to the child node. That is, the proportions shown in the diagrams show the evolution of the sites between parent and child nodes.
+
+\hypertarget{example-of-phylogeny-annotation.}{%
+\subsection{Example of phylogeny annotation.}\label{example-of-phylogeny-annotation.}}
+
+A detailed explanation of how phylogenies are annotated is shown below using the \textbf{YbhN family protein orthogroup} which contains \textbf{3 HIP1 sites}, all in \textbf{reading frame 1}:
 
 \begin{itemize}
 \item
-  \textbf{Conservative.} La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62.
+  \textbf{Location of the site.} First, hip1 sites are placed in the orthogroup (\textbf{Figure} \ref{fig:FIG5x}\textbf{A}). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes.
 \item
-  \textbf{ConservativeNoSiteMut.} La secuencia de AA cambió en la transición, pero tiene similitud de acuerdo al score de BLOSUM62. Sin embargo, a pesar de este cambio, el sitio GCGATCGC no sufrió mutaciones.
+  \textbf{Assignment of sequences to nodes.} For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (\textbf{Figure} \ref{fig:FIG5x}\textbf{B}).
 \item
-  \textbf{Deletion.} La secuencia de AA tuvo una o más deleciones en la transición.
+  \textbf{Counting of substitution types.} Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (\textbf{Figure} \ref{fig:FIG5x}\textbf{C}).
 \item
-  \textbf{NoMutation.} La secuencia de AA no sufrió mutaciones. Es decir, la secuencia pasó sin cambios al siguiente nodo.
+  \textbf{Sum of all changes between nodes.} To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (\textbf{Figure} \ref{fig:FIG5x}\textbf{D}).
 \item
-  \textbf{NoSynonym.} La secuencia de AA cambió en la transición
-\item
-  \textbf{NoSynonymNoSiteMut.} La secuencia de AA cambió en la transición. Sin embargo, el sitio GCGATCGC no sufrió mutaciones.)
-\item
-  \textbf{Synonym.} El sitio sufrió mutaciones. Sin embargo, la secuencia de AA no cambió en la transición.
+  \textbf{Phylogeny annotation.} Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (\textbf{Number on the left of the diagram})(\textbf{Figure} \ref{fig:FIG5x}\textbf{E}). Therefore, the pie charts are divided into 3 pieces.
 \end{itemize}
 
-\hypertarget{filogenias-anotadas}{%
-\section{Filogenias anotadas}\label{filogenias-anotadas}}
-
-Una vez cuantificadas todas las mutaciones de las transiciones se anotó una filogenia para visualizar la frecuencia del tipo de cambios que se daban en cada nodo. Esta anotación se hizo para cada conjunto de sitios y cada marco de lectura. Cada conjunto se muestra en una sola figura la cual contiene 3 filogenia con diagramas de pie en cada nodo. Dicho diagrama corresponde a las proporciones de todos los tipos de cambio que se dieron en la transición desde el nodo anterior al siguiente (Figura \ref{fig:EXAx}). Por lo tanto, las proporciones que se muestran en los diagramas de cada nodo corresponden a lo que sucedió con la secuencia de AA desde el nodo parental hacia el nodo en el que se encuentra el diagrama. La filogenia también muestra un diagrama de venn que muestra el conjunto de sitios usado (de acuerdo a la especie de referencia).
-
-\hypertarget{condiciones-de-interuxe9s}{%
-\section{Condiciones de interés}\label{condiciones-de-interuxe9s}}
-
-Dado que una de las preguntas esenciales sobre los sitios \textbf{GCGATCGC} es como es que se pierden (o ganan), separamos los resultados en 3 conjuntos los cuales debían cumplir ciertas condiciones de interés.
-
-El primer conjunto de resultados (\textbf{Ancestor}) muestra solo aquellos sitios en los que en la transición partió de un sitio \textbf{GCGATCGC}. En dicha transición el sitio pudo haberse conservado, cambiado o eliminado en el siguiente nodo.
-
-El segundo conjunto (\textbf{Actual}) muestra solo aquellos sitios en los que la transición condujo a un sitio \textbf{GCGATCGC} a partir de un sitio que no lo era anteriormente. Es decir, aquellas transiciones que partieron de \textbf{GCGATCGC} y concluyeron en \textbf{GCGATCGC} (no tuvieron cambios) no se cuentan en este conjunto
-
-El tercer conjunto (\textbf{All}) muestra todas las transiciones que se dieron en todos los sitios de la especie de referencia. Este conjunto muestra lo que pasa en cada transición entre cada nodo sin importar si se parte de un sitio \textbf{GCGATCGC} o si se llega al mismo.
-
-Un ejemplo de lo que pasa en las figuras se muestra en las figuras \ref{fig:FIG4x} y \ref{fig:EXAx}.
+In this example only one orthogroup was analyzed. However, for the results shown in this work this process was repeated for the \textbf{4211 sites} of the \textbf{1842 orthogroups}.
 
 \begin{figure}
+\includegraphics[width=1\linewidth]{figures/4x/philogenies_annotation} \caption{**Phylogeny annotation process.**}\label{fig:FIG5x}
+\end{figure}
 
-{\centering \includegraphics[width=1\linewidth]{Clados/Calothrix_B/figures/Reconstruction_explanation} 
+\hypertarget{subsets-of-interest}{%
+\section{Subsets of interest}\label{subsets-of-interest}}
 
-}
+Since one of the essential questions about HIP1 sites is how they are lost (or gained), we separated the counts of substitution types into 2 pairs of subsets which had to meet certain conditions of interest.
 
-\caption{**Proceso para anotar las filogenias de acuerdo a las transiciones.** En la Figura A se muestra (remarcado en un cuadro amarillo) el sitio GCGATCGC alineado a lo largo de las especies y las recosntrucciones. En la Figura B se muestra la reconstrucción acomodada en la filogenia. Las flechas de colores indican el tipo de cambio que sufrió el aminoacido en la transición.}\label{fig:FIG4x}
+\hypertarget{parent-and-only-parent-subsets}{%
+\subsection{Parent and Only Parent Subsets}\label{parent-and-only-parent-subsets}}
+
+The first subset of results (\textbf{Parent}) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (\textbf{Figure} \ref{fig:FIG5x}\textbf{A1}).
+
+Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called \textbf{Only Parent} (\textbf{Figure} \ref{fig:FIG5x}\textbf{A2}).
+
+The third subset of results (\textbf{Child}) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (\textbf{Figure} \ref{fig:FIG5x}\textbf{B1}).
+
+Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called \textbf{Only Child} (\textbf{Figure} \ref{fig:FIG5x}\textbf{B2}).
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{figures/4x/node_cases} \caption{**Subsets examples.**}\label{fig:FIG6x}
+\end{figure}
+
+\hypertarget{results}{%
+\chapter{Results}\label{results}}
+
+\hypertarget{hip1-sites-1}{%
+\section{HIP1 sites}\label{hip1-sites-1}}
+
+Because the reconstruction requires specific characteristics in the set of sequences to be reconstructed. Several orthogroups were discarded. As a consequence, at the end of filtering the number of HIP1 sites in each species is significantly lower than in the complete genome. A summary of this filtering is shown in (\textbf{Table} \ref{tab:TAB2X}). The column marked in orange (filtering) shows the remaining sites that were used in subsequent analyses.
+
+\hypertarget{peptides-by-node-1}{%
+\section{Peptides by node}\label{peptides-by-node-1}}
+
+To find out what happens to the HIP1 sites of the orthogroups, we counted the peptides in the hip1 site. This was done for all three reading frames.
+
+The figures \ref{fig:FIG7x},\ref{fig:FIG8x} and \ref{fig:FIG9x} show the peptide count for each node. It is important to mention that those peptides with counts less than 1\% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
+
+In the reading frame 1 the important thing is that we know that the \textbf{L subclade} species has a low or almost zero abundance of HIP1 sites and yet we can see in figure \ref{fig:FIG7x} that the same peptide of the \textbf{H subclade} is found in \textbf{L subclade}. This suggests that the AA sequence is more important than the nucleotide sequence since the palindromic sites are lost but the peptide prevails. For reading frames 2 and 3, although there is more variation between the peptides, the differences between them may likely be largely conservative.To better understand this, an analysis of the substitutions between each pair of nodes was done.
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{figures/Peptides_RF1} \caption{**Peptides by node in reading frame 1.**}\label{fig:FIG7x}
 \end{figure}
 
 \begin{figure}
-
-{\centering \includegraphics[width=1\linewidth]{Clados/Calothrix_B/figures/transition example} 
-
-}
-
-\caption{**Ejemplo de como se leen los diagramas de pie.** En esta figura podemos observar como es que se contruyen los diagramas de pie a lo largo de los nodos. Cada diagrama de pie representa las proporciones de tipos de cambio que sufrieron los aminoacidos en cada transición.}\label{fig:EXAx}
-\end{figure}
-
-\hypertarget{conjunto-ancestor}{%
-\section{Conjunto Ancestor}\label{conjunto-ancestor}}
-
-En las \textbf{figuras 5 a 8} se muestran los resultados del conjunto Ancestor, es decir transiciones que partieron de un sitio \textbf{GCGATCGC}. Se muestran 8 figuras, una para cada conjunto de sitios de acuerdo con la especie de referencia: \textbf{336-3}, \textbf{NIES-3974}, \textbf{PCC\_6303} y sitios únicos entre las tres especies (\textbf{SUBCLADE}).
-
-Por ejemplo, en la Figura \ref{fig:FIG5x} la cual corresponde al conjunto de sitios cuando usamos a la especie \textbf{Calothrix sp. 336/3} como referencia, podemos ver que en el \textbf{marco de lectura 1} en la transición del \textbf{nodo 9 al 10} (rama remarcada en amarillo) hubo \textbf{504} sitios \textbf{GCGATCGC} en el \textbf{nodo 9} que dejaron de serlo en el \textbf{nodo 10}. Esto principalmente a través de cambios sinónimos o conservativos en la secuencia de aminoácidos. Para los \textbf{marcos de lectura 2 y 3} parece ser que los sitios \textbf{GCGATCGC} también se perdieron de la misma manera en dicha transición. En general para los otros conjuntos (\textbf{figuras} \ref{fig:FIG6x},\ref{fig:FIG7x} y\ref{fig:FIG8x}) podemos ver más o menos el mismo comportamiento en la transición del nodo 9 al 10. Los sitios GCGATCGC se pierden principalmente a través de cambios sinónimos y cambios conservativos. Es decir, parece ser que dichos sitios se eliminan de manera neutral ya que hay una tendencia a conservar la secuencia de aminoacidos.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/336-3_Ancestor_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG5x}
+\includegraphics[width=1\linewidth]{figures/Peptides_RF2} \caption{**Peptides by node in reading frame 2.**}\label{fig:FIG8x}
 \end{figure}
 
 \begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/NIES-3974_Ancestor_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG6x}
+\includegraphics[width=1\linewidth]{figures/Peptides_RF3} \caption{**Peptides by node in reading frame 3.**}\label{fig:FIG9x}
 \end{figure}
+
+\hypertarget{mutation-analysis-1}{%
+\section{Mutation analysis}\label{mutation-analysis-1}}
+
+\hypertarget{changes-between-all-parent-and-child-nodes}{%
+\subsection{Changes between all parent and child nodes}\label{changes-between-all-parent-and-child-nodes}}
 
 \begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/PCC_6303_Ancestral_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG7x}
+\includegraphics[width=1\linewidth]{figures/ALL_SITES_All_codon_mutations_tree} \caption{**Changes bee.**}\label{fig:FIG10x}
 \end{figure}
 
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Ancestor/SUBCLADE_Ancestor_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ANCESTOR.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG8x}
-\end{figure}
-
-\hypertarget{conjunto-actual}{%
-\section{Conjunto Actual}\label{conjunto-actual}}
-
-En las *\textbf{figuras 9 a 12} se muestran los resultados del conjunto Actual, es decir transiciones que partieron de un sitio que no era \textbf{GCGATCGC} y se convirtieron en \textbf{GCGATCGC}.
-
-En la Figura \ref{fig:FIG9x} podemos ver por ejemplo que la especie \textbf{336-3} en el marco de lectura uno ganó \textbf{685} sitios \textbf{GCGATCGC} a partir de sitios que anteriormente no lo eran, esto principalmente a través de cambios no sinónimos y en menor medida a través de cambios sinónimos. Esto se observa también en los demás conjuntos (\textbf{figuras} \ref{fig:FIG10x},\ref{fig:FIG11x} y\ref{fig:FIG12x}). Es decir en estos sitios hay una tendencia a crear esta secuencia de nucléotidos.
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/336-3_Actual_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG9x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/NIES-3974_Actual_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG10x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/PCC_6303_Actual_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG11x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/Actual/SUBCLADE_Actual_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ACTUAL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG12x}
-\end{figure}
-
-\hypertarget{conjunto-all}{%
-\section{Conjunto All}\label{conjunto-all}}
-
-En las \textbf{figuras 13 a 16} se muestran los resultados del conjunto \textbf{All}, es decir todas las transiciones que ocurrieron en los sitios de la especie de referencia.
-
-Por ejemplo, en la Figura \ref{fig:FIG13x} podemos ver que en el marco de lectura hubo 1290 sitios GCGATCGC los cuales son sitios de la especie 336-3. Lo interesante de esta figura es que podemos ver que en la transición entre los nodos 9 y 10 parece ser que la mayoria de cambios son no sinónimos, y posteriormente la mayoría se conservan. Esta tendencia se observa en los demás conjuntos (\textbf{figuras} \ref{fig:FIG14x},\ref{fig:FIG15x} y\ref{fig:FIG16x}).
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/All/336-3_All_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie 336-3 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie 336-3, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG13x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/All/NIES-3974_All_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie NIES-3974 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie NIES-3974, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG14x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/All/PCC_6303_All_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios de la especie PCC\_6303 en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para los sitios de la especie PCC\_6303, en cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG15x}
-\end{figure}
-
-\begin{figure}
-
-{\centering \includegraphics[width=1.2\linewidth]{Clados/Calothrix_B/figures/A/GCGATCGC/All/SUBCLADE_All_A_tree} 
-
-}
-
-\caption{**Conjuntos de sitios unicos entre las 3 especies en el conjunto ALL.** En esta figura podemos ver la filogenia anotada para todos los sitios unicos entre las 3 especies. En cada nodo hay un diagrama de pie que muestra la proporcion de tipos de cambios en los aminoacidos que hubo en cada transición. Éstas proporciones se muestran para los tres marcos de lectura.}\label{fig:FIG16x}
-\end{figure}
-
-\hypertarget{tggcgcca}{%
-\section{TGGCGCCA}\label{tggcgcca}}
-
-Como se mencionó anteriormente, la importancia del subclado calothrix radica que en 3 de las especies (\textbf{Calothrix PCC 7716}, \textbf{Calothrix sp. NIES 4071} y \textbf{Calothrix sp. NIES 4105}) la abundancia de \textbf{GCGATCGC} es muy baja (o casi nula), además de que contienen otra secuencia palindrómica (\textbf{TGGCGCCA}) la cual tiene abundancia baja (o nula) en las otras tres especies (\textbf{Calothrix sp. 336/3}, \textbf{Calothrix sp. NIES 3974} y \textbf{Calothrix sp. PCC 6303}). Por lo tanto, para ver que estaba sucediendo con esta otra secuencia y si estaba relacionada con \textbf{GCGATCGC}. Realizamos el mismo análisis.
+\hypertarget{parent-and-only-parent-subsets-1}{%
+\subsection{Parent and Only Parent subsets}\label{parent-and-only-parent-subsets-1}}
 
   \bibliography{book.bib,packages.bib}
 
