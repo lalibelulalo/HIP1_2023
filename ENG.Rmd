@@ -62,7 +62,7 @@ Counts$PCC_6303 <- color_tile("white", "orange")(Counts$PCC_6303)
 Counts$PCC_7716 <- color_tile("white", "orange")(Counts$PCC_7716)
 vec <- c("...","...","...","...","...","...","...")
 Counts <- rbind(Counts,vec)
-kbl(Counts, align = "l",caption = "**Matrix of presence/absence of genes.** The table shows the first 10 rows of the pangenomic matrix. A value of 1 indicates that the ortholog is present in the genome. A value of 0 indicates that the ortholog is absent.",longtable = TRUE,format = "html", escape = F) %>%
+kbl(Counts, align = "l",caption = "**Matrix of presence/absence of genes.** The table shows the first 10 rows of the pangenomic matrix. A value of 1 indicates that the gene is present in the genome. A value of 0 indicates that the gene is absent.",longtable = TRUE,format = "html", escape = F) %>%
   kable_paper(full_width = T) %>%
   column_spec(1, bold = T) %>%
   kable_styling(c("striped", "condensed"), 
@@ -241,12 +241,56 @@ knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/Pept
 ## Mutation analysis
 
 ### Changes between all parent and child nodes
-```{r FIG10x, echo=FALSE, fig.cap='**Changes bee.**', out.width='100%'}
+In the **figure** \@ref(fig:FIG10x), first of all we can notice that most of the sites are in reading frame 1 since there are 2193 changes between each pair of nodes and therefore there are 2193 sites. Furthermore, we can also note that, at least in this subclade, it seems that the abundance of sites is decreasing according to the reading frame. Another important point is that in most changes between nodes it seems that they tend to conserve the amino acid since the blue, green and brown parts occupy the majority of the pie chart. Not to mention that the yellow part that corresponds to conservative changes also covers a large part of the diagram in almost all changes.
+
+```{r FIG10x, echo=FALSE, fig.cap='**Changes between node pairs.**', out.width='100%'}
 knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/ALL_SITES_All_codon_mutations_tree.png'))
+```
+
+
+```{r TAB3X,  eval=knitr::is_html_output(), echo=FALSE, message=FALSE,warning=FALSE}
+library(kableExtra)
+library(formattable)
+Counts <- read.table("figures/4x/Ancstats.percent.All.All_RF.txt", sep = "\t", header = TRUE)
+Counts <- Counts [,c(1,2,3,4,5,6,7,8,9,10,11,13)]
+#colnames(Counts) <- c("Spp","Palindrome","Log10(FrecObs)","Log10(OE)")
+
+# Counts$NIES.267 <- color_tile("white", "orange")(Counts$NIES.267)
+# Counts$X336.3 <- color_tile("white", "orange")(Counts$X336.3)
+# Counts$NIES.3974 <- color_tile("white", "orange")(Counts$NIES.3974)
+# Counts$NIES.4105 <- color_tile("white", "orange")(Counts$NIES.4105)
+# Counts$PCC_6303 <- color_tile("white", "orange")(Counts$PCC_6303)
+# Counts$PCC_7716 <- color_tile("white", "orange")(Counts$PCC_7716)
+# vec <- c("...","...","...","...","...","...","...")
+# Counts <- rbind(Counts,vec)
+kbl(Counts, align = "l",caption = "**Percentage of substitution types between each pair of nodes.**",longtable = TRUE,format = "html", escape = F) %>%
+  kable_paper(full_width = T) %>%
+  column_spec(1, bold = T) %>%
+  collapse_rows(columns = 1, valign = "top")%>%
+  kable_styling(c("striped", "condensed"), 
+                latex_options = "striped", 
+                full_width = F,
+                fixed_thead = T,
+                font_size = 9)
+
 ```
 
 ### Parent and Only Parent subsets
 
+```{r FIG11x, echo=FALSE, fig.cap='**Changes between node pairs.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/ALL_SITES_Ancestor_codon_mutations_tree.png'))
+```
+```{r FIG12x, echo=FALSE, fig.cap='**Changes between node pairs.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/ALL_SITES_AncestorO_codon_mutations_tree.png'))
+```
 
+### Child and Only Child subsets
 
+```{r FIG13x, echo=FALSE, fig.cap='**Changes between node pairs.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/ALL_SITES_Actual_codon_mutations_tree.png'))
+```
+```{r FIG14x, echo=FALSE, fig.cap='**Changes between node pairs.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/ALL_SITES_ActualO_codon_mutations_tree.png'))
+```
 
+## 

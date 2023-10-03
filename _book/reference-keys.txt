@@ -10,6 +10,11 @@ fig:FIG7x
 fig:FIG8x
 fig:FIG9x
 fig:FIG10x
+tab:TAB3X
+fig:FIG11x
+fig:FIG12x
+fig:FIG13x
+fig:FIG14x
 introducción
 materials-and-methods
 case-of-interest
@@ -37,3 +42,5 @@ peptides-by-node-1
 mutation-analysis-1
 changes-between-all-parent-and-child-nodes
 parent-and-only-parent-subsets-1
+child-and-only-child-subsets
+section
