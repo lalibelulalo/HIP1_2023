@@ -4,7 +4,11 @@ fig:FIG3x
 tab:TAB1X
 fig:FIG44x
 fig:FIG4x
-fig:FIG5x
+fig:FIG51x
+fig:FIG52x
+fig:FIG53x
+fig:FIG54x
+fig:FIG55x
 fig:FIG6x
 fig:FIG66x
 tab:TAB2X

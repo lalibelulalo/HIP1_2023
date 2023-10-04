@@ -19,13 +19,13 @@
 \contentsline {subsection}{\numberline {2.9.3}Substitution types}{15}{subsection.2.9.3}%
 \contentsline {section}{\numberline {2.10}Phylogenies Annotation}{15}{section.2.10}%
 \contentsline {subsection}{\numberline {2.10.1}Example of phylogeny annotation.}{17}{subsection.2.10.1}%
-\contentsline {section}{\numberline {2.11}Subsets of interest}{17}{section.2.11}%
-\contentsline {subsection}{\numberline {2.11.1}Parent and Only Parent Subsets}{17}{subsection.2.11.1}%
-\contentsline {chapter}{\numberline {3}Results}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}HIP1 sites}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Peptides by node}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Mutation analysis}{25}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Changes between all parent and child nodes}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Parent and Only Parent subsets}{25}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Child and Only Child subsets}{25}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}}{25}{section.3.4}%
+\contentsline {section}{\numberline {2.11}Subsets of interest}{18}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}Parent and Only Parent Subsets}{20}{subsection.2.11.1}%
+\contentsline {chapter}{\numberline {3}Results}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}HIP1 sites}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Peptides by node}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Mutation analysis}{27}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Changes between all parent and child nodes}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Parent and Only Parent subsets}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Child and Only Child subsets}{27}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}}{27}{section.3.4}%

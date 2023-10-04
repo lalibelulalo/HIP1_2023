@@ -247,22 +247,37 @@ The phylogeny was annotated with pie charts on the branches between each pair of
 
 A detailed explanation of how phylogenies are annotated is shown below using the **YbhN family protein orthogroup** which contains **3 HIP1 sites**, all in **reading frame 1**: 
 
-* **Location of the site.** First, hip1 sites are placed in the orthogroup (**Figure** \@ref(fig:FIG5x)**A**). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes. 
+* **Location of the site.** First, hip1 sites are placed in the orthogroup (**Figure** \@ref(fig:FIG51x)). 
+<div class="figure">
+<img src="figures/4x/annotation_1.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG51x)**Phylogeny annotation process.**</p>
+</div>
 
-* **Assignment of sequences to nodes.** For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (**Figure** \@ref(fig:FIG5x)**B**). 
+* **Assignment of sequences to nodes.** For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (**Figure** \@ref(fig:FIG52x)). 
+<div class="figure">
+<img src="figures/4x/annotation_2A.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG52x)**Phylogeny annotation process.**</p>
+</div>
 
-* **Counting of substitution types.** Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (**Figure** \@ref(fig:FIG5x)**C**). 
+* **Counting of substitution types.** Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (**Figure** \@ref(fig:FIG53x)).
+<div class="figure">
+<img src="figures/4x/annotation_2B.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG53x)**Phylogeny annotation process.**</p>
+</div>
 
-* **Sum of all changes between nodes.** To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (**Figure** \@ref(fig:FIG5x)**D**). 
+* **Sum of all changes between nodes.** To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (**Figure** \@ref(fig:FIG54x)). 
+<div class="figure">
+<img src="figures/4x/annotation_3.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG54x)**Phylogeny annotation process.**</p>
+</div>
 
-* **Phylogeny annotation.** Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (**Number on the left of the diagram**)(**Figure** \@ref(fig:FIG5x)**E**). Therefore, the pie charts are divided into 3 pieces. 
+* **Phylogeny annotation.** Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (**Number on the left of the diagram**)(**Figure** \@ref(fig:FIG55x)). Therefore, the pie charts are divided into 3 pieces. 
+<div class="figure">
+<img src="figures/4x/annotation_4.png" alt="**Phylogeny annotation process.**" width="100%" />
+<p class="caption">(\#fig:FIG55x)**Phylogeny annotation process.**</p>
+</div>
 
 In this example only one orthogroup was analyzed. However, for the results shown in this work this process was repeated for the **4211 sites** of the **1842 orthogroups**. 
-
-<div class="figure">
-<img src="figures/4x/philogenies_annotation.png" alt="**Phylogeny annotation process.**" width="100%" />
-<p class="caption">(\#fig:FIG5x)**Phylogeny annotation process.**</p>
-</div>
 
 ## Subsets of interest 
 
