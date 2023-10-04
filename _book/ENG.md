@@ -199,11 +199,18 @@ To know what is happening with the peptides, the nucleotide sequences of each si
 
 After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework. 
 
-### Substitution types and codon completions 
+### Codon completions 
 
 The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.
 
-It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons. 
+It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons (**Figure** \@ref(fig:FIG44x)). 
+
+<div class="figure" style="text-align: center">
+<img src="figures/4x/codon_completions.png" alt="**Codon completions.** The nucleotides added to the sequence to complete the codons are shown in red." width="100%" />
+<p class="caption">(\#fig:FIG44x)**Codon completions.** The nucleotides added to the sequence to complete the codons are shown in red.</p>
+</div>
+
+### Substitution types
 
 In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.
 
@@ -263,18 +270,24 @@ Since one of the essential questions about HIP1 sites is how they are lost (or g
 
 ### Parent and Only Parent Subsets 
 
-The first subset of results (**Parent**) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (**Figure** \@ref(fig:FIG5x)**A1**). 
+The first subset of results (**Parent**) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (**Figure** \@ref(fig:FIG6x)**A**). 
 
-Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called **Only Parent** (**Figure** \@ref(fig:FIG5x)**A2**).
-
-The third subset of results (**Child**) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (**Figure** \@ref(fig:FIG5x)**B1**). 
-
-Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called **Only Child** (**Figure** \@ref(fig:FIG5x)**B2**). 
+Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called **Only Parent** (**Figure** \@ref(fig:FIG6x)**B**).
 
 <div class="figure">
-<img src="figures/4x/node_cases.png" alt="**Subsets examples.**" width="100%" />
-<p class="caption">(\#fig:FIG6x)**Subsets examples.**</p>
+<img src="figures/4x/Node_cases_A.png" alt="**Parent and Only Parent Subsets examples.**" width="100%" />
+<p class="caption">(\#fig:FIG6x)**Parent and Only Parent Subsets examples.**</p>
 </div>
+
+The third subset of results (**Child**) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (**Figure** \@ref(fig:FIG66x)**A**). 
+
+Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called **Only Child** (**Figure** \@ref(fig:FIG66x)**B**). 
+
+<div class="figure">
+<img src="figures/4x/Node_cases_B.png" alt="**Parent and Only Parent Subsets examples.**" width="100%" />
+<p class="caption">(\#fig:FIG66x)**Parent and Only Parent Subsets examples.**</p>
+</div>
+
 
 # Results
 

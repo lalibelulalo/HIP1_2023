@@ -470,12 +470,23 @@ PCC_7716
 </h3>
 <p>After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework.</p>
 </div>
-<div id="substitution-types-and-codon-completions" class="section level3" number="2.9.2">
+<div id="codon-completions" class="section level3" number="2.9.2">
 <h3>
-<span class="header-section-number">2.9.2</span> Substitution types and codon completions<a class="anchor" aria-label="anchor" href="#substitution-types-and-codon-completions"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.9.2</span> Codon completions<a class="anchor" aria-label="anchor" href="#codon-completions"><i class="fas fa-link"></i></a>
 </h3>
 <p>The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.</p>
-<p>It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons.</p>
+<p>It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG44x">2.4</a>).</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:FIG44x"></span>
+<img src="figures/4x/codon_completions.png" alt="**Codon completions.** The nucleotides added to the sequence to complete the codons are shown in red." width="100%"><p class="caption">
+Figure 2.4: <strong>Codon completions.</strong> The nucleotides added to the sequence to complete the codons are shown in red.
+</p>
+</div>
+</div>
+<div id="substitution-types" class="section level3" number="2.9.3">
+<h3>
+<span class="header-section-number">2.9.3</span> Substitution types<a class="anchor" aria-label="anchor" href="#substitution-types"><i class="fas fa-link"></i></a>
+</h3>
 <p>In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.</p>
 <p><strong>NoMutation.</strong> The AA sequence had no mutations. That is, the AA and nucleotide sequence passed unchanged to the child node.</p>
 <p><strong>Synonym.</strong> The nucleotide sequence had mutations. However, the AA sequence did not change in the child node.</p>
@@ -485,11 +496,11 @@ PCC_7716
 <p><strong>ConservativeNoHIPMutation.</strong> The AA sequence changed in the child node but has similarity according to the <strong>BLOSUM62 score</strong>. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
 <p><strong>NoSynonymNoHIPMutation.</strong> The AA sequence changed in child node. However, the change was off-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
 <p><strong>SynonymNoHIPMutation.</strong> The nucleotide sequence had mutations. However, the AA sequence did not change in the child node because the change was out-of-site. That is, in some nucleotide added to the sequence to complete the codon.</p>
-<p><strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.4</a><strong>A</strong> shows what happens to the nucleotide and amino acid sequences in each case and <strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.4</a><strong>B</strong> shows some examples.</p>
+<p><strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.5</a><strong>A</strong> shows what happens to the nucleotide and amino acid sequences in each case and <strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG4x">2.5</a><strong>B</strong> shows some examples.</p>
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:FIG4x"></span>
 <img src="figures/4x/table1.png" alt="*Substitution examples.* The first column of Subfigure **A** shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure **B** shows some examples. " width="100%"><p class="caption">
-Figure 2.4: <em>Substitution examples.</em> The first column of Subfigure <strong>A</strong> shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure <strong>B</strong> shows some examples.
+Figure 2.5: <em>Substitution examples.</em> The first column of Subfigure <strong>A</strong> shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. The first column of figure A shows the different types of substitution. On one side is the color code (colored circles to the left of the substitution types) that from now on will be used to associate it with the substitution types. The other columns indicate what happens to the sequences at the HIP1 site. Subfigure <strong>B</strong> shows some examples.
 </p>
 </div>
 </div>
@@ -506,17 +517,17 @@ Figure 2.4: <em>Substitution examples.</em> The first column of Subfigure <stron
 </h3>
 <p>A detailed explanation of how phylogenies are annotated is shown below using the <strong>YbhN family protein orthogroup</strong> which contains <strong>3 HIP1 sites</strong>, all in <strong>reading frame 1</strong>:</p>
 <ul>
-<li><p><strong>Location of the site.</strong> First, hip1 sites are placed in the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A</strong>). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes.</p></li>
-<li><p><strong>Assignment of sequences to nodes.</strong> For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B</strong>).</p></li>
-<li><p><strong>Counting of substitution types.</strong> Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>C</strong>).</p></li>
-<li><p><strong>Sum of all changes between nodes.</strong> To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>D</strong>).</p></li>
-<li><p><strong>Phylogeny annotation.</strong> Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (<strong>Number on the left of the diagram</strong>)(<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>E</strong>). Therefore, the pie charts are divided into 3 pieces.</p></li>
+<li><p><strong>Location of the site.</strong> First, hip1 sites are placed in the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.6</a><strong>A</strong>). For each site there will be an annotated phylogeny with all changes between parent and child nodes. Therefore, for each site there is a change between each pair of parent and child nodes. Consequently, the number of total sites must be equal to the number of total changes between each pair of parent and child nodes.</p></li>
+<li><p><strong>Assignment of sequences to nodes.</strong> For each site, a phylogeny is annotated, assigning the sequences corresponding to each tip and node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.6</a><strong>B</strong>).</p></li>
+<li><p><strong>Counting of substitution types.</strong> Once the sequences have been assigned to all the nodes and tips of the phylogeny, the type of change that occurred between each pair of parental and child nodes is observed and the types of substitutions that occurred between the nucleotide and amino acid sequences are counted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.6</a><strong>C</strong>).</p></li>
+<li><p><strong>Sum of all changes between nodes.</strong> To have a complete analysis of the orthogroup in question, points 1-3 are repeated for all HIP1 sites of the orthogroup (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.6</a><strong>D</strong>).</p></li>
+<li><p><strong>Phylogeny annotation.</strong> Once all the counts are obtained, they are added, and a pie chart is created for each pair of parent and child nodes. For this example, there are only 3 sites, so consequently there are 3 annotated phylogenies and 3 transitions for each pair of parent and child nodes (<strong>Number on the left of the diagram</strong>)(<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.6</a><strong>E</strong>). Therefore, the pie charts are divided into 3 pieces.</p></li>
 </ul>
 <p>In this example only one orthogroup was analyzed. However, for the results shown in this work this process was repeated for the <strong>4211 sites</strong> of the <strong>1842 orthogroups</strong>.</p>
 <div class="figure">
 <span style="display:block;" id="fig:FIG5x"></span>
 <img src="figures/4x/philogenies_annotation.png" alt="**Phylogeny annotation process.**" width="100%"><p class="caption">
-Figure 2.5: <strong>Phylogeny annotation process.</strong>
+Figure 2.6: <strong>Phylogeny annotation process.</strong>
 </p>
 </div>
 </div>
@@ -530,14 +541,20 @@ Figure 2.5: <strong>Phylogeny annotation process.</strong>
 <h3>
 <span class="header-section-number">2.11.1</span> Parent and Only Parent Subsets<a class="anchor" aria-label="anchor" href="#parent-and-only-parent-subsets"><i class="fas fa-link"></i></a>
 </h3>
-<p>The first subset of results (<strong>Parent</strong>) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A1</strong>).</p>
-<p>Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called <strong>Only Parent</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>A2</strong>).</p>
-<p>The third subset of results (<strong>Child</strong>) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B1</strong>).</p>
-<p>Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called <strong>Only Child</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG5x">2.5</a><strong>B2</strong>).</p>
+<p>The first subset of results (<strong>Parent</strong>) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG6x">2.7</a><strong>A</strong>).</p>
+<p>Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called <strong>Only Parent</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG6x">2.7</a><strong>B</strong>).</p>
 <div class="figure">
 <span style="display:block;" id="fig:FIG6x"></span>
-<img src="figures/4x/node_cases.png" alt="**Subsets examples.**" width="100%"><p class="caption">
-Figure 2.6: <strong>Subsets examples.</strong>
+<img src="figures/4x/Node_cases_A.png" alt="**Parent and Only Parent Subsets examples.**" width="100%"><p class="caption">
+Figure 2.7: <strong>Parent and Only Parent Subsets examples.</strong>
+</p>
+</div>
+<p>The third subset of results (<strong>Child</strong>) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG66x">2.8</a><strong>A</strong>).</p>
+<p>Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called <strong>Only Child</strong> (<strong>Figure</strong> <a href="materials-and-methods.html#fig:FIG66x">2.8</a><strong>B</strong>).</p>
+<div class="figure">
+<span style="display:block;" id="fig:FIG66x"></span>
+<img src="figures/4x/Node_cases_B.png" alt="**Parent and Only Parent Subsets examples.**" width="100%"><p class="caption">
+Figure 2.8: <strong>Parent and Only Parent Subsets examples.</strong>
 </p>
 </div>
 </div>
@@ -572,7 +589,8 @@ Figure 2.6: <strong>Subsets examples.</strong>
 <li>
 <a class="nav-link" href="#mutation-analysis"><span class="header-section-number">2.9</span> Mutation analysis</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#site-classification-according-to-the-reading-frame"><span class="header-section-number">2.9.1</span> Site classification according to the reading frame</a></li>
-<li><a class="nav-link" href="#substitution-types-and-codon-completions"><span class="header-section-number">2.9.2</span> Substitution types and codon completions</a></li>
+<li><a class="nav-link" href="#codon-completions"><span class="header-section-number">2.9.2</span> Codon completions</a></li>
+<li><a class="nav-link" href="#substitution-types"><span class="header-section-number">2.9.3</span> Substitution types</a></li>
 </ul>
 </li>
 <li>
@@ -598,7 +616,7 @@ Figure 2.6: <strong>Subsets examples.</strong>
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Evolución de secuencias palindromicas en genomas de cianobacterias</strong>" was written by Eduardo Padilla Mendoza. It was last built on 2023-10-02.</p>
+    <p>"<strong>Evolución de secuencias palindromicas en genomas de cianobacterias</strong>" was written by Eduardo Padilla Mendoza. It was last built on 2023-10-04.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

@@ -104,11 +104,17 @@ To know what is happening with the peptides, the nucleotide sequences of each si
 
 After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework. 
 
-### Substitution types and codon completions 
+### Codon completions 
 
 The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.
 
-It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons. 
+It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons (**Figure** \@ref(fig:FIG44x)). 
+
+```{r FIG44x, echo=FALSE, fig.cap='**Codon completions.** The nucleotides added to the sequence to complete the codons are shown in red.', out.width='100%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/4x/codon_completions.png'))
+```
+
+### Substitution types
 
 In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.
 
@@ -166,17 +172,22 @@ Since one of the essential questions about HIP1 sites is how they are lost (or g
 
 ### Parent and Only Parent Subsets 
 
-The first subset of results (**Parent**) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (**Figure** \@ref(fig:FIG5x)**A1**). 
+The first subset of results (**Parent**) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (**Figure** \@ref(fig:FIG6x)**A**). 
 
-Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called **Only Parent** (**Figure** \@ref(fig:FIG5x)**A2**).
+Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called **Only Parent** (**Figure** \@ref(fig:FIG6x)**B**).
 
-The third subset of results (**Child**) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (**Figure** \@ref(fig:FIG5x)**B1**). 
-
-Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called **Only Child** (**Figure** \@ref(fig:FIG5x)**B2**). 
-
-```{r FIG6x, echo=FALSE, fig.cap='**Subsets examples.**', out.width='100%'}
-knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/4x/node_cases.png'))
+```{r FIG6x, echo=FALSE, fig.cap='**Parent and Only Parent Subsets examples.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/4x/Node_cases_A.png'))
 ```
+
+The third subset of results (**Child**) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (**Figure** \@ref(fig:FIG66x)**A**). 
+
+Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called **Only Child** (**Figure** \@ref(fig:FIG66x)**B**). 
+
+```{r FIG66x, echo=FALSE, fig.cap='**Parent and Only Parent Subsets examples.**', out.width='100%'}
+knitr::include_graphics(normalizePath('/home/lalibelulalo/HIP1_2023/figures/4x/Node_cases_B.png'))
+```
+
 
 # Results
 
@@ -188,13 +199,15 @@ library(formattable)
 library(kableExtra)
 library(formattable)
 Sys.setenv("OPENSSL_CONF"="/dev/null")
-Counts <- read.table("/home/lalibelulalo/New_Pipe_test/Calothrix_C/ALL_SET_SITES.txt", sep = "\t", header = TRUE)
+Counts <- read.table("/home/lalibelulalo/HIP1_2023/figures/4x/ALL_SET_SITES.txt", sep = "\t", header = TRUE)
 #Counts$Spp == 'Calothrix sp 336/3'||Counts$Spp == 'Calothrix sp NIES 3974'||Counts$Spp == 'Calothrix sp PCC 6303'
 #Counts$Spp == 'Calothrix sp PCC 7716'||Counts$Spp == 'Calothrix sp NIES 4105'
-Counts$Spp = cell_spec(Counts$Spp,
-                           background = ifelse((Counts$Spp == 'Calothrix sp 336/3'|Counts$Spp == 'Calothrix sp NIES 3974'|Counts$Spp == 'Calothrix sp PCC 6303'),
+Spps <- c('Calothrix parasitica NIES 267','Calothrix sp 336/3','Calothrix sp NIES 3974','Calothrix sp PCC 6303','Calothrix sp PCC 7716','Calothrix sp NIES 4105')
+Counts$Source <-Spps
+Counts$Source = cell_spec(Counts$Source,
+                           background = ifelse((Counts$Source == "Calothrix sp 336/3"|Counts$Source == "Calothrix sp NIES 3974"|Counts$Source == "Calothrix sp PCC 6303"),
                                                "red",
-                                               ifelse(Counts$Spp == 'Calothrix sp PCC 7716'|Counts$Spp == 'Calothrix sp NIES 4105',
+                                               ifelse(Counts$Source == "Calothrix sp PCC 7716"|Counts$Source == "Calothrix sp NIES 4105",
                                                       "steelblue","darkgray")))
 
 Counts$Complete.Genome <- color_tile("lightblue", "red")(Counts$Complete.Genome)
@@ -202,6 +215,7 @@ Counts$Only.Chromosome <- color_tile("lightblue", "red")(Counts$Only.Chromosome)
 Counts$Pangenome <- color_tile("lightblue", "red")(Counts$Pangenome)
 Counts$Core.genome <- color_tile("lightblue", "red")(Counts$Core.genome)
 Counts$Filtering <- color_tile("lightblue", "red")(Counts$Filtering)
+
 colnames(Counts)<- c("Spp","Complete Genome","Only Chromosome","Pangenome","Core-genome","Filtering")
 
 kbl(Counts, align = "l",caption = "**Number of HIP1 sites throughout the filtering of the sequences.** **Complete genome** shows all HIP1 sites in the genome. **Only chromosome** refers to sites that are found only on the chromosome and not on the plasmids. **Pangenome** shows the sites of the pangenome. **Core-genome** shows the sites of the **core-genome**. **Filtering** shows the sites remaining after filtering out paralogs and interrupted sites in the alignment.The column marked in orange (filtering) shows the remaining sites that were used in subsequent analyses",longtable = TRUE,format = "html", escape = F) %>%

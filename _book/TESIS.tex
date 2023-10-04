@@ -80,7 +80,7 @@
 
 \title{Evolución de secuencias palindromicas en genomas de cianobacterias}
 \author{Eduardo Padilla Mendoza}
-\date{2023-10-02}
+\date{2023-10-04}
 
 \begin{document}
 \maketitle
@@ -208,12 +208,24 @@ To know what is happening with the peptides, the nucleotide sequences of each si
 
 After obtaining the coordinates of the sites, they were classified according to the reading frame. This is to know if the abundance and types of substitutions occur in a specific framework.
 
-\hypertarget{substitution-types-and-codon-completions}{%
-\subsection{Substitution types and codon completions}\label{substitution-types-and-codon-completions}}
+\hypertarget{codon-completions}{%
+\subsection{Codon completions}\label{codon-completions}}
 
 The main objective of the reconstruction is to know what the HIP1 sites were like before and to understand how these sites are gained or lost and if this also affects the amino acid sequence. Therefore, the HIP1 sites were translated into amino acids and a count of the substitution types in the sites throughout the phylogeny that was made.
 
-It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons.
+It is important to note that because the HIP1 sites contain only 8 nucleotides, nucleotides had to be added downstream or upstream of the site depending on the reading frame. This was done to complete the codons and have an amino acid sequence that spanned the entire HIP1 site. For reading frame 1, a nucleotide was added to the end to complete the 3rd codon. For reading frame 2, a nucleotide was added to the beginning to complete the first codon. Finally, for reading frame 3, 2 nucleotides were added to the beginning and two to the end of the sequence to complete the 1st and 4th codons (\textbf{Figure} \ref{fig:FIG44x}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{figures/4x/codon_completions} 
+
+}
+
+\caption{**Codon completions.** The nucleotides added to the sequence to complete the codons are shown in red.}\label{fig:FIG44x}
+\end{figure}
+
+\hypertarget{substitution-types}{%
+\subsection{Substitution types}\label{substitution-types}}
 
 In total there are 8 types of substitutions which are obtained by observing the changes in the nucleotide and amino acid sequences between all parental and child nodes. These types of substitutions are explained below.
 
@@ -283,16 +295,20 @@ Since one of the essential questions about HIP1 sites is how they are lost (or g
 \hypertarget{parent-and-only-parent-subsets}{%
 \subsection{Parent and Only Parent Subsets}\label{parent-and-only-parent-subsets}}
 
-The first subset of results (\textbf{Parent}) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (\textbf{Figure} \ref{fig:FIG5x}\textbf{A1}).
+The first subset of results (\textbf{Parent}) shows those cases in which we started from a sequence that did not contain HIP1. That is, those changes that occurred from a parental node in which there was a HIP1 sequence and later in the child node that sequence could have been conserved, changed or deleted (\textbf{Figure} \ref{fig:FIG6x}\textbf{A}).
 
-Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called \textbf{Only Parent} (\textbf{Figure} \ref{fig:FIG5x}\textbf{A2}).
-
-The third subset of results (\textbf{Child}) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (\textbf{Figure} \ref{fig:FIG5x}\textbf{B1}).
-
-Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called \textbf{Only Child} (\textbf{Figure} \ref{fig:FIG5x}\textbf{B2}).
+Additionally, from the Parent subset, all those cases in which the sequence with HIP1 was conserved in the child node were filtered. This was done to observe how the HIP1 sites were lost. This second subset was called \textbf{Only Parent} (\textbf{Figure} \ref{fig:FIG6x}\textbf{B}).
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{figures/4x/node_cases} \caption{**Subsets examples.**}\label{fig:FIG6x}
+\includegraphics[width=1\linewidth]{figures/4x/Node_cases_A} \caption{**Parent and Only Parent Subsets examples.**}\label{fig:FIG6x}
+\end{figure}
+
+The third subset of results (\textbf{Child}) shows the cases in which a sequence with HIP1 was reached. That is, the sequence of the parental node could have been conserved, changed, but necessarily have ended with a sequence with HIP1 in the child node (\textbf{Figure} \ref{fig:FIG66x}\textbf{A}).
+
+Additionally, from the Child subset, all those cases in which there were sequences with HIP1 in the parental node were filtered. This was done to leave only those cases in which we started from a sequence without HIP1 and arrived at one with HIP1 and in this way be able to observe how the HIP1 sites were gained. This fourth subset was called \textbf{Only Child} (\textbf{Figure} \ref{fig:FIG66x}\textbf{B}).
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{figures/4x/Node_cases_B} \caption{**Parent and Only Parent Subsets examples.**}\label{fig:FIG66x}
 \end{figure}
 
 \hypertarget{results}{%

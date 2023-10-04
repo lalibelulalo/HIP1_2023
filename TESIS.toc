@@ -15,16 +15,17 @@
 \contentsline {section}{\numberline {2.8}Peptides by node}{14}{section.2.8}%
 \contentsline {section}{\numberline {2.9}Mutation analysis}{14}{section.2.9}%
 \contentsline {subsection}{\numberline {2.9.1}Site classification according to the reading frame}{14}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Substitution types and codon completions}{14}{subsection.2.9.2}%
-\contentsline {section}{\numberline {2.10}Phylogenies Annotation}{16}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}Example of phylogeny annotation.}{16}{subsection.2.10.1}%
-\contentsline {section}{\numberline {2.11}Subsets of interest}{18}{section.2.11}%
-\contentsline {subsection}{\numberline {2.11.1}Parent and Only Parent Subsets}{18}{subsection.2.11.1}%
-\contentsline {chapter}{\numberline {3}Results}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}HIP1 sites}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Peptides by node}{19}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Mutation analysis}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Changes between all parent and child nodes}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Parent and Only Parent subsets}{23}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Child and Only Child subsets}{23}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}}{23}{section.3.4}%
+\contentsline {subsection}{\numberline {2.9.2}Codon completions}{14}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Substitution types}{15}{subsection.2.9.3}%
+\contentsline {section}{\numberline {2.10}Phylogenies Annotation}{15}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Example of phylogeny annotation.}{17}{subsection.2.10.1}%
+\contentsline {section}{\numberline {2.11}Subsets of interest}{17}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}Parent and Only Parent Subsets}{17}{subsection.2.11.1}%
+\contentsline {chapter}{\numberline {3}Results}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}HIP1 sites}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Peptides by node}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Mutation analysis}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Changes between all parent and child nodes}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Parent and Only Parent subsets}{25}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Child and Only Child subsets}{25}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}}{25}{section.3.4}%

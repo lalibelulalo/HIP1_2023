@@ -1,0 +1,6 @@
+Spp	Calothrix parasitica NIES 267	Calothrix sp 336/3	Calothrix sp NIES 3974	Calothrix sp PCC 6303	Calothrix sp PCC 7716	Calothrix sp NIES 4105
+Complete.Genome	991	6202	5328	4769	66	125
+Only.Chromosome	965	6112	5328	4681	62	113
+Pangenome	880	5457	4701	4228	62	109
+Core.genome	414	3036	2894	2344	9	16
+Filtering	326	2414	2377	1887	4	6

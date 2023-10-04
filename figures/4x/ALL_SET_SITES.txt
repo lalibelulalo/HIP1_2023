@@ -1,0 +1,7 @@
+Source	Complete Genome	Only Chromosome	Pangenome	Core-genome	Filtering
+Calothrix parasitica NIES 267	991	965	880	414	326
+Calothrix sp 336/3	6202	6112	5457	3036	2414
+Calothrix sp NIES 3974	5328	5328	4701	2894	2377
+Calothrix sp PCC 6303	4769	4681	4228	2344	1887
+Calothrix sp PCC 7716	66	62	62	9	4
+Calothrix sp NIES 4105	125	113	109	16	6

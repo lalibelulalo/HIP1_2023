@@ -2,9 +2,11 @@ fig:FIG1x
 fig:FIG2x
 fig:FIG3x
 tab:TAB1X
+fig:FIG44x
 fig:FIG4x
 fig:FIG5x
 fig:FIG6x
+fig:FIG66x
 tab:TAB2X
 fig:FIG7x
 fig:FIG8x
@@ -31,7 +33,8 @@ location-of-hip1-sites
 peptides-by-node
 mutation-analysis
 site-classification-according-to-the-reading-frame
-substitution-types-and-codon-completions
+codon-completions
+substitution-types
 phylogenies-annotation
 example-of-phylogeny-annotation.
 subsets-of-interest
