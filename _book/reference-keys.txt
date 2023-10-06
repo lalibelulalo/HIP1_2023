@@ -21,7 +21,7 @@ fig:FIG11x
 fig:FIG12x
 fig:FIG13x
 fig:FIG14x
-introducción
+introduction
 materials-and-methods
 case-of-interest
 general-diagram

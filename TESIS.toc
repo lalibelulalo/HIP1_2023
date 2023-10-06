@@ -1,5 +1,5 @@
-\contentsline {chapter}{Resumen}{5}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Introducción}{7}{chapter.1}%
+\contentsline {chapter}{Abstract}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Materials and methods}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Case of interest}{9}{section.2.1}%
 \contentsline {section}{\numberline {2.2}General diagram}{9}{section.2.2}%

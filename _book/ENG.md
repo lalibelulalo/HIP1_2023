@@ -378,7 +378,7 @@ Because the reconstruction requires specific characteristics in the set of seque
 
 To find out what happens to the HIP1 sites of the orthogroups, we counted the peptides in the hip1 site. This was done for all three reading frames. 
 
-The figures \@ref(fig:FIG7x),\@ref(fig:FIG8x) and \@ref(fig:FIG9x)  show the peptide count for each node. It is important to mention that those peptides with counts less than 1% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
+The figures \@ref(fig:FIG7x),\@ref(fig:FIG8x) and \@ref(fig:FIG9x)  show the peptide count for each node. It is important to mention that those peptides with counts less than 2% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
 
 In the reading frame 1 the important thing is that we know that the **L subclade** species has a low or almost zero abundance of HIP1 sites and yet we can see in figure \@ref(fig:FIG7x) that the same peptide of the **H subclade** is found in **L subclade**. This suggests that the AA sequence is more important than the nucleotide sequence since the palindromic sites are lost but the peptide prevails. For reading frames 2 and 3, although there is more variation between the peptides, the differences between them may likely be largely conservative.To better understand this, an analysis of the substitutions between each pair of nodes was done.
 <div class="figure">
@@ -570,84 +570,84 @@ In the **figure** \@ref(fig:FIG10x), first of all we can notice that most of the
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="10"> RF2 </td>
    <td style="text-align:left;"> 8 </td>
    <td style="text-align:left;"> 336-3 </td>
-   <td style="text-align:left;"> 24.48 </td>
-   <td style="text-align:left;"> 0.37 </td>
+   <td style="text-align:left;"> 23.16 </td>
+   <td style="text-align:left;"> 1.70 </td>
    <td style="text-align:left;"> 1.77 </td>
    <td style="text-align:left;"> 37.46 </td>
-   <td style="text-align:left;"> 18.51 </td>
+   <td style="text-align:left;"> 17.04 </td>
+   <td style="text-align:left;"> 1.55 </td>
+   <td style="text-align:left;"> 17.26 </td>
    <td style="text-align:left;"> 0.07 </td>
-   <td style="text-align:left;"> 13.57 </td>
-   <td style="text-align:left;"> 3.76 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 9 </td>
    <td style="text-align:left;"> NIES-3974 </td>
-   <td style="text-align:left;"> 27.43 </td>
-   <td style="text-align:left;"> 0.00 </td>
+   <td style="text-align:left;"> 26.33 </td>
+   <td style="text-align:left;"> 1.11 </td>
    <td style="text-align:left;"> 1.77 </td>
    <td style="text-align:left;"> 31.27 </td>
-   <td style="text-align:left;"> 25.52 </td>
+   <td style="text-align:left;"> 23.75 </td>
+   <td style="text-align:left;"> 1.77 </td>
+   <td style="text-align:left;"> 14.01 </td>
    <td style="text-align:left;"> 0.00 </td>
-   <td style="text-align:left;"> 11.65 </td>
-   <td style="text-align:left;"> 2.36 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 10 </td>
    <td style="text-align:left;"> PCC_6303 </td>
-   <td style="text-align:left;"> 25.52 </td>
-   <td style="text-align:left;"> 0.29 </td>
+   <td style="text-align:left;"> 24.41 </td>
+   <td style="text-align:left;"> 1.40 </td>
    <td style="text-align:left;"> 2.06 </td>
    <td style="text-align:left;"> 34.73 </td>
-   <td style="text-align:left;"> 19.32 </td>
-   <td style="text-align:left;"> 0.07 </td>
-   <td style="text-align:left;"> 12.61 </td>
-   <td style="text-align:left;"> 5.38 </td>
+   <td style="text-align:left;"> 17.55 </td>
+   <td style="text-align:left;"> 1.84 </td>
+   <td style="text-align:left;"> 17.85 </td>
+   <td style="text-align:left;"> 0.15 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 11 </td>
    <td style="text-align:left;"> PCC_7716 </td>
-   <td style="text-align:left;"> 9.88 </td>
-   <td style="text-align:left;"> 0.37 </td>
+   <td style="text-align:left;"> 9.44 </td>
+   <td style="text-align:left;"> 0.81 </td>
    <td style="text-align:left;"> 2.21 </td>
    <td style="text-align:left;"> 53.76 </td>
-   <td style="text-align:left;"> 6.27 </td>
-   <td style="text-align:left;"> 0.00 </td>
-   <td style="text-align:left;"> 18.44 </td>
-   <td style="text-align:left;"> 9.07 </td>
+   <td style="text-align:left;"> 5.90 </td>
+   <td style="text-align:left;"> 0.37 </td>
+   <td style="text-align:left;"> 27.43 </td>
+   <td style="text-align:left;"> 0.07 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 11 </td>
    <td style="text-align:left;"> NIES-4105 </td>
-   <td style="text-align:left;"> 13.57 </td>
-   <td style="text-align:left;"> 0.22 </td>
+   <td style="text-align:left;"> 13.27 </td>
+   <td style="text-align:left;"> 0.52 </td>
    <td style="text-align:left;"> 2.43 </td>
    <td style="text-align:left;"> 53.32 </td>
-   <td style="text-align:left;"> 7.01 </td>
-   <td style="text-align:left;"> 0.15 </td>
-   <td style="text-align:left;"> 16.22 </td>
-   <td style="text-align:left;"> 7.08 </td>
+   <td style="text-align:left;"> 6.78 </td>
+   <td style="text-align:left;"> 0.37 </td>
+   <td style="text-align:left;"> 23.23 </td>
+   <td style="text-align:left;"> 0.07 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 7 </td>
    <td style="text-align:left;"> NIES-267 </td>
-   <td style="text-align:left;"> 33.04 </td>
-   <td style="text-align:left;"> 0.59 </td>
+   <td style="text-align:left;"> 32.74 </td>
+   <td style="text-align:left;"> 0.88 </td>
    <td style="text-align:left;"> 2.65 </td>
    <td style="text-align:left;"> 16.45 </td>
-   <td style="text-align:left;"> 22.57 </td>
-   <td style="text-align:left;"> 0.15 </td>
-   <td style="text-align:left;"> 22.12 </td>
-   <td style="text-align:left;"> 2.43 </td>
+   <td style="text-align:left;"> 22.20 </td>
+   <td style="text-align:left;"> 0.52 </td>
+   <td style="text-align:left;"> 24.26 </td>
+   <td style="text-align:left;"> 0.29 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
@@ -668,68 +668,68 @@ In the **figure** \@ref(fig:FIG10x), first of all we can notice that most of the
    
    <td style="text-align:left;"> 8 </td>
    <td style="text-align:left;"> 9 </td>
-   <td style="text-align:left;"> 9.59 </td>
-   <td style="text-align:left;"> 0.37 </td>
+   <td style="text-align:left;"> 9.07 </td>
+   <td style="text-align:left;"> 0.88 </td>
    <td style="text-align:left;"> 0.00 </td>
    <td style="text-align:left;"> 72.86 </td>
-   <td style="text-align:left;"> 6.64 </td>
+   <td style="text-align:left;"> 6.12 </td>
+   <td style="text-align:left;"> 0.74 </td>
+   <td style="text-align:left;"> 10.10 </td>
    <td style="text-align:left;"> 0.22 </td>
-   <td style="text-align:left;"> 6.19 </td>
-   <td style="text-align:left;"> 4.13 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 9 </td>
    <td style="text-align:left;"> 10 </td>
-   <td style="text-align:left;"> 6.86 </td>
-   <td style="text-align:left;"> 0.22 </td>
+   <td style="text-align:left;"> 6.42 </td>
+   <td style="text-align:left;"> 0.66 </td>
    <td style="text-align:left;"> 0.07 </td>
    <td style="text-align:left;"> 79.50 </td>
-   <td style="text-align:left;"> 3.54 </td>
-   <td style="text-align:left;"> 0.07 </td>
-   <td style="text-align:left;"> 6.56 </td>
-   <td style="text-align:left;"> 3.17 </td>
+   <td style="text-align:left;"> 2.88 </td>
+   <td style="text-align:left;"> 0.74 </td>
+   <td style="text-align:left;"> 9.59 </td>
+   <td style="text-align:left;"> 0.15 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 10 </td>
    <td style="text-align:left;"> 11 </td>
-   <td style="text-align:left;"> 24.26 </td>
-   <td style="text-align:left;"> 0.29 </td>
+   <td style="text-align:left;"> 24.19 </td>
+   <td style="text-align:left;"> 0.37 </td>
    <td style="text-align:left;"> 0.07 </td>
    <td style="text-align:left;"> 20.94 </td>
-   <td style="text-align:left;"> 17.92 </td>
+   <td style="text-align:left;"> 17.63 </td>
+   <td style="text-align:left;"> 0.44 </td>
+   <td style="text-align:left;"> 36.21 </td>
    <td style="text-align:left;"> 0.15 </td>
-   <td style="text-align:left;"> 32.08 </td>
-   <td style="text-align:left;"> 4.28 </td>
    <td style="text-align:left;"> 1356 </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;vertical-align: top !important;" rowspan="10"> RF3 </td>
    <td style="text-align:left;"> 8 </td>
    <td style="text-align:left;"> 336-3 </td>
-   <td style="text-align:left;"> 26.59 </td>
-   <td style="text-align:left;"> 2.57 </td>
+   <td style="text-align:left;"> 25.68 </td>
+   <td style="text-align:left;"> 3.47 </td>
    <td style="text-align:left;"> 1.66 </td>
    <td style="text-align:left;"> 15.41 </td>
-   <td style="text-align:left;"> 22.21 </td>
-   <td style="text-align:left;"> 1.21 </td>
-   <td style="text-align:left;"> 18.13 </td>
-   <td style="text-align:left;"> 12.24 </td>
+   <td style="text-align:left;"> 21.45 </td>
+   <td style="text-align:left;"> 1.96 </td>
+   <td style="text-align:left;"> 19.18 </td>
+   <td style="text-align:left;"> 11.18 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 9 </td>
    <td style="text-align:left;"> NIES-3974 </td>
-   <td style="text-align:left;"> 31.27 </td>
-   <td style="text-align:left;"> 1.51 </td>
+   <td style="text-align:left;"> 29.15 </td>
+   <td style="text-align:left;"> 3.63 </td>
    <td style="text-align:left;"> 1.21 </td>
    <td style="text-align:left;"> 10.88 </td>
-   <td style="text-align:left;"> 27.79 </td>
-   <td style="text-align:left;"> 1.06 </td>
+   <td style="text-align:left;"> 27.34 </td>
+   <td style="text-align:left;"> 1.51 </td>
    <td style="text-align:left;"> 17.22 </td>
    <td style="text-align:left;"> 9.06 </td>
    <td style="text-align:left;"> 662 </td>
@@ -738,56 +738,56 @@ In the **figure** \@ref(fig:FIG10x), first of all we can notice that most of the
    
    <td style="text-align:left;"> 10 </td>
    <td style="text-align:left;"> PCC_6303 </td>
-   <td style="text-align:left;"> 31.12 </td>
-   <td style="text-align:left;"> 2.57 </td>
+   <td style="text-align:left;"> 27.64 </td>
+   <td style="text-align:left;"> 6.04 </td>
    <td style="text-align:left;"> 2.42 </td>
    <td style="text-align:left;"> 14.80 </td>
-   <td style="text-align:left;"> 20.85 </td>
-   <td style="text-align:left;"> 1.96 </td>
-   <td style="text-align:left;"> 17.52 </td>
-   <td style="text-align:left;"> 8.76 </td>
+   <td style="text-align:left;"> 20.39 </td>
+   <td style="text-align:left;"> 2.42 </td>
+   <td style="text-align:left;"> 19.03 </td>
+   <td style="text-align:left;"> 7.25 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 11 </td>
    <td style="text-align:left;"> PCC_7716 </td>
-   <td style="text-align:left;"> 12.99 </td>
-   <td style="text-align:left;"> 1.66 </td>
+   <td style="text-align:left;"> 11.48 </td>
+   <td style="text-align:left;"> 3.17 </td>
    <td style="text-align:left;"> 3.02 </td>
    <td style="text-align:left;"> 43.35 </td>
    <td style="text-align:left;"> 5.29 </td>
    <td style="text-align:left;"> 1.06 </td>
-   <td style="text-align:left;"> 20.85 </td>
-   <td style="text-align:left;"> 11.78 </td>
+   <td style="text-align:left;"> 27.04 </td>
+   <td style="text-align:left;"> 5.59 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 11 </td>
    <td style="text-align:left;"> NIES-4105 </td>
-   <td style="text-align:left;"> 12.69 </td>
-   <td style="text-align:left;"> 0.91 </td>
+   <td style="text-align:left;"> 12.08 </td>
+   <td style="text-align:left;"> 1.51 </td>
    <td style="text-align:left;"> 3.02 </td>
    <td style="text-align:left;"> 43.81 </td>
-   <td style="text-align:left;"> 6.80 </td>
-   <td style="text-align:left;"> 1.06 </td>
-   <td style="text-align:left;"> 18.73 </td>
-   <td style="text-align:left;"> 12.99 </td>
+   <td style="text-align:left;"> 6.19 </td>
+   <td style="text-align:left;"> 1.66 </td>
+   <td style="text-align:left;"> 23.87 </td>
+   <td style="text-align:left;"> 7.85 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 7 </td>
    <td style="text-align:left;"> NIES-267 </td>
-   <td style="text-align:left;"> 32.93 </td>
-   <td style="text-align:left;"> 1.51 </td>
+   <td style="text-align:left;"> 32.48 </td>
+   <td style="text-align:left;"> 1.96 </td>
    <td style="text-align:left;"> 2.57 </td>
    <td style="text-align:left;"> 7.55 </td>
-   <td style="text-align:left;"> 27.04 </td>
-   <td style="text-align:left;"> 0.76 </td>
-   <td style="text-align:left;"> 23.41 </td>
-   <td style="text-align:left;"> 4.23 </td>
+   <td style="text-align:left;"> 26.74 </td>
+   <td style="text-align:left;"> 1.06 </td>
+   <td style="text-align:left;"> 24.47 </td>
+   <td style="text-align:left;"> 3.17 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
@@ -808,42 +808,42 @@ In the **figure** \@ref(fig:FIG10x), first of all we can notice that most of the
    
    <td style="text-align:left;"> 8 </td>
    <td style="text-align:left;"> 9 </td>
-   <td style="text-align:left;"> 11.63 </td>
-   <td style="text-align:left;"> 1.66 </td>
+   <td style="text-align:left;"> 9.82 </td>
+   <td style="text-align:left;"> 3.47 </td>
    <td style="text-align:left;"> 0.00 </td>
    <td style="text-align:left;"> 56.95 </td>
+   <td style="text-align:left;"> 6.04 </td>
+   <td style="text-align:left;"> 2.57 </td>
+   <td style="text-align:left;"> 14.50 </td>
    <td style="text-align:left;"> 6.65 </td>
-   <td style="text-align:left;"> 1.96 </td>
-   <td style="text-align:left;"> 12.84 </td>
-   <td style="text-align:left;"> 8.31 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 9 </td>
    <td style="text-align:left;"> 10 </td>
-   <td style="text-align:left;"> 7.55 </td>
-   <td style="text-align:left;"> 1.81 </td>
+   <td style="text-align:left;"> 6.50 </td>
+   <td style="text-align:left;"> 2.87 </td>
    <td style="text-align:left;"> 0.00 </td>
    <td style="text-align:left;"> 66.31 </td>
    <td style="text-align:left;"> 3.93 </td>
    <td style="text-align:left;"> 0.91 </td>
-   <td style="text-align:left;"> 12.54 </td>
-   <td style="text-align:left;"> 6.95 </td>
+   <td style="text-align:left;"> 14.05 </td>
+   <td style="text-align:left;"> 5.44 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
   <tr>
    
    <td style="text-align:left;"> 10 </td>
    <td style="text-align:left;"> 11 </td>
-   <td style="text-align:left;"> 29.61 </td>
-   <td style="text-align:left;"> 1.06 </td>
+   <td style="text-align:left;"> 28.85 </td>
+   <td style="text-align:left;"> 1.81 </td>
    <td style="text-align:left;"> 0.00 </td>
    <td style="text-align:left;"> 12.39 </td>
-   <td style="text-align:left;"> 18.58 </td>
-   <td style="text-align:left;"> 0.45 </td>
-   <td style="text-align:left;"> 31.42 </td>
-   <td style="text-align:left;"> 6.50 </td>
+   <td style="text-align:left;"> 18.28 </td>
+   <td style="text-align:left;"> 0.76 </td>
+   <td style="text-align:left;"> 33.99 </td>
+   <td style="text-align:left;"> 3.93 </td>
    <td style="text-align:left;"> 662 </td>
   </tr>
 </tbody>

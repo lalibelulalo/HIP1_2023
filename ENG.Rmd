@@ -248,7 +248,7 @@ kbl(Counts, align = "l",caption = "**Number of HIP1 sites throughout the filteri
 
 To find out what happens to the HIP1 sites of the orthogroups, we counted the peptides in the hip1 site. This was done for all three reading frames. 
 
-The figures \@ref(fig:FIG7x),\@ref(fig:FIG8x) and \@ref(fig:FIG9x)  show the peptide count for each node. It is important to mention that those peptides with counts less than 1% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
+The figures \@ref(fig:FIG7x),\@ref(fig:FIG8x) and \@ref(fig:FIG9x)  show the peptide count for each node. It is important to mention that those peptides with counts less than 2% of the total sites in the reading frame in question were filtered. This was done to observe the most relevant ones and the graphs were legible.
 
 In the reading frame 1 the important thing is that we know that the **L subclade** species has a low or almost zero abundance of HIP1 sites and yet we can see in figure \@ref(fig:FIG7x) that the same peptide of the **H subclade** is found in **L subclade**. This suggests that the AA sequence is more important than the nucleotide sequence since the palindromic sites are lost but the peptide prevails. For reading frames 2 and 3, although there is more variation between the peptides, the differences between them may likely be largely conservative.To better understand this, an analysis of the substitutions between each pair of nodes was done.
 ```{r FIG7x, echo=FALSE, fig.cap='**Peptides by node in reading frame 1.**', out.width='100%'}
